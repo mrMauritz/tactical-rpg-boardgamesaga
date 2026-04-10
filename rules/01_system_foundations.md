@@ -18,12 +18,12 @@ All tactical and skill checks use a **3d6 roll** (summed) against a target diffi
 ## Chapter 2 — Attributes
 Characters are defined by six core attributes, usually ranging from 1 to 12. Reaching 12 represents a peak historical achievement.
 
-1. **STR (Strength):** Raw physical power and mass. Influences **Relative Force (RF)** and Carry Capacity.
-2. **DEX (Dexterity):** Precision, speed, and balance. Influences **Initiative** and Defense.
-3. **END (Endurance):** Biological resilience. Influences **Shock (SP)** and Recovery.
-4. **INT (Intelligence):** Analytical logic. Influences tactical awareness and precision magic.
-5. **WIL (Willpower):** Mental grit and pain tolerance. Influences morale and divine magic.
-6. **CHA (Charisma):** Command and social presence. Influences leadership and chaos magic.
+1. **STR (Strength):** Raw physical power. Generates **Force** and determines **IS Bonus Dice**.
+2. **DEX (Dexterity):** Precision and reflex. Infuences **Hit Quality** and **Defensive Tiers**.
+3. **END (Endurance):** Resilience and stamina recovery.
+4. **INT (Intelligence):** Analytical logic and Arcane conduit.
+5. **WIL (Willpower):** Mental grit and Divine conduit.
+6. **CHA (Charisma):** Leadership and Nature conduit.
 
 ## Chapter 3 — Vitality Pools (Bookkeeping)
 Calculated once during character setup. Interactive sheets handle dynamic tracking.
@@ -31,16 +31,54 @@ Calculated once during character setup. Interactive sheets handle dynamic tracki
 - **HP (Hit Points / Flesh):** `(Body × 3) + Size`. 
   - *Represents deep physical injury, bleeding, and structural failure.*
 - **SP (Shock Points / Stamina):** `8 + (Endurance × 2)`.
-  - *Represents breath, adrenaline, and impact absorption. SP recovers between turns.*
+  - *Represents breath and adrenaline. SP recovers at the end of every round (6 segments).*
 - **BP (Balance Points):** `Body + Size + floor(DEX / 2)`.
-  - *Represents center of gravity and postural integrity. BP resets every turn.*
+  - *Represents postural integrity. BP resets fully when "Standing Up" or at the end of an exchange.*
+
+### The Breathing Rate
+At the end of every **6-segment Round**, characters recover **SP equal to their Endurance (END)** attribute.
 
 ## Chapter 4 — Physical Structure (Mass)
-- **Body (Scale 1–10):** The inherent mass of the creature/race (Human = 4).
+- **Body (Scale 1–10):** The primary mass baseline. Body directly sets the **Base IS Dice Pool**.
 - **Size (−2 to +2):** Variations within a body scale (e.g., a "Large" human).
-- **Frame (−2 to +2):** Density and width of the skeletal structure.
+- **Frame (−2 to +2):** Skeletal density.
+- **RB (Relative Body):** `Attacker Body - Defender Body`. Used for specialized mass comparison.
 
-## Chapter 5 — The Spirit Layer (Wyrd & Oaths)
+## Chapter 5 — Force and Momentum
+Physical interaction is governed by the comparison of kinetic energy, handled via **Force** and **RF**.
+
+### 1. The Force Calculation
+`Base Force = (STR × Body) / 8`
+
+### 2. Relative Force (RF)
+`RF = Attacker Force - Defender Force`.
+RF is used exclusively to determine **Defensive Eligibility** (which reactions are physically possible against the incoming blow).
+
+### 3. Strength IS Bonus (Dice Pool)
+STR modifies the number of d6s rolled in **Stage 2 (Impact Severity)**.
+
+| STR Value | IS Dice Bonus |
+| :--- | :--- |
+| **2** | -1 Die |
+| **4** | +0 (Baseline) |
+| **6** | +1 Die |
+| **8** | +2 Dice |
+| **10** | +3 Dice |
+| **12** | +4 Dice |
+
+---
+
+## Chapter 6 — Tactical Initiative (Speed)
+Initiative determines the order of action within each segment. It is a live value affected by physical burden.
+
+`Initiative = DEX - floor(Armor HP Soak / 2)`
+
+- **Heavy Armor Penalty**: Characters in Plate or Chain act significantly later than those in Light Armor or Cloth.
+- **Dynamic Shifts**: Weapon tags (like *Fast*) or status effects (like *Staggered*) can modify Initiative during a round.
+
+---
+
+## Chapter 6 — The Spirit Layer (Wyrd & Oaths)
 *The Saga* defines a separation between physical world-interaction and the fated current:
 
 - **Perception (Reality Layer):** Using the senses to navigate and survive. Governed by DEX/INT.
