@@ -33,13 +33,15 @@ The number of d6 dice rolled depends on the **Attacker's Body** and their **Stre
 ## Table 3: Hit Success Ladder (Stage 1 to Stage 3)
 Modifiers applied to the IS Dice Pool based on the quality of the Stage 1 Skill Roll.
 
-| Roll Result | Tier | IS Dice Modifier |
-| :--- | :--- | :--- |
-| **0–8** | **Fail** | Attack Ends |
-| **9–12** | **Partial** | -2 Dice |
-| **13–17** | **Success** | +0 Dice |
-| **18–19** | **Great** | +1 Die |
-| **20+** | **Perfect** | +2 Dice (+1 AP) |
+| Roll Result | Tier | IS Dice Modifier | Failure Effect |
+| :--- | :--- | :--- | :--- |
+| **0–1** | **Major Fail** | Attack Ends | **-2 BP** & **Unbalanced** |
+| **2–3** | **Fail** | Attack Ends | **-2 BP** |
+| **4–8** | **Miss** | Attack Ends | — |
+| **9–12** | **Partial** | -2 Dice | — |
+| **13–17** | **Success** | +0 Dice | — |
+| **18–19** | **Great** | +1 Die | — |
+| **20+** | **Perfect** | +2 Dice (+1 AP) | — |
 
 ---
 

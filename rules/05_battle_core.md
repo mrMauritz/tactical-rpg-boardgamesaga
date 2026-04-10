@@ -3,11 +3,11 @@
 # PART III — BATTLE CORE
 
 ## Chapter 5 — Turn Structure & Segments (AP)
-Combat is measured in **6-segment rounds**. Time and Stamina (SP) are fungible; every 1-segment of action costs 1 SP.
-- **Major Action (4 Segments / 4 SP):** Heavy swings, complex spells, First Aid.
-- **Minor Action (2 Segments / 2 SP):** Defensive footwork, feints, shield-locking, standing up.
-- **Quick Action (1 Segment / 1 SP):** Drawing a blade, shifting facing, moving 1 Hex.
-- **Reactions (Variable Segments / 2 SP Base):** Parries, dodges, or diving. Reactions consume segments from your banked turn.
+- **Major Action (4 Segments):** Heavy swings, complex spells, First Aid.
+- **Minor Action (2 Segments):** Defensive footwork, feints, shield-locking, Take a Breath (+1 SP).
+- **Quick Action (1 Segment):** Drawing a blade, shifting facing, moving 1 Hex.
+- **Anticipated Defense (2 Segments / Minor Action):** You must save a Minor Action during your turn to remain eligible for Active Defense (Block, Parry, Dodge) during the round. 
+- **Banking:** Unused segments convert to SP at start of next turn (2 Segments = 1 SP).
 
 ## Chapter 6 — The Combat Resolution Pipeline
 To ensure physical realism, combat follows a linear 8-stage pipeline. Interactive sheets automate calculations; players resolve the dice.
@@ -19,8 +19,8 @@ Compare the kinetic energy of the strike to determine which reactions are physic
 
 ### 2. Hit Resolution (Stage 1 Roll)
 `3d6 + Skill + DEX vs Target Defense`
-- **Result:** Determines the "Hit Quality" (Fail, Partial, Success, Great, Perfect). 
-- **Fail:** If the roll is ≤ 8, the attack misses or is completely negated.
+- **Fail (0-3):** A physical error occurs. See *Table 3 (Reference Tables)* for catastrophic results like BP loss or becoming **Unbalanced**.
+- **Miss (4-8):** The attack is completely negated with no penalty.
 
 ### 3. Impact Severity (IS Dice Pool)
 Calculate the number of d6 dice to be rolled.
@@ -50,14 +50,21 @@ Armor reduces incoming damage but is vulnerable to **Armor Piercing (AP)**.
 ### 8. Consequences & Fatigue
 Apply final HP, SP, and BP losses. Check for failure states (Unconscious, Stunned, Knocked Down) and Gear Fatigue (Armor/Shield damage).
 
+#### SP Status & Fatigue
+- **Minor Disadvantage (SP ≤ 1/2 Max SP):** Character is winded. **-1 Defense**.
+- **Major Disadvantage (SP ≤ 1/4 Max SP):** Character is gassed. **-2 Defense**.
+- **Gassed (SP=0):** Emergency state. Character automatically enters **Recovery** (described below). No actions/reactions possible until turn recovery.
+
 #### Failure State Definitions
-- **Stunned (SP=0):** The character is overwhelmed by shock. They lose their next **Quick Action** and cannot perform **Major Actions** until they recover at least 1 SP.
+- **Unbalanced (Tag):** The character has lost their posture or overextended. They suffer a **-2 penalty to Defense** until the start of their next turn.
+- **Stunned:** Triggered by SP loss ≥ 1/2 Max SP in one blow. The character loses **3 segments** of their next action budget.
 - **Knocked Down (BP=0):** The character loses their footing. They must spend a **Minor Action (2 SP)** to stand up. While down, all incoming attacks gain **+1 IS Die** (Advantage).
 - **Unconscious (HP=0):** The character is removed from the tactical exchange.
 
 ### Chapter 5.1 — Specialized Actions
-- **First Aid (Major Action / 4 SP):** A character can treat themselves or an adjacent ally. This removes **Bleed 1** or restores 1 lost HP from a "Partial" success wound.
-- **Recover (Minor Action / 2 SP):** Used specifically to stand up from a **Knocked Down** state.
+- **Take a Breath (Minor Action / 2 Segments):** A quick pause to refocus. Restore **+1 SP**.
+- **Recovery (Full Round / 6 Segments):** Automatic at 0 SP. The character spends their entire turn regaining composure. Restore SP = **Regeneration Rate × 2**.
+- **First Aid (Major Action / 4 segments):** A character can treat themselves or an adjacent ally. This removes **Bleed 1** or restores 1 lost HP from a "Partial" success wound.
 
 ## Chapter 7 — Facing and Positional Exposure
 Positional exposure grants pure kinetic advantages (more dice) rather than accuracy bonuses.

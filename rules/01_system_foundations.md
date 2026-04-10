@@ -30,13 +30,14 @@ Calculated once during character setup. Interactive sheets handle dynamic tracki
 
 - **HP (Hit Points / Flesh):** `(Body × 3) + Size`. 
   - *Represents deep physical injury, bleeding, and structural failure.*
-- **SP (Shock Points / Stamina):** `8 + (Endurance × 2)`.
-  - *Represents breath and adrenaline. SP recovers at the end of every round (6 segments).*
+- **SP (Shock Points / Stamina):** `(Body × 2) + Endurance + Frame`.
+  - *Represents tactical integrity and posture.*
 - **BP (Balance Points):** `Body + Size + floor(DEX / 2)`.
   - *Represents postural integrity. BP resets fully when "Standing Up" or at the end of an exchange.*
 
-### The Breathing Rate
-At the end of every **6-segment Round**, characters recover **SP equal to their Endurance (END)** attribute.
+### The Regeneration Rate
+At the start of every turn, characters automatically recover SP equal to their **Regeneration Rate**:
+`Regeneration Rate = floor(Endurance / 2)`.
 
 ## Chapter 4 — Physical Structure (Mass)
 - **Body (Scale 1–10):** The primary mass baseline. Body directly sets the **Base IS Dice Pool**.
