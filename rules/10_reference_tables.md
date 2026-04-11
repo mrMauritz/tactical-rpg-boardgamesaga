@@ -6,12 +6,13 @@
 Determines which defensive reactions are physically possible based on the **Relative Force (RF)** of the strike.
 `Base Force = (STR × Body) / 8` | `RF = A_Force - D_Force`
 
-| RF Tier | Comparison | Defensive Options |
-| :--- | :--- | :--- |
-| **≤ -3** | Defender Dominates | Block, Parry (Easy) |
-| **-2 to +2** | Evenly Matched | Block, Parry, Dodge |
-| **+3 to +5** | Attacker Overpowers | Dodge, Redirect only |
-| **≥ +6** | Overwhelming | Dodge only (Guard Crushed) |
+| RF Tier | Comparison | Defensive Options | Starting Capacity |
+| :--- | :--- | :--- | :--- |
+| **≤ -3** | Defender Dominates | Block, Parry (Easy) | 1 / 1 / 3 |
+| **-2 to +2** | Evenly Matched | Block, Parry, Dodge | 1 / 1 / 3 |
+| **+3** | Shield Advantage | Block (Shield Only), Dodge | 1 / - / 3 |
+| **+4 to +5** | Attacker Overpowers | Dodge, Redirect only | - / - / 3 |
+| **≥ +6** | Overwhelming | Dodge only (Guard Crushed) | - / - / 3 |
 
 ---
 
@@ -40,8 +41,8 @@ Modifiers applied to the IS Dice Pool based on the quality of the Stage 1 Skill 
 | **4–8** | **Miss** | Attack Ends | — |
 | **9–12** | **Partial** | -2 Dice | — |
 | **13–17** | **Success** | +0 Dice | — |
-| **18–19** | **Great** | +1 Die | — |
-| **20+** | **Perfect** | +2 Dice (+1 AP) | — |
+| **18–19** | **Great** | +1 Die | **Perk Swap** (Table 11) |
+| **20+** | **Perfect** | +2 Dice (+1 AP) | **Perk Swap** (Table 11) |
 
 ---
 
@@ -86,6 +87,19 @@ Armor reduces incoming force into manageable shock (SP) or absorbs it entirely.
 
 ---
 
+## Table 7.1: Shields (Ballistic Protection & Durability)
+Shields provide physical **Ballistic Protection** (HP/SP Soak) for specific facings.
+
+| Shield Type | Ballistic Prot (Soak) | Durability (per hit) | Max Condition |
+| :--- | :--- | :--- | :--- |
+| **Buckler** | 1 | 6 | 2 |
+| **Heater** | 2 | 8 | 3 |
+| **Tower** | 3 | 10 | 4 |
+
+*Note: If an incoming IS (Impact Severity) pool exceeds Durability, Condition is reduced by 1. At 0 Condition, the shield is destroyed.*
+
+---
+
 ## Table 8: Armor Piercing (AP) Mechanics
 For each Impact Die ($5, 6$), check for AP generation.
 
@@ -107,3 +121,16 @@ For players to assess risk during Stage 1.
 | **9+** | 74.07% | High |
 | **13+** | 25.93% | Moderate |
 | **18+** | 0.46% | Rare |
+
+---
+
+## Table 11: Pinnacle Effect Swaps (Anatomical)
+Requires a specific weapon-specific Perk (Chapter 4) and a **Natural 18** OR a **Great/Perfect Success (18+)**.
+
+| Effect | Target | Mechanical Consequence |
+| :--- | :--- | :--- |
+| **Concussion** | Head | **Automatic Stun.** Target loses 3 segments of action budget. |
+| **Hit the Gap** | Vitals | **Armor Bypass.** Subtract entire Armor Soak (HP) from strike. |
+| **Sever Tendon** | Legs | **Movement Disable.** Target Move speed = 0 for 1 round. |
+| **Blinded** | Eyes | **Major Blindness.** Target suffers -2 to all Accuracy/Defense. |
+| **Hand Strike** | Arms | **Disarm.** Weapon dropped or +2 segment cost to next swing. |

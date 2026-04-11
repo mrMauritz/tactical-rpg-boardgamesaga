@@ -3,9 +3,11 @@
 This document tracks the core structure and "When to Read" tags for the modular rulebook.
 
 ## Core Pillars
+- **00_ARCHITECTURAL_SOUL.md**: **READ THIS FIRST**. The non-negotiable vision anchor.
 - **00_design_doctrine.md**: Design philosophy, 3d6 logic, and quota management.
 - **01_system_foundations.md**: Attributes, Vitality (HP/SP/BP), and the 3d6 Ladder.
-- **02_characters_and_progression.md**: Race/Culture profiles and Progression Trees. *(Pending)*
+- **02_perks_and_traits.md**: System-altering traits and organic perk design.
+- **03_skill_system.md**: The 0-8 Tier system and tactical skill roster.
 - **05_battle_core.md**: The "Super Solid" Battle System.
 - **06_adventure_and_prep.md**: Interactive Maps & The Camping Tool.
 

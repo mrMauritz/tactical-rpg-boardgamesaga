@@ -9,9 +9,10 @@ All tactical and skill checks use a **3d6 roll** (summed) against a target diffi
 | Result | Tier | Outcome Description |
 | :--- | :--- | :--- |
 | **0–8** | **Fail** | Complete failure; exposure or resource loss. |
-| **9–12**| **Partial Success**| Success at a cost (SP loss, minor injury, or positioning error). |
-| **13–17**| **Success** | Clean, intended result achieved. |
-| **18–20+**| **Perfect Success**| Flawless result; provides a Tactical Advantage or Bonus Action. |
+| **9–12** | **Partial Success** | Success at a cost (SP loss, minor injury, or positioning error). |
+| **13–17** | **Success** | Clean, intended result achieved. Standard hit. |
+| **18–19** | **Great Success** | Exceptional hit. Provides **+1 IS Die** or **Perk Swap**. |
+| **20+** | **Perfect Success** | Pinnacle hit. Provides **+2 IS Dice** or **Perk Swap**. |
 
 *Note: Results above 18 are only achievable through Attribute/Skill modifiers.*
 

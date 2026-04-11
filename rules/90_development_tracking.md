@@ -5,16 +5,13 @@ This document tracks features that have been discussed or partially implemented,
 ## 1. High-Priority Design Deep-Dives
 - [x] **SP System Overhaul:** Redefined as **Tactical Integrity**. Implemented (Endurance/2) regeneration, 2nd-stage fatigue penalties (Minor/Major Disadvantage), and the **Anticipated Defense** logic.
 - [x] **Failure Ladder (Stage 1):** Defined catastrophic results (0–3) for misses including **BP loss** and the **Unbalanced** tag.
-- [ ] **Shield "Cover" Rules:** Differentiate between "Automatic Blocking" and active shield use maneuvers.
+- [x] **Shield "Cover" Rules:** Differentiated between Ballistic Protection (Soak) and Active Defense. Implemented Geometric Coverage (Skill-scaled facing) and IS-to-Condition damage system.
 
 ## 2. Advanced Tactical Content (Restricted to Classes/Monster Trees)
-- [ ] **Simple Perk Design:** Implementation of system-altering traits.
-    - *Unyielding:* +1 SP Regeneration Rate.
-    - *Hard Head:* Stun only inflicts 2 segments; Major Actions still possible.
-    - *Nerves of Steel:* When SP=0, Defense is halved rather than broken.
+- [x] **Simple Perk Design:** Document created ([02_perks_and_traits.md](file:///c:/Workspace/tactical-rpg-boardgamesaga/rules/02_perks_and_traits.md)) with Organic Growth policy and three seed perks (*Unyielding*, *Hard Head*, *Nerves of Steel*).
 - [ ] **The "Saga Choice" Blocks:** Systems for allowing characters to "Sacrifice" gear or take permanent injuries to avoid lethal blows.
 - [ ] **Advanced Momentum Carry-over:** "Cleave" or "Momentum follow-up" rules for specific heavy-weapon classes.
-- [ ] **Targeted Impacts:** Rules for targeting Head/Limbs/Torso (reserved for precision-based tactics trees).
+- [x] **Targeted Impacts:** Implemented as a \"Pinnacle Swap\" (18+ / Natural 18). High-skill perks allow swapping IS Dice for anatomical effects (Armor Bypass, Stun, Blinded).
 
 ## 3. World & Narrative Synergies
 - [ ] **Wyrd Layer Integration:** How "Blessed" or "Cursed" weapon states modify the weapon impact tables.

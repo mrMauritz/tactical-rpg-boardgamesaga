@@ -13,6 +13,7 @@ Tags add personality to weapons. They modify the core impact tables but never re
 - **Heavy Head:** Increases the weapon's BP modifier by **+0.5** (e.g., an Axe becomes 1.5x).
 - **Fast:** If any IS die shows 5+, the attacker gains **+1 Initiative** for the next segment.
 - **Reach:** Allows a weapon to target a hex up to **2 hexes away**. This is a physical pre-condition for the attack.
+- **Parry:** This weapon is designed for defensive play. Allows the use of the **Active Parry** reaction.
 
 ### 1.1 Momentum & Acceleration
 Movement generates kinetic force.
@@ -26,7 +27,11 @@ High-impact tags require physical leverage. If a character does not meet the **S
 | :--- | :--- | :--- |
 | **Heavy Head** | 8 | +1 Segment of Recovery (1 SP) after attack. |
 | **Heavy AP (AP+)** | 10 | Target receives **+1 Advantage** to Stage 1 defense. |
-| **Hooking (Polearm)** | 6 | Weapon becomes **Unwieldy** (-1 Accuracy next turn). |
+| **Hooking (Polearm)** | 6 | Weapon becomes **Unwieldy** (-1 Accuracy next turn). Can be used to **Push** a unit, triggering a **Formation Break**. |
+
+### 2.1 Dual-Wielding Defense
+If a character has a weapon equipped in each hand and both weapons possess the **Parry** tag, they gain a bonus to their reactive capacity.
+- **Effect:** Increase **Starting Active Parry Capacity** by **+1** (Total 2 / round).
 
 ---
 
@@ -40,9 +45,12 @@ While armor protects the flesh, the environment protects the footing.
 ## Chapter 11 — Gear Fatigue (Automatic Damage)
 Items fail under extreme kinetic stress. This is not a choice, but a consequence of physics.
 
-### 1. Shield Damage
-If an attack is **Blocked** and the resulting **Impact Severity (IS) Pool** is ≥ 10, the shield takes **1 point of Quality Damage**. 
-- At 3 points, the shield is **Splintered** (Soak reduced by 50%).
+### 1. Shield Damage & Condition
+Shields fail under extreme kinetic stress. This is modeled by **Condition** (item health).
+- **The Rule**: If an attack is **Blocked** (Active) or strikes the **Passive Coverage**, compare the **IS (Impact Severity) Pool** to the shield's **Durability**.
+- **Damage**: Every point of **IS > Durability** reduces the shield's **Condition** by 1.
+- **The Shield Sacrifice**: If an attack is overwhelming (RF Tier exceeds eligibility), the defender may choose to sacrifice the shield. The remaining IS points are absorbed by the shield's condition until it is **Destroyed (Condition 0)**. The absorbed IS does not affect the defender.
+- **Repair**: Condition can be restored during Camping/Prep phases using appropriate materials.
 
 ### 2. Armor Damage
 If a strike results in a **Perfect Success (Stage 1)** and the total **IS Dice Sum** ≥ 15, the armor's structural integrity is compromised.
@@ -60,7 +68,24 @@ Material tags define how armor reacts to specific elemental or tactical "Saga" c
 
 ---
 
-## Chapter 13 — AP Quality Suppression
-To ensure that armor remains valuable, Armor Piercing (AP) requires a clean, focused strike.
-- **The Rule:** If the **Stage 1 Skill Roll** is a **Partial Success (9-12)**, all **AP Tags** on the weapon are suppressed for that attack. Standard AP (the 6 on the die) still applies.
-- **Outcome:** Only "Success" or "Perfect" rolls can leverage high-tech or specialized armor-piercing features.
+- **Outcome**: Only "Success" or "Perfect" rolls can leverage high-tech or specialized armor-piercing features.
+
+---
+
+## Chapter 14 — Shield Maneuvers & Geometric Coverage
+Shields are physical barriers that provide protection based on orientation and user skill.
+
+### 1. Ballistic Protection (Soak)
+Shields provide a static **HP/SP Soak** (Reference Table 7.1) against attacks coming from the **protected facing**. 
+- This soak is applied **before** armor soak.
+
+### 2. Geometric Coverage (Passive Scaling)
+As a character's **Shield Skill** increases, they learn to maneuver the barrier to cover more of their physical silhouette.
+- **Skill 0–2**: Protects the **Front (3 Hexes)**.
+- **Skill 3–4**: Protects the **Front + Left Flank (4 Hexes)**.
+- **Skill 5+**: Protects the **Front + Both Flanks (5 Hexes)**.
+
+### 3. Tower Shield "Shadow" (Line of Sight)
+Tower shields are massive enough to create a physical "safe zone" on the tactical grid.
+- **Effect**: If an ally is positioned **directly behind** a Tower Shield wielder relative to the attacker, they gain the shield's **Ballistic Protection** as if they were the primary target.
+- **Note**: This only applies to ranged or reaching attacks that must pass through the wielder's hex.
