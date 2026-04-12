@@ -35,8 +35,8 @@ Compare the kinetic energy of the strike to determine which reactions are physic
 - **Fail (0-8):** See *Table 3*. Catastrophic results like BP loss or becoming **Unbalanced**.
 - **Partial (9-12):** Minimal hit, no bonus IS.
 - **Success (13-17):** Clean Hit. Standard weapon damage.
-- **Great Success (18–19) / Natural 18:** **+1 IS Die** roll. If an attacker has a **Precision Perk**, they may swap the extra IS Die for a specialized **Precision Effect (Table 11)**.
-- **Perfect Success (20+):** **+2 IS Dice** roll. If an attacker has a **Precision Perk**, they may swap the extra IS Dice for a specialized **Precision Effect (Table 11)**.
+- **Great Success (18–19) / Natural 18:** **+1 IS Die** roll. If an attacker has a **Precision Perk**, they may perform a **Precision Effect Swap**, trading the extra IS Die for a specialized **Precision Effect (Table 11)**.
+- **Perfect Success (20+):** **+2 IS Dice** roll. If an attacker has a **Precision Perk**, they may perform a **Precision Effect Swap**, trading the extra IS Dice for a specialized **Precision Effect (Table 11)**.
 
 ### 3. Impact Severity (IS Dice Pool)
 Calculate the number of d6 dice to be rolled.
@@ -62,20 +62,24 @@ Incoming force is reduced by physical barriers before hitting the armor layers.
 
 ### 7. Balance Damage (BP)
 `BP Damage = round(IS Pool * Weapon BP Modifier)`. 
-- **Note:** Armor does not reduce BP damage. See *The Grounding Rule* for environmental stability.
+1. **Apply Resistance**: Subtract **Steadfast (-2)** or **Grounded (-1)** from the incoming BP damage. 
+2. **The Stability Rule**: If a character's current BP < 4 (Unstable/Stumbling), they **lose all BP Resistance** for the rest of the turn.
+3. **Note**: Gear Armor Soak does not reduce BP damage. 
 
 ### 8. Consequences & Fatigue
 Apply final HP, SP, and BP losses. Check for failure states (Unconscious, Stunned, Knocked Down) and Gear Fatigue (Armor/Shield damage).
 
-#### SP Status & Fatigue
-- **Minor Disadvantage (SP ≤ 1/2 Max SP):** Character is winded. **-1 Defense**.
-- **Major Disadvantage (SP ≤ 1/4 Max SP):** Character is gassed. **-2 Defense**.
-- **Gassed (SP=0):** Emergency state. Character automatically enters **Recovery** (described below). No actions/reactions possible until turn recovery.
+#### Systemic Integrity (Shock Status)
+As systemic Integrity (SP) is lost, the character faces a physiological "shutdown." This is modeled by disabling high d6 results (**The Glance Rule**: Disabled dice are treated as a **1**).
+- **Stable (> 1/2 SP)**: Normal operation.
+- **Rattled (≤ 1/2 SP)**: **Disable 6s.** (A 6 becomes a 1). Affects all 3d6 checks and IS rolls.
+- **Staggered (≤ 1/4 SP)**: **Disable 5s & 6s.** (5s and 6s become a 1). Affects all 3d6 checks and IS rolls.
+- **Disabled (0 SP)**: **Physiological Shutdown.** The character is removed from the tactical exchange until they recover at least 1 SP.
 
-#### Failure State Definitions
-- **Unbalanced (Tag):** The character has lost their posture or overextended. They suffer a **-2 penalty to Defense** until the start of their next turn.
-- **Stunned:** Triggered by SP loss ≥ 1/2 Max SP in one blow. The character loses **3 segments** of their next action budget.
-- **Knocked Down (BP=0):** The character loses their footing. They must spend a **Minor Action (2 SP)** to stand up. While down, all incoming attacks gain **+1 IS Die** (Advantage).
+#### Balance State Penalties
+- **Unstable (BP 2–3)**: The character is fighting to maintain their footing. They suffer a **-1 penalty to all Defense rolls**.
+- **Stumbling (BP 1)**: The character is on the verge of falling. They suffer a **-2 penalty to all Defense rolls**.
+- **Knocked Down (BP 0)**: The character has lost their footing. They must spend a **Minor Action (2 segments)** to stand up. While down, incoming attacks gain **+1 IS Die** (Advantage).
 - **Unconscious (HP=0):** The character is removed from the tactical exchange.
 
 ### Chapter 5.1 — Specialized Actions

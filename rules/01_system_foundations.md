@@ -11,8 +11,8 @@ All tactical and skill checks use a **3d6 roll** (summed) against a target diffi
 | **0–8** | **Fail** | Complete failure; exposure or resource loss. |
 | **9–12** | **Partial Success** | Success at a cost (SP loss, minor injury, or positioning error). |
 | **13–17** | **Success** | Clean, intended result achieved. Standard hit. |
-| **18–19** | **Great Success** | Exceptional hit. Provides **+1 IS Die** or **Perk Swap**. |
-| **20+** | **Perfect Success** | Pinnacle hit. Provides **+2 IS Dice** or **Perk Swap**. |
+| **18–19** | **Great Success** | Exceptional hit. Provides **+1 IS Die** or **Precision Effect Swap**. |
+| **20+** | **Perfect Success** | Pinnacle hit. Provides **+2 IS Dice** or **Precision Effect Swap**. |
 
 *Note: Results above 18 are only achievable through Attribute/Skill modifiers.*
 
@@ -31,14 +31,23 @@ Calculated once during character setup. Interactive sheets handle dynamic tracki
 
 - **HP (Hit Points / Flesh):** `(Body × 3) + Size`. 
   - *Represents deep physical injury, bleeding, and structural failure.*
-- **SP (Shock Points / Stamina):** `(Body × 2) + Endurance + Frame`.
-  - *Represents tactical integrity and posture.*
+- **SP (Systemic Integrity / Shock):** `(Body × 2) + Endurance + Frame`. 
+  - *Represents neurological stability and physical coordination. Impact damage disables the d6 results:*
+    - **Stable (> 1/2 SP)**: No penalty.
+    - **Rattled (≤ 1/2 SP)**: **Disable 6s** (The Glance Rule: 6s become 1s).
+    - **Staggered (≤ 1/4 SP)**: **Disable 5s & 6s** (5s and 6s become 1s).
+    - **Disabled (0 SP)**: **Physiological Shutdown.** The character cannot act until they recover.
 - **BP (Balance Points):** `Body + Size + floor(DEX / 2)`.
-  - *Represents postural integrity. BP resets fully when "Standing Up" or at the end of an exchange.*
+  - *Represents postural integrity and footing. Penalties apply as BP drops:*
+    - **Stable (BP > 4)**: No penalty. BP Resistance applies.
+    - **Unstable (BP 2–3)**: -1 to all Defense rolls. BP Resistance lost.
+    - **Stumbling (BP 1)**: -2 to all Defense rolls. BP Resistance lost.
+    - **Knock Down (BP 0)**: Prone. Must stand up.
 
 ### The Regeneration Rate
-At the start of every turn, characters automatically recover SP equal to their **Regeneration Rate**:
-`Regeneration Rate = floor(Endurance / 2)`.
+At the start of every turn, characters automatically recover SP AND BP:
+- **SP Recovery**: `floor(Endurance / 2)`.
+- **BP Recovery**: BP resets fully to its maximum value at the start of the character's turn.
 
 ## Chapter 4 — Physical Structure (Mass)
 - **Body (Scale 1–10):** The primary mass baseline. Body directly sets the **Base IS Dice Pool**.
@@ -97,3 +106,19 @@ When a character falls, their presence is "seeded" into the world as a persisten
 
 ### Faction Breathing
 Factions operate on a **Pulse** of **Active Push** (proactive gain) and **Reactive Pull** (responding to players). This creates a "breathing" campaign state.
+
+---
+
+## Chapter 7 — Natural Protection
+Characters and monsters possess inherent resilience that exists independently of gear or equipment.
+
+### 1. Natural Armor (Resilience)
+Natural armor acts as a passive reduction to incoming kinetic and shock energy.
+- **Effect**: Subtract the Natural Armor value from all raw **HP** and **SP** damage totals before applying Gear Soak.
+- **Consistency**: Unlike gear, Natural Armor cannot be "compromised" by critical hits unless specified by a unique monster trait.
+
+### 2. Physical Weight (BP Soak)
+A character's physical build provides resistance to being moved or unbalanced.
+- **Steadfast (Trait)**: Subtract **2 BP** from all incoming Balance Damage.
+- **Grounded (Position/Trait)**: Subtract **1 BP** from all incoming Balance Damage.
+- **The Stability Rule**: This resistance is temporarily **lost** if the character is currently **Unstable** or **Stumbling** (BP < 4).

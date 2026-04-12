@@ -41,8 +41,8 @@ Modifiers applied to the IS Dice Pool based on the quality of the Stage 1 Skill 
 | **4–8** | **Miss** | Attack Ends | — |
 | **9–12** | **Partial** | -2 Dice | — |
 | **13–17** | **Success** | +0 Dice | — |
-| **18–19** | **Great** | +1 Die | **Perk Swap** (Table 11) |
-| **20+** | **Perfect** | +2 Dice (+1 AP) | **Perk Swap** (Table 11) |
+| **18–19** | **Great** | +1 Die | **Precision Effect Swap** (Table 11) |
+| **20+** | **Perfect** | +2 Dice (+1 AP) | **Precision Effect Swap** (Table 11) |
 
 ---
 
@@ -52,8 +52,9 @@ Balance Damage (BD) is calculated per die rolled in Stage 2. **Armor DOES NOT re
 | Weapon Type | BD / Die | Example (8 Dice IS) |
 | :--- | :--- | :--- |
 | **Swords / Spears** | 0.5 BD | 4 BD |
-| **Axes** | 1.0 BD | 8 BD |
-| **Blunt (Hammers)** | 1.5 BD | 12 BD |
+| **Axes / Maces** | 1.0 BD | 8 BD |
+| **Impact Head Tag** | **+1.0 BD** | +8 BD (Additive) |
+| **Heavy Hammers** | 1.5 BD | 12 BD |
 
 ---
 
@@ -124,8 +125,8 @@ For players to assess risk during Stage 1.
 
 ---
 
-## Table 11: Pinnacle Effect Swaps (Anatomical)
-Requires a specific weapon-specific Perk (Chapter 4) and a **Natural 18** OR a **Great/Perfect Success (18+)**.
+## Table 11: Precision Effect Swaps (Anatomical)
+Requires a specific **Precision Perk** (Chapter 4.1) and a **Natural 18** OR a **Great/Perfect Success (18+)**.
 
 | Effect | Target | Mechanical Consequence |
 | :--- | :--- | :--- |
@@ -134,3 +135,27 @@ Requires a specific weapon-specific Perk (Chapter 4) and a **Natural 18** OR a *
 | **Sever Tendon** | Legs | **Movement Disable.** Target Move speed = 0 for 1 round. |
 | **Blinded** | Eyes | **Major Blindness.** Target suffers -2 to all Accuracy/Defense. |
 | **Hand Strike** | Arms | **Disarm.** Weapon dropped or +2 segment cost to next swing. |
+
+---
+
+## Table 12: Balance States & Penalties
+As a character's **BP Pool** is depleted during a round, they suffer increasing penalties to their defensive capability. Balance fully resets at the start of the character's turn.
+
+| BP Value | State | Penalty | Resistance Status |
+| :--- | :--- | :--- | :--- |
+| **> 4** | **Stable** | None | **Resistance Active** (Steadfast/Grounded) |
+| **2–3** | **Unstable** | **-1 to Defense Rolls** | Resistance **LOST** |
+| **1** | **Stumbling** | **-2 to Defense Rolls** | Resistance **LOST** |
+| **0** | **Fallen** | **Knock Down** (Prone) | Cannot React |
+
+---
+
+## Table 13: Systemic Shock (The Glance Rule)
+Physiological trauma limits the character's ability to exert force and maintain precision. Disabled dice results are treated as a **1**.
+
+| SP Value | State | Disabled Results | Consequence |
+| :--- | :--- | :--- | :--- |
+| **> 1/2 SP** | **Stable** | None | Normal performance. |
+| **≤ 1/2 SP** | **Rattled** | **6** | All 6s become 1s. Accuracy and Impact drop. |
+| **≤ 1/4 SP** | **Staggered** | **5, 6** | All 5s and 6s become 1s. Catastrophic failure. |
+| **0 SP** | **Disabled** | ALL | **Physiological Shutdown.** No actions possible. |

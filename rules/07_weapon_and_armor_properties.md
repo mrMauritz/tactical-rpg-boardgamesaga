@@ -6,14 +6,16 @@
 Tags add personality to weapons. They modify the core impact tables but never replace them.
 
 ### 1. Tag Definitions
-- **Sharp:** On any die that deals HP, if that die is a 6+, add **Bleed 1**.
-- **Armor-Piercing (AP):** Use the AP Tag rules (4+ threshold for AP).
-- **Crushing:** If the attack deals *any* HP damage, add **+1 SP** to the total raw damage.
-- **Hooking:** If BP damage is dealt, the target suffers **-1 BP Resist** (or -2 BP pool) for their next exchange.
-- **Heavy Head:** Increases the weapon's BP modifier by **+0.5** (e.g., an Axe becomes 1.5x).
-- **Fast:** If any IS die shows 5+, the attacker gains **+1 Initiative** for the next segment.
-- **Reach:** Allows a weapon to target a hex up to **2 hexes away**. This is a physical pre-condition for the attack.
-- **Parry:** This weapon is designed for defensive play. Allows the use of the **Active Parry** reaction.
+- **Heavy**: The weapon possesses significant mass. **Effect**: Reroll IS dice results of `1` once. **Penalty**: -1 Initiative, -1 Stage 1 Accuracy.
+- **Impact Head**: The weapon's weight is concentrated at the strike point (Axes, Maces). **Effect**: +1 RF (Relative Force), +1 Balance Damage (BP) per IS Die. **Penalty**: -1 Initiative, -1 Stage 1 Accuracy.
+- **Flail**: A flexible weapon with a weighted head. **Effect**: Bypasses **Active Parry** (Target must Dodge or Block). **Backfire**: On a **Major Fail (0-1)**, the wielder becomes **Unstable** (BP reduced to 3).
+- **Two-Handed (2H)**: Designed for deep leverage. **Effect**: Grants **+1 IS Die** to the pool. **Requirement**: Requires both hands; prevents the use of a shield or free off-hand.
+- **Versatile**: Weight-balanced for dual use. **Effect**: May be wielded 1H or 2H. If used with two hands, it gains the **Two-Handed (+1 IS Die)** bonus but loses the off-hand.
+- **Sharp**: On any die that deals HP, if that die is a 6+, add **Bleed 1**.
+- **Armor-Piercing (AP)**: Use the AP Tag rules (4+ threshold for AP).
+- **Fast**: If any IS die shows 5+, the attacker gains **+1 Initiative** for the next segment.
+- **Reach**: Allows a weapon to target a hex up to **2 hexes away**. 
+- **Parry**: This weapon is designed for defensive play. Allows the use of the **Active Parry** reaction.
 
 ### 1.1 Momentum & Acceleration
 Movement generates kinetic force.
