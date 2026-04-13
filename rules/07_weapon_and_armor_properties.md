@@ -7,7 +7,7 @@ Tags add personality to weapons. They modify the core impact tables but never re
 
 ### 1. Tag Definitions
 - **Heavy**: The weapon possesses significant mass. **Effect**: Reroll IS dice results of `1` once. **Penalty**: -1 Initiative, -1 Stage 1 Accuracy.
-- **Impact Head**: The weapon's weight is concentrated at the strike point (Axes, Maces). **Effect**: +1 RF (Relative Force), +1 Balance Damage (BP) per IS Die. **Penalty**: -1 Initiative, -1 Stage 1 Accuracy.
+- **Impact Head**: The weapon's weight is concentrated at the strike point (Axes, Maces). **Effect**: +1 RF (Relative Force), +0.5 Balance Damage (BP) per IS Die. **Penalty**: -1 Initiative, -1 Stage 1 Accuracy.
 - **Flail**: A flexible weapon with a weighted head. **Effect**: Bypasses **Active Parry** (Target must Dodge or Block). **Backfire**: On a **Major Fail (0-1)**, the wielder becomes **Unstable** (BP reduced to 3).
 - **Two-Handed (2H)**: Designed for deep leverage. **Effect**: Grants **+1 IS Die** to the pool. **Requirement**: Requires both hands; prevents the use of a shield or free off-hand.
 - **Versatile**: Weight-balanced for dual use. **Effect**: May be wielded 1H or 2H. If used with two hands, it gains the **Two-Handed (+1 IS Die)** bonus but loses the off-hand.

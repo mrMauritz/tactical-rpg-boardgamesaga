@@ -17,7 +17,11 @@ All tactical and skill checks use a **3d6 roll** (summed) against a target diffi
 *Note: Results above 18 are only achievable through Attribute/Skill modifiers.*
 
 ## Chapter 2 — Attributes
-Characters are defined by six core attributes, usually ranging from 1 to 12. Reaching 12 represents a peak historical achievement.
+Characters are defined by six core attributes, usually ranging from 1 to 12. Reaching 12 represents a peak historical achievement. 
+
+> [!NOTE]
+> Attributes do **not** represent physical size or mass. They define the **Internal Architecture** of the character—physiological efficiency, neuromuscular recruitment, and the density of the spirit/will within the physical frame.
+
 
 1. **STR (Strength):** Raw physical power. Generates **Force** and determines **IS Bonus Dice**.
 2. **DEX (Dexterity):** Precision and reflex. Infuences **Hit Quality** and **Defensive Tiers**.
@@ -50,10 +54,22 @@ At the start of every turn, characters automatically recover SP AND BP:
 - **BP Recovery**: BP resets fully to its maximum value at the start of the character's turn.
 
 ## Chapter 4 — Physical Structure (Mass)
+The physical structure of a character provides the baseline for all kinetic interactions.
+
+### 1. The Physical Constants (Scale)
+Physical scale is determined at character creation and **does not scale** with progression. A character may grow in power and skill, but their physical frame remains a constant reference point throughout the Saga.
+
 - **Body (Scale 1–10):** The primary mass baseline. Body directly sets the **Base IS Dice Pool**.
 - **Size (−2 to +2):** Variations within a body scale (e.g., a "Large" human).
-- **Frame (−2 to +2):** Skeletal density.
+- **Frame (−2 to +2):** skeletal density and bone thickness.
 - **RB (Relative Body):** `Attacker Body - Defender Body`. Used for specialized mass comparison.
+
+### 2. Scale vs. Architecture
+Character development represents the optimization of the **Internal Architecture** rather than the expansion of Scale.
+
+- **Scale (Static):** The "Container." Fixed mass, size, and skeletal density.
+- **Architecture (Progressive):** The "Engine." Attributes, Skills, and Perks that improve efficiency, force output, and stamina within the fixed Scale.
+
 
 ## Chapter 5 — Force and Momentum
 Physical interaction is governed by the comparison of kinetic energy, handled via **Force** and **RF**.
