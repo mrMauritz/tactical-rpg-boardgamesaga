@@ -1,3 +1,24 @@
+# Session Journal: 2026-04-15
+
+## Accomplishments
+- **Pillar Evolution (Potential vs. Realization):** Codified the philosophy that Attributes are the "Hardware/Potential" while Pillars are the "Extraordinary/Realization."
+- **Ignition Logic:** Defined the "System Circuit" requirement—Pillars must be ignited via both an Attribute Threshold and a Mythic/Wyrd Trigger.
+- **Conceptualized the Block System:** Visualized the character sheet as a set of toggles where "Pillar Blocks" glow/activate when conditions are met.
+- **Deep-Dive Example:** Established a conceptual map linking the 6 Pillars from physical roots (STR, DEX, etc.) to mythic rule-breakers (Gravity-Lock, Action-Sight, etc.).
+- **Development Tracking:** Logged the "Wyrd Layer & Internal Architecture" connection and "Hidden Reward System" into the development roadmap.
+
+## Handoff State
+- Current philosophy is consolidated in `rules/01_INTERNAL_ARCHITECTURE_WIP.md`.
+- No specific mechanical "numbers" were implemented today, as per user direction to focus on concepts.
+- **Next immediate task:** Explore the "Hidden Reward System" and how the Wyrd Layer feeds back into Pillar ignition.
+
+## Lessons Learned & Patterns
+- **Rule-Breaking > Number-Scaling:** Designing "Extraordinary Passives" that break fundamental rules (like ignoring flanking or counter-acting initiative) creates a more "Legendary" feel than simply increasing hit chances.
+- **Hardware/Software Split:** Treating the body as hardware (Potential) and training/wyrd as software (Realization) simplifies the character progression logic significantly.
+- **The Glow State:** A visual "Ignition" indicator on a character sheet is a powerful motivator for player progression.
+
+---
+
 # Session Journal: 2026-04-13
 
 ## Accomplishments

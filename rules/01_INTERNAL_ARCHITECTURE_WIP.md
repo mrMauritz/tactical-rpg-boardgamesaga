@@ -8,13 +8,48 @@
 ---
 
 ## The Philosophy of the Body
-In *BoardGameSaga*, character progression is not the expansion of physical volume (Body/Frame/Size), but the refinement of the **Internal Architecture**. 
+Progression in *BoardGameSaga* centers on the **Internal Architecture**—the refinement of the character's internal systems rather than physical expansion.
 
-We move away from generic RPG tropes (e.g., +1 Strength) and toward the mastery of the physiological and neurological systems that define the elite warrior.
+### Potential vs. Realization
+- **Potential (Attributes):** The raw capability of the "hardware" (STR, DEX, etc.). Defines the **Passive Floor** of survival (Pools, Numbers).
+- **Realization (Pillars):** The extraordinary manifestation of mastery. Defines the **Tactical Ceiling**—the ability to break game rules through physiological and mythic alignment.
 
 ---
 
-## Pillar 1: The Center (Stability & Axis)
+## The Ignition Logic
+A Pillar is not a "stat" that is leveled. It is a **System Circuit** that must be **Ignited** via two conditions:
+1. **The Threshold (Potential):** Reaching a specific Attribute level.
+2. **The Trigger (Realization):** Fulfilling a Mythic Path, an Oath, or a Wyrd event.
+
+### Implementation Concept: The Block System
+On the character sheet, Pillars are represented by **Blocks**.
+- **Gray Block:** Potential met (Attribute high enough) but not triggered.
+- **Glowing/Active Block:** Condition met + Trigger achieved. The Pillar's rule-breaking power is now active.
+
+---
+
+## The 6 Pillars of Realization
+1. **The Center (Stability):** Your relationship to gravity and axis.
+2. **The Web (Kineticism):** The fascia-driven unification of force.
+3. **The Pulse (Neurology):** The speed and clarity of the synaptic signal.
+4. **The Marrow (Integrity):** The adaptive hardening of the skeletal and cellular frame.
+5. **. **The Breath (Pressure):** The management of metabolic energy and internal pressure.
+6. **The Attention (Awareness):** The balance between Narrow Technical Focus and Broad Vigilance.
+
+### Example Conceptual Mapping: From Physical to Mythic
+
+| Pillar | Physical Potential (Attribute) | Mythic Realization (The Wyrd/Path) | Extraordinary Passive (The Impact) |
+| :--- | :--- | :--- | :--- |
+| **1. The Center** | **STR** | **Path of the Mountain** | **Gravity-Locked:** Cannot be moved by lower scales. |
+| **2. The Web** | **DEX** | **Weave of Fate** | **Snap-Strike:** 0 SP strike after successful defense. |
+| **3. The Pulse** | **INT** | **Spark of the Primordial** | **Action-Sight:** Declare after seeing enemy initiative. |
+| **4. The Marrow** | **END** | **Blood of Ancestors** | **Saga-Heart:** Death Threshold is significantly lower. |
+| **5. The Breath** | **WIL** | **Wind of the Spirit** | **Eternal Breath:** High-speed stamina recovery. |
+| **6. The Attention** | **CHA** | **Vision of the Unseen** | **Master's Gaze:** Perfect 360-degree awareness. |
+
+---
+
+## Pillar 1: The Center (Stability & Axis) (Original Philosophical Notes)
 - **Traditional Insight**: *Zhong Ding* (Central Equilibrium) / *Hara*.
 - **The Pillar**: The relationship of the spine and pelvic floor to the earth’s gravity.
 - **Mastery**: "Hanging the Spine." It is the anchorage for all rotational torsion. A master of the center does not just have "balance"; they have a "Root" that remains displacement-resistant regardless of their mass.

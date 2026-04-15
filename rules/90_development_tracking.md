@@ -15,7 +15,8 @@ This document tracks features that have been discussed or partially implemented,
 - [x] **Balance System Overhaul:** Shifted from flat recovery to **Balance States** (Stable, Unstable, Stumbling) with Defense-only penalties. Implemented **BP Soak (Steadfast/Grounded)** and stability-based resistance loss.
 
 ## 3. World & Narrative Synergies
-- [ ] **Wyrd Layer Integration:** How "Blessed" or "Cursed" weapon states modify the weapon impact tables.
+- [ ] **Wyrd Layer & Internal Architecture:** Design the connection between the 6 Pillars and the Wyrd/Path realization triggers. Focus on the "Hidden Reward" system for extraordinary progression.
+- [ ] **Wyrd Layer Integration (Combat):** How "Blessed" or "Cursed" weapon states modify the weapon impact tables.
 - [ ] **Generational Gear:** Rules for how armor damage (Chapter 11) persists across saga generations if not repaired.
 
 ## 4. Monster Design
