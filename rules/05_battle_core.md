@@ -31,7 +31,7 @@ Compare the kinetic energy of the strike to determine which reactions are physic
     2. Check **Starting Capacity** to see if the target has reactions remaining this round.
 
 ### 2. Hit Resolution (Stage 1 Roll)
-`3d6 + Skill + DEX vs Target Defense`
+`3d6 + Skill + DEX Bonus vs Target Defense`
 - **Fail (0-8):** See *Table 3*. Catastrophic results like BP loss or becoming **Unbalanced**.
 - **Partial (9-12):** Minimal hit, no bonus IS.
 - **Success (13-17):** Clean Hit. Standard weapon damage.

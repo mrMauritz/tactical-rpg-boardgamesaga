@@ -18,34 +18,57 @@ Progression in *BoardGameSaga* centers on the **Internal Architecture**—the re
 
 ## The Ignition Logic
 A Pillar is not a "stat" that is leveled. It is a **System Circuit** that must be **Ignited** via two conditions:
-1. **The Threshold (Potential):** Reaching a specific Attribute level.
-2. **The Trigger (Realization):** Fulfilling a Mythic Path, an Oath, or a Wyrd event.
+1.  **The Threshold (Potential):** Unlocking a **Pillar Slot** by reaching an even Attribute level (4, 6, 8, 10, or 12).
+2.  **The Trigger (Realization):** Fulfilling a Mythic Path, an Oath, or a Wyrd event to "Ignite" that slot.
 
 ### Implementation Concept: The Block System
-On the character sheet, Pillars are represented by **Blocks**.
-- **Gray Block:** Potential met (Attribute high enough) but not triggered.
-- **Glowing/Active Block:** Condition met + Trigger achieved. The Pillar's rule-breaking power is now active.
+On the character sheet, Pillars are represented by **Slots (Blocks)**.
+- **Empty Slot:** Attribute level not reached.
+- **Gray Slot:** Threshold met (Even Attribute level reached) but not "Ignited" by a trigger.
+- **Glowing/Active Block:** Condition met + Trigger achieved. The Pillar's rule-breaking power/perk is now active.
+
+### Attribute Milestones: Pillar Progression
+| Attribute Value | Pillar Slot Status |
+| :--- | :--- |
+| **1-3** | No slots available. Primitive internal architecture. |
+| **4** | **1st Pillar Slot** UNLOCKED (Ignition Point). |
+| **6** | **2nd Pillar Slot** UNLOCKED. |
+| **8** | **3rd Pillar Slot** UNLOCKED. |
+| **10** | **4th Pillar Slot** UNLOCKED. |
+| **12** | **5th Pillar Slot** UNLOCKED (Historical Mastery). |
+
+## The 6 Pillars of Realization (Physical Layer)
+1. **The Center (Stability):** Your relationship to gravity and axis. The physical spine and pelvic floor.
+2. **The Web (Kineticism):** The fascia-driven unification of force. Transitioning from isolated muscles to a unified elastic spring.
+3. **The Pulse (Neurology):** The speed and clarity of the synaptic signal. Removing "Neurological Noise" and cognitive lag.
+4. **The Marrow (Integrity):** The adaptive hardening of the skeletal and cellular frame (Bone Remodeling and Hormonal Regulation).
+5. **The Breath (Pressure):** The management of metabolic energy (CO2 tolerance) and internal thoracic pressure.
+6. **The Attention (Awareness):** The balance between Narrow Technical Focus (The Emissary) and Broad Vigilance (The Master).
 
 ---
 
-## The 6 Pillars of Realization
-1. **The Center (Stability):** Your relationship to gravity and axis.
-2. **The Web (Kineticism):** The fascia-driven unification of force.
-3. **The Pulse (Neurology):** The speed and clarity of the synaptic signal.
-4. **The Marrow (Integrity):** The adaptive hardening of the skeletal and cellular frame.
-5. **. **The Breath (Pressure):** The management of metabolic energy and internal pressure.
-6. **The Attention (Awareness):** The balance between Narrow Technical Focus and Broad Vigilance.
+## The Magic Layer (The Wyrd & Spirit)
+When a Pillar is ignited through the Wyrd, its physical essence transitions into a mystic manifestation:
 
-### Example Conceptual Mapping: From Physical to Mythic
+- **The Root (STR):** Ancestral weight. You are anchored by the moral gravity of your lineage.
+- **The Loom (DEX):** Fate-weaving. Recognizing the world as a tapestry of threads to be pulled or re-woven.
+- **The Stream (INT):** Resonance. Tuning your mind's pulse until it harmonizes with the world's ancient song.
+- **The Well (END):** The Sacred Vessel. Hallowing your marrow to host sacred power without being consumed.
+- **The Word (WIL):** The Primal Galdr. Using the breath to speak reality back to its original, obedient state.
+- **The Shadow (CHA):** The Second-Eye. Shifting your gaze to see the spirits that hide within the context of the world.
 
-| Pillar | Physical Potential (Attribute) | Mythic Realization (The Wyrd/Path) | Extraordinary Passive (The Impact) |
-| :--- | :--- | :--- | :--- |
-| **1. The Center** | **STR** | **Path of the Mountain** | **Gravity-Locked:** Cannot be moved by lower scales. |
-| **2. The Web** | **DEX** | **Weave of Fate** | **Snap-Strike:** 0 SP strike after successful defense. |
-| **3. The Pulse** | **INT** | **Spark of the Primordial** | **Action-Sight:** Declare after seeing enemy initiative. |
-| **4. The Marrow** | **END** | **Blood of Ancestors** | **Saga-Heart:** Death Threshold is significantly lower. |
-| **5. The Breath** | **WIL** | **Wind of the Spirit** | **Eternal Breath:** High-speed stamina recovery. |
-| **6. The Attention** | **CHA** | **Vision of the Unseen** | **Master's Gaze:** Perfect 360-degree awareness. |
+---
+
+## Conceptual Mapping: The Saga Path
+
+| Pillar | Attr | **Phys Concept** | **Mystic Pillar** | **Mythic Path** | **Extraordinary Passive (The Impact)** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1. Center** | **STR** | Stability/Axis | **The Root** | **Path of the Mountain** | **Gravity-Locked:** Immune to forced movement. |
+| **2. Web** | **DEX** | Fascia/Kinetic | **The Loom** | **Weave of Fate** | **Snap-Strike:** 0 SP strike after dodge/parry. |
+| **3. Pulse** | **INT** | Neurology/Signal| **The Stream** | **Spark of the Primordial** | **Action-Sight:** React to enemy initiative. |
+| **4. Marrow** | **END** | Cellular/Grit | **The Well** | **Blood of Ancestors** | **Saga-Heart:** Massive Death Threshold buff. |
+| **5. Breath** | **WIL** | Pressure/Flow | **The Word** | **Wind of the Spirit** | **Eternal Breath:** High-speed SP recovery. |
+| **6. Attention**| **CHA** | Gaze/Vigilance | **The Shadow** | **Vision of the Unseen** | **Master's Gaze:** 360-degree awareness. |
 
 ---
 
@@ -103,4 +126,48 @@ Bruce Lee’s modernization of combat emphasizes the efficiency of **The Web** a
 
 ---
 
-*Last Updated: 2026-04-14*
+---
+
+## WIP: The Spirit Layer (The Wyrd & Magic)
+*These notes are under active development. Do not migrate to foundations until the Wyrd-Bout mechanics are finalized.*
+
+### 1. The Unified Resolution (3d6)
+All magic manipulation uses the standard **3d6 Resolution Ladder**. Magic is not "automatic success"; it is a tactical check against the density of reality.
+- **Formula**: `3d6 + Skill + Attribute Bonus (INT/WIL/CHA) vs Difficulty`.
+- **Modifiers**: Success tiers (Partial/Great/Perfect) apply to the magnitude of the mystic effect.
+
+### 2. The Choice: Safe Path vs. Twisted Path
+A magic user must decide how much they "open the door" to the Wyrd (**Óðr Alignment**):
+- **The Safe Path (Low Óðr)**: Subtle manipulation. The user works *with* the world's song. The check is standard, and the Wyrd remains passive.
+- **The Twisted Path (High Óðr)**: **"Taking up the fight."** The user forces their will upon reality to achieve rule-breaking "Pillar" effects.
+    - **Mechanism**: The user gains Advantage or automatic Success Tiers.
+    - **The Bout**: This "Twist" forces the Wyrd to defend itself. The Wyrd immediately triggers a **Pushback** (spiritual recoil).
+
+### 3. MG (Megin) — The Sacred Vessel
+**MG** represents your **Spiritual Integrity**—the structural capacity of your soul to host power.
+- **Formula (Draft)**: `MG = (Scale × 1) + Endurance Bonus + WIL`.
+- **Status (The Hollowed)**: If MG reaches **0**, the character suffers a **Spiritual Collapse**. They remain physically alive but are catatonic or "spent" until they perform a recovery ritual.
+- **The Hallowing (Growth)**: Just as muscles grow through micro-tears, the MG Pool expands through "The Hallowing." Maximum MG capacity only increases when a character survives being **Hollowed** or **Strained (MG < 1/2)**.
+
+### 4. ÓÐ (Óðr) — Alignment & The Door
+**Óðr** measures the "opening" between the character and the spiritual realm. It is the metric for those few who choose to "take up the fight" with reality.
+- **The Rarity**: Most magic users play it safe, working only within the world's established laws.
+- **Why High ÓÐ Users are Feared**:
+    - **Liquid Reality**: They treat reality as mutable (**Liquid**) rather than fixed (**Solid**). To them, the "rules" of physics are merely suggestions.
+    - **Backsplash Danger**: When they "Twist" the Wyrd, the resulting **Wyrd-Bout** pushback can be violent. Bystanders can be caught in the spiritual "backsplash," suffering Vision loss or Megin depletion just by being near the conflict.
+    - **Moral Gravity Warp**: Their Oaths and Will are so dense that they exert a "warping" effect on the environment and the people around them, forcing those nearby to unconsciously align with the user's mythic narrative.
+- **The Twisted Path**: High Óðr. "Twisting" reality to force Pillar effects.
+
+### 5. The Wyrd-Bout (Pushback)
+A direct confrontation where the Wyrd "Defense" strikes back.
+- **Mechanism**: If a user fails their check while Twisting, the Wyrd hits back.
+- **Consequences**: MG damage or temporary **Vision Blindness**. 
+
+### 6. The Three Conduits (Attribute Mapping)
+- **INT / The Arcane (Tuning):** Navigating **The Stream**. Finding the resonance of objects.
+- **WIL / The Divine (Ordering):** Speaking **The Word**. Forcing reality to yield through Oaths.
+- **CHA / The Primal (Negotiating):** Walking **The Shadow**. Interacting with spirits and nature.
+
+*Last Updated: 2026-04-16*
+
+*Last Updated: 2026-04-16*

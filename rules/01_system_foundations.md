@@ -24,11 +24,32 @@ Characters are defined by six core attributes, usually ranging from 1 to 12. Rea
 
 
 1. **STR (Strength):** Raw physical power. Generates **Force** and determines **IS Bonus Dice**.
-2. **DEX (Dexterity):** Precision and reflex. Infuences **Hit Quality** and **Defensive Tiers**.
+2. **DEX (Dexterity):** Precision and reflex. Infuences **Hit Quality**, **BP**, and **Defensive Tiers**.
 3. **END (Endurance):** Resilience and stamina recovery.
 4. **INT (Intelligence):** Analytical logic and Arcane conduit.
 5. **WIL (Willpower):** Mental grit and Divine conduit.
 6. **CHA (Charisma):** Leadership and Nature conduit.
+
+### The Progression Ladder (Bonus vs. Pillars)
+Every point of attribute growth contributes to either the character's **Passive Bonus** (efficiency) or their **Internal Architecture** (Pillars).
+
+- **Every Odd Value (1, 3, 5...):** Increases the **Attribute Bonus**.
+- **Every Even Value (2, 4, 6...):** Unlocks a **Pillar Slot** (Threshold begins at level 4).
+
+| Attribute Value | Attribute Bonus | Pillar Slots | Milestone Description |
+| :--- | :--- | :--- | :--- |
+| **1** | -1 | — | Raw Potential |
+| **2** | -1 | — | Physiological Awakening |
+| **3** | **0** | — | Systemic Refinement |
+| **4** | 0 | **1 Slot** | **Pillar Ignition (Baseline)** |
+| **5** | **+1** | 1 Slot | Capacity Expansion |
+| **6** | +1 | **2 Slots** | Structural Integration |
+| **7** | **+2** | 2 Slots | Force Unification |
+| **8** | +2 | **3 Slots** | Synaptic Clarity |
+| **9** | **+3** | 3 Slots | Systemic Mastery |
+| **10** | +3 | **4 Slots** | Peak Physicality |
+| **11** | **+4** | 4 Slots | Transcendent Form |
+| **12** | +4 | **5 Slots** | **Historical Legend (Mastery)** |
 
 ## Chapter 3 — Vitality Pools (Bookkeeping)
 Calculated once during character setup. Interactive sheets handle dynamic tracking.
@@ -36,12 +57,12 @@ Calculated once during character setup. Interactive sheets handle dynamic tracki
 - **HP (Hit Points / Flesh):** `(Body × 3) + Size`. 
   - *Represents deep physical injury, bleeding, and structural failure.*
 - **SP (Systemic Integrity / Shock):** `(Body × 2) + Endurance + Frame`. 
-  - *Represents neurological stability and physical coordination. Impact damage disables the d6 results:*
+  - *Represents neurological stability. Uses the **Attribute Value** for granularity.*
     - **Stable (> 1/2 SP)**: No penalty.
     - **Rattled (≤ 1/2 SP)**: **Disable 6s** (The Glance Rule: 6s become 1s).
     - **Staggered (≤ 1/4 SP)**: **Disable 5s & 6s** (5s and 6s become 1s).
     - **Disabled (0 SP)**: **Physiological Shutdown.** The character cannot act until they recover.
-- **BP (Balance Points):** `Body + Size + floor(DEX / 2)`.
+- **BP (Balance Points):** `Body + Size + DEX Bonus + 2`.
   - *Represents postural integrity and footing. Penalties apply as BP drops:*
     - **Stable (BP > 4)**: No penalty. BP Resistance applies.
     - **Unstable (BP 2–3)**: -1 to all Defense rolls. BP Resistance lost.
@@ -50,7 +71,7 @@ Calculated once during character setup. Interactive sheets handle dynamic tracki
 
 ### The Regeneration Rate
 At the start of every turn, characters automatically recover SP AND BP:
-- **SP Recovery**: `floor(Endurance / 2)`.
+- **SP Recovery**: `Endurance Bonus + 2`.
 - **BP Recovery**: BP resets fully to its maximum value at the start of the character's turn.
 
 ## Chapter 4 — Physical Structure (Mass)
@@ -81,17 +102,18 @@ Physical interaction is governed by the comparison of kinetic energy, handled vi
 `RF = Attacker Force - Defender Force`.
 RF is used exclusively to determine **Defensive Eligibility** (which reactions are physically possible against the incoming blow).
 
-### 3. Strength IS Bonus (Dice Pool)
-STR modifies the number of d6s rolled in **Stage 2 (Impact Severity)**.
+STR modifies the number of d6s rolled in **Stage 2 (Impact Severity)**. This bonus is identical to the **STR Bonus**.
 
-| STR Value | IS Dice Bonus |
-| :--- | :--- |
-| **2** | -1 Die |
-| **4** | +0 (Baseline) |
-| **6** | +1 Die |
-| **8** | +2 Dice |
-| **10** | +3 Dice |
-| **12** | +4 Dice |
+| STR Value | STR Bonus | IS Dice Bonus | Pillar Slots (The Center) |
+| :--- | :--- | :--- | :--- |
+| **2** | -1 | **-1 Die** | — |
+| **4** | 0 | **+0 (Baseline)**| **1 Slot** (Ignited) |
+| **6** | +1 | **+1 Die** | **2 Slots** |
+| **8** | +2 | **+2 Dice** | **3 Slots** |
+| **10** | +3 | **+3 Dice** | **4 Slots** |
+| **12** | +4 | **+4 Dice** | **5 Slots** |
+
+*Note: Odd numbers (e.g., 3, 5, 7) increase the IS Dice Bonus but do not unlock further Pillar Slots.*
 
 ---
 
@@ -99,6 +121,7 @@ STR modifies the number of d6s rolled in **Stage 2 (Impact Severity)**.
 Initiative determines the order of action within each segment. It is a live value affected by physical burden.
 
 `Initiative = DEX - floor(Armor HP Soak / 2)`
+- *Initiative uses the **Attribute Value** to define the segment timeline (1–12).*
 
 - **Heavy Armor Penalty**: Characters in Plate or Chain act significantly later than those in Light Armor or Cloth.
 - **Dynamic Shifts**: Weapon tags (like *Fast*) or status effects (like *Staggered*) can modify Initiative during a round.

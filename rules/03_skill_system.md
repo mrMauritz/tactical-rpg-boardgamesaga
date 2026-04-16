@@ -23,7 +23,7 @@ Skills represent practiced competency and provide the primary static modifiers f
 Following the organic growth policy, only skills explicitly required for the core battle system are listed here.
 
 ### 1. Defensive Skills
-*Governing Attributes: END (Block), DEX (Parry, Dodge).*
+*Governing Attributes provide their **Attribute Bonus** to the 3d6 check (END: Block, DEX: Parry/Dodge).*
 
 - **Shield Fighting**: Governs **Active Blocking** and **Geometric Coverage** (Scaling protected facing).
 - **Parrying**: Governs **Active Parry** capacity with weapons.
