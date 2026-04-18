@@ -9,6 +9,7 @@ This document tracks the core structure and "When to Read" tags for the modular 
 - **02_perks_and_traits.md**: System-altering traits and organic perk design.
 - **03_skill_system.md**: The 0-8 Tier system and tactical skill roster.
 - **05_battle_core.md**: The "Super Solid" Battle System.
+- **01_INTERNAL_ARCHITECTURE_WIP.md**: [SOLID - DETAIL LOCKED] The metaphysical and physical pillars of character growth.
 - **06_adventure_and_prep.md**: Interactive Maps & The Camping Tool.
 
 ## Supporting Systems

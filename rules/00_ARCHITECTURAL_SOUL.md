@@ -10,3 +10,4 @@
 6. **PHYSICAL REALISM**: If it doesn't make sense in a collision between two physical bodies, it doesn't belong in the core.
 7. **NO PLACEHOLDERS**: Every rule must be a working tool, not a placeholder for "future work."
 8. **UNIFIED CONSTITUTION**: The computer version (`thesaga`) and the board game (`boardgamesaga`) share the same mechanical soul. Any deviation is a bug.
+9. **DETAIL PRESERVATION (NO PRUNING)**: Consolidation is NOT summarization. Approved deep-dives (Pillar mastery, Methodologies, Equations) are **Permanent Historical Records**. Never delete or "simplify" them in the name of neatness. If a document's line count shrinks during a revision, perform an immediate **Detail Integrity Audit** to ensure no "Flesh" was lost from the "Skeleton."

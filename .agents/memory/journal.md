@@ -1,3 +1,24 @@
+# Session Journal: 2026-04-16
+
+## Accomplishments
+- **"Heartbeat" Progression Pattern**: Implemented a rhythmic attribute model where Odd values increase the **Bonus** (Efficiency) and Even values (starting at level 4) unlock **Pillar Slots** (Architecture).
+- **Attribute Rebalancing**: Reconciled the 3d6 Resolution Ladder by using **Attribute Bonuses** for rolls while retaining **Raw Values** for vitality pools (SP/HP/BP) and kinetic thresholds (Force/Initiative).
+- **The Dual-Layer Architecture**: Expanded the 6 Pillars to include a **Mystic Layer (The Wyrd)**. Defined physical physiology (Fascia/Marrow) alongside its mythic manifestation (The Loom/The Well).
+- **The Spirit Layer (WIP)**: Defined **MG (Megin)** as the spiritual vessel and **ÓÐ (Óðr)** as the alignment/doorway to the spiritual realm.
+- **The Hallowing**: Codified a spiritual progression philosophy where magic capacity grows through a cycle of breakdown and recovery (survival of the **Hollowed** state).
+
+## Handoff State
+- Core attribute and pillar slot logic is committed to `rules/01_system_foundations.md`.
+- Advanced Magic/Wyrd logic (conduits, bout mechanics, and Óðr alignment) is stored in the WIP section of `rules/01_INTERNAL_ARCHITECTURE_WIP.md`.
+- **Next immediate task**: Develop the **Wyrd-Bout** resolution tables and define the **Óðr Archetypes/Tiers**.
+
+## Lessons Learned & Patterns
+- **The Value vs. Bonus Split**: Essential for maintaining 3d6 ladder accuracy as characters scale. Raw values provide physical granularity; bonuses provide mathematical stability.
+- **Progressive Destruction (Anti-Pattern)**: Discovered that consolidating descriptive lists into tables can cause a "sneak deletion" of lore and philosophy. New mantra: **Magic and Lore integration must be strictly additive.**
+- **The Heartbeat Mechanic**: Creating a predictable "Odd/Even" reward cycle makes every attribute point valuable and removes the feel of "dead levels."
+
+---
+
 # Session Journal: 2026-04-15
 
 ## Accomplishments
