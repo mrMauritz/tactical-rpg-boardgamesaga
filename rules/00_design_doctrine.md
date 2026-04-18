@@ -10,9 +10,9 @@ The core resolution engine uses a **3d6 roll** mapped to a **1-20 ladder**. This
 - **Modifiers**: Static bonuses derived from Attributes and Skills.
 - **The Modifier Barrier**: Without training, high-tier successes (e.g., Perfect Success) are unreachable.
 
-## 3. Quota Effectiveness
-- **No Fluff**: Tactical and mechanical descriptions only.
-- **Content Generation:** Delay creation of extensive lists (weapons, monsters, spells) until the battle core is verified.
+## 3. Quota Effectiveness & Thematic Balance
+- **Thematic Integration (No Dry Summaries)**: Do not strip evocative naming or "Saga Aspects" to save token quota. The thematic flavor and the "Saga Voice" are intrinsic to the system's identity. Mechanics and Lore must be presented together.
+- **Content Generation:** Delay creation of extensive lists (weapons, monsters, spells) until the battle core is verified, BUT maintain high-quality thematic presentation for the core mechanics we do create.
 - **The Toolbox Philosophy:** The core rules are a **toolbox** for implementing historically accurate, real physics, or saga-inspired moments. Avoid "gamey" floating modifiers; favor **Physical Pre-Conditions** and **Material Tags**.
 - **The Pillar of Mystery:** Spirit and Fate are not player tools. Wyrd affects all beings. Vision (Wyrd layer) and Perception (Reality layer) are distinct and separate.
 - **The Tension of Time:** Contrast the "Short-term Survival" (immediate tactical gain) with "Long-term Saga" (costly persistence with delayed mythic rewards).

@@ -11,3 +11,4 @@
 7. **NO PLACEHOLDERS**: Every rule must be a working tool, not a placeholder for "future work."
 8. **UNIFIED CONSTITUTION**: The computer version (`thesaga`) and the board game (`boardgamesaga`) share the same mechanical soul. Any deviation is a bug.
 9. **DETAIL PRESERVATION (NO PRUNING)**: Consolidation is NOT summarization. Approved deep-dives (Pillar mastery, Methodologies, Equations) are **Permanent Historical Records**. Never delete or "simplify" them in the name of neatness. If a document's line count shrinks during a revision, perform an immediate **Detail Integrity Audit** to ensure no "Flesh" was lost from the "Skeleton."
+10. **LORE IS RULE (THEMATIC INTEGRATION)**: Never strip the "Saga Voice" or evocative naming (e.g., "The Sejd-Thief", "The Godless") to save Artificial Intelligence quota or to make rules "drier." The mythological worldbuilding and the tactical mechanics are inseparable.

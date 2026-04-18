@@ -6,7 +6,8 @@ This document tracks features that have been discussed or partially implemented,
 | Date | Feature | Status | Notes |
 | :--- | :--- | :--- | :--- |
 | 2026-04-18 | **Internal Architecture & Magic** | SOLIDIFIED | Fused Soul-Trio (Önd, Óð, Lá) with 6 Pillars and Historical Laws. |
-| 2026-04-18 | **Design Integrity Protocol** | ACTIVE | Implemented Rule 9 (Detail Preservation) and Locked Manifest. |
+| 2026-04-18 | **Universal Alignment Physics** | SOLIDIFIED | Replaced generic class mechanics with 3 universal alignment physics (Law, Chaos, Wild). |
+| Upcoming | **The Rule of Wild (Trade-off Mutations)** | PENDING | Design physical and mystic wild mutations across the 6 attributes. |
 | Upcoming | **Resource Consumption** | STAGED | Definition of HP/SP/MG/Madness tactical expenditure. |
 
 ## 2. Advanced Tactical Content (Restricted to Classes/Monster Trees)

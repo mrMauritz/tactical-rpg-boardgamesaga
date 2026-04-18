@@ -36,31 +36,80 @@ The internal architecture is governed by the three forces of the Saga-Mind:
 
 ---
 
-## The Ignition Logic
-A Pillar is not a "stat" that is leveled. It is a **System Circuit** that must be **Ignited** via two conditions:
-1.  **The Threshold (Potential):** Unlocking a **Pillar Slot** by reaching an even Attribute level (4, 6, 8, 10, or 12).
-2.  **The Trigger (Realization):** Fulfilling a Mythic Path, an Oath, or a Wyrd event to "Ignite" that slot.
+## The Ignition Logic (The 2x3 Matrix)
+A Pillar is not a "stat" that is leveled. It is a **System Circuit** that must be **Ignited**. This ignition requires a deep narrational and mechanical choice, framed as a 2x3 Matrix based on two axes: 
+
+### Axis 1: The Choice of Architecture (Lá vs. Óðr)
+At each even attribute milestone (4, 6, 8, 10, 12), you must choose whether to anchor your soul in the physical world (**Lá**) or open your mind to the Wyrd (**Óðr**). 
+1.  **The Physical Pillar (Lá):** You unlock the Rule-Breaking physical perk (e.g., *The Center*).
+2.  **The Mystic Pillar (Óðr):** You unlock the Rule-Breaking mystic perk (e.g., *The Root*).
+
+#### The Crossed Architect (The Torn)
+By the Law of Mutual Sacrifice, you cannot occupy the same mythic density in two worlds at once. To possess extraordinary magic (Óðr), your physical skin (Lá) must become thin. If a character intentionally builds heavy Physical Pillars in some attributes alongside heavy Mystic Pillars in others, they create **Cross-Strain**. 
+Their dense physical body naturally resists the magic passing through it. While they gain incredible versatility (the classic "Battle-Mage"), they suffer high physiological strain when casting, experiencing fatigue, chronic pain, and a lower maximum vitality threshold. Mechanically, casting with crossed pillars will actively burn stamina (SP) or lower maximum pools, ensuring the versatility comes at a brutal physical cost.
+
+### Axis 2: The Source of the Fire (The Six Saga Archetypes)
+Igniting a Pillar is not just a physiological event; it is a historical declaration in the Saga. You must choose *how* the pillar is ignited—by submitting to Order, harmonizing with the Wild, or embracing Chaos. This choice permanently dictates your character's narrative path and mechanical Wyrd-Filter.
+
+#### 1. The Champion (Physical Order / Devout)
+*The Einherjar-Seed. Those whose bodies are forged as weapons by divine hands.*
+*   **The Ignition (The Divine Debt):** You perform a staggering favor for a God. In return, they pay their Wyrd-Debt by hardening your mortal frame. 
+*   **The Saga Aspect:** You are a favored proxy of the Æsir. Skalds sing of your holy might. Supernatural entities recognize the divine mark upon you and may target you—or flee from you.
+*   **The Mechanical Filter (Blessed Guard):** Your physical frame is forged cleanly into the Wyrd. You gain passive resistance against unnatural/cursed manipulations. However, you are strictly **Oath-Bound**. Acting against your Patron's nature severs your connection, deactivating the Pillar until atonement is made.
+
+#### 2. The Pious Conduit (Mystic Order / Devout)
+*The Sanctioned Channel. Those who walk the world with open minds and authority.*
+*   **The Ignition (The Divine Debt):** A God owes you a debt and opens your mind to the Wyrd, allowing you to witness the hidden architecture of reality.
+*   **The Saga Aspect:** You are an emissary. You speak with the authority of the Gods. Kings and Jarls fear you because your words carry the weight of divine law. 
+*   **The Mechanical Filter (The Sanctioned Channel):** You cast magic *legally*. Because the world recognizes your authority, your **Spiritual Friction (Wyrd-Bout)** is remarkably low. However, you are entirely restricted to your God's specific mythological domain. If you attempt to step outside of it, you fail.
+
+#### 3. The Beast-Marked (Physical Wild / Symbiotic)
+*Mátt ok Náttúra. Those whose bodies harmonize with the feral rhythms of the world.*
+*   **The Ignition (The Symbiosis):** You neither submit to high Gods nor walk entirely isolated. You forge the pillar by negotiating with the primal, feral spirits of the earth through blood-rites or surviving deep wilderness.
+*   **The Saga Aspect:** You are a creature of the margins. Berserkers and skin-changers. You operate on instinct and tribal kinship rather than civilization or strict Oaths.
+*   **The Mechanical Filter (The Feral Vitality):** You are not Oath-Bound to specific Gods, but you are tied to the physical environment. Your physical regeneration (HP/SP) thrives in raw conditions but stagnates in highly civilized hexes. You have moderate resistance to Wyrd manipulation but lack the total immunity of the Godless.
+
+#### 4. The Animist (Mystic Wild / Symbiotic)
+*The Harmonizer. The shamans who bleed to speak with the earth.*
+*   **The Ignition (The Blood-Rite):** You do not map the Wyrd analytically, nor do you steal from it. You carve a space within your own animistic presence to invite the Wyrd inside, often through trance, drumming, or physical sacrifice.
+*   **The Saga Aspect:** You are a bridge between the mortal and the unseen. You don't cast structured spells; you channel local spirits, weather patterns, and the raw life-force of the hex you stand in.
+*   **The Mechanical Filter (The Symbiotic Channel):** You cast magic *fluidly*. Your Wyrd-Bout (friction) is moderate, as you are negotiating rather than stealing. However, your power is highly localized; your Wyrd access fluctuates wildly based on the natural state of the Hex you occupy.
+
+#### 5. The Godless (Physical Chaos / Defiant)
+*Mátt ok Megin (Might and Main). The Sovereign isolated souls.*
+*   **The Ignition (Self-Sovereign):** You reject the Gods, trusting only in your own iron will. You ignite the pillar through sheer physiological mastery, brutal training, and surviving impossible odds without help.
+*   **The Saga Aspect:** The *Goðlauss*. You are viewed with superstitious dread or enormous respect by other mortals. The Gods cannot weave your fate easily, making you a "blind spot" in their prophecies.
+*   **The Mechanical Filter (The Sealed Soul):** You owe no debts. Your soul is sealed so tightly inside your skin that no magic can easily pierce it. You gain massive resistance against *all* Wyrd manipulation (you cannot be easily scried, cursed, or blessed). The cost is absolute isolation: you have zero divine safety net, and can never wield Wyrd-magic yourself.
+
+#### 6. The Sejd-Thief (Mystic Chaos / Defiant)
+*The Hollowed Hacker. The Promethean tricksters who steal the fire.*
+*   **The Ignition (Theft of the Wyrd):** You spit in the face of the Gods. You peer into the twisting currents of the Wyrd without permission and physically tear the power out of the world.
+*   **The Saga Aspect:** You are an outlaw of reality. You walk the path of Loki and Gullveig. You hide in the margins, bending the rules of the world to your own selfish ends. The Gods actively hunt or despise you.
+*   **The Mechanical Filter (The Hollowed Trickster):** You are unbound by Oaths and can creatively mix and match magic effects freely. However, the world violently rejects your thievery. Every spell you cast generates magnified **Spiritual Friction**. You are a reality-breaking glass cannon—if you overreach and fail a Wyrd check, the reality backlash is catastrophic.
+
+### Axis 3: The Universal System Mechanics
+Pillars do not grant highly localized tactical abilities (e.g., "+2 damage to sword swings"). Instead, they fundamentally alter the mathematics and physics of the game engine itself. The Alignment chosen (Law, Chaos, Wild) dictates a **Universal Rule** that applies to all Attributes in which a Pillar is ignited.
+
+#### 1. The Rule of Law (Order / Devout)
+*Theme: The Gods reward devotion and actively punish deviation.*
+*   **The Primary Pillar (Divine Intervention):** Whenever you make a roll using an Attribute aligned with your primary domain (e.g., Physical rolls for a Champion), the Gods watch. If you roll **Triples** on your `3d6`, the Heavens intervene: you immediately roll an extra `1d6` and **ADD** it to your result.
+*   **The Opposite Pillar (Divine Rebuke):** The Gods are jealous. If you attempt an action in the opposing architecture (e.g., a Martial Champion casting Wyrd-magic) and roll **Triples**, the Wyrd rejects you. Instead of an extra die, one of your three dice is instantly **SUBTRACTED** from the total, forcing catastrophic failure out of synchronization.
+
+#### 2. The Rule of Chaos (Defiant / Godless)
+*Theme: Sovereign mastery is achieved through pure, grueling repetition rather than divine favor.*
+*   **The Primary Pillar (Sovereign Limits):** You shatter mortal boundaries. The Progression Point (XP) cost to raise any Attribute aligned with your primary domain is permanently reduced by **-2**. Furthermore, the natural mortal Attribute Cap (12) is broken, allowing legendary progression (14+).
+*   **The Opposite Pillar (The Sovereign Wall):** The mortal boundaries fight back. Attributes are single numbers (e.g., STR is just STR). However, if you attempt to use an Attribute for an action belonging to the un-aligned pillar (e.g., using a Physical-anchored STR to calculate a Mystic gravity spell), your effective Attribute Value or Bonus is **HALVED** for that calculation. You lack the divine lubrication to cross the Wyrd fluently.
+
+#### 3. The Rule of Wild (Symbiotic / Beast-Marked)
+*Theme: The Law of Mutual Sacrifice triggers permanent biological and spiritual mutations. There are no dice-miracles or XP discounts—only evolutionary adaptation.*
+*   **Physical Mutation (Lá):** Igniting a Physical Wild pillar grants a permanent, monstrous biological evolution that benefits survival (e.g., *Bone-Plating:* ignore extreme kinetic shock), but inflicts a permanent **negative effect** onto your Mystic side (e.g., structurally unable to hold high MP pools, or permanently suffering Wyrd Strain).
+*   **Mystic Mutation (Óðr):** Igniting a Mystic Wild pillar grants a permanent spiritual evolution (e.g., *Wyrd-Eyes:* passive Wyrd-vision or drawing Wyrd from the environment), but inflicts a severe biological **negative effect** (e.g., brittle bones that temporarily lower BP caps, or flesh that constantly burns SP when casting).
 
 ### Implementation Concept: The Block System
 On the character sheet, Pillars are represented by **Slots (Blocks)**.
 - **Empty Slot:** Attribute level not reached.
-- **Gray Slot:** Threshold met (Even Attribute level reached) but not "Ignited" by a trigger.
-- **Glowing/Active Block:** Condition met + Trigger achieved. The Pillar's rule-breaking power/perk is now active.
-
-### Attribute Milestones: Pillar Progression
-| Attribute Value | Pillar Slot Status |
-| :--- | :--- |
-| **1-3** | No slots available. Primitive internal architecture. |
-| **4** | **1st Pillar Milestone** (Threshold Reach). |
-| **6** | **2nd Pillar Milestone** UNLOCKED. |
-| **8** | **3rd Pillar Milestone** UNLOCKED. |
-| **10** | **4th Pillar Milestone** UNLOCKED. |
-| **12** | **5th Pillar Milestone** UNLOCKED (**Historical Mastery** - Reaching the **Architectural Density** of the Godly Benchmarks). |
-
-### The Divergent Choice (One Milestone, One Aspect)
-Attribute milestones are the "Gates" of character evolution. At each milestone (e.g., reaching STR 4), you must choose which aspect of your internal architecture to **Ignite**:
-1.  **The Physical Ignition:** You unlock the Rule-Breaking perk for the **Physical Pillar** (e.g., *The Center*).
-2.  **The Mystic Ignition:** You unlock the Rule-Breaking perk for the **Mystic Pillar** (e.g., *The Root*).
+- **Gray Slot:** Threshold met (Even Attribute level 4, 6, 8, 10, or 12 reached) but not "Ignited."
+- **Glowing/Active Block:** You have completed the Devout or Defiant Trigger. The Pillar is active, combining the chosen Architecture (Lá/Óðr) with the chosen Filter (Devout/Defiant).
 
 ---
 
