@@ -1,6 +1,6 @@
-> **WHEN TO READ:** Only for **architectural patterns, 3d6 resolutions, and quota management** questions.
+# Layer A — Design Atoms: Doctrine (Mechanical & Architectural Laws)
 
-# Design Doctrine: tactical-rpg-boardgamesaga
+> **WHEN TO READ:** These are the **immutable mechanical laws** of The Saga — the 3d6 system, no-bloat rules, and quota discipline. Part of the Factory Pipeline Layer A.
 
 ## 1. Neat & Consistent Architecture
 Every rule file is a discrete component. Avoid cross-referencing specific line numbers; reference **Chapter Titles** or **Functional Categories**.

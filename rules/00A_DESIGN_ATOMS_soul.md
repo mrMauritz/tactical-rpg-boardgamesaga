@@ -1,6 +1,6 @@
-# The Saga: The Architectural Soul
+# Layer A — Design Atoms: Soul (Thematic & Philosophical Laws)
 
-> **READ THIS FIRST** at the start of every session. This is the "Vision Anchor" that prevents AI regression and rule-bloat.
+> **WHEN TO READ:** These are the **immutable thematic laws** of The Saga. Every rule must be traceable back to one of these Atoms. The Agent cannot bend or invent against these without explicit User approval. Part of the Factory Pipeline Layer A.
 
 1. **NEAT & CLEAN**: If a mechanic adds a new roll or a new modifier, it has failed.
 2. **CORE-FIRST**: Every tactical depth must be an EXTENSION of the existing 3-Stage Pipeline (**Relative Force** -> **Success Ladder** -> **Result Swap**), not a new layer.

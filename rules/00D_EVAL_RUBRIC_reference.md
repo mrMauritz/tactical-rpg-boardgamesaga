@@ -1,5 +1,6 @@
-# DESIGN REFERENCE — INTERNAL ONLY
-> **WHEN TO READ:** Only when **generating interactive map features, building structures, or defining sabotage outcomes**.
+# Layer D — Eval Rubric: Reference Values (Quality Gate)
+
+> **WHEN TO READ:** Only when **generating interactive map features, building structures, or defining sabotage outcomes**. The Agent also checks this file as part of the Layer D quality gate before presenting any draft.
 
 ## 1. Material Structural Baselines (Board Game Sync)
 Calculated for a "Single Hex Scale" object.
