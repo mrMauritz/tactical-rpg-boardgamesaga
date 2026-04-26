@@ -39,3 +39,27 @@ These pillars ensure every map and challenge feels alive, creative, and grounded
 5. **Mental/Social Utility:** CHA, WIL, and INT are primarily pre-battle and map-layer tools, but can be used as rare, high-impact Major Actions in combat.
 6. **Dynamic Terrain States:** Hexes are mutable; fire, water, and destruction permanently alter the tactical landscape.
 7. **The Camping Tool (Prep Phase):** Context-specific scouting and preparation provide tangible tactical advantages before the first segment begins.
+
+## 6. Physical Realism Atoms — Material Baselines (Board Game Sync)
+These are locked structural values for a "Single Hex Scale" object. Do not alter without User approval.
+
+| Material | HP (Structural) | BP (Stability) | Weight Tier | Common Tags |
+| :--- | :--- | :--- | :--- | :--- |
+| **Thatch / Wattle** | 5 | 5 | Light | `Flammable`, `Vulnerable` |
+| **Wood (Aged)** | 15 | 10 | Medium | `Flammable`, `Splintering` |
+| **Wood (Solid/Oak)** | 30 | 25 | Heavy | `Flammable`, `Resilient` |
+| **Stone (Dry)** | 40 | 60 | V. Heavy | `Brittle`, `Unstable` |
+| **Stone (Mortared)** | 80 | 100 | Massive | `Heavy`, `Resilient` |
+| **Iron** | 120 | 150 | Massive | `Resist`, `Conductive` |
+
+### Tag Interactivity
+- **`Flammable`:** Gains `Burning` tag if hit by `Fire` or high IS.
+- **`Brittle`:** Blunt/Heavy IS damage is doubled.
+- **`Unstable`:** Surpassing BP threshold triggers **Collapse** (Physical displacement).
+- **`Conductive`:** Elements (Electricity, Heat) propagate through this object to adjacent units.
+
+### Sabotage & Prep Phase Mapping
+- *Cutting Rigging:* Removes `Resilient` / Adds `Unstable`.
+- *Weakening Supports:* Reduces `BP` to 1/3 of max.
+- *Oiling the Area:* Adds `Slippery` (BP Penalty) and `Flammable` to the hex.
+- *Poisoning Wells:* Triggers a `SP Threshold 2/3` state on enemy units at start.
