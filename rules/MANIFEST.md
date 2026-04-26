@@ -5,6 +5,7 @@ This document tracks the core structure and "When to Read" tags for the modular 
 ## Core Pillars
 - **00_ARCHITECTURAL_SOUL.md**: **READ THIS FIRST**. The non-negotiable vision anchor.
 - **00_design_doctrine.md**: Design philosophy, 3d6 logic, and quota management.
+- **00_factory_pipeline.md**: The deterministic pipeline for preventing AI regression and rule-bloat.
 - **01_system_foundations.md**: Attributes, Vitality (HP/SP/BP), and the 3d6 Ladder.
 - **02_perks_and_traits.md**: System-altering traits and organic perk design.
 - **03_skill_system.md**: The 0-8 Tier system and tactical skill roster.

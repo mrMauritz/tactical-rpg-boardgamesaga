@@ -70,3 +70,22 @@
 
 ---
 *End of Session*
+
+# Session Journal: 2026-04-19
+
+## Accomplishments
+- **The Inversion System**: Designed the 12 "Rule of Wild" mutations following the Law of Inversion (+X to Physical Evolution means -X to Mystic Trade-off, and vice versa).
+- **Mechanical Precision**: Translated atmospheric saga traits into concrete, mathematical modifications (+1d6 to IS, shift Action segments, ±1 Weapon Range, ±1 MG/SP generation).
+- **Organized WIP Files**: Extracted the Wild Mutations into their own dedicated document (`01c_RULE_OF_WILD_MUTATIONS_WIP.md`) to prevent central rule bloat.
+- **Development Tracking Fix**: Repurposed the main tracking file into `90_TODO_development_tracking.md`.
+
+## Handoff State
+- The 12 mutations are codified in `rules/01c_RULE_OF_WILD_MUTATIONS_WIP.md`.
+- **Next immediate task**: Revisit the other TODO items connecting the Wyrd Layer to combat, including specific Wild tradeoff effects on Monster design, or resolving how these Wyrd changes integrate with the other Archetypes.
+
+## Lessons Learned & Patterns
+- **The Mage Within**: Trade-offs must punish *the caster's physical capabilities* or *the fighter's mystical capabilities* strictly, rather than vaguely punishing the ambient magic.
+- **Symmetry via Inversion**: Forcing an absolute inversion for each attribute maintains mathematical purity and thematic contrast, highlighting the core themes of the "Torn" characters.
+
+---
+*End of Session*
