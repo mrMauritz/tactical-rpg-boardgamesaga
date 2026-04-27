@@ -11,6 +11,11 @@ The core resolution engine uses a **3d6 roll** mapped to a **1-20 ladder**. This
 - **The Modifier Barrier**: Without training, high-tier successes (e.g., Perfect Success) are unreachable.
 
 ## 3. Quota Effectiveness & Thematic Balance
+### The Standard of Brilliance
+A system "shines" when its core logic is so strong that details (spells, perks, skills) emerge naturally and inevitably. 
+- **Avoid "BS Rules":** Reject flat modifiers, generic tier-padding, or "gamey" mechanics that lack physiological or historical weight.
+- **Core Depth Over Breadth:** Spend tokens and time strengthening the "Internal Architecture" before expanding into wide content lists.
+
 - **Thematic Integration (No Dry Summaries)**: Do not strip evocative naming or "Saga Aspects" to save token quota. The thematic flavor and the "Saga Voice" are intrinsic to the system's identity. Mechanics and Lore must be presented together.
 - **Content Generation:** Delay creation of extensive lists (weapons, monsters, spells) until the battle core is verified, BUT maintain high-quality thematic presentation for the core mechanics we do create.
 - **The Toolbox Philosophy:** The core rules are a **toolbox** for implementing historically accurate, real physics, or saga-inspired moments. Avoid "gamey" floating modifiers; favor **Physical Pre-Conditions** and **Material Tags**.

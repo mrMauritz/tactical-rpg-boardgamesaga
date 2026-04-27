@@ -81,6 +81,31 @@ As systemic Integrity (SP) is lost, the character faces a physiological "shutdow
 - **Stumbling (BP 1)**: The character is on the verge of falling. They suffer a **-2 penalty to all Defense rolls**.
 - **Knocked Down (BP 0)**: The character has lost their footing. They must spend a **Minor Action (2 segments)** to stand up. While down, incoming attacks gain **+1 IS Die** (Advantage).
 - **Unconscious (HP=0):** The character is removed from the tactical exchange.
+- **Beaten (Surrender/Route):** The character's spirit or tactical will is broken. They are removed from the exchange (see Chapter 8).
+
+---
+
+## Chapter 8 — Tactical Routing & Surrender ("Beating" the Enemy)
+In *BoardGameSaga*, victory is achieved when the opposition is **Beaten**, which may occur long before they are dead. This adheres to the **Reality Core**—historical battles often end in routing or surrender once the internal architecture of a formation or individual collapses.
+
+### 1. The Breaking Point (BP & SP Thresholds)
+An NPC or Enemy is eligible to be **Beaten** (Routing or Surrendering) when they meet any of the following **Reality Conditions**:
+- **Systemic Collapse (SP = 0):** The target is **Disabled** (Physiological Shutdown). They cannot act and are at the mercy of the victor.
+- **Positional Collapse (BP = 0 + Stumbling):** If an enemy is **Knocked Down** while already being in a **Stumbling/Unstable** state for more than 2 rounds, they are tactically broken.
+- **Moral Collapse (Leadership):** If the enemy leader is defeated or flees, all subordinates must make a **Route Check**.
+
+### 2. The Route Check (Will vs. Pressure)
+When a breaking point is reached, the enemy must roll a **3d6 Route Check** against a difficulty determined by the player's **Moral Pressure**.
+- **Moral Pressure (The Gaze):** Set by the attacker's **WIL (The Word)** or **CHA (The Gaze)**.
+- **Result:**
+    - **Success:** The enemy maintains their nerve and continues fighting.
+    - **Fail:** The enemy is **Beaten**. They attempt to flee, surrender, or drop their weapons.
+
+### 3. "Clever Ways" to Beat Enemies
+Characters focused on non-lethal paths (The Word, The Gaze) use these mechanics to resolve encounters:
+- **Intimidation (The Terror-Gaze):** A character with a high CHA Pillar can spend a **Major Action** to force an immediate **Route Check** on an Unstable or Rattled enemy.
+- **Negotiation (The Decree):** A character with a high WIL Pillar can "Order" a Staggered or Stumbling enemy to surrender, bypassing the need for further HP damage.
+- **Environment Exploitation:** Collapsing a structure (Material Tag) or isolating an enemy can trigger automatic **Routing** due to tactical hopelessness.
 
 ### Chapter 5.1 — Specialized Actions
 - **Take a Breath (Minor Action / 2 Segments):** A quick pause to refocus. Restore **+1 SP**.
