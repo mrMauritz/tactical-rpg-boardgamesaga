@@ -122,9 +122,9 @@ In *BoardGameSaga*, attributes do not change their numerical value, but their **
 | :--- | :--- | :--- | :--- |
 | **STR** | **Density (The Root)** | **Mass & Axis**: Physical resistance. | **Thor’s Gravity**: The capacity to anchor the spirit. |
 | **DEX** | **Precision (The Loom)** | **Elasticity**: Kinetic recoil. | **Freyja’s Weave**: Navigating the threads of the Norns. |
-| **INT** | **Clarity (The Stream)** | **Neurology**: Synaptic speed. | **Mimir’s Resonance**: Tuning to the Hljóð (Silence). |
 | **END** | **Integrity (The Well)** | **Hardening**: Systemic grit. | **Urd’s Vessel**: The capacity to host the divine current. |
 | **WIL** | **Pressure (The Word)** | **Breath**: Management of force. | **Odin’s Decree**: Authority of the chanted command. |
+| **INT** | **Clarity (The Stream)** | **Neurology**: Synaptic speed. | **Mimir’s Resonance**: Tuning to the Hljóð (Silence). |
 | **CHA** | **Presence (The Shadow)** | **Gaze**: Situational awareness. | **Hel’s Spirit-Bridge**: The Gand-reid ghost-walk. |
 
 ---
@@ -141,20 +141,20 @@ In *BoardGameSaga*, attributes do not change their numerical value, but their **
 - **The Pillar**: The whole-body connective web that unifies isolated muscle groups into a single kinetic spring.
 - **Mastery**: Transitioning from "Isolated Muscle Force" to "Unified Elastic Tension." It allows for the transmission of power from the ground through the entire body chain without leakage.
 
-### 3. The Pulse (INT - The Nervous System)
-- **Traditional Insight**: *Shen* (Awareness) / *Grease the Groove*.
-- **The Pillar**: The efficiency of the synaptic highway and the removal of "Neurological Noise."
-- **Mastery**: Reducing cognitive lag and telegraphing. It is the ability to act with spontaneous efficiency—the brain and body operating as a single, frictionless circuit.
-
-### 4. The Marrow (END - Adaptation & Integrity)
+### 3. The Marrow (END - Adaptation & Integrity)
 - **Traditional Insight**: *Xi Sui Jing* (Marrow Washing).
 - **The Pillar**: The body’s deepest adaptive systems (Bone Remodeling, Cellular Rebuilding).
 - **Mastery**: The literal "Hardening" of the body. It governs how the character adapts to stress and survives catastrophic failure through sheer systemic integrity.
 
-### 5. The Breath (WIL - The Flow & Pressure)
+### 4. The Breath (WIL - The Flow & Pressure)
 - **Traditional Insight**: *Kokyu-ho* (Breath Power) / *Pranayama*.
 - **The Pillar**: The bridge between the voluntary and involuntary systems. 
 - **Mastery**: Management of metabolic chemistry (CO2 tolerance) and internal thoracic pressure. The breath turns the "Engine" of the body into a pressurized system capable of explosive output.
+
+### 5. The Pulse (INT - The Nervous System)
+- **Traditional Insight**: *Shen* (Awareness) / *Grease the Groove*.
+- **The Pillar**: The efficiency of the synaptic highway and the removal of "Neurological Noise."
+- **Mastery**: Reducing cognitive lag and telegraphing. It is the ability to act with spontaneous efficiency—the brain and body operating as a single, frictionless circuit.
 
 ### 6. The Attention (CHA - The Master & The Emissary)
 - **Deep Reference**: Iain McGilchrist (The Divided Brain).
@@ -183,8 +183,6 @@ Bruce Lee’s modernization of combat emphasizes the efficiency of **The Web** a
 
 ---
 
----
-
 ## The Spirit Layer (The Wyrd & Magic)
 
 ### 1. The Unified Resolution (3d6)
@@ -200,10 +198,10 @@ Magic is a tactical check against the **Architectural Density** of reality. It i
     - **Breaching (Perfect 20+)**: Overriding reality-law (Wyrd). 
 
 ### 2. The Three Parallel Conduits (Methodologies)
-*   **THE SEER (INT - The Stream): Methodology = Tuning.**
-    - **Accessing the Hljóð (The Silence):** Seers do not "create" magic; they find the silence between the world's notes—the hidden resonant frequency of matter. They warp the physical map by altering the *context* of a hex or the *resonance* of a blade.
 *   **THE GALDRAMAÐR (WIL - The Word): Methodology = Ordering.**
     - **Accessing Odin’s Decree:** Using the "Chanted Command" to mandate reality. They do not deal in mists; they deal in absolute authority—decreeing what *is* and what *cannot be* (Oaths/Constraints).
+*   **THE SEER (INT - The Stream): Methodology = Tuning.**
+    - **Accessing the Hljóð (The Silence):** Seers do not "create" magic; they find the silence between the world's notes—the hidden resonant frequency of matter. They warp the physical map by altering the *context* of a hex or the *resonance* of a blade.
 *   **THE SHAMAN (CHA - The Shadow): Methodology = Negotiating.**
     - **Accessing the Gand-reid (The Wand-Ride):** Walking between worlds (Hamr/Skin vs. Spirit). They don't change the map; they **persuade the actors.** They host spirits in their skin or negotiate with nature-spirits to hide allies.
 
@@ -259,4 +257,4 @@ Life is a state of constant friction between these gifts. One must sacrifice **L
 Character progression is the process of optimizing this architecture—toughening the **Lá** or thinning it to reach the **Óð**—until the final moment where the character's **Architectural Density** matches the Godly Benchmarks, ensuring their transition from a "Mortal Player" to a "Historical Fact" of the Saga.
 
 ---
-> *Last Updated: 2026-04-18*
+> *Last Updated: 2026-04-29*

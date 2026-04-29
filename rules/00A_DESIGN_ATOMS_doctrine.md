@@ -41,7 +41,7 @@ These pillars ensure every map and challenge feels alive, creative, and grounded
 2. **The Adventure Book Legacy:** Missions reward diverse skills (History, Engineering, etc.) on the tactical map, creating an "(Anti)Hero Party" feel.
 3. **Strategic Pre-Battle Choices:** Story-style decisions (Negotiate, Flee, Sabotage) precede the tactical engagement.
 4. **Maneuver-Based Interaction:** Environmental interaction is driven by Skills and Progression Tree abilities (e.g., Push, Pull, Hook).
-5. **Mental/Social Utility:** CHA, WIL, and INT are primarily pre-battle and map-layer tools, but can be used as rare, high-impact Major Actions in combat.
+5. Mental/Social Utility: **WIL**, **INT**, and **CHA** are primarily pre-battle and map-layer tools, but can be used as rare, high-impact Major Actions in combat.
 6. **Dynamic Terrain States:** Hexes are mutable; fire, water, and destruction permanently alter the tactical landscape.
 7. **The Camping Tool (Prep Phase):** Context-specific scouting and preparation provide tangible tactical advantages before the first segment begins.
 

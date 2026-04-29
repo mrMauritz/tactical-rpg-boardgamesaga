@@ -31,21 +31,7 @@ If a Physical Wild gives a (+X) benefit to your physical attacks, it applies a (
 
 ---
 
-## 3. Intelligence (INT) - Range & Precision
-
-### Physical Wild: *The Wolf's Focus*
-*Physical senses sharpen to predatory distances, entirely blinding the inner eye to the metaphysical stream.*
-*   **Evolution (Lá):** Treat your physical weapon range as +1 tier.
-*   **Trade-off (Óðr):** If spells are used, subtract -1 range tier from the spell.
-
-### Mystic Wild: *The Raven's Eye*
-*Magical sight expands across the horizon, leaving the physical eyes dull and slow to react in melee.*
-*   **Evolution (Óðr):** Treat your spell range as +1 tier.
-*   **Trade-off (Lá):** Subtract -1 range tier from your physical weapons when fighting.
-
----
-
-## 4. Endurance (END) - Duration & Adaptation
+## 3. Endurance (END) - Duration & Adaptation
 
 ### Physical Wild: *The Troll-Bark*
 *The flesh adapts and regenerates with brutal efficiency, sacrificing the body's internal vessel designed to hold magical energy.*
@@ -59,7 +45,7 @@ If a Physical Wild gives a (+X) benefit to your physical attacks, it applies a (
 
 ---
 
-## 5. Willpower (WIL) - Penetration & Resistance
+## 4. Willpower (WIL) - Penetration & Resistance
 
 ### Physical Wild: *The Bear's Roar*
 *Shouts and commands shatter the air with absolute authority, tearing the throat and ruining the delicate frequencies of incantations.*
@@ -70,6 +56,20 @@ If a Physical Wild gives a (+X) benefit to your physical attacks, it applies a (
 *The chanted word cuts smoothly through the fabric of reality with ease, causing the physical lungs to stutter and gasp when exerting force.*
 *   **Evolution (Óðr):** When casting spells, the required cost for MP (Megin) is -2.
 *   **Trade-off (Lá):** When fighting, HP, SP, or BP requirements of 2 are treated as 0 (requiring 2 extra points to act effectively).
+
+---
+
+## 5. Intelligence (INT) - Range & Precision
+
+### Physical Wild: *The Wolf's Focus*
+*Physical senses sharpen to predatory distances, entirely blinding the inner eye to the metaphysical stream.*
+*   **Evolution (Lá):** Treat your physical weapon range as +1 tier.
+*   **Trade-off (Óðr):** If spells are used, subtract -1 range tier from the spell.
+
+### Mystic Wild: *The Raven's Eye*
+*Magical sight expands across the horizon, leaving the physical eyes dull and slow to react in melee.*
+*   **Evolution (Óðr):** Treat your spell range as +1 tier.
+*   **Trade-off (Lá):** Subtract -1 range tier from your physical weapons when fighting.
 
 ---
 
@@ -84,3 +84,6 @@ If a Physical Wild gives a (+X) benefit to your physical attacks, it applies a (
 *Spiritual resonance naturally flows through all nearby allies, detaching the mind from grounded, tactical leadership.*
 *   **Evolution (Óðr):** Party Benefits from your spells are doubled.
 *   **Trade-off (Lá):** Leadership benefits you grant physically are halved.
+
+---
+*Last Updated: 2026-04-29*

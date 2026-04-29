@@ -37,21 +37,7 @@ By multiplying the 6 Attributes by the 6 Alignment-Pillar paths, the world gener
 
 ---
 
-## 3. Intelligence (The Domain of Science & The Stream)
-
-### The Physical Pillar: *The Pulse* (Mastery of Neurology)
-*   **ORDER (The Champion): The Calculated.** Generals and master-at-arms who operate on perfect, frictionless synaptic efficiency. No wasted motion.
-*   **WILD (The Beast-Marked): The Instinct-Bred.** Survivors who have bypassed high cognition entirely. They act before they think, driven by hyper-evolved reflexes.
-*   **CHAOS (The Godless): The Severed-Nerve.** Warriors who have completely decoupled their pain receptors. They move with erratic, terrifying speed unhindered by biological limits.
-
-### The Mystic Pillar: *The Seer* (Mastery of Analytical Magic)
-*   **ORDER (The Pious Conduit): The Truth-Seer.** Astrologers and deep-lore mages who perfectly map the divine equations of the Wyrd.
-*   **WILD (The Animist): The Dream-Walker.** Those who navigate the hidden architecture of the deep woods through hallucinogenic trance rather than scrolls. 
-*   **CHAOS (The Sejd-Thief): The Paradox.** Abyssal hackers who use logic loops to crash reality, causing spatial anomalies and localized blinding.
-
----
-
-## 4. Endurance (The Domain of Marrow & Vessels)
+## 3. Endurance (The Domain of Marrow & Vessels)
 
 ### The Physical Pillar: *The Marrow* (Mastery of Adaptation)
 *   **ORDER (The Champion): The Anvil.** The chosen anvil of the Gods. They can safely absorb magical impacts without structural failure.
@@ -65,7 +51,7 @@ By multiplying the 6 Attributes by the 6 Alignment-Pillar paths, the world gener
 
 ---
 
-## 5. Willpower (The Domain of Faith & Pressure)
+## 4. Willpower (The Domain of Faith & Pressure)
 
 ### The Physical Pillar: *The Breath* (Mastery of Internal Chemistry)
 *   **ORDER (The Champion): The Iron-Lung.** Stoic champions who use chanted breath algorithms to perfectly manage their stamina (SP) across multi-day sieges. 
@@ -76,6 +62,20 @@ By multiplying the 6 Attributes by the 6 Alignment-Pillar paths, the world gener
 *   **ORDER (The Pious Conduit): The Law-Speaker.** Paladins and High-Gothis enforcing Odin's decree. When they mandate reality, it builds static truth (buffing allies).
 *   **WILD (The Animist): The Curse-Singer.** Tribal mystics who weave hexes through raw emotion and guttural rhythm.
 *   **CHAOS (The Sejd-Thief): The Doom-Caster.** The heretics who weaponize fear, screaming forbidden syllables to cause biological panic and rout formations.
+
+---
+
+## 5. Intelligence (The Domain of Science & The Stream)
+
+### The Physical Pillar: *The Pulse* (Mastery of Neurology)
+*   **ORDER (The Champion): The Calculated.** Generals and master-at-arms who operate on perfect, frictionless synaptic efficiency. No wasted motion.
+*   **WILD (The Beast-Marked): The Instinct-Bred.** Survivors who have bypassed high cognition entirely. They act before they think, driven by hyper-evolved reflexes.
+*   **CHAOS (The Godless): The Severed-Nerve.** Warriors who have completely decoupled their pain receptors. They move with erratic, terrifying speed unhindered by biological limits.
+
+### The Mystic Pillar: *The Seer* (Mastery of Analytical Magic)
+*   **ORDER (The Pious Conduit): The Truth-Seer.** Astrologers and deep-lore mages who perfectly map the divine equations of the Wyrd.
+*   **WILD (The Animist): The Dream-Walker.** Those who navigate the hidden architecture of the deep woods through hallucinogenic trance rather than scrolls. 
+*   **CHAOS (The Sejd-Thief): The Paradox.** Abyssal hackers who use logic loops to crash reality, causing spatial anomalies and localized blinding.
 
 ---
 
@@ -90,3 +90,6 @@ By multiplying the 6 Attributes by the 6 Alignment-Pillar paths, the world gener
 *   **ORDER (The Pious Conduit): The Spirit-Warden.** Holy diplomats who negotiate clean passage for souls and establish safe wards against the undead.
 *   **WILD (The Animist): The Blood-Weaver.** Blood-magic users who project their life-force outward, sharing their HP/SP pools with allies or bonded beasts. 
 *   **CHAOS (The Sejd-Thief): The Soul-Flayer.** Necromancers and mind-invaders who force their dominating presence into the minds of enemies to puppet them.
+
+---
+*Last Updated: 2026-04-29*
