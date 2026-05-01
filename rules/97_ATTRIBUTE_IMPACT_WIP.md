@@ -175,7 +175,6 @@
 ---
 
 ## Summary: The Core of Physical Optimization
-*What the body (Lá) optimizes when the internal architecture is ignited.*
 
 *   **STR** — Optimizes **Structure & Torsion.**
 *   **DEX** — Optimizes **Elasticity & Connectivity.**
@@ -237,4 +236,32 @@
 *   **CHA** — Manipulates **Presence & Shadows.**
 
 ---
-*Last Updated: 2026-04-29*
+
+## Attribute Ladder (Physical Progression: END & WIL)
+
+| Value | Type | **END: The Marrow (Body)** | **WIL: The Will (Mind)** |
+| :--- | :--- | :--- | :--- |
+| **1** | **Base** | Primary: HP Bonus / Secondary: SP Generation | Primary: Mental Resistance / Secondary: Mental Endurance |
+| **2** | **Bonus Step** | +0 HP / +0 SP Gen | -1 Resistance / -1 Mental End. |
+| **3** | **Skill Unlock** | **[Acquire Skill Unlock]** | **[Acquire Skill Unlock]** |
+| **4** | **Bonus Step** | +1 HP / +1 SP Gen | +0 Resistance / +0 Mental End. |
+| **5** | **Ignition** | **"The Unyielding Stone":** Negate **Physical Knockback**. You cannot be pushed by standard strikes. | **"Sovereign Mind":** Negate **Mental Status**. You are immune to Fear and basic Intimidation. |
+| **6** | **Bonus Step** | +2 HP / +2 SP Gen | +1 Resistance / +1 Mental End. |
+| **7** | **Pillar I** | **"Enduring Focus":** Negate **Rattled (1/2 SP)**. No dice penalties at half stamina. | **"Unyielding Spirit":** Negate **Mental Interference**. Enemy abilities cannot force you to reroll. |
+| **8** | **Bonus Step** | +3 HP / +3 SP Gen | +2 Resistance / +2 Mental End. |
+| **9** | **Pillar II** | **"Enduring Clarity":** Negate **Staggered (1/4 SP)**. No disabled dice until 0 SP. | **"Sovereign Focus":** Negate **Shock Interruption**. Your actions cannot be interrupted by pain or damage. |
+| **10** | **Bonus Step** | +4 HP / +4 SP Gen | +3 Resistance / +3 Mental End. |
+| **11** | **Pillar III** | **"Enduring Vessel":** Negate **Bleed Shock**. Ignore the first -1 penalty from physical injuries. | **"Mental Bastion":** Negate **Moral Collapse**. Ignore your first failed Route Check per combat. |
+| **12** | **Bonus Step** | +5 HP / +5 SP Gen | +4 Resistance / +4 Mental End. |
+| **13** | **Pillar IV** | **"The Enduring Engine":** Negate **Shutdown (0 SP)**. Act normally for 1 round at 0 SP. | **"The Sovereign Life":** Negate **Mortality (0 HP)**. Act normally for 1 round at 0 HP through pure will. |
+| **14** | **Bonus Step** | +6 HP / +6 SP Gen | +5 Resistance / +5 Mental End. |
+| **15** | **Pillar V** | **"The Immortal Frame":** Negate **Death** from a single killing blow once per session. | **"The Sovereign Decree":** Negate **The Dice**. Declare one **Perfect Success (20+)** per session. |
+
+### Alignment Filter (The Law of the Pillar)
+*When you Ignite a Pillar at Value 5, you must choose the historical force that forged it. This choice permanently dictates your mechanical "Filter" for all actions using that attribute:*
+*   **The Champion (Law/Order):** **Divine Synergy.** Whenever you roll **Triples** on a `3d6` check involving an ignited Pillar, the Gods intervene. Add an extra `1d6` to the total.
+*   **The Godless (Chaos/Defiance):** **Boundary Break.** You recognize no mortal limits. The Progression Point (XP) cost to raise this attribute is reduced by **-2**, allowing you to reach high tiers faster.
+*   **The Beast-Marked (Wild/Symbiosis):** **The Inversion.** You gain a permanent biological mutation tied to the physical attribute (e.g., *Troll-Bark*: +1 SP Regen), but you suffer a permanent spiritual penalty to your Mystic (Óðr) pool (e.g., -1 MG Regen) because the flesh is too dense to host the current.
+
+---
+*Last Updated: 2026-05-02*

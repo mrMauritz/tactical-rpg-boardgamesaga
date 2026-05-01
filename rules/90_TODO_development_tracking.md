@@ -14,7 +14,8 @@ This document tracks features that have been discussed or partially implemented,
 - [x] **Simple Perk Design:** Document created ([02_perks_and_traits.md](file:///c:/Workspace/tactical-rpg-boardgamesaga/rules/02_perks_and_traits.md)) with Organic Growth policy and three seed perks (*Unyielding*, *Hard Head*, *Nerves of Steel*).
 - [ ] **The "Saga Choice" Blocks:** Systems for allowing characters to "Sacrifice" gear or take permanent injuries to avoid lethal blows.
 - [ ] **Advanced Momentum Carry-over:** "Cleave" or "Momentum follow-up" rules for specific heavy-weapon classes.
-- [x] **Precision Impacts:** Implemented as a **Precision Effect Swap** (18+ / Natural 18). Specialized **Precision Perks** allow swapping IS Dice for anatomical effects (Armor Bypass, Stun, Blinded).
+- [ ] **Expanded Hit Table (3d6):** Assign specific mechanical meanings or activations to every value (1-20+), potentially triggered by weapons, skills, or perks.
+- [ ] **Impulse/Momentum Tracking (Suggestion):** Evaluate as an alternative to the AP Segment system to increase fluid tactical pressure.
 - [x] **Balance System Overhaul:** Shifted from flat recovery to **Balance States** (Stable, Unstable, Stumbling) with Defense-only penalties. Implemented **BP Soak (Steadfast/Grounded)** and stability-based resistance loss.
 
 ## 3. World & Narrative Synergies
