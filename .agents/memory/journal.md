@@ -1,3 +1,24 @@
+# Session Journal: 2026-05-02
+
+## Accomplishments
+- **Finalized Attribute Progression Architecture**: Established a standardized 15-level ladder for all 6 core attributes (STR, DEX, END, WIL, INT, CHA) with no "dead levels."
+- **Dual-Matrix Mastery (Lá & Óðr)**: Defined rule-breaking mechanics for both the Physical (Vessel) and Mystic (Metamagic) realms across all 5 Pillar tiers.
+- **The Rule of Raw Values (1:1 Identity)**: Mapped every attribute to a fundamental tactical hardware pool (Carry, Initiative, SP Max/Recovery, Stability Threshold, Reaction Window, Presence DC).
+- **Linear Specialization Scaling**: Integrated a +1 per even level specialization bonus (Heavy, Light, Galdr, Seer, Shaman) that peaks at +7 at the Mastery level.
+- **System Terminology Alignment**: Standardized "Pressure" as a WIL (Bellows) internal mechanic and "Presence" as a CHA (Gaze) external mechanic.
+
+## Handoff State
+- All core attribute impact rules are committed to `rules/97_ATTRIBUTE_IMPACT_WIP.md`.
+- **Next immediate task**: Review the *Alignment Filter* (Champion/Godless/Beast-Marked) to ensure consistency with the new 5-Pillar system and integrate these masteries with the Weapon/Magic resolution pipelines.
+- **TODO Roadmap**: Hybrid Masteries and Environmental Interactions are queued for the next development phase.
+
+## Lessons Learned & Patterns
+- **Negation > Addition**: Reinforcing the "Saga Pattern"—negating a fundamental rule (e.g., Negate Displacement) feels more "Legendary" than simply adding numerical bonuses.
+- **Hardware/Software Split**: 1:1 raw values provide the "Biological Reality" (Hardware) while the Ladder provides the "Technique/Mastery" (Software).
+- **Terminology Precision**: Distinguishing between internal metabolic pressure (WIL) and external moral presence (CHA) is critical for mechanical clarity in high-stakes resolution.
+
+---
+
 # Session Journal: 2026-04-16
 
 ## Accomplishments
