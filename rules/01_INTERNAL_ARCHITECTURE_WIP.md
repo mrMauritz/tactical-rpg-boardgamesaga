@@ -5,6 +5,30 @@
 > This document contains the philosophical and physiological pillars that govern the "Internal Architecture" of characters in *BoardGameSaga*. 
 > **These are NOT currently part of the active rule system.** They serve as the grounded foundation for future mechanical deep-dives.
 
+## The Three Cosmological Layers
+
+The world of the Saga is structured by three distinct and nested layers of reality. The Soul Trio (Önd, Lá, Óðr) mirrors this structure at the character scale — but the layers themselves operate at the scale of the world.
+
+| Layer | Nature | Characters Interact With It By... |
+|---|---|---|
+| **Önd — The Life-Current** | The medium. The animating substrate woven under Yggdrasil that all living things share — human, troll, spirit, stone. It has no will or direction. It simply flows. | Being alive. Bleeding. Healing. Dying and seeding the earth. |
+| **The Wyrd** | The pattern pressed into the Life-Current. Fate-threads woven by the Norns. Events, narrative gravity, destiny. It does not care about individuals — it responds to density of action and Óðr-interference. | Deep tree investment. Extreme acts. Crossing mythic thresholds. |
+| **Oaths** | The only layer with direction. An act of will imposed simultaneously on the Life-Current and the Wyrd. Oaths bind, create moral gravity, and carry weight beyond death. | Making and breaking binding commitments — to gods, to kin, to self. |
+
+### The Relationship Between Layers
+
+The Wyrd operates ON the Life-Current — pressing fate-patterns into the living medium. Oaths shape BOTH simultaneously — they direct the flow of the Life-Current and create fixed points in the Wyrd that resist the Norns' weaving. A broken oath tears the fabric at both levels at once.
+
+### How the Soul Trio Maps to the Layers
+
+- **Önd (life-force)** is the individual expression of the Life-Current — the character's share of the universal substrate.
+- **Lá (form/skin)** is how the character is anchored IN the Life-Current — the physical mass that holds Önd in place.
+- **Óðr (ecstatic current)** is how the character reaches UP into the Wyrd — the mystic aperture that opens toward fate.
+
+A character with dense Lá is nearly invisible to the Wyrd — hard to move, hard to manipulate. A character with open Óðr is thin in the Life-Current but highly legible to the Wyrd — a bright thread the Norns can see and reach.
+
+---
+
 ### Universal Architect's Summary
 Progression in *The Saga* is the optimization of the **Internal Architecture** through a **Physiological Choice**. At every even attribute milestone (4, 6, 8, 10, 12), a character must choose to ignite either a **Physical Pillar (Lá)** or a **Mystic Pillar (Óðr)**. 
 
