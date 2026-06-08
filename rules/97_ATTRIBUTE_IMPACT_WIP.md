@@ -66,7 +66,7 @@
 *The bridge between voluntary and involuntary systems.*
 
 *   **Lá (Physical Form):** **Thoracic Pressure.** Controlling the metabolic engine through breath to generate explosive output and ignore exhaustion.
-*   **Óðr (Mystic Spirit):** **The Divine Decree.** Wielding the authority of the "Chanted Command" to mandate how reality must behave (Oaths/Constraints).
+*   **Óðr (Mystic Spirit):** **The Divine Decree.** Wielding the authority of the "Chanted Command" to mandate how reality must behave (See `96_OATHS_WIP.md`).
 
 *   **Mathematical Pools:**
     *   **SP (Stamina) Max:** The total "Fuel" for explosive actions (Determined by the Endurance value).
@@ -75,7 +75,7 @@
 *   **Physical Pillar (Lá):** **The Breath.** Internal thoracic pressure and metabolic management.
     *   *Maneuvers:* **Law-Speaker** (Forcing surrender), **Siege-Lungs** (Exhausting the enemy).
     *   *Reaction Identity:* **The Moral Gravity (Shout).** Using a "Reaction Shout" to force an attacker to hesitate (re-roll).
-*   **Mystic Pillar (Óðr):** **Odin’s Decree.** The authority of the chanted command. Mandating reality and setting constraints (Oaths).
+*   **Mystic Pillar (Óðr):** **Odin’s Decree.** The authority of the chanted command. Mandating reality and setting constraints (See `96_OATHS_WIP.md`).
 *   **Combat Role:** **The Engine.** Managing the "Pressure" of the fight and winning through metabolic and psychological dominance.
 
 ---

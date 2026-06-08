@@ -13,11 +13,11 @@ The world of the Saga is structured by three distinct and nested layers of reali
 |---|---|---|
 | **Önd — The Life-Current** | The medium. The animating substrate woven under Yggdrasil that all living things share — human, troll, spirit, stone. It has no will or direction. It simply flows. | Being alive. Bleeding. Healing. Dying and seeding the earth. |
 | **The Wyrd** | The pattern pressed into the Life-Current. Fate-threads woven by the Norns. Events, narrative gravity, destiny. It does not care about individuals — it responds to density of action and Óðr-interference. | Deep tree investment. Extreme acts. Crossing mythic thresholds. |
-| **Oaths** | The only layer with direction. An act of will imposed simultaneously on the Life-Current and the Wyrd. Oaths bind, create moral gravity, and carry weight beyond death. | Making and breaking binding commitments — to gods, to kin, to self. |
+| **Oaths** | The only layer with direction. An act of will imposed simultaneously on the Life-Current and the Wyrd. *(See `96_OATHS_WIP.md`)* | Making and breaking binding commitments. |
 
 ### The Relationship Between Layers
 
-The Wyrd operates ON the Life-Current — pressing fate-patterns into the living medium. Oaths shape BOTH simultaneously — they direct the flow of the Life-Current and create fixed points in the Wyrd that resist the Norns' weaving. A broken oath tears the fabric at both levels at once.
+The Wyrd operates ON the Life-Current — pressing fate-patterns into the living medium. *(For details on Oaths and the tearing of the Wyrd, see `96_OATHS_WIP.md`)*
 
 ### How the Soul Trio Maps to the Layers
 
@@ -79,7 +79,7 @@ Igniting a Pillar is not just a physiological event; it is a historical declarat
 *The Einherjar-Seed. Those whose bodies are forged as weapons by divine hands.*
 *   **The Ignition (The Divine Debt):** You perform a staggering favor for a God. In return, they pay their Wyrd-Debt by hardening your mortal frame. 
 *   **The Saga Aspect:** You are a favored proxy of the Æsir. Skalds sing of your holy might. Supernatural entities recognize the divine mark upon you and may target you—or flee from you.
-*   **The Mechanical Filter (Blessed Guard):** Your physical frame is forged cleanly into the Wyrd. You gain passive resistance against unnatural/cursed manipulations. However, you are strictly **Oath-Bound**. Acting against your Patron's nature severs your connection, deactivating the Pillar until atonement is made.
+*   **The Mechanical Filter (Blessed Guard):** Your physical frame is forged cleanly into the Wyrd. You gain passive resistance against unnatural/cursed manipulations. However, you are strictly **Oath-Bound**. (See `96_OATHS_WIP.md` for Oath consequences).
 
 #### 2. The Pious Conduit (Mystic Order / Devout)
 *The Sanctioned Channel. Those who walk the world with open minds and authority.*

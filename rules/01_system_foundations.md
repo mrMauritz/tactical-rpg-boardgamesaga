@@ -138,10 +138,10 @@ Initiative determines the order of action within each segment. It is a live valu
 The Wyrd is a universal current that affects all beings. It is indifferent and unquantified (no points). Modifying it is forbidden and risky.
 
 ### Oaths & The Tension of Time
-Oaths exert **Moral Gravity**. Breaking them has real, non-physical consequences that can "blind" a character's Vision. Players must balance **Short-term Survival** against the **Long-term Saga** (mythic legacy and honor).
+Oaths exert **Moral Gravity**. Breaking them has real, non-physical consequences. *(This system is being expanded in `96_OATHS_WIP.md`)*
 
 ### Generational Remnants
-When a character falls, their presence is "seeded" into the world as a persistent marker. A character's **Alignment and Wyrd** influence the nature of the remnant (e.g., *Hallowed* vs. *Cursed*).
+When a character falls, their presence is "seeded" into the world as a persistent marker. *(This system is being expanded in `96_OATHS_WIP.md`)*
 
 ### Faction Breathing
 Factions operate on a **Pulse** of **Active Push** (proactive gain) and **Reactive Pull** (responding to players). This creates a "breathing" campaign state.
