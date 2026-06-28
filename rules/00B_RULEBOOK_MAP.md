@@ -39,6 +39,7 @@
 | File | Purpose |
 | :--- | :--- |
 | `90_TODO_development_tracking.md` | Active task list and pillar-linked development items. |
+| `95_HISTORICAL_COMBAT_WIP.md` | Historical and Saga-based aspects of small-scale combat. |
 | `98_SKETCHES_AND_IDEAS_WIP.md` | Raw design sparks. Not yet Atoms — do not cite as source. |
 
 ---
