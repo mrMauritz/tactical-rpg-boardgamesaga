@@ -8,7 +8,10 @@ Tags add personality to weapons. They modify the core impact tables but never re
 ### 1. Tag Definitions
 - **Heavy**: The weapon possesses significant mass. **Effect**: Reroll IS dice results of `1` once. **Penalty**: -1 Initiative, -1 Stage 1 Accuracy.
 - **Impact Head**: The weapon's weight is concentrated at the strike point (Axes, Maces). **Effect**: +1 RF (Relative Force), +0.5 Balance Damage (BP) per IS Die. **Penalty**: -1 Initiative, -1 Stage 1 Accuracy.
-- **Flail**: A flexible weapon with a weighted head. **Effect**: Bypasses **Active Parry** (Target must Dodge or Block). **Backfire**: On a **Major Fail (0-1)**, the wielder becomes **Unstable** (BP reduced to 3).
+- **Chain**: A flexible weapon with a weighted or linked striking head. **Effect**: Bypasses **Active Parry** (Target must Dodge or Block). **Backfire**: On a **Major Fail (0-1)**, the wielder becomes **Unstable** (BP reduced to 3). **Note**: Chain is also a named weapon in its own right — a Tag doubling as a weapon lets undefined or improvised chain-type weapons resolve directly through this entry (see `00A_DESIGN_ATOMS_doctrine.md`, §1).
+- **Push**: A long, stiff haft built to check and shove a formation line rather than catch or cut. **Effect**: May be used to **Push** a unit, triggering a **Formation Break**. **Requires** a Progression Tree ability to activate. **Carried by**: Spears, Pikes (plain thrusting shafts without a hook head).
+- **Hook**: A curved or beaked head built to catch flesh, gear, or footing rather than cut cleanly. **Effect**: May be used to **Take Down a Shield** (strips the target's **Shield Ballistic Protection** until their next turn) or hook the legs to force the target directly into the **Unstable** BP state. **Requires** a Progression Tree ability to activate. **Carried by**: Halberds, Bills, Poleaxes (hook/beak-bearing weapons only) — *not* plain Spears or plain Axes, which lack a catching feature.
+- **Grapple**: A flexible or looping form (flails, whips) capable of wrapping rather than striking cleanly. **Effect**: May be used to **Pull** a target (forced repositioning) or wrap the legs to force the target directly into the **Unstable** BP state — the same leg outcome Hook achieves, by a different physical method. **Requires** a Progression Tree ability to activate. **Carried by**: Chain-family weapons (Flails, Whips). **Unarmed Substitute**: A bare hand may perform a Pull or Grapple action without this Tag, but only against an adjacent target (no Reach).
 - **Two-Handed (2H)**: Designed for deep leverage. **Effect**: Grants **+1 IS Die** to the pool. **Requirement**: Requires both hands; prevents the use of a shield or free off-hand.
 - **Versatile**: Weight-balanced for dual use. **Effect**: May be wielded 1H or 2H. If used with two hands, it gains the **Two-Handed (+1 IS Die)** bonus but loses the off-hand.
 - **Sharp**: On any die that deals HP, if that die is a 6+, add **Bleed 1**.
@@ -29,7 +32,8 @@ High-impact tags require physical leverage. If a character does not meet the **S
 | :--- | :--- | :--- |
 | **Heavy Head** | 8 | +1 Segment of Recovery (1 SP) after attack. |
 | **Heavy AP (AP+)** | 10 | Target receives **+1 Advantage** to Stage 1 defense. |
-| **Hooking (Polearm)** | 6 | Weapon becomes **Unwieldy** (-1 Accuracy next turn). Can be used to **Push** a unit, triggering a **Formation Break**. |
+| **Push** | 6 | Weapon becomes **Unwieldy** (-1 Accuracy next turn). |
+| **Hook** | 6 | Weapon becomes **Unwieldy** (-1 Accuracy next turn). |
 
 ### 2.1 Dual-Wielding Defense
 If a character has a weapon equipped in each hand and both weapons possess the **Parry** tag, they gain a bonus to their reactive capacity.

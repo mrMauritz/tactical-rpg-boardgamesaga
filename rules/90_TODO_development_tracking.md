@@ -17,6 +17,8 @@ This document tracks features that have been discussed or partially implemented,
 - [ ] **Expanded Hit Table (3d6):** Assign specific mechanical meanings or activations to every value (1-20+), potentially triggered by weapons, skills, or perks.
 - [ ] **Impulse/Momentum Tracking (Suggestion):** Evaluate as an alternative to the AP Segment system to increase fluid tactical pressure.
 - [x] **Balance System Overhaul:** Shifted from flat recovery to **Balance States** (Stable, Unstable, Stumbling) with Defense-only penalties. Implemented **BP Soak (Steadfast/Grounded)** and stability-based resistance loss.
+- [ ] **Poison (Weapon Tag):** Triggers whenever the wielder's attack confirms a **Bleed** application on the target (regardless of source). Effect magnitude and duration undecided — pending Deep Dive.
+- [ ] **Panic/Frenzy/Freeze Aftermath (Category D):** None of the Flee/Frenzy/Freeze branches (Controlled, Desperate, Disciplined) have a defined exit or cost. Known source: the *berserksgangr* crash — extreme physical weakness, shivering, deep depression (`95_HISTORICAL_COMBAT_WIP.md`, Entry 38). Open questions: does Frenzy Tree investment (Controlled/Disciplined Frenzy) reduce or exempt the crash, or does it only buy back target-discrimination *during* the fight and not the aftermath? Does Desperate Flee have any rally/recovery path back into the fight (no such mechanic currently exists), or is Controlled Flee's exit simply cost-free since it's a voluntary choice? Desperate Freeze (tonic immobility) recovery condition also undefined.
 
 ## 3. Cosmological Layer System (New — 2026-05-25)
 

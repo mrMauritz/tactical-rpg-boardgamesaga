@@ -4,6 +4,7 @@
 
 ## 1. Neat & Consistent Architecture
 Every rule file is a discrete component. Avoid cross-referencing specific line numbers; reference **Chapter Titles** or **Functional Categories**.
+- **Tags as Weapons:** A Tag can double as a standalone weapon entry (e.g., **Chain**, `07_weapon_and_armor_properties.md`). This lets undefined or improvised weapons be resolved tactically by classifying them under the matching Tag's ruleset, rather than requiring a bespoke catalog entry for every historical variant.
 
 ## 2. 3d6 Ladder System (1-20 Scale)
 The core resolution engine uses a **3d6 roll** mapped to a **1-20 ladder**. This provides a stable bell curve while maintaining compatibility with high-target thresholds.
