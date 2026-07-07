@@ -110,6 +110,10 @@ The argument **against**: in a low-fantasy world, the smith and the rune-worker 
 
 ---
 
+## Locked Seed Perks (Cross-Reference)
+- **The Anchor** — **Twin Ward** (`02_perks_and_traits.md`): grants a second simultaneous Active Defense charge, resolving the Engagement Cap (Attention, `95_HISTORICAL_COMBAT_WIP.md`).
+- **The Hunt** — Intended mastery path for **Detection** (Stealth vs. Navigation & Awareness opposed check, `03_skill_system.md` / `06_adventure_and_prep.md`). Signature perks not yet seeded.
+
 ## Notes / Open Questions
 
 - The Weave should carry a built-in world-restriction, not just a perk lock. Historically seiðr was socially condemned (argr). Does that manifest as a faction standing cost? An oath requirement? A permanent social marker?

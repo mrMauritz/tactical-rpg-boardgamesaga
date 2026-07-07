@@ -20,6 +20,10 @@
 | **Active Parry** | 1 / round | Weapon with *Parry* Tag |
 | **Active Dodge** | 3 / round | None (Physical Mobility) |
 
+#### The Engagement Cap (Simultaneous Attackers)
+**Starting Capacity** is a per-round pool, not a per-attacker pool. If two attacks land against the same character within the same segment, the defender must choose a single attack to answer with an **Active Defense** roll (spending a charge). The other attack automatically resolves against **Passive Defense** only (Armor Soak, Shield Ballistic Protection) — this is not an automatic hit, it simply forgoes the Active Defense roll and its bonus.
+- **Spare Capacity:** Overcoming this cap (answering both attacks with Active Defense) requires a dedicated Progression Perk, such as **Twin Ward** (The Anchor — see `02_perks_and_traits.md`). It is not available by default.
+
 ## Chapter 6 — The Combat Resolution Pipeline
 To ensure physical realism, combat follows a linear 8-stage pipeline. Interactive sheets automate calculations; players resolve the dice.
 
@@ -117,6 +121,12 @@ Positional exposure grants pure kinetic advantages (more dice) rather than accur
 - **Front (3 Hexes):** Full defense; all reactions and shields apply. Provides **Ballistic Protection** (Soak).
 - **Flank (2 Side Hexes):** Partial exposure; Attacker gains **+1 IS Die**. Shield Ballistic Protection only applies here if **Shield Skill ≥ 3** (Heater/Tower).
 - **Rear (1 Hex):** Major exposure; No shield use, No reactions, Attacker gains **+2 IS Dice**.
+
+### Chapter 7.1 — Sensory Conditions (Obscured & Deafened)
+Facing describes what the body can physically cover. Sensory conditions describe what the mind can physically perceive — a Front-facing attacker can still land a blow with the impact of a Rear attack if the defender never saw or heard them coming (see `95_HISTORICAL_COMBAT_WIP.md`, Senses entries).
+
+- **Obscured:** Applied by fog, smoke, darkness, sun-glare, or a full-face helm. A defender cannot use **Active Defense** against an attack originating from a hex they have not observed this round, regardless of Facing arc. Passive Defense still applies.
+- **Deafened:** Applied by a full-face helm or an attack originating beyond shout/command range. A Deafened character cannot declare **Anticipated Defense** against an Ambush or Surprise Round attack — there was no warning to react to.
 
 ---
 

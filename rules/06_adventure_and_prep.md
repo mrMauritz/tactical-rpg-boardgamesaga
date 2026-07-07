@@ -6,7 +6,7 @@
 Before combat begins, the party enters a **Prep Phase** to establish grounded **Physical Pre-Conditions** and choose their **Approach**. This is where the player balances the difficulty through organic choice.
 
 ### 1. The Tactical Toolbox
-- **Scouting:** Reveals enemy `Facing`, `RF Tiers`, and **Breaking Points** (Saga-accurate intel).
+- **Scouting:** Reveals enemy `Facing`, `RF Tiers`, and **Breaking Points** (Saga-accurate intel). Detecting a hidden enemy or a prepared ambush uses the **Detection** opposed check (Stealth vs. Navigation & Awareness, `03_skill_system.md`) — the same procedure applies in reverse when an enemy scout is attempting to detect the party.
 - **Sabotage:** Assigns the `Unstable` or `Damaged` Physical Tag to a hex-structure (e.g., bridge or pillar).
 - **Environment Manipulation:** Using items or skills to change a hex (e.g., spilling oil or creating a distraction).
 

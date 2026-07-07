@@ -4,6 +4,41 @@ This document tracks historical and Saga-based realities of small-scale medieval
 
 ---
 
+## Category Framework
+
+These realities sort into six categories that organize the eventual Design Atom work:
+
+| Category | Focus | Examples |
+| :--- | :--- | :--- |
+| **A. Equipment Reality** | Properties, limitations, and use of equipment | Shields, weapons, armor, degradation, reach, cloaks |
+| **B. Human Physical Reality** | Physical capabilities and limitations of the human body | Fatigue, footing, grappling, wounds, stamina, senses |
+| **C. Spatial Reality** | Position and environment determine possibilities | Terrain, distance, formations, flanking, numbers, indoors |
+| **D. Psychological Reality** | Mental state influences combat | Fear, morale, taunts, feuds, champions, berserker state |
+| **E. Combat Process** | Temporal flow of combat | Preparation → engagement → pauses → rout → aftermath |
+| **F. Social Reality** | Cultural and societal factors surrounding combat | Weregild, ransom, looting, trophies, purification, scavenging |
+
+### Category B — Development Order & Mechanical Assignment
+Development begins with Category B. Each sub-topic resolves into an existing or newly-defined system rather than a standalone stat:
+
+- **Fatigue** — Affects **SP Recovery** (and potentially starting SP) within the existing SP economy (Chapter 5, `05_battle_core.md`).
+- **Footing** — Folded into the wider **Critical Fail** design space; recoverable via Skill/Ability saves rather than a standalone slip mechanic.
+- **Grappling** — Delivered through **Progression Tree abilities**; requires a weapon or item carrying the appropriate **Tag** to activate.
+- **Wounds** — Already treated as a serious consequence, escalated further by **Poison**. Emphasizes the importance of physicians and magical healers. *Reminder: opening a new Class Tree is costly, but grants some free starting skills.*
+- **Stamina** — Fully covered by the **SP system**; SP economy management only grows more important as the system matures.
+- **Senses** — Expanded below. Historical variables: **Vision, Hearing, Peripheral Awareness, Recognition, Attention, Detection.**
+
+### Senses — Mechanical Resolution
+| Variable | Resolution |
+| :--- | :--- |
+| **Vision** | New **Obscured** condition (fog, smoke, darkness, sun-glare, full helm) strips Active Defense eligibility against unseen attackers — see Chapter 7, `05_battle_core.md`. |
+| **Hearing** | New **Deafened** condition (full helm, out of shout range) removes **Anticipated Defense** eligibility against Ambush/Surprise attacks — see Chapter 7, `05_battle_core.md`. |
+| **Peripheral Awareness** | Already fully resolved by the existing **Facing** rules (Front/Flank/Rear, Chapter 7). No new mechanic — the entries below are the historical grounding for a rule that already exists. |
+| **Recognition** | **Excluded from core systemization.** Treated strictly as a narrative special-case scenario (disguises, mixed-faction chaos), not a standalone mechanic. |
+| **Attention** | Resolved as the **Engagement Cap** — see Chapter 5.1, `05_battle_core.md`, and the **Twin Ward** Perk (`02_perks_and_traits.md`, The Anchor). |
+| **Detection** | Resolved as a **symmetric opposed check** (Stealth vs. Navigation & Awareness), usable identically by players and enemies — see Chapter 12, `06_adventure_and_prep.md`, and `03_skill_system.md`. The Hunt tree is the intended mastery path. |
+
+---
+
 ## 1. The Shield is a Sacrificial, Consumable Tool
 *   **The Myth:** A shield is a permanent gear item that provides a passive armor bonus.
 *   **The Reality:** Shields were made of softwoods (linden, fir) designed to bind the enemy’s blade. They were rapidly hacked to pieces. In *Holmgang* (formal duels), rules explicitly allowed each combatant up to three shields because they expected them to be destroyed. A warrior without a backup shield was suddenly in extreme danger.
@@ -167,4 +202,26 @@ This document tracks historical and Saga-based realities of small-scale medieval
 ## 40. Post-Victory Break of Discipline and Looting Vulnerability (Global)
 *   **The Myth:** A victorious army maintains formation and marches home in order.
 *   **The Reality:** The moment a routing enemy broke, the victorious warriors' discipline collapsed as they scrambled to loot the enemy's baggage train or strip dead bodies. Historically, many battles were turned around and won by the "defeated" side because they rallied while the victors were disorganized and busy plundering.
+
+---
+
+## 41. Vision Is a Hard Gate, Not a Soft Modifier (Global / Norse)
+*   **The Myth:** Reduced visibility is a cosmetic accuracy penalty layered on top of an otherwise all-seeing combatant.
+*   **The Reality:** Fog, night, and smoke didn't shave points off accuracy — they made combatants functionally blind to anything outside a few feet. At the 1471 Battle of Barnet, dense fog caused the Earl of Oxford's own returning troops to be mistaken for the enemy and attacked by their allies. Norse raiders deliberately struck at dawn mist or used the smoke of a burning hall (*hús-brenna*) to mask their approach and escape. In these conditions, "seeing" your attacker at all was the precondition for defending yourself — not a bonus to a roll.
+
+## 42. Hearing Is the First Warning System (Global / Norse)
+*   **The Myth:** Combat awareness is purely visual; sound is atmospheric flavor.
+*   **The Reality:** Watchmen and household dogs existed because sound reached further and faster than sight. Norse settlements relied on horn-blasts (*lur*) to raise the alarm long before an enemy was visible, and sagas describe defenders arming themselves the moment they heard raised voices or hoofbeats outside — often the only warning before a night attack. On the field, war-horns and drums carried commands through smoke and dust when hand signals and shouted orders were physically invisible or drowned out.
+
+## 43. Peripheral Blindness Under Combat Stress (Global / Modern Combat Science)
+*   **The Myth:** A skilled fighter maintains full 360-degree situational awareness for the whole engagement.
+*   **The Reality:** Acute stress narrows both vision (tunnel vision) and hearing (auditory exclusion) — a well-documented physiological response, not a failure of training. Sagas are full of warriors locked in a duel who never see the third party who ends the fight; single combats were frequently interrupted by an oath-bound kinsman or a bystander settling an unrelated score, exploiting exactly this narrowed focus.
+
+## 44. Divided Attention Kills Faster Than Divided Numbers (Global / HEMA)
+*   **The Myth:** A master swordsman can track and respond to several attackers with equal precision, as if fighting each one in isolation.
+*   **The Reality:** Historical fencing manuals (Fiore dei Liberi, Ringeck) explicitly teach that a lone fighter facing multiple opponents must maneuver to keep one enemy physically between himself and the rest at all times — because human attention cannot truly split. The moment two attackers gain simultaneous separate angles, the manuals treat the fight as effectively lost without terrain or luck intervening. This reinforces Entry 19: numerical disadvantage is not a matter of stacked accuracy penalties, it is a matter of attention running out.
+
+## 45. Detection Runs Both Ways (Global / Norse)
+*   **The Myth:** Ambushes are a one-directional storytelling device sprung on the party, never a tool the party wields first.
+*   **The Reality:** Scouting and counter-scouting (*njósn*) were a central, mutual pre-battle skill in the sagas — parties sent riders ahead specifically to detect an enemy's ambush before walking into it, and canny defenders posted their own scouts to detect the scouts. Sun Tzu codifies the same principle: foreknowledge decides the engagement before either side draws a weapon. Detection was never a power unique to the side springing the trap; it was a contest, and whoever won it first controlled the terms of the fight.
 

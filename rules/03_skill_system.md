@@ -32,6 +32,8 @@ Following the organic growth policy, only skills explicitly required for the cor
 - **Athletics**: Total physical coordination ([Skiing], [Swimmer], [Climber]).
 - **Navigation & Awareness**: Covers map-reading, weather-reading, and "reading the beat" (identifying enemy SP/Segments/Facing weaknesses) on the battlefield.
 
+> **Detection (Opposed Check):** Stealth vs. Navigation & Awareness forms a symmetric opposed check — the same procedure applies whether a player is detecting a hidden enemy or an enemy is detecting a hidden player. See Chapter 12, `06_adventure_and_prep.md`, for its Prep Phase application.
+
 ### 2. Offense (Weapon Arts)
 *Governing Attributes: STR or DEX.*
 

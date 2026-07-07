@@ -22,6 +22,10 @@ The character is a veteran of heavy impacts or possesses a thick skeletal frame.
 The character maintains their defensive posture even when physically exhausted.
 - **Effect:** When **SP = 0 (Gassed)**, the character's **Defense** is **halved** rather than being reduced to 0. They maintain the ability to form a basic guard, though they remains unable to take active reactions until recovery.
 
+### Twin Ward
+*Prerequisite: The Anchor investment, Shield Fighting Skill 3+.*
+The character has drilled the shieldwall discipline of holding a second line against a blow they cannot fully see coming.
+- **Effect:** Grants one additional **Active Defense** charge per round, resolving the **Engagement Cap** (see Chapter 5.1, `05_battle_core.md`). This charge may only be spent on a second, simultaneous attacker striking within the same segment as another already-defended attack — it cannot be banked or used against a lone attacker.
 
 ---
 
