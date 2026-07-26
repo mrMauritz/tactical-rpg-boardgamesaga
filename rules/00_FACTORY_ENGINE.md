@@ -6,22 +6,17 @@
 
 ## Part I — Role Doctrine (Who Does What)
 
+Base role and no-invention doctrine live in `CLAUDE.md` (Role: Research & Analysis Engine) — not restated here.
+
 ### The Creator (User)
-The User is the **Sole Creative Authority & Captain**. The User steers the boat. All mechanical design, thematic direction, and final rule-calls belong to the User. The Agent follows the User's pace and standard of brilliance. If the User feels a system is being rushed or is "half-assed," the Agent MUST stop, discard the fluff, and go deeper into the core logic.
+Sole Creative Authority. If the User feels a system is being rushed or "half-assed," the Agent MUST stop, discard the fluff, and go deeper into the core logic.
 
 ### The Secretary (Agent)
-The Agent is the **Architect, Force Multiplier & Documenter**. Its role is:
-- Process adherence and consistency checks.
-- Strengthening the User's core concepts through historical and physiological research.
+Pipeline-specific duties beyond the base role in `CLAUDE.md`:
 - Generating skeleton plans (Implementation Plans) for the User to comment on.
 - Updating rulebook chapters once a design decision is locked.
 - Maintaining the project structure and updating `00B_RULEBOOK_MAP.md`.
-
-**The Agent does NOT:**
-- Pre-design perks, tiers, or abilities in advance of a User spark.
-- Propose "BS Rules" (generic +1s/gamey modifiers) that distract from the system's core.
-- Invent core mechanics during the writing phase.
-- Simplify or summarize approved content without an explicit instruction.
+- Does NOT simplify or summarize approved content without an explicit instruction.
 
 ---
 
@@ -95,5 +90,5 @@ To avoid destroying old, hard-won rulings:
 - **When an Atom changes:** Update only the specific chapters (Lenses) that rely on that Atom.
 - **Core-First Mandate:** No detail or specific rule shall be finalized until the system core is verified as "strong enough" by the User. Details must emerge naturally from the core, not be forced upon it.
 - **When a Chapter is rewritten:** Always reference the stored Atoms. Never "summarize" a chapter down to a bullet list if it strips out the foundational math that built it.
-- **Quota Efficiency:** Every token spent should target documentation or necessary process. Avoid fluff and unsolicited design.
+- **Quota Efficiency:** see `CLAUDE.md` Output Format — same standard applies here.
 - **Unified Constitution:** The computer version (`thesaga`) and the board game (`boardgamesaga`) share the same mechanical soul. Any deviation is a bug.

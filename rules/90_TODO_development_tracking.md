@@ -8,7 +8,7 @@ This document tracks features that have been discussed or partially implemented,
 | 2026-04-18 | **Internal Architecture & Magic** | SOLIDIFIED | Fused Soul-Trio (Önd, Óð, Lá) with 6 Pillars and Historical Laws. |
 | 2026-04-18 | **Universal Alignment Physics** | SOLIDIFIED | Replaced generic class mechanics with 3 universal alignment physics (Law, Chaos, Wild). |
 | Upcoming | **The Rule of Wild (Trade-off Mutations)** | PENDING | Design physical and mystic wild mutations across the 6 attributes. |
-| Upcoming | **Resource Consumption** | STAGED | Definition of HP/SP/MG/Madness tactical expenditure. |
+| Upcoming | **Resource Consumption** | STAGED | Definition of HP/SP/MG/Madness tactical expenditure. SP pool now set to derive from **Endurance** value + mods (Body/Frame removed from the formula); exact expression pending. |
 
 ## 2. Advanced Tactical Content (Restricted to Classes/Monster Trees)
 - [x] **Simple Perk Design:** Document created ([02_perks_and_traits.md](file:///c:/Workspace/tactical-rpg-boardgamesaga/rules/02_perks_and_traits.md)) with Organic Growth policy and three seed perks (*Unyielding*, *Hard Head*, *Nerves of Steel*).
@@ -17,6 +17,7 @@ This document tracks features that have been discussed or partially implemented,
 - [ ] **Expanded Hit Table (3d6):** Assign specific mechanical meanings or activations to every value (1-20+), potentially triggered by weapons, skills, or perks.
 - [ ] **Impulse/Momentum Tracking (Suggestion):** Evaluate as an alternative to the AP Segment system to increase fluid tactical pressure.
 - [x] **Balance System Overhaul:** Shifted from flat recovery to **Balance States** (Stable, Unstable, Stumbling) with Defense-only penalties. Implemented **BP Soak (Steadfast/Grounded)** and stability-based resistance loss.
+- [ ] **Structural Resistance (Body + Frame):** Body + Frame provide passive resistance against HP/SP/BP damage (`01_system_foundations.md` Ch.7 §3), stacking on top of Natural Armor and Physical Weight/BP Soak. Frame additionally reduces avoidance capability and raises the SP cost of avoidance actions as it increases. Formulas for all three effects undecided — pending Deep Dive.
 - [ ] **Poison (Weapon Tag):** Triggers whenever the wielder's attack confirms a **Bleed** application on the target (regardless of source). Effect magnitude and duration undecided — pending Deep Dive.
 - [ ] **Panic/Frenzy/Freeze Aftermath (Category D):** None of the Flee/Frenzy/Freeze branches (Controlled, Desperate, Disciplined) have a defined exit or cost. Known source: the *berserksgangr* crash — extreme physical weakness, shivering, deep depression (`95_HISTORICAL_COMBAT_WIP.md`, Entry 38). Open questions: does Frenzy Tree investment (Controlled/Disciplined Frenzy) reduce or exempt the crash, or does it only buy back target-discrimination *during* the fight and not the aftermath? Does Desperate Flee have any rally/recovery path back into the fight (no such mechanic currently exists), or is Controlled Flee's exit simply cost-free since it's a voluntary choice? Desperate Freeze (tonic immobility) recovery condition also undefined.
 

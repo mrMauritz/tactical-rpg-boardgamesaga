@@ -56,7 +56,7 @@ Calculated once during character setup. Interactive sheets handle dynamic tracki
 
 - **HP (Hit Points / Flesh):** `(Body × 3) + Size`. 
   - *Represents deep physical injury, bleeding, and structural failure.*
-- **SP (Systemic Integrity / Shock):** `(Body × 2) + Endurance + Frame`. 
+- **SP (Systemic Integrity / Shock):** Based on **Endurance** value + modifiers. *(Body and Frame no longer contribute to pool size — see Chapter 7 §3 for their new role as damage resistance. Exact formula pending, see `90_TODO_development_tracking.md`.)*
   - *Represents neurological stability. Uses the **Attribute Value** for granularity.*
     - **Stable (> 1/2 SP)**: No penalty.
     - **Rattled (≤ 1/2 SP)**: **Disable 6s** (The Glance Rule: 6s become 1s).
@@ -82,7 +82,7 @@ Physical scale is determined at character creation and **does not scale** with p
 
 - **Body (Scale 1–10):** The primary mass baseline. Body directly sets the **Base IS Dice Pool**.
 - **Size (−2 to +2):** Variations within a body scale (e.g., a "Large" human).
-- **Frame (−2 to +2):** skeletal density and bone thickness.
+- **Frame (−2 to +2):** skeletal density and bone thickness. Contributes (with Body) to passive resistance against HP/SP/BP damage (Chapter 7 §3); raises the SP cost of avoidance actions and reduces avoidance capability as it increases — the same trait that hardens a character makes them worse at not being hit. Formulas pending, see `90_TODO_development_tracking.md`.
 - **RB (Relative Body):** `Attacker Body - Defender Body`. Used for specialized mass comparison.
 
 ### 2. Scale vs. Architecture
@@ -161,3 +161,8 @@ A character's physical build provides resistance to being moved or unbalanced.
 - **Steadfast (Trait)**: Subtract **2 BP** from all incoming Balance Damage.
 - **Grounded (Position/Trait)**: Subtract **1 BP** from all incoming Balance Damage.
 - **The Stability Rule**: This resistance is temporarily **lost** if the character is currently **Unstable** or **Stumbling** (BP < 4).
+
+### 3. Structural Resistance (Body + Frame)
+Raw physical mass and skeletal density provide a baseline resistance that stacks on top of both Natural Armor (§1) and Physical Weight/BP Soak (§2) — a dragon gets scales *and* sheer bulk as separate contributions.
+- **Effect**: Body + Frame reduce incoming **HP**, **SP**, and **BP** damage. *(Exact formula pending, see `90_TODO_development_tracking.md`.)*
+- **Trade-off**: A high Frame value raises the SP cost of avoidance actions and reduces avoidance capability — the resistance this section grants is bought at the cost of not being hit in the first place. *(Mechanism pending.)*

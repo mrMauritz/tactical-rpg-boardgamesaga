@@ -146,7 +146,7 @@ As a character's **BP Pool** is depleted during a round, they suffer increasing 
 | **> 4** | **Stable** | None | **Resistance Active** (Steadfast/Grounded) |
 | **2–3** | **Unstable** | **-1 to Defense Rolls** | Resistance **LOST** |
 | **1** | **Stumbling** | **-2 to Defense Rolls** | Resistance **LOST** |
-| **0** | **Fallen** | **Knock Down** (Prone) | Cannot React |
+| **0** | **Fallen** | **Knock Down** (Prone): +1 IS Die to incoming attacks (Advantage); Minor Action to stand | Resistance **LOST** |
 
 ---
 
