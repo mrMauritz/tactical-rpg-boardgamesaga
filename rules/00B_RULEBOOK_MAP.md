@@ -23,6 +23,7 @@
 | `01_system_foundations.md` | ✅ Solid | Attributes, Vitality (HP/SP/BP), and the 3d6 Ladder. |
 | `01_INTERNAL_ARCHITECTURE_WIP.md` | 🔒 Detail Locked | The metaphysical and physical pillars of character growth. |
 | `01b_archetype_matrix.md` | ✅ Solid | The 36-archetype Wyrd alignment matrix. |
+| `97b_ATTRIBUTE_FLAVOR_AXES_WIP.md` | 🚧 Scaffold | The Frame/System/Disposition flavor axis per attribute pair. |
 | `94_RULE_OF_WILD_MUTATIONS_WIP.md` | 🚧 WIP | The 12 Rule of Wild mutations. |
 | `02_perks_and_traits.md` | ✅ Solid | System-altering traits and organic perk design. |
 | `03_skill_system.md` | ✅ Solid | The 0-8 Tier system and tactical skill roster. |

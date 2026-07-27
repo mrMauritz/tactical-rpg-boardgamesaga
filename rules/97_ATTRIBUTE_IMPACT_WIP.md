@@ -43,40 +43,39 @@
 
 ---
 
-## 3. END — The Marrow (Systemic Integrity)
-*The body’s deepest adaptive systems.*
-
-*   **Lá (Physical Form):** **Cellular Hardening.** The biological "Grit" that allows the frame to survive catastrophic failure and kinetic shock.
-*   **Óðr (Mystic Spirit):** **Divine Hosting.** Turning the body into a "Well" (Urd's Vessel) capable of holding high-energy Wyrd-currents without the "skin" breaking.
-
-*   **Mathematical Pools:**
-    *   **HP (Physical Integrity):** The primary pool for survival.
-    *   **SP (Stamina) Max Capacity:** This attribute value determines the character's maximum stamina pool.
-    *   **MG (Megin Capacity):** Determines how much Wyrd-current you can host.
-    *   **SP Soak (Grit):** Resistance to metabolic exhaustion and physiological shock.
-*   **Physical Pillar (Lá):** **The Marrow.** Systemic hardening and cellular rebuilding.
-    *   *Maneuvers:* **Systemic Grinder** (Striking through compromised targets), **The Huskarl** (Shared defense).
-    *   *Reaction Identity:* **The Relentless.** Trading HP to immediately recover SP/Composure during a blow.
-*   **Mystic Pillar (Óðr):** **Urd’s Vessel.** The capacity to host the divine current without the soul "leaking" out of the skin.
-*   **Combat Role:** **The Vessel.** Survival through attrition, systemic grit, and hosting high-power currents.
-
----
-
-## 4. WIL — The Word (Metabolic Pressure)
+## 3. END — The Breath (Metabolic Pressure)
 *The bridge between voluntary and involuntary systems.*
 
 *   **Lá (Physical Form):** **Thoracic Pressure.** Controlling the metabolic engine through breath to generate explosive output and ignore exhaustion.
-*   **Óðr (Mystic Spirit):** **The Divine Decree.** Wielding the authority of the "Chanted Command" to mandate how reality must behave (See `96_OATHS_WIP.md`).
+*   **Óðr (Mystic Spirit):** **Divine Hosting.** Turning the body into a "Well" (Urd's Vessel) capable of holding high-energy Wyrd-currents without the "skin" breaking.
 
 *   **Mathematical Pools:**
-    *   **SP (Stamina) Max:** The total "Fuel" for explosive actions (Determined by the Endurance value).
+    *   **SP (Stamina) Max Capacity:** This attribute value determines the character's maximum stamina pool.
     *   **SP Recovery (Regen):** How much SP is regained through "Take a Breath" or Banking segments.
-    *   **Conduit Tier (Galdramaðr):** The base for the Galdr methodology (Ordering).
+    *   **MG (Megin Capacity):** Determines how much Wyrd-current you can host.
 *   **Physical Pillar (Lá):** **The Breath.** Internal thoracic pressure and metabolic management.
     *   *Maneuvers:* **Law-Speaker** (Forcing surrender), **Siege-Lungs** (Exhausting the enemy).
     *   *Reaction Identity:* **The Moral Gravity (Shout).** Using a "Reaction Shout" to force an attacker to hesitate (re-roll).
+*   **Mystic Pillar (Óðr):** **Urd’s Vessel.** The capacity to host the divine current without the soul "leaking" out of the skin.
+*   **Combat Role:** **The Vessel.** Managing the "Pressure" of the fight through metabolic attrition and hosting high-power currents.
+
+---
+
+## 4. WIL — The Marrow (Systemic Integrity)
+*The body’s deepest adaptive systems.*
+
+*   **Lá (Physical Form):** **Cellular Hardening.** The biological "Grit" that allows the frame to survive catastrophic failure and kinetic shock.
+*   **Óðr (Mystic Spirit):** **The Divine Decree.** Wielding the authority of the "Chanted Command" to mandate how reality must behave (See `96_OATHS_WIP.md`).
+
+*   **Mathematical Pools:**
+    *   **HP (Physical Integrity):** The primary pool for survival.
+    *   **SP Soak (Grit):** Resistance to metabolic exhaustion and physiological shock.
+    *   **Conduit Tier (Galdramaðr):** The base for the Galdr methodology (Ordering).
+*   **Physical Pillar (Lá):** **The Marrow.** Systemic hardening and cellular rebuilding.
+    *   *Maneuvers:* **Systemic Grinder** (Striking through compromised targets), **The Huskarl** (Shared defense).
+    *   *Reaction Identity:* **The Relentless.** Trading HP to immediately recover SP/Composure during a blow.
 *   **Mystic Pillar (Óðr):** **Odin’s Decree.** The authority of the chanted command. Mandating reality and setting constraints (See `96_OATHS_WIP.md`).
-*   **Combat Role:** **The Engine.** Managing the "Pressure" of the fight and winning through metabolic and psychological dominance.
+*   **Combat Role:** **The Engine.** Survival through attrition and systemic grit, winning through psychological dominance.
 
 ---
 
@@ -120,8 +119,8 @@
 | :--- | :--- | :--- | :--- |
 | **STR** | Displacement / Power | **The Bind** | Easily moved/Thrown |
 | **DEX** | Defense / Positioning | **The Ma-ai** | Too slow / Low Defense |
-| **END** | Attrition / Hardening | **The Relentless** | Brittle / Shock Sensitive |
-| **WIL** | Pressure / Authority | **The Shout** | Gasses out / Low Morale |
+| **END** | Pressure / Attrition | **The Shout** | Gasses out |
+| **WIL** | Hardening / Authority | **The Relentless** | Brittle / Shock Sensitive / Low Morale |
 | **INT** | Intercept / Timing | **The Stop-Hit** | Telegraphed / Lagging |
 | **CHA** | Terror / Deception | **The Gaze** | Easily Tricked / No Presence |
 
@@ -131,13 +130,13 @@
 *The following rule-breaking mechanics are unlocked upon reaching the specified value on the attribute ladder.*
 
 #### A. The Physical Matrix (Lá: The Vessel)
-| Value | **STR (Axis)** | **DEX (Spring)** | **END (Iron)** | **WIL (Bellows)** | **INT (Spark)** | **CHA (Gaze)** |
+| Value | **STR (Axis)** | **DEX (Spring)** | **END (Bellows)** | **WIL (Iron)** | **INT (Spark)** | **CHA (Gaze)** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **5** | **Ignition**: Negate Displacement. You cannot be pushed/pulled. | **Ignition**: Negate Telegraphing. Enemies cannot react to your first hit. | **Ignition**: Negate Wound Penalty. You act at full capacity until dead. | **Ignition**: Negate Fear. You are immune to all Route/Morale penalties. | **Ignition**: Negate Delay. You act first in your current Initiative bracket. | **Ignition**: Negate Cover. Your presence reveals targets in partial cover. |
 | **7** | **Pillar II**: Negate Unbalance. You never fall prone or lose IS on hit. | **Pillar II**: Negate Friction. You can move through enemy hexes. | **Pillar II**: Negate Bleed. You do not lose HP from DoT effects. | **Pillar II**: Negate Stagger. Your actions cannot be interrupted by damage. | **Pillar II**: Negate Guard. You bypass the first point of enemy Def. | **Pillar II**: Negate Stealth. Hidden enemies within 2 hexes are revealed. |
 | **9** | **Pillar III**: Negate Inertia. You can change direction during a Charge. | **Pillar III**: Negate Gravity. You can move vertically or leap gaps freely. | **Pillar III**: Negate Exhaustion. You do not suffer fatigue penalties at 0 SP. | **Pillar III**: Negate Doubt. Your Commands always succeed on allies. | **Pillar III**: Negate Timing. You can take your reaction *before* an action. | **Pillar III**: Negate Distance. Your gaze distance is doubled. |
 | **11** | **Pillar IV**: Negate Mass. You can wield 2H weapons in one hand. | **Pillar IV**: Negate Range. Your melee reach increases by 1 hex. | **Pillar IV**: Negate Trauma. You can ignore one lethal hit per battle. | **Pillar IV**: Negate Laws. You can use two "Voice" actions per turn. | **Pillar IV**: Negate Limits. You can hold 2 Interrupt charges. | **Pillar IV**: Negate Morale. Enemies cannot benefit from buffs within your gaze. |
-| **13** | **Pillar V**: **Axis Peak.** All hits you land count as a Charge. | **Pillar V**: **Spring Peak.** You gain an extra Move action per turn. | **Pillar V**: **Iron Peak.** You regenerate 2 HP per round. | **Pillar V**: **Bellows Peak.** Your Presence becomes a physical aura of force. | **Pillar V**: **Spark Peak.** You gain an extra Action in the first round. | **Pillar V**: **Gaze Peak.** Enemies must roll to even look at you (Presence DC). |
+| **13** | **Pillar V**: **Axis Peak.** All hits you land count as a Charge. | **Pillar V**: **Spring Peak.** You gain an extra Move action per turn. | **Pillar V**: **Bellows Peak.** You regenerate 2 HP per round. | **Pillar V**: **Iron Peak.** Your Presence becomes a physical aura of force. | **Pillar V**: **Spark Peak.** You gain an extra Action in the first round. | **Pillar V**: **Gaze Peak.** Enemies must roll to even look at you (Presence DC). |
 
 #### B. The Mystic Matrix (Óðr: The Metamagic)
 | Value | **STR (The Root)** | **DEX (The Loom)** | **END (The Well)** | **WIL (The Word)** | **INT (The Stream)** | **CHA (The Shadow)** |
@@ -173,17 +172,17 @@
 *   **Game Variables:** **Def, Initiative, Capacity.**
 *   **Saga Description:** "The sinews of the great wolf were not mere rope; they were a coiled storm. To have the Spring is to be a creature of iron-threads, where the foot and the hand are tied by a single, unified tension that snaps like a released bowstring."
 
-### 3. END — The Marrow (**Lá**)
-*   **Essential Word:** **Iron.**
-*   **Essential Aspect:** **Integrity.**
-*   **Game Variables:** **HP, MG, Soak.**
-*   **Saga Description:** "The bones are the stones of the body, and the blood is the river that feeds the stone. To be Iron is to have a frame that refuses to break—where the marrow is washed in the grit of survival until the flesh becomes as stubborn as the cliff-side against the sea."
-
-### 4. WIL — The Breath (**Lá**)
+### 3. END — The Breath (**Lá**)
 *   **Essential Word:** **Bellows.**
 *   **Essential Aspect:** **Stamina.**
 *   **Game Variables:** **SP, Recovery, Conduit.**
 *   **Saga Description:** "The chest is the forge of the man, and the breath is the bellows that feeds the fire of the heart. To be the Bellows is to pressurized the blood until it screams, pushing the body past the point of exhaustion through the sheer physical force of the air inside the lungs."
+
+### 4. WIL — The Marrow (**Lá**)
+*   **Essential Word:** **Iron.**
+*   **Essential Aspect:** **Integrity.**
+*   **Game Variables:** **HP, MG, Soak.**
+*   **Saga Description:** "The bones are the stones of the body, and the blood is the river that feeds the stone. To be Iron is to have a frame that refuses to break—where the marrow is washed in the grit of survival until the flesh becomes as stubborn as the cliff-side against the sea."
 
 ### 5. INT — The Pulse (**Lá**)
 *   **Essential Word:** **Spark.**
@@ -203,8 +202,8 @@
 | :--- | :--- | :--- | :--- |
 | **STR** | Structure & Torsion | **Axis** | Impact |
 | **DEX** | Elasticity & Connectivity | **Spring** | Defense |
-| **END** | Hardening & Integrity | **Iron** | Integrity |
-| **WIL** | Pressure & Metabolism | **Bellows** | Stamina |
+| **END** | Pressure & Metabolism | **Bellows** | Stamina |
+| **WIL** | Hardening & Integrity | **Iron** | Integrity |
 | **INT** | Synaptic Speed & Precision | **Spark** | Timing |
 | **CHA** | Context & Attention | **Gaze** | Morale |
 
@@ -267,8 +266,8 @@ To ensure every step of progression is meaningful, the following tactical pools 
 
 *   **STR (Mass)**: The raw value determines **Carry Capacity** and **Weight Tolerance**.
 *   **DEX (Precision)**: The raw value determines **Base Initiative** (before armor weight penalties).
-*   **END (Integrity)**: The raw value determines **Maximum Stamina (SP)** and **SP Recovery Rate**.
-*   **WIL (Bellows)**: The raw value determines **Base Internal Pressure** (SP Recovery efficiency and Resistance).
+*   **END (Bellows)**: The raw value determines **Maximum Stamina (SP)** and **SP Recovery Rate**.
+*   **WIL (Integrity)**: The raw value determines **Base Internal Pressure** (SP Recovery efficiency and Resistance).
 *   **INT (Pulse)**: The raw value determines **Reaction Window** (The timing threshold for Stop-Hits).
 *   **CHA (Gaze)**: The raw value determines **Presence DC** (The weight of the Gaze; base Difficulty for enemy Route checks).
 
@@ -298,7 +297,7 @@ To ensure every step of progression is meaningful, the following tactical pools 
 
 ## 14. Attribute Ladder (Systemic: END & WIL)
 
-| Value | Type | **END: The Marrow (Iron)** | **WIL: The Will (Bellows)** |
+| Value | Type | **END: The Breath (Bellows)** | **WIL: The Marrow (Iron)** |
 | :--- | :--- | :--- | :--- |
 | **1** | **Base** | Primary: HP Bonus / Secondary: SP Max & Recovery (= Value) | Primary: Galdr Acc / Secondary: Stability & Resist (= Value) |
 | **2** | **Bonus** | +0 HP / +0 SP Gen | +0 Resist / +0 Stability |

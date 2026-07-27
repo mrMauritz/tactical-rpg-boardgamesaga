@@ -20,4 +20,11 @@ This file tracks findings about the *process* of investigating and building BG S
 **"Lock in" is the connective trigger, not just a go-ahead.** It's the specific point where a phenomenological Reduction becomes a Factory Engine Atom — investigation and production are sequential phases of one pipeline, not competing frameworks.
 
 ---
+
+## 2026-07-27
+
+**A named correction is production-mode, not investigation-mode.** "Fix X in file Y" / "correct A and B" is a lock-in-adjacent instruction — the scope is already decided by the user. Applying investigation-grade habits (exhaustive re-verification, hunting the whole file for related inconsistencies, re-auditing tables that weren't named) to a production instruction is the same root failure as unprompted invention — doing work the user didn't ask for — just approached from the opposite direction: over-verification instead of over-creation.
+*How to apply:* on a named correction, execute the minimal diff for exactly what was named, then stop. Don't expand into a consistency sweep of the surrounding file unless the user's phrasing asks for that ("check the whole doc," "audit for consistency") or a lock-in step explicitly requires it.
+
+---
 *Created: 2026-07-26*

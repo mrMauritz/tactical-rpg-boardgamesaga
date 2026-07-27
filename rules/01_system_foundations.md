@@ -25,8 +25,8 @@ Characters are defined by six core attributes, usually ranging from 1 to 12. Rea
 
 1. **STR (Strength):** Raw physical power. Generates **Force** and determines **IS Bonus Dice**.
 2. **DEX (Dexterity):** Precision and reflex. Infuences **Hit Quality**, **BP**, and **Defensive Tiers**.
-3. **END (Endurance):** Resilience and stamina recovery.
-4. **WIL (Willpower):** Mental grit and Divine conduit.
+3. **END (Endurance):** Metabolic drive and stamina recovery.
+4. **WIL (Willpower):** Systemic resilience, mental grit, and Divine conduit.
 5. **INT (Intelligence):** Analytical logic and Arcane conduit.
 6. **CHA (Charisma):** Leadership and Nature conduit.
 
