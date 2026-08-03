@@ -2,7 +2,11 @@
 
 > [!WARNING]
 > **DEVELOPMENT STATUS: SCAFFOLD ONLY**
-> This file organizes the *flavor axis* layered onto each attribute pair. Mechanical effects and modifications are **NOT fixed**. This is a structural placeholder for material that is still open — not an approved Atom.
+> This file organizes the *flavor axis* layered onto each attribute pair. Primary numeric effects are stated per axis; secondary effects, perks, combinations, and exceptions remain open. Tempo's Readiness/Initiative interaction with the core Initiative formula is pending Deep Dive — see `90_TODO_development_tracking.md`. This is a structural placeholder for material that is still open, not a fully approved Atom.
+
+**Background:** Grounded in the four humors and the classical Wheel of the Elements (Aristotle/Empedocles) — real historical/physiological doctrine, not invented.
+
+**Source:** Architecture and primary effects adapted from a user-provided reference workbook (*BG Saga — Creature & Humanoid Flavor System*), reconciled against this file's prior scaffold and against `01_system_foundations.md`.
 
 ---
 
@@ -18,146 +22,154 @@
 
 ---
 
-## 2. The Flavor Axis (Third Layer per Pair)
+## 2. The Six Flavor Axes
 
-Each pair carries a "flavor" addition — a trait beyond the raw attribute values that colors how the pair expresses itself. This is distinct from the Lá/Óðr saga-lens (§3), which applies per-attribute rather than per-pair.
+Each attribute pair carries **two** independent flavor axes (−2 to +2, 0 = Tempered): one drawn from the **Air ↔ Earth** diagonal of the classical Wheel of the Elements, one from the **Water ↔ Fire** diagonal.
 
-| Pair                    | Flavor Addition                    | Status                                                      | Existing Source                                                          |
-| :---------------------- | :---------------------------------- | :----------------------------------------------------------- | :------------------------------------------------------------------------ |
-| **Physical (STR/DEX)** | **Fiber & Frame**                  | ✅ Defined (Frame mechanically grounded; Fiber flavor only) | Two dials (Hot/Cold = Fiber, Wet/Dry = Frame). See §3 below.             |
-| **System (END/WIL)**   | **Temper & Consistency**           | ✅ Defined (flavor only)                                    | Two dials (Hot/Cold, Wet/Dry) grounded in the four humors. See §4 below. |
-| **Mental (INT/CHA)**   | **Disposition (Instinct & Focus)** | ✅ Defined (flavor only)                                    | Two dials (Hot/Cold = Instinct, Wet/Dry = Focus). See §5 below.          |
+This diagonal pairing is deliberate, not arbitrary. On the classical square of qualities (Hot/Cold × Wet/Dry: Fire=Hot+Dry, Air=Hot+Wet, Water=Cold+Wet, Earth=Cold+Dry), Fire↔Water and Air↔Earth are the only two element-pairs that oppose on **both** qualities at once — the two true diameters of the wheel, not merely adjacent elements sharing one quality (e.g. Fire–Air share only Hot). Using these diameters as the axes directly, rather than deriving elements from two independent Hot/Cold and Wet/Dry sliders, is the more elemental-native of the two valid classical constructions.
 
-### Observations
-- All three pairs now share the same Hot/Cold × Wet/Dry shape. Only Frame has mechanical grounding (`01_system_foundations.md` Ch.7 §3) — Fiber, Temper/Consistency, and Instinct/Focus are flavor-only so far.
-- Focus (Mental's Wet/Dry axis) reuses the existing Master/Emissary attention lore (`01_INTERNAL_ARCHITECTURE_WIP.md`) rather than inventing new material.
+One consequence: because all three pairs share the *same* two diagonals, the four elements — and the four humors they carry (§7) — are common infrastructure across Physical, System, and Mental, not a re-derived grid per pair.
 
----
-
-## 3. Physical Flavor (STR/DEX): Fiber & Frame
-
-Two dials describing physical build and output, in the same Hot/Cold × Wet/Dry shape as the System pair. **Frame** (the Wet/Dry-equivalent) already exists (`01_system_foundations.md` Ch.4 & Ch.7 §3); **Fiber** (the Hot/Cold-equivalent) is proposed here to complete the pair.
-
-### 3.1 Fiber (Hot ↔ Cold): Sustained ↔ Explosive
-
-```text
--2 Sustained ← -1 ← 0 Tempered → +1 → +2 Explosive
-```
-
-- **Sustained (slow-twitch/oxidative):** steady power output, resists fatigue, slower to reach peak force.
-- **Explosive (fast-twitch/glycolytic):** burst power output, fast to reach peak force, fatigues quickly.
-
-### 3.2 Frame (Wet ↔ Dry): Light ↔ Dense
-
-```text
--2 Light (Fluid) ← -1 ← 0 Tempered → +1 → +2 Dense (Fixed)
-```
-
-Already established: raises structural resistance and avoidance cost as it increases (`01_system_foundations.md` Ch.4, Ch.7 §3). Structurally the same "fixed vs. adaptable" shape as Consistency (§4.2), applied to skeletal build rather than reaction pattern.
-
-### 3.3 The Four Elements (Physical)
-
-| Element   | Fiber     | Frame          | Archetype                                                             |
-| :-------- | :-------- | :------------- | :--------------------------------------------------------------------- |
-| **Fire**  | Explosive | Dense (Fixed)  | heavy, devastating single bursts — slow to wind up, brutal on contact |
-| **Air**   | Explosive | Light (Fluid)  | fast, springy bursts — agile striker                                  |
-| **Earth** | Sustained | Dense (Fixed)  | grinder/tank — heavy and enduring                                     |
-| **Water** | Sustained | Light (Fluid)  | nimble endurance — built for the long fight                           |
-
-*Fiber and this grid are proposed, not mechanically defined — Frame's own mechanics (§3.2) are the only locked-in piece.*
+| Pair         | Attributes | Air ↔ Earth Flavor | Water ↔ Fire Flavor | Status                                              |
+| :----------- | :--------- | :------------------ | :-------------------- | :--------------------------------------------------- |
+| **Physical** | STR / DEX  | **Frame**           | **Load**              | Frame: Established. Load: Strong direction.         |
+| **System**   | END / WIL  | **Temper**          | **Fortitude**         | Temper: Established direction. Fortitude: Strong direction. |
+| **Mental**   | INT / CHA  | **Attention**       | **Tempo**             | Both: Strong direction.                              |
 
 ---
 
-## 4. System Flavor (END/WIL): Temper & Consistency
+## 3. Physical Flavors: Frame & Load
 
-Two independent dials (-2 to +2 each) describing *how* systemic strain is processed — orthogonal to raw capacity (END) and persistence (WIL) themselves. Traditional grounding: the classical Hot/Cold and Wet/Dry qualities underlying the four humors.
-
-### 4.1 Temper (Hot ↔ Cold): Containment ↔ Mobilization
+### 3.1 Frame (Air ↔ Earth): Light ↔ Dense
 
 ```text
--2 Contained ← -1 ← 0 Tempered → +1 → +2 Kindled
+-2 Light (Air) ← -1 ← 0 Tempered → +1 → +2 Dense (Earth)
 ```
 
-- **Contained:** strain is absorbed, suppressed, kept internally ordered — fear produces caution, pain is contained, composure is preserved, arousal rises slowly, action stays deliberate. Danger: rigidity, delayed response, failure to mobilize in time.
-- **Kindled:** strain converts into activation and outward force — fear becomes immediate action, pain becomes aggression/urgency, composure gives way to intensity, arousal rises quickly. Danger: fury, recklessness, loss of restraint, rapid expenditure.
+Established (`01_system_foundations.md` Ch.4, Ch.7 §3). Governs **BP resistance** specifically (§6) — raw skeletal build.
 
-| Phenomenon    | Contained pole                | Kindled pole                  |
-| :------------ | :----------------------------- | :----------------------------- |
-| Fear response | restraint, caution             | mobilization, attack           |
-| Composure     | preserved through containment  | replaced by focused intensity  |
-| Arousal       | slow and controlled            | rapid and forceful             |
-| Pain response | absorbed or suppressed         | converted into action          |
+| Pole | Primary Effects |
+| :--- | :--------------- |
+| **Light**  | −1 BP resistance; −1 SP cost for avoidance actions per step. |
+| **Dense**  | +1 BP resistance; +1 SP cost for avoidance actions per step. |
 
-### 4.2 Consistency (Wet ↔ Dry): Fluid ↔ Fixed
+### 3.2 Load (Water ↔ Fire): Pressure ↔ Impulse
 
 ```text
--2 Fluid ← -1 ← 0 Tempered → +1 → +2 Fixed
+-2 Pressure (Water) ← -1 ← 0 Tempered → +1 → +2 Impulse (Fire)
 ```
 
-- **Fluid:** the reaction pattern is impressionable — it shifts with recent experience, mood, and context. Habituates, adapts, recalibrates. Danger: unpredictability, no reliable baseline.
-- **Fixed:** the reaction pattern is retentive — the same reaction fires the same way regardless of history or context. Consistent, but unyielding. Danger: can't adapt when the old pattern stops working.
+**Grounding:** *Impulse* (J = FΔt, mechanics) is momentum delivered in a short, high-force burst; *pressure* (force sustained over time/area) is its direct physical opposite — not invented vocabulary. Matches the two primary families of close combat: **percussion** (strikes — brief, concentrated force; fracture, concussion, laceration) vs. **grappling/constriction** (holds, chokes, crushing — sustained force; ischemia, asphyxiation, crush injury). Historical wrestling treatises (e.g. Fiore dei Liberi's *Abrazare*) already separate strikes from binds/pressure on this exact line.
 
-| Phenomenon        | Fluid pole                              | Fixed pole                    |
-| :----------------- | :---------------------------------------- | :------------------------------ |
-| Fear response     | wariness rises/falls with recent events | same threshold every time     |
-| Composure         | mood-dependent, context-shifted         | stable regardless of context  |
-| Arousal threshold | recalibrates encounter to encounter     | fixed baseline                 |
-| Pain response     | varies with circumstance                | invariant                      |
-
-### 4.3 The Four Elements (System)
-
-The two axes recombine into the traditional four humors — which in turn carry their own traditional element names:
-
-| Element      | Temper        | Consistency  | Archetype                                                                                                                                              |
-| :----------- | :------------ | :----------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Fire**     | Kindled (+)   | Fixed (Dry)  | *(Choleric)* converts strain into force immediately, the same forceful way every time — an instant, identical counter-strike to any hit               |
-| **Air**      | Kindled (+)   | Fluid (Wet)  | *(Sanguine)* converts strain into force immediately, but its shape shifts with mood — a lunge, a taunt, or a reckless charge, depending on the moment |
-| **Earth**    | Contained (-) | Fixed (Dry)  | *(Melancholic)* absorbs/suppresses strain the same withheld way regardless of circumstance — stoic under a scratch or a mortal wound alike            |
-| **Water**    | Contained (-) | Fluid (Wet)  | *(Phlegmatic)* absorbs/suppresses strain, but the manner of restraint adapts to context — calm under any strain, recalibrating each time              |
-| **Balanced** | Tempered (0)  | Tempered (0) | *(Eukrasia)* neither pole dominant — response scales with the situation, not a fixed lean                                                             |
-
-Both axes are independent dials — a character can sit anywhere in the grid, not just at the four named corners; the humors mark the corners for reference.
-
-*Mechanical effects (what these dials modify numerically) are not yet defined — this section fixes the flavor/identity layer only.*
+| Pole | Primary Effects |
+| :--- | :--------------- |
+| **Pressure** | +1 maintained impact; −1 initial impact per step. |
+| **Impulse**  | +1 initial impact; −1 maintained impact per step. |
 
 ---
 
-## 5. Mental Flavor (INT/CHA): Disposition (Instinct & Focus)
+## 4. System Flavors: Temper & Fortitude
 
-Two dials describing cognitive/social response, in the same Hot/Cold × Wet/Dry shape as the other pairs — framed in INT/CHA's own terms (speed of processing, breadth of attention) rather than reusing System's strain-response phrasing.
-
-### 5.1 Instinct (Hot ↔ Cold): Deliberate ↔ Instinctive
+### 4.1 Temper (Air ↔ Earth): Mobilization ↔ Containment
 
 ```text
--2 Deliberate ← -1 ← 0 Tempered → +1 → +2 Instinctive
+-2 Mobilization (Air) ← -1 ← 0 Tempered → +1 → +2 Containment (Earth)
 ```
 
-- **Deliberate:** slow, reflective processing.
-- **Instinctive:** fast, reflexive processing — INT's "Spark" domain.
+Established direction. Governs **SP resistance** specifically (§6) — how strain converts into action versus staying absorbed.
 
-### 5.2 Focus (Wet ↔ Dry): Broad ↔ Narrow
+| Pole | Primary Effects |
+| :--- | :--------------- |
+| **Mobilization** | +1 SP generation; −1 SP resistance per step. |
+| **Containment**  | +1 SP resistance; −1 SP generation per step. |
+
+### 4.2 Fortitude (Water ↔ Fire): Mental ↔ Physical
 
 ```text
--2 Broad (Fluid) ← -1 ← 0 Tempered → +1 → +2 Narrow (Fixed)
+-2 Mental (Water) ← -1 ← 0 Tempered → +1 → +2 Physical (Fire)
 ```
 
-- **Broad:** diffuse, context-shifting attention — the Master (`01_INTERNAL_ARCHITECTURE_WIP.md`).
-- **Narrow:** locked, fixed attention — the Emissary.
+**Grounding:** *Fortitudo* is one of the four Cardinal Virtues (Plato; later Aquinas) — defined specifically as the capacity to endure fear and pain **psychologically**, distinguished in antiquity from raw bodily toughness (Aristotle's *karteria*, bodily endurance, vs. *andreia*, courage under fear). Physiologically, psychological resilience runs through the HPA axis (fear/cortisol regulation) — a distinct system from tissue/structural resilience (nociception threshold, wound tolerance). Military history draws the same line: troops routing from fear while physically unharmed, versus fighting on through physical wounds.
 
-### 5.3 The Four Elements (Mental)
-
-| Element   | Instinct    | Focus          | Archetype                                                             |
-| :-------- | :---------- | :------------- | --------------------------------------------------------------------- |
-| **Fire**  | Instinctive | Narrow (Fixed) | snap-reactor locked on one cue — an assassin's single-target reflex   |
-| **Air**   | Instinctive | Broad (Fluid)  | scattershot reactor — reacts fast, attention jumping between concerns |
-| **Earth** | Deliberate  | Narrow (Fixed) | methodical specialist — unshaken, singularly fixated                  |
-| **Water** | Deliberate  | Broad (Fluid)  | calm strategist — reads the whole field, adapts thinking to context   |
-
-*Instinct, Focus, and this grid are proposed, not mechanically defined.*
+| Pole | Primary Effects |
+| :--- | :--------------- |
+| **Mental**   | +1 mental resistance; −1 HP resistance per step. |
+| **Physical** | +1 HP resistance; −1 mental resistance per step. |
 
 ---
 
-## 6. Saga Lens: Lá & Óðr (Cross-Cutting, Not a Flavor Addition)
+## 5. Mental Flavors: Attention & Tempo
+
+### 5.1 Attention (Air ↔ Earth): Diffuse ↔ Selective
+
+```text
+-2 Diffuse (Air) ← -1 ← 0 Tempered → +1 → +2 Selective (Earth)
+```
+
+Reuses the existing Master/Emissary attention lore directly — `01_INTERNAL_ARCHITECTURE_WIP.md` Ch. "The Attention (CHA — The Master & The Emissary)" already names this exact CHA concept "Attention."
+
+| Pole | Primary Effects |
+| :--- | :--------------- |
+| **Diffuse**   | +1 field awareness; −1 accuracy/precision per step. |
+| **Selective** | +1 accuracy/precision; −1 field awareness per step. |
+
+### 5.2 Tempo (Water ↔ Fire): Control ↔ Execution
+
+```text
+-2 Control (Water) ← -1 ← 0 Tempered → +1 → +2 Execution (Fire)
+```
+
+**Grounding:** Japanese swordsmanship's *Sen* doctrine draws exactly this distinction — *Sen* (先, seizing initiative, striking first) vs. *Go no Sen* (後の先, yielding tempo to react/counter from readiness). Military doctrine mirrors it: "initiative" (offense-postured, seizes tempo) vs. "reserve" (defense-postured, held back to react). Neuroscience offers the physiological analogue — feedforward (anticipatory/planned) vs. feedback (reactive) motor control.
+
+| Pole | Primary Effects |
+| :--- | :--------------- |
+| **Control**   | +1 Readiness; −1 Initiative. Each +1 Readiness allows defense against one additional attacker. |
+| **Execution** | +1 Initiative; −1 Readiness. Each −1 Readiness removes defense capacity against one attacker. |
+
+*Integration with the core Initiative formula (`01_system_foundations.md` Ch.6) and the exact opponent-count thresholds are pending Deep Dive — see `90_TODO_development_tracking.md`.*
+
+---
+
+## 6. Resistance Channels
+
+Each of the four damage/effect pools has exactly one governing flavor:
+
+| Incoming effect                      | Governing flavor              |
+| :------------------------------------ | :------------------------------ |
+| **HP** damage or HP-affecting effect | Fortitude (Physical pole)     |
+| **SP** damage                        | Temper                        |
+| **BP** damage                        | Frame                         |
+| **Mental** effect                    | Fortitude (Mental pole)       |
+
+A single attack can trigger several channels at once:
+
+```text
+Fireball:
+HP damage → Fortitude (Physical)
+SP damage → Temper
+BP damage → Frame
+```
+
+The same attack therefore resolves differently depending on the target's flavor profile. *(Formulas pending — see `90_TODO_development_tracking.md`.)*
+
+---
+
+## 7. Element Matrix
+
+The four classical elements are shared infrastructure across all three pairs — each pair's Air↔Earth flavor and Water↔Fire flavor read onto the same four poles. The classical humors attach here, at the element level, since they name the same four points under a parallel doctrine (four qualities → four humors), not at any pair's two-axis corners (a corner combining, say, full Air-lean with full Fire-lean lands on a blend between adjacent elements, not on a single humor — the humors only resolve at the pure poles).
+
+| Element   | Humor           | Physical      | System              | Mental               |
+| :-------- | :--------------- | :------------- | :-------------------- | :---------------------- |
+| **Air**   | Sanguine        | Light Frame   | Mobilization         | Diffuse Attention     |
+| **Earth** | Melancholic     | Dense Frame   | Containment           | Selective Attention   |
+| **Water** | Phlegmatic      | Pressure (Load) | Mental Fortitude    | Control (Tempo)       |
+| **Fire**  | Choleric        | Impulse (Load)  | Physical Fortitude  | Execution (Tempo)     |
+
+Both axes within a pair remain independent dials — a character can sit anywhere in that pair's 2D space, not just at the four pure-pole points; the elements/humors mark those pure points for reference.
+
+---
+
+## 8. Saga Lens: Lá & Óðr (Cross-Cutting, Not a Flavor Addition)
 
 Independent of §2, every attribute already carries a dual manifestation:
 - **Lá (Physical Form)** — the physical/embodied expression.
@@ -169,9 +181,19 @@ This is fully detailed elsewhere and not duplicated here:
 
 ---
 
-## 7. Four Elements — Resolved for All Three Pairs
+## 9. Design Principles
 
-No longer a future option: §3.3 gives the Fire/Air/Earth/Water correspondence for Physical (Fiber × Frame), §4.3 for System (Temper × Consistency), and §5.3 for Mental (Instinct × Focus).
+*(Source: user-provided reference workbook, Design Notes sheet.)*
+
+| Principle | Current meaning |
+| :--- | :--- |
+| **Flavor scale** | Each flavor uses a five-grade scale from −2 to +2, with 0 as Tempered/balanced. |
+| **Primary effects** | Each step gives one clear gain and one corresponding cost. |
+| **Secondary effects** | Left open for later; should emerge from combinations with attributes, equipment, senses, perks, and situations — not stated in advance. |
+| **Creature profiles** | Animals and monsters are usually defined by 2–3 strong flavors, often at ±2. |
+| **Humanoid profiles** | Humanoids are usually defined by one dominant flavor or several weaker ±1 expressions. |
+| **Perks** | Perks should emerge by selectively modifying or breaking existing rules, not by adding generic bonuses. |
+| **Resistance division** | Frame governs BP resistance; Temper governs SP resistance; Fortitude divides mental versus physical (HP) resistance — see §6. |
 
 ---
-*Status: Scaffold. Frame established (mechanically grounded). Fiber, Temper/Consistency, and Instinct/Focus defined at the flavor layer only — no mechanical effects yet.*
+*Status: Scaffold. Frame established (mechanically grounded, `01_system_foundations.md`). Temper established direction. Load, Fortitude, Attention, Tempo defined with primary effects and historical/physiological grounding — full mechanical formulas and Tempo's Initiative integration pending, see `90_TODO_development_tracking.md`.*

@@ -82,7 +82,7 @@ Physical scale is determined at character creation and **does not scale** with p
 
 - **Body (Scale 1–10):** The primary mass baseline. Body directly sets the **Base IS Dice Pool**.
 - **Size (−2 to +2):** Variations within a body scale (e.g., a "Large" human).
-- **Frame (−2 to +2):** skeletal density and bone thickness. Contributes (with Body) to passive resistance against HP/SP/BP damage (Chapter 7 §3); raises the SP cost of avoidance actions and reduces avoidance capability as it increases — the same trait that hardens a character makes them worse at not being hit. Formulas pending, see `90_TODO_development_tracking.md`.
+- **Frame (−2 to +2):** skeletal density and bone thickness. Governs **BP** resistance specifically (Chapter 7 §3; Body separately provides the broader HP/SP/BP baseline) — raises the SP cost of avoidance actions and reduces avoidance capability as it increases — the same trait that hardens a character makes them worse at not being hit. Formulas pending, see `90_TODO_development_tracking.md`.
 - **RB (Relative Body):** `Attacker Body - Defender Body`. Used for specialized mass comparison.
 
 ### 2. Scale vs. Architecture
@@ -164,5 +164,6 @@ A character's physical build provides resistance to being moved or unbalanced.
 
 ### 3. Structural Resistance (Body + Frame)
 Raw physical mass and skeletal density provide a baseline resistance that stacks on top of both Natural Armor (§1) and Physical Weight/BP Soak (§2) — a dragon gets scales *and* sheer bulk as separate contributions.
-- **Effect**: Body + Frame reduce incoming **HP**, **SP**, and **BP** damage. *(Exact formula pending, see `90_TODO_development_tracking.md`.)*
+- **Body**: reduces incoming **HP**, **SP**, and **BP** damage broadly. *(Exact formula pending, see `90_TODO_development_tracking.md`.)*
+- **Frame**: narrows to a dedicated **BP** resistance channel — one of six per-flavor resistance channels (Frame→BP, Temper→SP, Fortitude→HP/Mental); see `97b_ATTRIBUTE_FLAVOR_AXES_WIP.md` for the full division. *(Exact formula pending.)*
 - **Trade-off**: A high Frame value raises the SP cost of avoidance actions and reduces avoidance capability — the resistance this section grants is bought at the cost of not being hit in the first place. *(Mechanism pending.)*
