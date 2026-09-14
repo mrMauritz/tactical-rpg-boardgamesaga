@@ -51,6 +51,17 @@ Every point of attribute growth contributes to either the character's **Passive 
 | **11** | **+4** | 4 Slots | Transcendent Form |
 | **12** | +4 | **5 Slots** | **Historical Legend (Mastery)** |
 
+### Character Origins: Race, Individual, Development
+Three independent layers determine a character, and each answers a different question:
+
+- **Race/Species** → starting **flavor** tendencies (see `97b_ATTRIBUTE_FLAVOR_AXES_WIP.md`). Race does not modify attribute values.
+- **Individual** → attribute potential and progression cost (the character's own ceiling and XP curve on the ladder above).
+- **Development** → chosen attributes, skills, and paths (player-driven growth through play).
+
+> **Race shapes expression, not progression.**
+
+Members of the same race share a recognizable way of functioning — how they move, recover, and respond under strain — without sharing a developmental destiny. This formalizes what the Chapter 2 opening note already implies: attributes are Internal Architecture, not physical size, mass, or lineage — lineage lives in flavor instead.
+
 ## Chapter 3 — Vitality Pools (Bookkeeping)
 Calculated once during character setup. Interactive sheets handle dynamic tracking.
 

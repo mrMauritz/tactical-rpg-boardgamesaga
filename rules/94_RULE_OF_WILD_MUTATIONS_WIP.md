@@ -1,5 +1,8 @@
 # Rule of Wild: 12 Mutations (WIP)
 
+> [!NOTE]
+> **Flavors play a great role in Wild Mutations.** Each attribute pair below (STR/DEX, END/WIL, INT/CHA) also carries two flavor axes (`97b_ATTRIBUTE_FLAVOR_AXES_WIP.md` — Frame/Load, Temper/Fortitude, Attention/Tempo). A Wild Mutation is a Lá/Óðr inversion on the attribute; where a character sits on that pair's flavor axes should color *how* the mutation expresses (e.g. a Jötunn-Grip on a Dense-Frame character reads differently than on a Light-Frame one). Not yet integrated into the specific mutations below — flagged for future development.
+
 The mutations now follow a strict **Law of Inversion**. 
 If a Physical Wild gives a (+X) benefit to your physical attacks, it applies a (-X) penalty to your magical casting. The specifics below strictly use the new mechanical values.
 

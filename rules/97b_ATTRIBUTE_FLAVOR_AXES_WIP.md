@@ -196,4 +196,27 @@ This is fully detailed elsewhere and not duplicated here:
 | **Resistance division** | Frame governs BP resistance; Temper governs SP resistance; Fortitude divides mental versus physical (HP) resistance — see §6. |
 
 ---
-*Status: Scaffold. Frame established (mechanically grounded, `01_system_foundations.md`). Temper established direction. Load, Fortitude, Attention, Tempo defined with primary effects and historical/physiological grounding — full mechanical formulas and Tempo's Initiative integration pending, see `90_TODO_development_tracking.md`.*
+
+## 10. Race Tendencies (Flavor Layer)
+
+Per `01_system_foundations.md` Ch.2 ("Character Origins: Race, Individual, Development"): **race sets starting flavor tendencies, not attribute values.** Attributes stay entirely Individual/Development — race never touches STR/DEX/END/WIL/INT/CHA.
+
+A race entry is a set of signed nudges across the six flavor axes (§2–§5), biasing where a member of that race tends to sit before Individual and Development are layered on. Format (illustrative, not a real race — no race roster exists yet):
+
+```text
+Example format:
+Race Name
+  Frame:      +1 (toward Dense)
+  Load:        0 (Tempered)
+  Temper:     +1 (toward Containment)
+  Fortitude:   0 (Tempered)
+  Attention:  -1 (toward Diffuse)
+  Tempo:       0 (Tempered)
+```
+
+Two members of the same race can still land anywhere on any axis through Individual potential and Development choices — the racial nudge is a starting bias, not a cap or a floor. This is what allows two characters of one race to be mechanically distinct while still reading as recognizably the same kind of creature.
+
+*A concrete race roster is not yet defined — this section fixes the mechanism only.*
+
+---
+*Status: Scaffold. Frame established (mechanically grounded, `01_system_foundations.md`). Temper established direction. Load, Fortitude, Attention, Tempo defined with primary effects and historical/physiological grounding — full mechanical formulas and Tempo's Initiative integration pending, see `90_TODO_development_tracking.md`. Race Tendencies (§10) defines the mechanism only — no race roster yet.*
