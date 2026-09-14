@@ -69,3 +69,20 @@ These are locked structural values for a "Single Hex Scale" object. Do not alter
 - *Weakening Supports:* Reduces `BP` to 1/3 of max.
 - *Oiling the Area:* Adds `Slippery` (BP Penalty) and `Flammable` to the hex.
 - *Poisoning Wells:* Triggers a `SP Threshold 2/3` state on enemy units at start.
+
+## 7. Requirement/Taboo Resolution (Universal Prerequisite Logic)
+Any system gating an option behind eligibility (bonds, class/race access, skill or perk prerequisites) resolves through the same four-term logic — do not invent a bespoke gating rule per system.
+
+- **Base permission:** everything normally possible before restrictions.
+- **Requirement:** limits eligibility to specified possibilities.
+- **Taboo:** excludes specified possibilities.
+- **Final permission:** the option satisfies every requirement and triggers no taboo.
+
+`FinalAllowed(x) = BaseAllowed(x) ∧ R₁(x) ∧ R₂(x)… ∧ ¬(T₁(x) ∨ T₂(x)…)`
+
+- Requirements combine through **AND**; conflicting requirements may create an empty valid set — the design should normally prevent this from happening unintentionally.
+- Taboos combine as **NOR** over forbidden conditions; taboos never create permissions, they only remove possibilities.
+- A taboo defeats an otherwise-granted permission — if a conflict occurs, requirements and taboos override other permissions/effects.
+- Distinguish an intersection of requirements from a NOR of taboos: "Only blades" AND "only wooden weapons" is a requirement intersection — if nothing satisfies both, nothing is legal. "No blades" AND "no wooden weapons" is a taboo NOR (`¬(B ∨ W)`) — it permits anything that is neither.
+
+*Source: `BG Saga — Bonds, Power, Freedom, Destiny and Legacy` handoff, §VI.17 — promoted to doctrine 2026-09-14 per user direction, for reuse beyond Bonds (`24_BONDS_AND_DEVOTION_WIP.md` §5).*

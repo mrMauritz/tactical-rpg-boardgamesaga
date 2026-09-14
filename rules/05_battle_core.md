@@ -101,6 +101,7 @@ An NPC or Enemy is eligible to be **Beaten** (Routing or Surrendering) when they
 ### 2. The Route Check (Will vs. Pressure)
 When a breaking point is reached, the enemy must roll a **3d6 Route Check** against a difficulty determined by the player's **Moral Pressure**.
 - **Moral Pressure (The Gaze):** Set by the attacker's **WIL (The Word)** or **CHA (The Gaze)**.
+- **Party Cohesion (Campaign Layer):** High Party Cohesion (`26_CAMPAIGN_ECONOMY_WIP.md` §3.2) lowers the effective Moral Pressure DC against a party member; at a high enough threshold it auto-negates the check entirely (automatic success) — the same scaling-then-threshold shape as Devotion (`24_BONDS_AND_DEVOTION_WIP.md` §4.1). Exact DC-reduction curve and auto-negate threshold are OPEN, see `90_TODO_development_tracking.md` §5.
 - **Result:**
     - **Success:** The enemy maintains their nerve and continues fighting.
     - **Fail:** The enemy is **Beaten**. They attempt to flee, surrender, or drop their weapons.

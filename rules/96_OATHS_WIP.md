@@ -99,7 +99,26 @@ Because Alignment dictates the framework, positive and aggressive bonds manifest
 ## 10. Oath-Bound Filters (The Blessed Guard)
 Certain characters (like Temple Guardians) are structurally Oath-Bound. Their physical frame is forged cleanly into the Wyrd, granting passive resistance against unnatural/cursed manipulations. However, acting against their Patron's nature triggers the Structural Collapse described above, severing their connection to the Wyrd entirely until atonement is made.
 
-## 11. Open Questions (TODOs)
+## 11. Two Worlds of Oaths (Faction vs. Divine)
+
+*Source: `BG Saga — Bonds, Power, Freedom, Destiny and Legacy` handoff, §X.*
+
+**ESTABLISHED:** An oath to a faction and an oath to a divinity share the underlying structure of §1–§7 (both bind part of the future, grant power, create obligations, open some freedoms while closing others, may generate taboos/exclusive relationships per `00A_DESIGN_ATOMS_doctrine.md` §7, connect present actions to uncertain future consequences, may draw the company toward an emerging destiny) — but their **manifestation domain** differs:
+
+| Faction oath | Divine oath |
+| :--- | :--- |
+| Political/worldly relationship (`22_FACTIONS_WIP.md`) | Spiritual relationship (`23_DIVINITIES_WIP.md`) |
+| Allies, enemies, offices, material aid | Favour, prohibitions, spiritual opposition |
+| Service, tribute, loyalty | Observance, sacrifice, fidelity |
+| Betrayal | Sacrilege/spiritual betrayal |
+| Consequences through people and institutions | Consequences through signs, dreams, curses, protection, fate, or altered possibility |
+| Changes place in society/history | Changes place in the spiritual world/meaning |
+
+> **A factional oath makes the company part of history. A divine oath makes it part of meaning.**
+
+The divine response may remain uncertain — an event may or may not be connected to the oath. This preserves spiritual mystery (see The Pillar of Mystery, `00A_DESIGN_ATOMS_doctrine.md` §3).
+
+## 12. Open Questions (TODOs)
 1. **The Conviction-Oath Name:** What do we call the Oath sworn from pure internal clarity? (Candidates: *The Doom-Sworn, The Sight-Oath, The Self-Sworn, The Burning Vow*.)
-2. **Sacrifice Economics:** What exactly does the metabolic and spiritual cost look like in play? How does "giving a thread" to a King manifest for a character who is not Order-aligned?
+2. ~~**Sacrifice Economics**~~ — **RESOLVED** by the Devotion economy (`24_BONDS_AND_DEVOTION_WIP.md` §4): breaking an oath removes Total Devotion, which deactivates threshold-gated benefits, weakens scaling benefits, or destroys the bond card entirely. This is the numeric hook underneath §6's "Heavy Soul"/"Given Thread" flavor. How this manifests for a non-Order-aligned bearer specifically remains open.
 3. **Web Depth:** How many links can the Traveling Rot traverse? Does it attenuate with distance, or does a King always feel the full force of a distant Huskarl's betrayal?

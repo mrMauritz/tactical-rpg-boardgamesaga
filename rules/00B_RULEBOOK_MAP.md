@@ -35,6 +35,21 @@
 
 ---
 
+## Campaign Layer Chapters (New — 2026-09-14)
+
+| File | Status | "When to Read" |
+| :--- | :--- | :--- |
+| `20_CAMPAIGN_CORE_WIP.md` | 🚧 Foundational Spark | The campaign-layer counterpart to `01_system_foundations.md` — Power/Freedom/Destiny/Legacy kernel and causal structure. |
+| `21_COMPANIONS_WIP.md` | 🚧 Foundational Spark | Companions as vessels of potential history. |
+| `22_FACTIONS_WIP.md` | 🚧 Foundational Spark | Factions as vessels of possible history; the three Human Empire powers. |
+| `23_DIVINITIES_WIP.md` | 🚧 Foundational Spark | Divinities as powers of the spiritual world; candidate Norse roster. |
+| `24_BONDS_AND_DEVOTION_WIP.md` | 🚧 Foundational Spark | Bond families, character/party scope, devotion economy, strategic blueprints. |
+| `25_LEGACY_WIP.md` | 🚧 Foundational Spark | Legacy and persistent-world advancement across playthroughs. |
+| `26_CAMPAIGN_ECONOMY_WIP.md` | 🚧 Foundational Spark | Pull vs. Push motivation; the Money/Food/Tolerance/Cohesion resource kernel. |
+| `96_OATHS_WIP.md` | 🚧 WIP | Oath cosmology (Wyrd/Önd, Order/Wild/Chaos break consequences, Oath-Web) — the binding *act* underneath a Bond's persistent relationship. |
+
+---
+
 ## Development Files
 
 | File | Purpose |

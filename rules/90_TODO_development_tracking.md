@@ -46,5 +46,30 @@ The three cosmological layers (Önd/Life-Current, Wyrd, Oaths) have been establi
 - [ ] **Character Progression and Body:** System for how Body, Frame, and Size evolve with character growth and training.
 - [ ] **Non-Human Impact Tables:** Unique tables for claws, bites, and giant blunt impacts (e.g., trolls).
 
+## 5. Campaign Layer (New — 2026-09-14)
+Tracks concrete content and open decisions for `20_CAMPAIGN_CORE_WIP.md` through `26_CAMPAIGN_ECONOMY_WIP.md`, and their touchpoints in `96_OATHS_WIP.md` and `00A_DESIGN_ATOMS_doctrine.md` §7.
+
+**Required concrete lists:**
+- [ ] Complete race list and which races have devotional storylines/race bonds (`24_BONDS_AND_DEVOTION_WIP.md` §2.5).
+- [ ] Complete attribute list for dedication paths (`24_BONDS_AND_DEVOTION_WIP.md` §2.3).
+- [ ] Special historical classes requiring devotion/class bonds (`24_BONDS_AND_DEVOTION_WIP.md` §2.4).
+- [ ] Exact worldly factions beyond the three Human Empire powers (`22_FACTIONS_WIP.md` §2).
+- [ ] Final five Norse divinities and their trees (`23_DIVINITIES_WIP.md` §2).
+- [ ] Concrete bond achievements, trees, Traits, costs, requirements, taboos, exclusivities per bond (`24_BONDS_AND_DEVOTION_WIP.md` §8).
+- [ ] Concrete strategic challenges/opportunities testing each form of power (`20_CAMPAIGN_CORE_WIP.md` §4).
+- [ ] Possible destinies without converting them into selectable linear paths.
+
+**Mechanically open:**
+- [ ] Exact terminology/interface distinction between available devotion, tree points, and unspent devotion (`24_BONDS_AND_DEVOTION_WIP.md` §4).
+- [ ] Exact recovery/regaining rules after total-devotion loss (`96_OATHS_WIP.md` §12, item 2).
+- [ ] Exact consequences of destroying vs. abandoning a bond.
+- [ ] Exact mathematical scaling of devotion-dependent benefits (`f(TotalDevotion)`).
+- [x] Exact relationship between party bonds and the Cohesion mechanic/resource, and Cohesion's mechanical nature — RESOLVED: plain numeric value, grows from time-in-party/shared victories/Party Bond rewards; keeping a party intact (vs. churning it) independently grants Cohesion (`26_CAMPAIGN_ECONOMY_WIP.md` §3.2).
+- [ ] Exact numeric values: growth rate per source, Tolerance capacity per leader attribute/ability, tension cost per friction-causing action.
+- [ ] Acceptance trigger — what specifically promotes a new hire from unaccepted to Accepted, so their Individual Cohesion starts contributing to Party Cohesion (`26_CAMPAIGN_ECONOMY_WIP.md` §3.2).
+- [ ] Exact Cohesion → Moral Pressure DC-reduction curve and the auto-negate threshold for Route Checks (`05_battle_core.md` Ch.8 §2).
+- [ ] Whether conditional supplies (fodder, medicine, repair materials, reagents, ship maintenance) become tracked resources or remain event/equipment effects (`26_CAMPAIGN_ECONOMY_WIP.md` §4).
+- [ ] How persistent-world time advancement transforms factions, places, divinities, and unresolved events (`25_LEGACY_WIP.md` §2).
+
 ---
 *Created: 2026-04-10*
