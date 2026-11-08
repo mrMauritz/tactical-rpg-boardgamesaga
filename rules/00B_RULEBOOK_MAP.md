@@ -40,6 +40,7 @@
 | File | Status | "When to Read" |
 | :--- | :--- | :--- |
 | `20_CAMPAIGN_CORE_WIP.md` | 🚧 Foundational Spark | The campaign-layer counterpart to `01_system_foundations.md` — Power/Freedom/Destiny/Legacy kernel and causal structure. |
+| `20b_STRATEGY_AND_BALANCE_MAP_WIP.md` | 🚧 Foundational Spark | Every distinct strategy across all six zoom levels (Battle/Campaign/Game × in/out), player-motivation framing, cross-level links, and the balance gaps (⚠️) still needing a stated cost. |
 | `21_COMPANIONS_WIP.md` | 🚧 Foundational Spark | Companions as vessels of potential history. |
 | `22_FACTIONS_WIP.md` | 🚧 Foundational Spark | Factions as vessels of possible history; the three Human Empire powers. |
 | `23_DIVINITIES_WIP.md` | 🚧 Foundational Spark | Divinities as powers of the spiritual world; candidate Norse roster. |
