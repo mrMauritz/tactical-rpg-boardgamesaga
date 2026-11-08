@@ -61,7 +61,7 @@ The deepest common form is **promised possibility**: something exists in the wor
 
 ## 4. Conditional Resource Possibilities — Not Universal Meters
 
-Historical reflection raised possible party-specific demands: fodder for horses/pack animals/monsters; medicine/treatment for wounded, sick, or poisoned members; repair materials/services for equipment-intensive parties; reagents/materials for specific casters and rituals; maintenance/supplies for ships or specialized transport.
+Historical reflection raised possible party-specific demands: fodder for horses/pack animals/monsters; medicine/treatment for wounded, sick, or poisoned members; repair materials/services for equipment-intensive parties; reagents/materials for specific casters and rituals; maintenance/supplies for ships or specialized transport; **Master Trainer fees** — paying a specialist to unlock a Skill the Attribute gate hasn't earned yet (`01c_CHARACTER_BUILD_PIPELINE_WIP.md`, `03_skill_system.md`).
 
 **Do not add these automatically** — existing systems may already cover them: fatigue/rest connects to SP recovery (`01_system_foundations.md` Ch.3); health is represented through wounds, poison, physicians, and healing (`11_injury_and_scars.md`); equipment exists as concrete objects (`07_weapon_and_armor_properties.md`); devotion is progression/power, not ordinary subsistence (`24_BONDS_AND_DEVOTION_WIP.md` §4); reputation/legitimacy primarily open or close possibilities rather than being consumed.
 

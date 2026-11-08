@@ -135,6 +135,8 @@ On the character sheet, Pillars are represented by **Slots (Blocks)**.
 - **Gray Slot:** Threshold met (Even Attribute level 4, 6, 8, 10, or 12 reached) but not "Ignited."
 - **Glowing/Active Block:** You have completed the Devout or Defiant Trigger. The Pillar is active, combining the chosen Architecture (Lá/Óðr) with the chosen Filter (Devout/Defiant).
 
+**Resolved timing (2026-11-09):** The Gray Slot opens at the even Attribute value (Pillar Slot unlock, per `01_system_foundations.md` Ch.2) but Ignition itself fires at the *following odd value* — the moment the Attribute Bonus simultaneously ticks up, i.e. the specialization moment, not the raw threshold moment. This reconciles `97_ATTRIBUTE_IMPACT_WIP.md` §12's Master Matrix (which labels "Ignition" at value 5, 7, 9, 11, 13) with this file and `01_system_foundations.md` (which place the Slot at 4, 6, 8, 10, 12) — both are correct, describing two sequential stages of the same Block one level apart. Full pipeline: `01c_CHARACTER_BUILD_PIPELINE_WIP.md`.
+
 ---
 
 ## The 6 Pillars (Lá & Óðr Archetypes)

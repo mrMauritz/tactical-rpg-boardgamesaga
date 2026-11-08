@@ -17,6 +17,9 @@ Skills represent practiced competency and provide the primary static modifiers f
 | **7** | **Elder** | +7 | Near the absolute limit of achievement. |
 | **8** | **Saga-Named** | +8 | **Hard Cap.** The Wyrd has taken notice. |
 
+### Skill Availability: The Attribute Gate
+A Skill under a given Attribute is only trainable once that Attribute's **Bonus** is 0 or higher (per `01_system_foundations.md` Ch.2, this means Attribute Value ≥ 3 — Bonus is negative at Value 1–2). Below that, the Skill is locked, regardless of desire to train it. A **Master Trainer** can bypass this gate for a cost — see `26_CAMPAIGN_ECONOMY_WIP.md` Levers. Full composition detail: `01c_CHARACTER_BUILD_PIPELINE_WIP.md`.
+
 ---
 
 ## Chapter 2 — The "Natural" Skill Roster

@@ -6,10 +6,13 @@
 
 Trees are **universal**. Every being — human, troll, spirit, giant — can invest in any tree. The tree defines the *mechanical domain* of power. What changes between beings is which **perks** are accessible within that tree.
 
-Perk access is gated by three types of restriction:
+Perk access is gated by four types of restriction:
 - **[Social]** — Requires a specific cultural background, rank, or oath (e.g., only a Gothi-ordained character may take a sacrificial rite perk)
 - **[Racial]** — Requires a specific body type or nature (e.g., a troll's stone-hide regeneration is not available to a human in the Anchor tree)
 - **[Alignment]** — Requires ORDER, WILD, or CHAOS alignment standing
+- **[Skill]** — Requires a minimum Skill Tier (`03_skill_system.md`) as a prerequisite — the standing rule behind the one worked example already locked in (Twin Ward requires Shield Fighting 3+, §"Locked Seed Perks" below)
+
+A [Social] restriction can also be satisfied by standing in a Faction/Divinity/Dedication Devotion Tree (`24b_BOND_AND_DEVOTION_PROGRESSION_TREE_WIP.md`) instead of a narrative background alone — this is a read-only dependency, not a shared point pool.
 
 The Norse names below are the **human cultural expression** of each tree. Other beings arrive at the same tree through entirely different traditions — same mechanics, different flavor, different perk pool.
 

@@ -55,7 +55,7 @@ Tracks concrete content and open decisions for `20_CAMPAIGN_CORE_WIP.md` through
 - [ ] Special historical classes requiring devotion/class bonds (`24_BONDS_AND_DEVOTION_WIP.md` §2.4).
 - [ ] Exact worldly factions beyond the three Human Empire powers (`22_FACTIONS_WIP.md` §2).
 - [ ] Final five Norse divinities and their trees (`23_DIVINITIES_WIP.md` §2).
-- [ ] Concrete bond achievements, trees, Traits, costs, requirements, taboos, exclusivities per bond (`24_BONDS_AND_DEVOTION_WIP.md` §8).
+- [ ] Concrete bond achievements, trees, Traits, costs, requirements, taboos, exclusivities per bond (`24_BONDS_AND_DEVOTION_WIP.md` §8; tree skeletons in `24b_BOND_AND_DEVOTION_PROGRESSION_TREE_WIP.md`).
 - [ ] Concrete strategic challenges/opportunities testing each form of power (`20_CAMPAIGN_CORE_WIP.md` §4).
 - [ ] Possible destinies without converting them into selectable linear paths.
 
@@ -70,6 +70,16 @@ Tracks concrete content and open decisions for `20_CAMPAIGN_CORE_WIP.md` through
 - [ ] Exact Cohesion → Moral Pressure DC-reduction curve and the auto-negate threshold for Route Checks (`05_battle_core.md` Ch.8 §2).
 - [ ] Whether conditional supplies (fodder, medicine, repair materials, reagents, ship maintenance) become tracked resources or remain event/equipment effects (`26_CAMPAIGN_ECONOMY_WIP.md` §4).
 - [ ] How persistent-world time advancement transforms factions, places, divinities, and unresolved events (`25_LEGACY_WIP.md` §2).
+
+## 6. Character Build Pipeline (New — 2026-11-09)
+Tracks open decisions for `01c_CHARACTER_BUILD_PIPELINE_WIP.md`, consolidating the three-currency progression model (Skill/Attribute/Tree-Faction).
+
+- [ ] Race-modifies-attribute-cost conflict with the "Race shapes expression, not progression" tagline — two reconciliation paths on the table (`01c` §5.1), neither chosen; also unresolved whether a race can be generally strong in an attribute *and* amplified further in its flavor direction.
+- [ ] Exact attribute cost formula — N→N+1 costs N points is proposed, not locked (`01c` §5.2).
+- [ ] Whether Flavor Axes interact with Pillar Ignition at all (`01c` §5.3).
+- [ ] Level trigger specifics — what generates XP, and the threshold that unlocks a Level/reflection event (`01c` §5.4).
+- [ ] Tree-depth power curve — if Class Tree cost is flat, what paces perk strength growth (`01c` §5.5).
+- [ ] Master Trainer mechanism — cost and access condition undesigned (`01c` §5.6, `26_CAMPAIGN_ECONOMY_WIP.md` Levers).
 
 ---
 *Created: 2026-04-10*
