@@ -24,6 +24,8 @@
 
 > **Companions give the company a unique soul. Factions give the world a unique historical direction.**
 
+**ESTABLISHED:** Factions move on their own clock, independent of the party. *How* that clock runs is OPEN (`90_TODO_development_tracking.md` §7); the only existing hook is the undefined "Faction Pulse" (`06_adventure_and_prep.md` Ch.12, Avoidance).
+
 ## 2. Known Factions
 
 **ESTABLISHED:** Each race is treated as a faction (see `21_COMPANIONS_WIP.md` on race as flavor-tendency, not attribute — a race-as-faction is a separate, worldly-political fact from a race's flavor identity). Within the Human Empire, three main factional powers:

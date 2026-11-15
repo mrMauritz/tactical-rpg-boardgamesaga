@@ -14,6 +14,8 @@
 
 RogueTech's strength is a clear central activity — **the player constructs a war machine** — through a strong feedback loop: **Acquisition → construction → experimentation → consequence**. KARDS reinforces the same pattern through deck construction: concrete construction, many combinations, continual experimentation, immediate feedback, no permanently final build.
 
+**Further references (2026-11-15):** **XCOM 2**; **Six Ages: Ride Like the Wind** — for its interesting format.
+
 ## 2. The Deeper Construction
 
 BG Saga's deeper structure is not "build a war machine" but:
@@ -33,6 +35,12 @@ Core transformation: **Gain capabilities → expand real freedom → choose a pa
 
 Both run on the same shared engine (`01_system_foundations.md` Ch.1) — this is the spatial expression of Pillar 1, not a second resolution system.
 
+**ESTABLISHED — The maps feed each other through Missions:** a battle can be viewed as a **mission** arising from a campaign event, carrying its own objectives.
+
+- **Campaign → Battle:** the event gives the party its reason to fight and shapes what it can achieve there — campaign decisions acquire a purpose the player pursues on the battle map.
+- **Objectives ≠ win-conditions:** objectives define *what* the mission requires; how the fight itself is won is covered by `20b_STRATEGY_AND_BALANCE_MAP_WIP.md` §1 and §7.10.
+- **Battle → Campaign:** what the party actually achieves is seeded back onto the campaign map (`06_adventure_and_prep.md` Ch.15, World-Seed Resolution).
+
 ## 3. Freedom, Uncertainty, and Destiny
 
 **ESTABLISHED:** Destiny must gradually become visible but must never become a predictable route assembled by the player — that would replace saga with planning.
@@ -48,6 +56,8 @@ Both run on the same shared engine (`01_system_foundations.md` Ch.1) — this is
 ## 4. Replayability
 
 Replayability should arise from repeatedly constructing different forms of power and discovering what saga each construction makes possible — not mainly from alternate scripted content. Recurring qualities to preserve: concrete construction, multiple viable combinations, continued acquisition, testing through conflict/events, clear evidence of whether a construction works, no permanently completed form, familiar rules generating unfamiliar situations.
+
+**Current direction — Shared Event Pile:** a common pile of events across playthroughs. Players choose their path through it by play style, characters, and party alignment; variation comes from which events are pursued, when the party arrives, what it tries to achieve, and what the outcome means for that particular party. Whether the pile persists or resets between sagas is a **play-mode** question — see `20b_STRATEGY_AND_BALANCE_MAP_WIP.md` §7.9 (World Continuity) and `25_LEGACY_WIP.md`.
 
 Two open development fields: **(1)** challenges/possibilities for different forms of power, **(2)** different possible destinies in the world. Challenges test power; opportunities expand power; destiny emerges through power's acquisition and use but is not reducible to a build outcome.
 

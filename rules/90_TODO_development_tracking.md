@@ -76,6 +76,9 @@ Tracks open items surfaced while implementing `00E_CORE_VISION_AND_PILLARS_WIP.m
 
 - [ ] **Trader** has no Class Tree mapping at all (`99_CLASS_TREES_WIP.md` — Bartering exists only as a Skill, no tree behind it) — distinct from and smaller than the general 9th-Tree/Craft question.
 - [ ] Belief/Direction tier (`96_OATHS_WIP.md` §8b) — mechanism entirely undesigned: what it grants, if anything, and how/whether it's tracked.
+- [ ] **In-play time resolution** — how campaign time passes *during* a saga (real-time, per stretch of campaign time, or per party action). Distinct from between-saga persistent-world time advancement (§5, `25_LEGACY_WIP.md` §2). Must preserve the tactical significance of time: party speed decides which opportunities are within reach.
+- [ ] **Faction clock** — mechanism by which factions move on their own clock (`22_FACTIONS_WIP.md` §1); "Faction Pulse" (`06_adventure_and_prep.md` Ch.12) undefined.
+- [ ] **Mission objectives** — no objective layer exists yet for missions arising from campaign events (`20_CAMPAIGN_CORE_WIP.md` §2b).
 - [ ] Campaign Map weighting — "cities, nodes, and places of interest carry particular weight beforehand" (`20_CAMPAIGN_CORE_WIP.md` §2b) has no formula or numeric representation yet.
 
 ## 6. Character Build Pipeline (New — 2026-11-09)
