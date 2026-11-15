@@ -27,4 +27,21 @@ This file tracks findings about the *process* of investigating and building BG S
 *How to apply:* on a named correction, execute the minimal diff for exactly what was named, then stop. Don't expand into a consistency sweep of the surrounding file unless the user's phrasing asks for that ("check the whole doc," "audit for consistency") or a lock-in step explicitly requires it.
 
 ---
+
+## 2026-11-15
+
+**Process overhead should scale to task type, not apply uniformly.** The 2026-07-27 finding (named correction = production-mode) generalizes into a routing table rather than one isolated case:
+
+| Tier | Example | Factory Engine | Personal preferences (tone/format) |
+|---|---|---|---|
+| Mechanical op | Rename a file, fix a typo | Skip | Skip — just do it |
+| Named correction | "Fix X in file Y" | Skip | Keep — minimal diff, but still report back tight/cited |
+| Simple reply | Answering a question, explaining a mechanic | N/A (nothing being produced) | Keep |
+| Design suggestion | New rule text, a Skeleton Plan | Full pipeline (Atoms → Map → Synthesis → Eval) | Keep |
+
+*How to apply:* before reaching for the Factory Engine or investigation-grade rigor, classify the request against this table first. Don't run a mechanical op or a named correction through the full pipeline; don't skip personal-preference formatting on a simple reply just because it isn't "producing content."
+
+**Safety and confirmation behavior is not a tier-scaled preference — it's constant.** Destructive-action checks, the git safety protocol, and confirmation before broad-blast-radius actions apply at every tier in the table above, including "mechanical op." Scaling down investigation rigor and the Factory Engine must never be read as scaling down safety behavior — they are different axes, not the same dial.
+
+---
 *Created: 2026-07-26*

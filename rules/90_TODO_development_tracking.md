@@ -28,7 +28,7 @@ The three cosmological layers (Önd/Life-Current, Wyrd, Oaths) have been establi
 
 | Priority | Question | Notes |
 | :--- | :--- | :--- |
-| **HIGH** | **Wyrd Pressure — how does it manifest in play?** | Deep Óðr-tree investment stirs the Wyrd. Does this create a passive field effect on the battlefield hex? A GM-facing tracker? A visible status? Needs a mechanic that is atmospheric, not a combo table. |
+| **HIGH** | **Wyrd Pressure — how does it manifest in play?** | Deep Óðr-tree investment stirs the Wyrd. Does this create a passive field effect on the battlefield hex? A GM-facing tracker? A visible status? Needs a mechanic that is atmospheric, not a combo table. Conceptual chain now fixed (2026-11-15): Wyrd-legibility → Wyrd-Pressure → Troth-Gravity → Saga-Renown/Wyrd-Scar (`01_INTERNAL_ARCHITECTURE_WIP.md` Soul Trio) — this entry is about the mechanical manifestation of stage 2 specifically, still open. |
 | **HIGH** | **Oath Web — individual vs. party oaths** | *MOVED TO `96_OATHS_WIP.md`* |
 | **MEDIUM** | **Life-Current disturbance (combat)** | When many beings bleed and die on a hex, the Life-Current is disturbed. Does this affect subsequent battles on that hex? Healing rolls? Spirit/Wyrd interaction? Relevant to both monster design and campaign-layer. |
 | **MEDIUM** | **Non-human beings and the three layers** | Trolls, spirits, giants, undead — how do they relate to each layer differently? A spirit may exist purely in the Wyrd layer with no Önd anchor. An undead may have severed Önd but retained Lá. This affects which tree perks they can access. |
@@ -70,6 +70,13 @@ Tracks concrete content and open decisions for `20_CAMPAIGN_CORE_WIP.md` through
 - [ ] Exact Cohesion → Moral Pressure DC-reduction curve and the auto-negate threshold for Route Checks (`05_battle_core.md` Ch.8 §2).
 - [ ] Whether conditional supplies (fodder, medicine, repair materials, reagents, ship maintenance) become tracked resources or remain event/equipment effects (`26_CAMPAIGN_ECONOMY_WIP.md` §4).
 - [ ] How persistent-world time advancement transforms factions, places, divinities, and unresolved events (`25_LEGACY_WIP.md` §2).
+
+## 7. Core Vision Pillars (New — 2026-11-15)
+Tracks open items surfaced while implementing `00E_CORE_VISION_AND_PILLARS_WIP.md`'s four Pillars.
+
+- [ ] **Trader** has no Class Tree mapping at all (`99_CLASS_TREES_WIP.md` — Bartering exists only as a Skill, no tree behind it) — distinct from and smaller than the general 9th-Tree/Craft question.
+- [ ] Belief/Direction tier (`96_OATHS_WIP.md` §8b) — mechanism entirely undesigned: what it grants, if anything, and how/whether it's tracked.
+- [ ] Campaign Map weighting — "cities, nodes, and places of interest carry particular weight beforehand" (`20_CAMPAIGN_CORE_WIP.md` §2b) has no formula or numeric representation yet.
 
 ## 6. Character Build Pipeline (New — 2026-11-09)
 Tracks open decisions for `01c_CHARACTER_BUILD_PIPELINE_WIP.md`, consolidating the three-currency progression model (Skill/Attribute/Tree-Faction).

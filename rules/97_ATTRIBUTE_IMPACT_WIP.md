@@ -55,7 +55,7 @@
     *   **MG (Megin Capacity):** Determines how much Wyrd-current you can host.
 *   **Physical Pillar (Lá):** **The Breath.** Internal thoracic pressure and metabolic management.
     *   *Maneuvers:* **Law-Speaker** (Forcing surrender), **Siege-Lungs** (Exhausting the enemy).
-    *   *Reaction Identity:* **The Moral Gravity (Shout).** Using a "Reaction Shout" to force an attacker to hesitate (re-roll).
+    *   *Reaction Identity:* **The Iron Shout.** Using a "Reaction Shout" to force an attacker to hesitate (re-roll). *(Renamed from "The Moral Gravity" — collided with the unrelated cosmological Troth-Gravity concept, `01_INTERNAL_ARCHITECTURE_WIP.md`.)*
 *   **Mystic Pillar (Óðr):** **Urd’s Vessel.** The capacity to host the divine current without the soul "leaking" out of the skin.
 *   **Combat Role:** **The Vessel.** Managing the "Pressure" of the fight through metabolic attrition and hosting high-power currents.
 

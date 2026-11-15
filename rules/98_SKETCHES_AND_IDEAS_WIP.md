@@ -67,7 +67,7 @@ To deepen the "Reaction Identity" of characters, we move beyond generic dodging 
     *   **Anchor**: **INT (The Pulse)** + **Initiative**.
     *   **Reaction Identity**: *The Counter-Striker*. A "Stop-Hit" that attempts to strike during the opponent's attack, interrupting their action entirely if successful.
 
-5.  **The Moral Gravity (The Flinch-Response)**:
+5.  **The Iron Shout (The Flinch-Response)**: *(renamed from "The Moral Gravity" — collided with the unrelated cosmological Troth-Gravity concept, `01_INTERNAL_ARCHITECTURE_WIP.md`)*
     *   **Logic**: Weaponizing psychology to cause a neurological "Flinch" (Kuzushi).
     *   **Anchor**: **CHA (The Attention)** + **WIL (The Word)**.
     *   **Reaction Identity**: *The Warlord/Terror*. Using a "Reaction Shout" or "Death Gaze" to force an attacker to re-roll their 3d6, representing momentary hesitation.

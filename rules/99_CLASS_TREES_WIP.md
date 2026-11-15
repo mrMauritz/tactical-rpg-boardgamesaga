@@ -111,6 +111,8 @@ The argument **against**: in a low-fantasy world, the smith and the rune-worker 
 
 **Decision needed:** Does The Word absorb craft, or does Craft earn its own tree?
 
+This question is also the live edge of Pillar 2 (`00E_CORE_VISION_AND_PILLARS_WIP.md`) — every character's Campaign-function role (healer, scout, trader, armorer, smith, scholar) needs a tree home the same way Battle-function roles already have one. Smith/armorer/engineer/alchemist/scholar all land somewhere above (mostly The Word). **Trader does not currently map to any tree at all** — Bartering exists only as a Skill (`03_skill_system.md`, Leadership & Legacy), with no Class Tree behind it. Flagged, not resolved.
+
 ---
 
 ## Locked Seed Perks (Cross-Reference)

@@ -7,6 +7,14 @@
 
 ---
 
+## 0. Three Roles (Pillar 2: Three-Layer Character Roles)
+
+**ESTABLISHED:** Every character carries a role in all three layers (`00E_CORE_VISION_AND_PILLARS_WIP.md` Pillar 2):
+
+- **Battle function** — combat role, covered by the 8 Class Trees (`99_CLASS_TREES_WIP.md`): hold the line, deal damage, fight at range, scout, heal, use magic, support, or command.
+- **Campaign function** — civilian role: healer, scout, trader, armorer, smith, scholar. Not yet fully mapped to the Class Trees — see `99`'s open Craft-tree question.
+- **Saga function** — relational. Each character has a part to play; the particular people the player brings together form a constellation, and that combination speaks for itself through the paths it opens in the Wyrd (`99`'s "Emergent Synergy") — without requiring an elaborate dialogue/relationship-management system.
+
 ## 1. Definition
 
 **ESTABLISHED:** Every party member carries a past, a story, movable alignment, potential development in several directions, a preset for different possible powers, event-triggered reactions (possibly hard-coded), and relationships that can draw them closer to or further from the party or other members.

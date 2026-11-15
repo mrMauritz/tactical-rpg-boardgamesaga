@@ -24,6 +24,15 @@ Military force is one form of power. Others: the power to protect, persuade, com
 
 Core transformation: **Gain capabilities → expand real freedom → choose a path → accept consequences → transform the company.**
 
+## 2b. Two Hex Maps (Pillar 1: Twin Layers)
+
+**ESTABLISHED:** BG Saga has two hex maps, carrying weight differently:
+
+- **The Campaign Map** — weighted beforehand. Cities, nodes, and places of interest already carry particular weight in the world before the player arrives at them.
+- **The Battle Map** — the tactical importance of a position emerges from the situation and from how characters interact with the physical environment. This is where the tabletop influence matters most — a hex can matter for more than cover or height (see `05_battle_core.md`'s formation and terrain rules).
+
+Both run on the same shared engine (`01_system_foundations.md` Ch.1) — this is the spatial expression of Pillar 1, not a second resolution system.
+
 ## 3. Freedom, Uncertainty, and Destiny
 
 **ESTABLISHED:** Destiny must gradually become visible but must never become a predictable route assembled by the player — that would replace saga with planning.

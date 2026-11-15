@@ -5,6 +5,8 @@
 ## Chapter 1 — The 3d6 Resolution Ladder
 All tactical and skill checks use a **3d6 roll** (summed) against a target difficulty. The bell curve provides a predictable outcome range (3-18), ideally suited for the **Modifier Barrier**.
 
+This ladder is the shared engine between the Battle layer (`05_battle_core.md`) and the Campaign layer (`06_adventure_and_prep.md`, `20_CAMPAIGN_CORE_WIP.md` onward) — the two near-independent core systems named in `00E_CORE_VISION_AND_PILLARS_WIP.md` Pillar 1 run on this one resolution method, not two different ones.
+
 ### The Standard Ladder (1–20)
 | Result | Tier | Outcome Description |
 | :--- | :--- | :--- |
@@ -149,7 +151,7 @@ Initiative determines the order of action within each segment. It is a live valu
 The Wyrd is a universal current that affects all beings. It is indifferent and unquantified (no points). Modifying it is forbidden and risky.
 
 ### Oaths & The Tension of Time
-Oaths exert **Moral Gravity**. Breaking them has real, non-physical consequences. *(This system is being expanded in `96_OATHS_WIP.md`)*
+Oaths exert **Troth-Gravity**. Breaking them has real, non-physical consequences. *(This system is being expanded in `96_OATHS_WIP.md`)*
 
 ### Generational Remnants
 When a character falls, their presence is "seeded" into the world as a persistent marker. *(This system is being expanded in `96_OATHS_WIP.md`)*

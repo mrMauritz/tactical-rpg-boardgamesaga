@@ -27,6 +27,10 @@ The Wyrd operates ON the Life-Current — pressing fate-patterns into the living
 
 A character with dense Lá is nearly invisible to the Wyrd — hard to move, hard to manipulate. A character with open Óðr is thin in the Life-Current but highly legible to the Wyrd — a bright thread the Norns can see and reach.
 
+**Legibility runs both directions.** The same openness that makes a character visible *to* the Wyrd makes the Wyrd visible *to* them — sight and exposure are one exchange, not two. This is the Óðinn pattern exactly: an eye given at Mímir's Well, nine nights on Yggdrasil for the runes — opening to the deeper reality costs something and grants insight in the same motion. Mimir's Resonance and Freyja's Weave (§"The 6 Pillars" below) are already this half of legibility — sensing Wyrd-currents, navigating the Norns' threads — just not previously named as the other side of the same coin as being seen.
+
+**The chain this feeds:** Wyrd-legibility (a standing trait of a character's Lá/Óðr build) → Wyrd-Pressure (the situational field effect legible characters generate when deep investment or extreme action is active nearby, §"The Cosmological Field," `99_CLASS_TREES_WIP.md`) → Troth-Gravity (the weight a specific Oath or deed carries, amplified in a high-pressure moment) → Saga-Renown or Wyrd-Scar (the permanent record a deed crystallizes into). Four stages of one phenomenon, not three redundant terms for the same number.
+
 ---
 
 ### Universal Architect's Summary
@@ -74,6 +78,8 @@ Their dense physical body naturally resists the magic passing through it. While 
 
 ### Axis 2: The Source of the Fire (The Six Saga Archetypes)
 Igniting a Pillar is not just a physiological event; it is a historical declaration in the Saga. You must choose *how* the pillar is ignited—by submitting to Order, harmonizing with the Wild, or embracing Chaos. This choice permanently dictates your character's narrative path and mechanical Wyrd-Filter.
+
+**The organizing image is the tree.** Order, Wild, and Chaos are branches of the one world-tree (Yggdrasil — Pillar 3, `00E_CORE_VISION_AND_PILLARS_WIP.md`), and the Divinities (`23_DIVINITIES_WIP.md`) sit further out along those same branches. "Guardian" of a branch is used broadly here — merely believing in or heading toward a branch's direction already serves it, no formal Oath or earned Devotion required (see the new Belief/Direction tier, `96_OATHS_WIP.md` §8b). Igniting a Pillar is a much stronger commitment than that — a full narrative declaration, not a passing direction.
 
 #### 1. The Champion (Physical Order / Devout)
 *The Einherjar-Seed. Those whose bodies are forged as weapons by divine hands.*
@@ -247,10 +253,10 @@ A magic user must decide how much they "open the door" to the Wyrd.
     - **Physical Attrition**: While in the Madness, the practitioner is subject to the **Law of Sacrifice**. The soul is attempting to Escape the Skin (Lá), making the physical frame brittle and ghost-like as the "Mind" wanders into the Song.
     - **The Unpredictability**: Boundaries between conduits soften. A Shaman in total frenzy might "Order" like a Galdramaðr; a Seer might "Negotiate" like a Shaman.
 - **The Story System (Historical Weight)**:
-    - Actions taken in this state carry **Double Moral Gravity** and provide permanent **Saga-Renown**. These are the deeds Skalds sing about, but they risk **Spiritual Burnout (The Hollowed)**.
+    - Actions taken in this state carry **Double Troth-Gravity** and provide permanent **Saga-Renown**. These are the deeds Skalds sing about, but they risk **Spiritual Burnout (The Hollowed)**.
 - **Why High ÓÐ Users are Feared**:
     - **Liquid Reality**: They treat reality as mutable rather than fixed. 
-    - **Moral Gravity Warp**: Their Will is so dense that it exerts a "warping" effect, forcing the environment to align with their mythic narrative.
+    - **Troth-Gravity Warp**: Their Will is so dense that it exerts a "warping" effect, forcing the environment to align with their mythic narrative.
     - **Inspired Unpredictability**: Their actions are "inspired" by the song, often leading to tactical outcomes that are physically impossible but narratively "Correct."
 
 ### 5. MG (Megin) — The Internal Vessel

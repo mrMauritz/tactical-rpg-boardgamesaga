@@ -1,7 +1,9 @@
-# 96 Oaths & Karma (WIP)
+# 96 Oaths & Troth-Gravity (WIP)
 
 ## 1. The Core Definition of Oaths
-Oaths are the only layer of the cosmos with *direction*. They are an act of will imposed simultaneously on the Life-Current (Önd) and the Wyrd. Oaths bind, create moral gravity, and carry weight beyond death.
+Oaths are the only layer of the cosmos with *direction*. They are an act of will imposed simultaneously on the Life-Current (Önd) and the Wyrd. Oaths bind, create **Troth-Gravity**, and carry weight beyond death.
+
+> **On the name:** Not *Moral* Gravity. The Wyrd does not judge good or evil (§4) — it registers fidelity to a self-imposed direction. Troth-Gravity is the weight of being true or false to a thread you pulled taut yourself, not a verdict on the deed's virtue. "Karma" in this file's old title made the same mistake in the other direction, importing a moral-ledger connotation the Wyrd doesn't have — retired in favor of Troth-Gravity throughout.
 
 The Wyrd operates ON the Life-Current—pressing fate-patterns into the living medium. Oaths shape BOTH simultaneously—they direct the flow of the Life-Current and create fixed points in the Wyrd that resist the Norns' weaving. A broken oath tears the fabric at both levels at once.
 
@@ -11,7 +13,7 @@ The Wyrd (Fate) and Önd (Life-Current) exist in a state of contradiction: they 
 - **The Personal Drop:** Every being has their own localized life-current and their own specific thread of fate. 
 - **The Collective Ocean:** Every personal thread is woven into the universal tapestry. Every drop of life-current belongs to the same vast, world-spanning ocean.
 
-Because of this duality, Oaths and actions of deep moral gravity (Karma) do not happen in isolation. 
+Because of this duality, Oaths and actions of deep Troth-Gravity do not happen in isolation. 
 
 ## 3. The Ripples of Action (Micro vs Macro)
 When a character acts with extreme loyalty or profound treachery, the effect manifests on both levels simultaneously:
@@ -28,6 +30,8 @@ When a character falls, their presence is "seeded" into the world as a persisten
 The Wyrd does **not** judge, measure, or care. It is an indifferent fabric. Alignment is simply the *framework* (the architecture) a character uses to interact with that fabric.
 
 When an Oath is made, a thread is pulled taut. When an Oath is broken, that thread violently snaps. The Wyrd does not punish the breaker; the physics of the snap simply interact with the character's specific Alignment framework.
+
+**The Wyrd-Scar works like a scratch on a vinyl record** — a permanent groove that makes the "playback" skip at that point from then on. Because the Wyrd doesn't check motive (§2 above), the scratch can land just as easily from circumstance as from intent — a character torn between two bindings (kinship vs. sworn word, hospitality vs. blood-feud) can gain a Wyrd-Scar through no villainy at all. The snap doesn't care why the thread broke, only that it did.
 
 ### ORDER (The Framework of Structure)
 *Order relies on geometric flawlessness, rigid laws, and divine Oaths. They build in iron and stone.*
@@ -89,6 +93,12 @@ Because Alignment dictates the framework, positive and aggressive bonds manifest
 *   **Chaos (Annihilation):** Absolute indifference to collateral damage. The tether allows the avenger to dissolve reality (ignoring cover/armor) to reach the target, pulling the whole hex down with them if necessary.
 
 ---
+
+## 8b. Belief/Direction — A Tier Beneath Oath and Devotion
+
+**ESTABLISHED (Pillar 3, `00E_CORE_VISION_AND_PILLARS_WIP.md`):** A third, lighter tier of relation to a branch of the world-tree exists beneath both mechanisms already defined — beneath the hard-binding Oath (above) and beneath earned, invested Devotion (`24_BONDS_AND_DEVOTION_WIP.md`). Merely believing in a branch's direction, or heading toward it, already serves it — no formal swearing, no earned achievement required. "Guardian" of a branch is used in this broad sense throughout the cosmology.
+
+This tier requires no commitment and can be held without the bearer's knowledge that they hold it. What it grants, if anything, and how it's tracked, is **OPEN** — this section fixes only that the tier exists and sits below the other two, not its mechanism.
 
 ## 9. Attributes & The Voice
 *   **Óðr (Mystic Spirit) / Odin's Decree:** The authority of the "Chanted Command" is used to mandate how reality must behave and set these constraints (Oaths).

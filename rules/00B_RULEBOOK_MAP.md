@@ -13,6 +13,7 @@
 | `00A_DESIGN_ATOMS_doctrine.md` | A | Immutable mechanical laws: 3d6 system, no-bloat, quota discipline. |
 | `00B_RULEBOOK_MAP.md` | B | This file. Build order and chapter index. |
 | `00D_EVAL_RUBRIC_reference.md` | D | Quality gate checklist + material/sabotage reference values. |
+| `00E_CORE_VISION_AND_PILLARS_WIP.md` | A | The Four Pillars, Six Values, and the Presentation Feature — what the game fundamentally is, above any single layer. Same immutability bar as `00A_DESIGN_ATOMS_soul.md`. |
 
 ---
 
