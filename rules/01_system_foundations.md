@@ -35,34 +35,37 @@ Characters are defined by six core attributes, usually ranging from 1 to 12. Rea
 ### The Progression Ladder (Bonus vs. Pillars)
 Every point of attribute growth contributes to either the character's **Passive Bonus** (efficiency) or their **Internal Architecture** (Pillars).
 
-- **Every Odd Value (1, 3, 5...):** Increases the **Attribute Bonus**.
-- **Every Even Value (2, 4, 6...):** Unlocks a **Pillar Slot** (Threshold begins at level 4).
+- **Attribute Bonus** = `floor(Value/2) − 1`. Negative at Value 1; increases at every **Even Value** (2, 4, 6...).
+- **Every Odd Value from 5 (5, 7, 9, 11, 13):** reaches a **Pillar** — rule-breaking tactical advancement. Ignition, Lá/Óðr paths, and alignment: `01_INTERNAL_ARCHITECTURE_WIP.md` "Ignition Logic".
+- **Mortal cap: 12.** Only Chaos alignment raises past it (uncapped — the rising cost is the practical limit). Pillar V (13) is therefore legendary.
+- **Cost:** raising N→N+1 costs N attribute points (minimum 1) — `01c_CHARACTER_BUILD_PIPELINE_WIP.md` §3.
 
-| Attribute Value | Attribute Bonus | Pillar Slots | Milestone Description |
+| Attribute Value | Attribute Bonus | Pillar | Milestone Description |
 | :--- | :--- | :--- | :--- |
-| **1** | -1 | — | Raw Potential |
-| **2** | -1 | — | Physiological Awakening |
-| **3** | **0** | — | Systemic Refinement |
-| **4** | 0 | **1 Slot** | **Pillar Ignition (Baseline)** |
-| **5** | **+1** | 1 Slot | Capacity Expansion |
-| **6** | +1 | **2 Slots** | Structural Integration |
-| **7** | **+2** | 2 Slots | Force Unification |
-| **8** | +2 | **3 Slots** | Synaptic Clarity |
-| **9** | **+3** | 3 Slots | Systemic Mastery |
-| **10** | +3 | **4 Slots** | Peak Physicality |
-| **11** | **+4** | 4 Slots | Transcendent Form |
-| **12** | +4 | **5 Slots** | **Historical Legend (Mastery)** |
+| **1** | **-1** | — | Raw Potential |
+| **2** | **0** | — | Physiological Awakening |
+| **3** | 0 | — | Systemic Refinement |
+| **4** | **+1** | — | Skill Threshold (Bonus ≥ +1) |
+| **5** | +1 | **Pillar I** | Pillar Ignition (pair) |
+| **6** | **+2** | — | Structural Integration |
+| **7** | +2 | **Pillar II** | Force Unification |
+| **8** | **+3** | — | Synaptic Clarity |
+| **9** | +3 | **Pillar III** | Systemic Mastery |
+| **10** | **+4** | — | Peak Physicality |
+| **11** | +4 | **Pillar IV** | Transcendent Form |
+| **12** | **+5** | — | **Historical Legend (Mortal Cap)** |
+| **13** | +5 | **Pillar V** | **Legendary (Chaos only)** |
 
 ### Character Origins: Race, Individual, Development
 Three independent layers determine a character, and each answers a different question:
 
-- **Race/Species** → starting **flavor** tendencies (see `97b_ATTRIBUTE_FLAVOR_AXES_WIP.md`). Race does not modify attribute values.
+- **Race/Species** → starting **flavor** tendencies (see `97b_ATTRIBUTE_FLAVOR_AXES_WIP.md`) **and** attribute progression: a race can be generally strong in an attribute, and amplified further where that strength aligns with its flavor direction. *(Mechanism — cost, starting value, or both — open; see `01c_CHARACTER_BUILD_PIPELINE_WIP.md` §5.)*
 - **Individual** → attribute potential and progression cost (the character's own ceiling and XP curve on the ladder above).
 - **Development** → chosen attributes, skills, and paths (player-driven growth through play).
 
-> **Race shapes expression, not progression.**
+> **Race shapes both expression and progression.**
 
-Members of the same race share a recognizable way of functioning — how they move, recover, and respond under strain — without sharing a developmental destiny. This formalizes what the Chapter 2 opening note already implies: attributes are Internal Architecture, not physical size, mass, or lineage — lineage lives in flavor instead.
+Members of the same race share a recognizable way of functioning — how they move, recover, and respond under strain — and a recognizable lean in how they grow. Individual and Development still decide where any one member actually lands. Attributes remain Internal Architecture, not physical size or mass (Chapter 2 opening note).
 
 ## Chapter 3 — Vitality Pools (Bookkeeping)
 Calculated once during character setup. Interactive sheets handle dynamic tracking.
@@ -117,16 +120,17 @@ RF is used exclusively to determine **Defensive Eligibility** (which reactions a
 
 STR modifies the number of d6s rolled in **Stage 2 (Impact Severity)**. This bonus is identical to the **STR Bonus**.
 
-| STR Value | STR Bonus | IS Dice Bonus | Pillar Slots (The Center) |
-| :--- | :--- | :--- | :--- |
-| **2** | -1 | **-1 Die** | — |
-| **4** | 0 | **+0 (Baseline)**| **1 Slot** (Ignited) |
-| **6** | +1 | **+1 Die** | **2 Slots** |
-| **8** | +2 | **+2 Dice** | **3 Slots** |
-| **10** | +3 | **+3 Dice** | **4 Slots** |
-| **12** | +4 | **+4 Dice** | **5 Slots** |
+| STR Value | STR Bonus | IS Dice Bonus |
+| :--- | :--- | :--- |
+| **1** | -1 | **-1 Die** |
+| **2** | 0 | **+0 (Baseline)** |
+| **4** | +1 | **+1 Die** |
+| **6** | +2 | **+2 Dice** |
+| **8** | +3 | **+3 Dice** |
+| **10** | +4 | **+4 Dice** |
+| **12** | +5 | **+5 Dice** |
 
-*Note: Odd numbers (e.g., 3, 5, 7) increase the IS Dice Bonus but do not unlock further Pillar Slots.*
+*Note: The IS Dice Bonus steps at even values only. Odd values from 5 reach Pillars (Ch.2), not further dice.*
 
 ---
 

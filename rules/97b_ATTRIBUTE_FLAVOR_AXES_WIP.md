@@ -176,7 +176,7 @@ Independent of §2, every attribute already carries a dual manifestation:
 - **Óðr (Mystic Spirit)** — the mystic/spiritual expression.
 
 This is fully detailed elsewhere and not duplicated here:
-- `97_ATTRIBUTE_IMPACT_WIP.md` — per-attribute Lá/Óðr breakdown, Pillar Matrices, Alignment Filters.
+- `97_ATTRIBUTE_IMPACT_WIP.md` — per-attribute Lá/Óðr breakdown, Pillar Matrices (alignment is character-level — `01_INTERNAL_ARCHITECTURE_WIP.md` Axis 3).
 - `01_INTERNAL_ARCHITECTURE_WIP.md` — philosophical grounding, the Ignition Logic (2x3 Matrix), the Six Saga Archetypes.
 
 ---
@@ -199,7 +199,7 @@ This is fully detailed elsewhere and not duplicated here:
 
 ## 10. Race Tendencies (Flavor Layer)
 
-Per `01_system_foundations.md` Ch.2 ("Character Origins: Race, Individual, Development"): **race sets starting flavor tendencies, not attribute values.** Attributes stay entirely Individual/Development — race never touches STR/DEX/END/WIL/INT/CHA.
+Per `01_system_foundations.md` Ch.2 ("Character Origins: Race, Individual, Development"): **race shapes both expression and progression.** This section covers the expression side — starting flavor tendencies. The progression side (a race generally strong in an attribute, amplified further where that aligns with its flavor direction) lives in Ch.2 Origins; its mechanism is open (`01c_CHARACTER_BUILD_PIPELINE_WIP.md` §5).
 
 A race entry is a set of signed nudges across the six flavor axes (§2–§5), biasing where a member of that race tends to sit before Individual and Development are layered on. Format (illustrative, not a real race — no race roster exists yet):
 

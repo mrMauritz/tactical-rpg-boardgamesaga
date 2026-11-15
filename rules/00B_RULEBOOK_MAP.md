@@ -24,7 +24,7 @@
 | `01_system_foundations.md` | ✅ Solid | Attributes, Vitality (HP/SP/BP), and the 3d6 Ladder. |
 | `01_INTERNAL_ARCHITECTURE_WIP.md` | 🔒 Detail Locked | The metaphysical and physical pillars of character growth. |
 | `01b_archetype_matrix.md` | ✅ Solid | The 36-archetype Wyrd alignment matrix. |
-| `01c_CHARACTER_BUILD_PIPELINE_WIP.md` | 🚧 Foundational Spark | How Attributes, Pillars, Flavor Axes, Skills, Class Trees, Devotion, and Magic compose at character creation — the three-currency progression model and the resolved Pillar Ignition timing. |
+| `01c_CHARACTER_BUILD_PIPELINE_WIP.md` | 🚧 Foundational Spark | How Attributes, Pillars, Flavor Axes, Skills, Class Trees, Devotion, and Magic compose at character creation — the three-currency progression model and the unified Pillar Ignition model. |
 | `97b_ATTRIBUTE_FLAVOR_AXES_WIP.md` | 🚧 Scaffold | The Frame/System/Disposition flavor axis per attribute pair. |
 | `94_RULE_OF_WILD_MUTATIONS_WIP.md` | 🚧 WIP | The 12 Rule of Wild mutations. |
 | `02_perks_and_traits.md` | ✅ Solid | System-altering traits and organic perk design. |

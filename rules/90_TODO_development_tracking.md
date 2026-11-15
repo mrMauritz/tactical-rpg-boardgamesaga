@@ -81,9 +81,14 @@ Tracks open items surfaced while implementing `00E_CORE_VISION_AND_PILLARS_WIP.m
 ## 6. Character Build Pipeline (New — 2026-11-09)
 Tracks open decisions for `01c_CHARACTER_BUILD_PIPELINE_WIP.md`, consolidating the three-currency progression model (Skill/Attribute/Tree-Faction).
 
-- [ ] Race-modifies-attribute-cost conflict with the "Race shapes expression, not progression" tagline — two reconciliation paths on the table (`01c` §5.1), neither chosen; also unresolved whether a race can be generally strong in an attribute *and* amplified further in its flavor direction.
-- [ ] Exact attribute cost formula — N→N+1 costs N points is proposed, not locked (`01c` §5.2).
+- [x] Race-modifies-attribute conflict — resolved 2026-11-15: race shapes both expression and progression; general strength + flavor-direction amplification allowed (`01c` §5.1).
+- [ ] Racial progression mechanism — cost modifier, starting-value offset, or both; how flavor-direction amplification is computed (`01c` §5.1).
+- [x] Exact attribute cost formula — N→N+1 costs N points, locked 2026-11-15 (`01c` §5.2).
+- [x] Unified Pillar/Ignition model — locked 2026-11-15 (`01c` §2): new Bonus formula, pair ignition via saga/Bond, Lá/Óðr per pair, Pillar I Triples Rule, character-level alignment bonuses.
 - [ ] Whether Flavor Axes interact with Pillar Ignition at all (`01c` §5.3).
+- [ ] Lá/Óðr cost of mixing — Cross-Strain vs. off-path Triples (`01c` §5.7).
+- [ ] Whether Pillars II–V each need their own saga/Bond event (`01c` §5.8).
+- [ ] Re-home parked material: former value-5 Matrix rows (`97` §12C), archetype Mechanical Filters (`01_INTERNAL` Axis 2) (`01c` §5.9).
 - [ ] Level trigger specifics — what generates XP, and the threshold that unlocks a Level/reflection event (`01c` §5.4).
 - [ ] Tree-depth power curve — if Class Tree cost is flat, what paces perk strength growth (`01c` §5.5).
 - [ ] Master Trainer mechanism — cost and access condition undesigned (`01c` §5.6, `26_CAMPAIGN_ECONOMY_WIP.md` Levers).

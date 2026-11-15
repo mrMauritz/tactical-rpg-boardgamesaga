@@ -34,7 +34,7 @@ A character with dense Lá is nearly invisible to the Wyrd — hard to move, har
 ---
 
 ### Universal Architect's Summary
-Progression in *The Saga* is the optimization of the **Internal Architecture** through a **Physiological Choice**. At every even attribute milestone (4, 6, 8, 10, 12), a character must choose to ignite either a **Physical Pillar (Lá)** or a **Mystic Pillar (Óðr)**. 
+Progression in *The Saga* is the optimization of the **Internal Architecture** through a **Physiological Choice**. When an attribute pair first reaches value 5, the character ignites that pair through a saga event, choosing once and permanently between a **Physical (Lá)** or **Mystic (Óðr)** path for it. 
 
 This creates a **Constitutional Tension**: To possess extraordinary power (The Wyrd), one must sacrifice their physical presence (**Lá**) to the ecstatic current (**Óðr**). Magic is not a "resource" to be spent; it is the act of a human soul navigating the **Historical Laws** established by the Gods (Odin’s Word, Thor’s Root, Freyja’s Loom). To "Breach" the laws of reality, the character must enter the **Óðr-Madness**, trading their physical stability for a mythic impact that rewrite the very history of the Saga.
 
@@ -68,7 +68,7 @@ The internal architecture is governed by the three forces of the Saga-Mind:
 A Pillar is not a "stat" that is leveled. It is a **System Circuit** that must be **Ignited**. This ignition requires a deep narrational and mechanical choice, framed as a 2x3 Matrix based on two axes: 
 
 ### Axis 1: The Choice of Architecture (Lá vs. Óðr)
-At each even attribute milestone (4, 6, 8, 10, 12), you must choose whether to anchor your soul in the physical world (**Lá**) or open your mind to the Wyrd (**Óðr**). 
+**LOCKED 2026-11-15.** Ignition happens **per attribute pair** — Physical (STR/DEX), System (END/WIL), Mental (INT/CHA) (`97b_ATTRIBUTE_FLAVOR_AXES_WIP.md` §1). A pair becomes eligible once **either** of its attributes reaches value 5, and ignites through a saga event tied to the character's Bonds (`24_BONDS_AND_DEVOTION_WIP.md`). At ignition you choose, **once per pair and permanently**, whether to anchor that pair in the physical world (**Lá**) or open it to the Wyrd (**Óðr**). Below Pillar values, attributes serve physical and mystic use alike — the distinction only exists at high values. 
 1.  **The Physical Pillar (Lá):** You unlock the Rule-Breaking physical perk (e.g., *The Center*).
 2.  **The Mystic Pillar (Óðr):** You unlock the Rule-Breaking mystic perk (e.g., *The Root*).
 
@@ -76,8 +76,12 @@ At each even attribute milestone (4, 6, 8, 10, 12), you must choose whether to a
 By the Law of Mutual Sacrifice, you cannot occupy the same mythic density in two worlds at once. To possess extraordinary magic (Óðr), your physical skin (Lá) must become thin. If a character intentionally builds heavy Physical Pillars in some attributes alongside heavy Mystic Pillars in others, they create **Cross-Strain**. 
 Their dense physical body naturally resists the magic passing through it. While they gain incredible versatility (the classic "Battle-Mage"), they suffer high physiological strain when casting, experiencing fatigue, chronic pain, and a lower maximum vitality threshold. Mechanically, casting with crossed pillars will actively burn stamina (SP) or lower maximum pools, ensuring the versatility comes at a brutal physical cost.
 
+*Mixed paths also make every Triples roll off-path (Axis 3, Pillar I). How Cross-Strain relates to that rule is open — `01c_CHARACTER_BUILD_PIPELINE_WIP.md` §5.*
+
 ### Axis 2: The Source of the Fire (The Six Saga Archetypes)
 Igniting a Pillar is not just a physiological event; it is a historical declaration in the Saga. You must choose *how* the pillar is ignited—by submitting to Order, harmonizing with the Wild, or embracing Chaos. This choice permanently dictates your character's narrative path and mechanical Wyrd-Filter.
+
+> **Unified 2026-11-15:** Alignment is now chosen at **character level** and grants a universal bonus (Axis 3) — it no longer filters individual Pillars, and Pillars are identical across alignments. The six archetypes below are the alignment × pair-path combinations; their **Ignition** lines describe the kind of saga/Bond event that ignites a pair. Their **Mechanical Filter** lines are **parked** pending review (`01c_CHARACTER_BUILD_PIPELINE_WIP.md` §5).
 
 **The organizing image is the tree.** Order, Wild, and Chaos are branches of the one world-tree (Yggdrasil — Pillar 3, `00E_CORE_VISION_AND_PILLARS_WIP.md`), and the Divinities (`23_DIVINITIES_WIP.md`) sit further out along those same branches. "Guardian" of a branch is used broadly here — merely believing in or heading toward a branch's direction already serves it, no formal Oath or earned Devotion required (see the new Belief/Direction tier, `96_OATHS_WIP.md` §8b). Igniting a Pillar is a much stronger commitment than that — a full narrative declaration, not a passing direction.
 
@@ -117,31 +121,32 @@ Igniting a Pillar is not just a physiological event; it is a historical declarat
 *   **The Saga Aspect:** You are an outlaw of reality. You walk the path of Loki and Gullveig. You hide in the margins, bending the rules of the world to your own selfish ends. The Gods actively hunt or despise you.
 *   **The Mechanical Filter (The Hollowed Trickster):** You are unbound by Oaths and can creatively mix and match magic effects freely. However, the world violently rejects your thievery. Every spell you cast generates magnified **Spiritual Friction**. You are a reality-breaking glass cannon—if you overreach and fail a Wyrd check, the reality backlash is catastrophic.
 
-### Axis 3: The Universal System Mechanics
-Pillars do not grant highly localized tactical abilities (e.g., "+2 damage to sword swings"). Instead, they fundamentally alter the mathematics and physics of the game engine itself. The Alignment chosen (Law, Chaos, Wild) dictates a **Universal Rule** that applies to all Attributes in which a Pillar is ignited.
+### Axis 3: Alignment & the Universal Pillar Rule
+**LOCKED 2026-11-15.** Alignment and Pillars are separate layers. Pillars do not grant highly localized tactical abilities (e.g., "+2 damage to sword swings"); they alter the mathematics of the engine itself, and they are **identical for every alignment**. Alignment is chosen at **character level** and grants a universal bonus independent of ignition.
 
-#### 1. The Rule of Law (Order / Devout)
-*Theme: The Gods reward devotion and actively punish deviation.*
-*   **The Primary Pillar (Divine Intervention):** Whenever you make a roll using an Attribute aligned with your primary domain (e.g., Physical rolls for a Champion), the Gods watch. If you roll **Triples** on your `3d6`, the Heavens intervene: you immediately roll an extra `1d6` and **ADD** it to your result.
-*   **The Opposite Pillar (Divine Rebuke):** The Gods are jealous. If you attempt an action in the opposing architecture (e.g., a Martial Champion casting Wyrd-magic) and roll **Triples**, the Wyrd rejects you. Instead of an extra die, one of your three dice is instantly **SUBTRACTED** from the total, forcing catastrophic failure out of synchronization.
+#### Alignment Bonuses (Character Level)
+| Alignment | Universal Bonus |
+| :--- | :--- |
+| **Order** | +12 attribute development points, once at character creation. |
+| **Wild** | One mutation at character creation, from the path-neutral pool in `94_RULE_OF_WILD_MUTATIONS_WIP.md`. |
+| **Chaos** | Attribute cost −1 per step (minimum 1). Not bound by the mortal cap of 12 — uncapped; the rising cost is the practical limit. Only Chaos reaches Pillar V (13). |
 
-#### 2. The Rule of Chaos (Defiant / Godless)
-*Theme: Sovereign mastery is achieved through pure, grueling repetition rather than divine favor.*
-*   **The Primary Pillar (Sovereign Limits):** You shatter mortal boundaries. The Progression Point (XP) cost to raise any Attribute aligned with your primary domain is permanently reduced by **-2**. Furthermore, the natural mortal Attribute Cap (12) is broken, allowing legendary progression (14+).
-*   **The Opposite Pillar (The Sovereign Wall):** The mortal boundaries fight back. Attributes are single numbers (e.g., STR is just STR). However, if you attempt to use an Attribute for an action belonging to the un-aligned pillar (e.g., using a Physical-anchored STR to calculate a Mystic gravity spell), your effective Attribute Value or Bonus is **HALVED** for that calculation. You lack the divine lubrication to cross the Wyrd fluently.
+#### Pillar I: The Triples Rule (Universal)
+The first Pillar (value 5) is the same for every attribute and alignment, and applies to **all rolls** once lit. A roll is **on-path** when its architecture (physical action = Lá, mystic action = Óðr) matches the path of the character's lit pairs.
+*   **On-path:** roll **Triples** on `3d6` → roll an extra `1d6` and **ADD** it.
+*   **Off-path:** roll **Triples** → one of the three dice is **REMOVED** from the total.
+*   **Mixed paths:** if the character's lit pairs disagree on path, the roll counts as off-path — the cost of mixing.
 
-#### 3. The Rule of Wild (Symbiotic / Beast-Marked)
-*Theme: The Law of Mutual Sacrifice triggers permanent biological and spiritual mutations. There are no dice-miracles or XP discounts—only evolutionary adaptation.*
-*   **Physical Mutation (Lá):** Igniting a Physical Wild pillar grants a permanent, monstrous biological evolution that benefits survival (e.g., *Bone-Plating:* ignore extreme kinetic shock), but inflicts a permanent **negative effect** onto your Mystic side (e.g., structurally unable to hold high MP pools, or permanently suffering Wyrd Strain).
-*   **Mystic Mutation (Óðr):** Igniting a Mystic Wild pillar grants a permanent spiritual evolution (e.g., *Wyrd-Eyes:* passive Wyrd-vision or drawing Wyrd from the environment), but inflicts a severe biological **negative effect** (e.g., brittle bones that temporarily lower BP caps, or flesh that constantly burns SP when casting).
+#### Pillars II–V
+Values 7 / 9 / 11 / 13 — see `97_ATTRIBUTE_IMPACT_WIP.md` §12 (Lá and Óðr Matrices).
 
 ### Implementation Concept: The Block System
 On the character sheet, Pillars are represented by **Slots (Blocks)**.
-- **Empty Slot:** Attribute level not reached.
-- **Gray Slot:** Threshold met (Even Attribute level 4, 6, 8, 10, or 12 reached) but not "Ignited."
-- **Glowing/Active Block:** You have completed the Devout or Defiant Trigger. The Pillar is active, combining the chosen Architecture (Lá/Óðr) with the chosen Filter (Devout/Defiant).
+- **Empty Slot:** Neither attribute of the pair has reached value 5.
+- **Gray Slot:** Eligible (either attribute at 5) but the igniting saga/Bond event has not yet occurred.
+- **Glowing/Active Block:** The ignition event has occurred. The pair's path (Lá/Óðr) is fixed and Pillar I is lit. Pillars II–V follow at values 7 / 9 / 11 / 13 — whether each needs its own event is open (`01c_CHARACTER_BUILD_PIPELINE_WIP.md` §5).
 
-**Resolved timing (2026-11-09):** The Gray Slot opens at the even Attribute value (Pillar Slot unlock, per `01_system_foundations.md` Ch.2) but Ignition itself fires at the *following odd value* — the moment the Attribute Bonus simultaneously ticks up, i.e. the specialization moment, not the raw threshold moment. This reconciles `97_ATTRIBUTE_IMPACT_WIP.md` §12's Master Matrix (which labels "Ignition" at value 5, 7, 9, 11, 13) with this file and `01_system_foundations.md` (which place the Slot at 4, 6, 8, 10, 12) — both are correct, describing two sequential stages of the same Block one level apart. Full pipeline: `01c_CHARACTER_BUILD_PIPELINE_WIP.md`.
+**Unified model (2026-11-15):** supersedes the 2026-11-09 Gray-at-even timing. Full spec: `01c_CHARACTER_BUILD_PIPELINE_WIP.md` §2.
 
 ---
 
