@@ -37,12 +37,12 @@ By multiplying the 6 Attributes by the 6 Alignment-Pillar paths, the world gener
 
 ---
 
-## 3. Endurance (The Domain of Marrow & Vessels)
+## 3. Endurance (The Domain of Breath & Vessels)
 
-### The Physical Pillar: *The Marrow* (Mastery of Adaptation)
-*   **ORDER (The Champion): The Anvil.** The chosen anvil of the Gods. They can safely absorb magical impacts without structural failure.
-*   **WILD (The Beast-Marked): The Troll-Blooded.** Barbarians whose bodies physically mutate (e.g., bone thickening) the longer a fight goes on.
-*   **CHAOS (The Godless): The Un-Dying.** Nihilists whose sheer refusal to submit to death overrides their biology. They continue fighting at 0 HP through sheer sovereign grit.
+### The Physical Pillar: *The Breath* (Mastery of Internal Chemistry)
+*   **ORDER (The Champion): The Iron-Lung.** Stoic champions who use chanted breath algorithms to perfectly manage their stamina (SP) across multi-day sieges. 
+*   **WILD (The Beast-Marked): The Roaring-Lung.** Primal warriors (like the classic Berserker) whose screams alter their physiological pain tolerance. 
+*   **CHAOS (The Godless): The Gasping.** Terrifying duelists who fight in total silence, dropping their heart rate to practically zero to become invisible to heat and sound tracking.
 
 ### The Mystic Pillar: *The Well* (Capacity for the Wyrd)
 *   **ORDER (The Pious Conduit): The Chalice.** Holy relics in human form. Their massive internal capacity allows them to host divine miracles without shattering.
@@ -51,28 +51,28 @@ By multiplying the 6 Attributes by the 6 Alignment-Pillar paths, the world gener
 
 ---
 
-## 4. Willpower (The Domain of Faith & Pressure)
+## 4. Willpower (The Domain of Faith & Marrow)
 
-### The Physical Pillar: *The Breath* (Mastery of Internal Chemistry)
-*   **ORDER (The Champion): The Iron-Lung.** Stoic champions who use chanted breath algorithms to perfectly manage their stamina (SP) across multi-day sieges. 
-*   **WILD (The Beast-Marked): The Roaring-Lung.** Primal warriors (like the classic Berserker) whose screams alter their physiological pain tolerance. 
-*   **CHAOS (The Godless): The Gasping.** Terrifying duelists who fight in total silence, dropping their heart rate to practically zero to become invisible to heat and sound tracking.
+### The Physical Pillar: *The Marrow* (Mastery of Adaptation)
+*   **ORDER (The Champion): The Anvil.** The chosen anvil of the Gods. They can safely absorb magical impacts without structural failure.
+*   **WILD (The Beast-Marked): The Troll-Blooded.** Barbarians whose bodies physically mutate (e.g., bone thickening) the longer a fight goes on.
+*   **CHAOS (The Godless): The Un-Dying.** Nihilists whose sheer refusal to submit to death overrides their biology. They continue fighting at 0 HP through sheer sovereign grit.
 
-### The Mystic Pillar: *The Word* (Mastery of the Decree)
+### The Mystic Pillar: *The Decree* (Mastery of Authority)
 *   **ORDER (The Pious Conduit): The Law-Speaker.** Paladins and High-Gothis enforcing Odin's decree. When they mandate reality, it builds static truth (buffing allies).
 *   **WILD (The Animist): The Curse-Singer.** Tribal mystics who weave hexes through raw emotion and guttural rhythm.
 *   **CHAOS (The Sejd-Thief): The Doom-Caster.** The heretics who weaponize fear, screaming forbidden syllables to cause biological panic and rout formations.
 
 ---
 
-## 5. Intelligence (The Domain of Science & The Stream)
+## 5. Intelligence (The Domain of Science & Resonance)
 
 ### The Physical Pillar: *The Pulse* (Mastery of Neurology)
 *   **ORDER (The Champion): The Calculated.** Generals and master-at-arms who operate on perfect, frictionless synaptic efficiency. No wasted motion.
 *   **WILD (The Beast-Marked): The Instinct-Bred.** Survivors who have bypassed high cognition entirely. They act before they think, driven by hyper-evolved reflexes.
 *   **CHAOS (The Godless): The Severed-Nerve.** Warriors who have completely decoupled their pain receptors. They move with erratic, terrifying speed unhindered by biological limits.
 
-### The Mystic Pillar: *The Seer* (Mastery of Analytical Magic)
+### The Mystic Pillar: *Resonance* (Mastery of Analytical Magic)
 *   **ORDER (The Pious Conduit): The Truth-Seer.** Astrologers and deep-lore mages who perfectly map the divine equations of the Wyrd.
 *   **WILD (The Animist): The Dream-Walker.** Those who navigate the hidden architecture of the deep woods through hallucinogenic trance rather than scrolls. 
 *   **CHAOS (The Sejd-Thief): The Paradox.** Abyssal hackers who use logic loops to crash reality, causing spatial anomalies and localized blinding.
@@ -81,7 +81,7 @@ By multiplying the 6 Attributes by the 6 Alignment-Pillar paths, the world gener
 
 ## 6. Charisma (The Domain of Nature & Presence)
 
-### The Physical Pillar: *The Attention* (Mastery of The Gaze)
+### The Physical Pillar: *The Gaze* (Mastery of Attention)
 *   **ORDER (The Champion): The Warlord.** Their mere physical presence (The Right Hemisphere 'Master') brings order to chaotic battlefields, anchoring the morale of all adjacent allies.
 *   **WILD (The Beast-Marked): The Alpha.** The pack leader. Without speaking, they coordinate flanking maneuvers of hunting squads through dominant body language alone. 
 *   **CHAOS (The Godless): The Terror-Gaze.** The lone predator. The intensity of their sovereign isolation breaks the spirit (causes paralysis or hesitation) of anyone who locks eyes with them.

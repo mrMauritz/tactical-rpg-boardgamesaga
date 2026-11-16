@@ -22,14 +22,14 @@ The Norse names below are the **human cultural expression** of each tree. Other 
 
 | # | Tree | Human Name | Core Attributes | Tactical Role |
 |---|---|---|---|---|
-| 1 | **The Anchor** | Skjaldborg | STR + END | Frontline mass, formation holding |
+| 1 | **The Wall** | Skjaldborg | STR + END | Frontline mass, formation holding |
 | 2 | **The Blade** | Víkingr | STR + DEX | Aggressive offense, weapon arts |
 | 3 | **The Frenzy** | Berserkr | END + WIL | Disruptor, pain immunity, unstoppable |
 | 4 | **The Hunt** | Bogmaðr | DEX + INT | Ranged precision, skirmisher |
 | 5 | **The Voice** | Skald | CHA + INT | Support, morale, battlefield legacy |
 | 6 | **The Rite** | Gothi | WIL + CHA | Sacred favor, recovery, divine law |
-| 7 | **The Word** | Galdrmaðr | INT + WIL | Ordered magic, protective craft |
-| 8 | **The Weave** | Seiðr | WIL + INT | Fate manipulation, transgressive control |
+| 7 | **The Chant** | Galdrmaðr | INT + WIL | Ordered magic, protective craft |
+| 8 | **The Distaff** | Seiðr | WIL + INT | Fate manipulation, transgressive control |
 
 ---
 
@@ -60,20 +60,20 @@ Every traditional RPG role maps into the existing 8 trees — either as a perk b
 | **Healer (secular)** | The Hunt | — | Medicine + Herbalism skill branch; INT-heavy perks |
 | **Thief / Outlaw** | The Hunt | The Blade | [Alignment: CHAOS/WILD]; [Social] útlagi (outlaw) status |
 | **Assassin** | The Hunt | The Blade | [Alignment: CHAOS]; high-tier stealth + precision kills |
-| **Shaman** | The Weave | The Rite | [Racial] or [Alignment: WILD]; spirit-contact tradition |
-| **Druid / Nature animist** | The Rite | The Word | [Alignment: WILD]; nature-law rather than divine law |
-| **Scholarly mage** | The Word | — | [Social] access to rune-lore or sacred texts |
+| **Shaman** | The Distaff | The Rite | [Racial] or [Alignment: WILD]; spirit-contact tradition |
+| **Druid / Nature animist** | The Rite | The Chant | [Alignment: WILD]; nature-law rather than divine law |
+| **Scholarly mage** | The Chant | — | [Social] access to rune-lore or sacred texts |
 | **Battle-priest** | The Rite | The Blade | [Alignment: ORDER]; divine mandate to fight |
-| **Temple guardian** | The Rite | The Anchor | [Social] ordained; sacred oath required |
-| **Paladin-type** | The Anchor | The Rite | [Alignment: ORDER]; oath-bound, divine favor in formation |
-| **Warlord / Battlefield commander** | The Voice | The Anchor | CHA + STR axis; tactical presence over narrative skill |
+| **Temple guardian** | The Rite | The Wall | [Social] ordained; sacred oath required |
+| **Paladin-type** | The Wall | The Rite | [Alignment: ORDER]; oath-bound, divine favor in formation |
+| **Warlord / Battlefield commander** | The Voice | The Wall | CHA + STR axis; tactical presence over narrative skill |
 | **Law-speaker / Negotiator** | The Voice | — | [Social] legal standing; INT branch within Voice |
 | **Unarmed fighter (striking)** | The Blade | The Frenzy | Unarmed weapon-type perks; [Racial] natural for trolls/giants |
-| **Unarmed fighter (grappling)** | The Anchor | The Blade | Glíma tradition; mass + leverage perks |
+| **Unarmed fighter (grappling)** | The Wall | The Blade | Glíma tradition; mass + leverage perks |
 | **Skirmisher / Scout** | The Hunt | — | Mobility + awareness perks; light investment, wide coverage |
-| **Engineer** | The Word | — | INT-heavy; siege and structural perks; [Social] guild/craft tradition |
-| **Alchemist / Poisoner** | The Word | The Hunt | Herbalism + toxicology; [Alignment] CHAOS perks unlock eitr-craft |
-| **Smith (Völund tradition)** | The Word | — | [Social] master-craft lineage; enchanted-forging at high tiers |
+| **Engineer** | The Chant | — | INT-heavy; siege and structural perks; [Social] guild/craft tradition |
+| **Alchemist / Poisoner** | The Chant | The Hunt | Herbalism + toxicology; [Alignment] CHAOS perks unlock eitr-craft |
+| **Smith (Völund tradition)** | The Chant | — | [Social] master-craft lineage; enchanted-forging at high tiers |
 
 ---
 
@@ -103,25 +103,25 @@ Synergy is not tagged or designed. It emerges from what different characters are
 
 ## The Open Question: A 9th Tree?
 
-**The Craft** — smiths, engineers, alchemists, poisoners — currently all map into **The Word** (INT + WIL). This works if The Word is understood broadly as *the tree of knowledge and ordered making*, not only as magic. Runic craft and siege engineering share the same root: imposing human order on raw material.
+**The Craft** — smiths, engineers, alchemists, poisoners — currently all map into **The Chant** (INT + WIL). This works if The Chant is understood broadly as *the tree of knowledge and ordered making*, not only as magic. Runic craft and siege engineering share the same root: imposing human order on raw material.
 
 The argument **for** a separate Craft tree: if crafting has meaningful combat and campaign-level mechanical weight (siege engines, poisoned weapons, enchanted armor), it may be too large to share a tree with ordered magic.
 
 The argument **against**: in a low-fantasy world, the smith and the rune-worker are not separate traditions — Völund was both. Splitting them creates an artificial divide the sagas don't support.
 
-**Decision needed:** Does The Word absorb craft, or does Craft earn its own tree?
+**Decision needed:** Does The Chant absorb craft, or does Craft earn its own tree?
 
-This question is also the live edge of Pillar 2 (`00E_CORE_VISION_AND_PILLARS_WIP.md`) — every character's Campaign-function role (healer, scout, trader, armorer, smith, scholar) needs a tree home the same way Battle-function roles already have one. Smith/armorer/engineer/alchemist/scholar all land somewhere above (mostly The Word). **Trader does not currently map to any tree at all** — Bartering exists only as a Skill (`03_skill_system.md`, Leadership & Legacy), with no Class Tree behind it. Flagged, not resolved.
+This question is also the live edge of Pillar 2 (`00E_CORE_VISION_AND_PILLARS_WIP.md`) — every character's Campaign-function role (healer, scout, trader, armorer, smith, scholar) needs a tree home the same way Battle-function roles already have one. Smith/armorer/engineer/alchemist/scholar all land somewhere above (mostly The Chant). **Trader does not currently map to any tree at all** — Bartering exists only as a Skill (`03_skill_system.md`, Leadership & Legacy), with no Class Tree behind it. Flagged, not resolved.
 
 ---
 
 ## Locked Seed Perks (Cross-Reference)
-- **The Anchor** — **Twin Ward** (`02_perks_and_traits.md`): grants a second simultaneous Active Defense charge, resolving the Engagement Cap (Attention, `95_HISTORICAL_COMBAT_WIP.md`).
+- **The Wall** — **Twin Ward** (`02_perks_and_traits.md`): grants a second simultaneous Active Defense charge, resolving the Engagement Cap (Attention, `95_HISTORICAL_COMBAT_WIP.md`).
 - **The Hunt** — Intended mastery path for **Detection** (Stealth vs. Navigation & Awareness opposed check, `03_skill_system.md` / `06_adventure_and_prep.md`). Signature perks not yet seeded.
 
 ## Notes / Open Questions
 
-- The Weave should carry a built-in world-restriction, not just a perk lock. Historically seiðr was socially condemned (argr). Does that manifest as a faction standing cost? An oath requirement? A permanent social marker?
+- The Distaff should carry a built-in world-restriction, not just a perk lock. Historically seiðr was socially condemned (argr). Does that manifest as a faction standing cost? An oath requirement? A permanent social marker?
 - The Frenzy tree was outlawed in Iceland (Grágás). Does the human perk pool reflect that — i.e., ORDER-aligned humans cannot access certain frenzy perks without breaking standing?
 - Where does **Úlfhéðinn** (wolf-warrior) sit? High-tier branch inside The Frenzy, or its own tree? Different enough tactically (pack movement, DEX component) to split?
 - **The Voice** may need two named internal branches: *the morale branch* (battlefield inspiration) and *the law branch* (negotiation, oath-brokering). Same tree, different perk pools, different attribute weighting within the CHA + INT axis.

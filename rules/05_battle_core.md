@@ -22,7 +22,7 @@
 
 #### The Engagement Cap (Simultaneous Attackers)
 **Starting Capacity** is a per-round pool, not a per-attacker pool. If two attacks land against the same character within the same segment, the defender must choose a single attack to answer with an **Active Defense** roll (spending a charge). The other attack automatically resolves against **Passive Defense** only (Armor Soak, Shield Ballistic Protection) — this is not an automatic hit, it simply forgoes the Active Defense roll and its bonus.
-- **Spare Capacity:** Overcoming this cap (answering both attacks with Active Defense) requires a dedicated Progression Perk, such as **Twin Ward** (The Anchor — see `02_perks_and_traits.md`). It is not available by default.
+- **Spare Capacity:** Overcoming this cap (answering both attacks with Active Defense) requires a dedicated Progression Perk, such as **Twin Ward** (The Wall — see `02_perks_and_traits.md`). It is not available by default.
 
 ## Chapter 6 — The Combat Resolution Pipeline
 To ensure physical realism, combat follows a linear 8-stage pipeline. Interactive sheets automate calculations; players resolve the dice.
@@ -100,16 +100,16 @@ An NPC or Enemy is eligible to be **Beaten** (Routing or Surrendering) when they
 
 ### 2. The Route Check (Will vs. Pressure)
 When a breaking point is reached, the enemy must roll a **3d6 Route Check** against a difficulty determined by the player's **Moral Pressure**.
-- **Moral Pressure (The Gaze):** Set by the attacker's **WIL (The Word)** or **CHA (The Gaze)**.
+- **Moral Pressure:** Set by the attacker's **WIL** or **CHA**.
 - **Party Cohesion (Campaign Layer):** High Party Cohesion (`26_CAMPAIGN_ECONOMY_WIP.md` §3.2) lowers the effective Moral Pressure DC against a party member; at a high enough threshold it auto-negates the check entirely (automatic success) — the same scaling-then-threshold shape as Devotion (`24_BONDS_AND_DEVOTION_WIP.md` §4.1). Exact DC-reduction curve and auto-negate threshold are OPEN, see `90_TODO_development_tracking.md` §5.
 - **Result:**
     - **Success:** The enemy maintains their nerve and continues fighting.
     - **Fail:** The enemy is **Beaten**. They attempt to flee, surrender, or drop their weapons.
 
 ### 3. "Clever Ways" to Beat Enemies
-Characters focused on non-lethal paths (The Word, The Gaze) use these mechanics to resolve encounters:
-- **Intimidation (The Terror-Gaze):** A character with a high CHA Pillar can spend a **Major Action** to force an immediate **Route Check** on an Unstable or Rattled enemy.
-- **Negotiation (The Decree):** A character with a high WIL Pillar can "Order" a Staggered or Stumbling enemy to surrender, bypassing the need for further HP damage.
+Characters focused on non-lethal paths (WIL, CHA) use these mechanics to resolve encounters:
+- **Intimidation (The Terror-Gaze):** A character with **CHA 7+** can spend a **Major Action** to force an immediate **Route Check** on an Unstable or Rattled enemy.
+- **Negotiation (WIL):** A character with **WIL 7+** can "Order" a Staggered or Stumbling enemy to surrender, bypassing the need for further HP damage.
 - **Environment Exploitation:** Collapsing a structure (Material Tag) or isolating an enemy can trigger automatic **Routing** due to tactical hopelessness.
 
 ### Chapter 5.1 — Specialized Actions

@@ -106,7 +106,7 @@ Established direction. Governs **SP resistance** specifically (§6) — how stra
 -2 Diffuse (Air) ← -1 ← 0 Tempered → +1 → +2 Selective (Earth)
 ```
 
-Reuses the existing Master/Emissary attention lore directly — `01_INTERNAL_ARCHITECTURE_WIP.md` Ch. "The Attention (CHA — The Master & The Emissary)" already names this exact CHA concept "Attention."
+Reuses the existing Master/Emissary attention lore directly — `01_INTERNAL_ARCHITECTURE_WIP.md` Ch. "The Gaze (CHA — The Master & The Emissary)" already names this exact CHA concept "Attention."
 
 | Pole | Primary Effects |
 | :--- | :--------------- |

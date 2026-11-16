@@ -6,7 +6,7 @@
 
 ---
 
-## 1. STR — The Center (Mass & Axis)
+## 1. STR — Density (Mass & Axis)
 *The relationship of the spine to gravity.*
 
 *   **Lá (Physical Form):** **The Physical Root.** Anchoring the body to the earth's gravity to resist displacement and generate power from the ground up.
@@ -20,12 +20,12 @@
 *   **Physical Pillar (Lá):** **The Center.** Anchorage for rotational torsion.
     *   *Maneuvers:* **The Clinch** (BP Drain), **Frame-Breaking** (Step-in Bind).
     *   *Reaction Identity:* **The Frame-Breaker.** Stepping into the strike to collapse the opponent's structure.
-*   **Mystic Pillar (Óðr):** **Thor’s Gravity.** The capacity to anchor the spirit. Prevents "Spiritual Displacement" and hosts heavy, anchoring spells.
-*   **Combat Role:** **The Anchor.** Dominating the "Axis" of the fight and forcing displacement on others.
+*   **Mystic Pillar (Óðr):** **The Root** *(patron: Thor)*. The capacity to anchor the spirit. Prevents "Spiritual Displacement" and hosts heavy, anchoring spells.
+*   **Combat Role:** Dominating the "Axis" of the fight and forcing displacement on others.
 
 ---
 
-## 2. DEX — The Web (Elasticity & Tensegrity)
+## 2. DEX — Precision (Elasticity & Tensegrity)
 *The whole-body connective web (Fascia).*
 
 *   **Lá (Physical Form):** **Kinetic Elasticity.** Using the fascial web to unify isolated muscles into a single, high-tension kinetic spring.
@@ -38,48 +38,47 @@
 *   **Physical Pillar (Lá):** **The Web.** Transitioning from isolated muscle to unified kinetic tension.
     *   *Maneuvers:* **The Hook/Pin** (Restricting limbs), **Shadow-Step** (Prep-phase infiltration).
     *   *Reaction Identity:* **The Ma-ai.** Using spatial control to move *during* the opponent's approach.
-*   **Mystic Pillar (Óðr):** **Freyja’s Weave.** Navigating the threads of the Norns. Predictive combat and reality-warping through spatial threads.
-*   **Combat Role:** **The Connector.** Kinetic efficiency, accuracy, and tactical setup.
+*   **Mystic Pillar (Óðr):** **The Loom** *(patron: Freyja)*. Navigating the threads of the Norns. Predictive combat and reality-warping through spatial threads.
+*   **Combat Role:** Kinetic efficiency, accuracy, and tactical setup.
 
 ---
 
-## 3. END — The Breath (Metabolic Pressure)
+## 3. END — Pressure (Metabolism & Breath)
 *The bridge between voluntary and involuntary systems.*
 
 *   **Lá (Physical Form):** **Thoracic Pressure.** Controlling the metabolic engine through breath to generate explosive output and ignore exhaustion.
 *   **Óðr (Mystic Spirit):** **Divine Hosting.** Turning the body into a "Well" (Urd's Vessel) capable of holding high-energy Wyrd-currents without the "skin" breaking.
 
 *   **Mathematical Pools:**
-    *   **SP (Stamina) Max Capacity:** This attribute value determines the character's maximum stamina pool.
+    *   **SP (Stamina) Max Capacity:** `SP = END × 3` (`01_system_foundations.md` Ch.3).
     *   **SP Recovery (Regen):** How much SP is regained through "Take a Breath" or Banking segments.
     *   **MG (Megin Capacity):** Determines how much Wyrd-current you can host.
 *   **Physical Pillar (Lá):** **The Breath.** Internal thoracic pressure and metabolic management.
     *   *Maneuvers:* **Law-Speaker** (Forcing surrender), **Siege-Lungs** (Exhausting the enemy).
     *   *Reaction Identity:* **The Iron Shout.** Using a "Reaction Shout" to force an attacker to hesitate (re-roll). *(Renamed from "The Moral Gravity" — collided with the unrelated cosmological Troth-Gravity concept, `01_INTERNAL_ARCHITECTURE_WIP.md`.)*
-*   **Mystic Pillar (Óðr):** **Urd’s Vessel.** The capacity to host the divine current without the soul "leaking" out of the skin.
-*   **Combat Role:** **The Vessel.** Managing the "Pressure" of the fight through metabolic attrition and hosting high-power currents.
+*   **Mystic Pillar (Óðr):** **The Well** *(patron: Urd)*. The capacity to host the divine current without the soul "leaking" out of the skin.
+*   **Combat Role:** Managing the "Pressure" of the fight through metabolic attrition and hosting high-power currents.
 
 ---
 
-## 4. WIL — The Marrow (Systemic Integrity)
+## 4. WIL — Integrity (Systemic Grit)
 *The body’s deepest adaptive systems.*
 
 *   **Lá (Physical Form):** **Cellular Hardening.** The biological "Grit" that allows the frame to survive catastrophic failure and kinetic shock.
 *   **Óðr (Mystic Spirit):** **The Divine Decree.** Wielding the authority of the "Chanted Command" to mandate how reality must behave (See `96_OATHS_WIP.md`).
 
 *   **Mathematical Pools:**
-    *   **HP (Physical Integrity):** The primary pool for survival.
-    *   **SP Soak (Grit):** Resistance to metabolic exhaustion and physiological shock.
+    *   **Soak (HP / SP / BP):** A small secondary bonus on odd values only, parallel with the Pillars — V5 0, V7 +1, V9 +2, V11 +3, V13 +4. Stacks with all other soak sources (`01_system_foundations.md` Ch.7 §3).
     *   **Conduit Tier (Galdramaðr):** The base for the Galdr methodology (Ordering).
 *   **Physical Pillar (Lá):** **The Marrow.** Systemic hardening and cellular rebuilding.
     *   *Maneuvers:* **Systemic Grinder** (Striking through compromised targets), **The Huskarl** (Shared defense).
     *   *Reaction Identity:* **The Relentless.** Trading HP to immediately recover SP/Composure during a blow.
-*   **Mystic Pillar (Óðr):** **Odin’s Decree.** The authority of the chanted command. Mandating reality and setting constraints (See `96_OATHS_WIP.md`).
-*   **Combat Role:** **The Engine.** Survival through attrition and systemic grit, winning through psychological dominance.
+*   **Mystic Pillar (Óðr):** **The Decree** *(patron: Odin)*. The authority of the chanted command. Mandating reality and setting constraints (See `96_OATHS_WIP.md`).
+*   **Combat Role:** Survival through attrition and systemic grit, winning through psychological dominance.
 
 ---
 
-## 5. INT — The Pulse (The Nervous System)
+## 5. INT — Clarity (The Nervous System)
 *The efficiency of the synaptic highway.*
 
 *   **Lá (Physical Form):** **Synaptic Speed.** Optimizing the nervous system to act with spontaneous efficiency and zero "neurological noise."
@@ -91,12 +90,12 @@
 *   **Physical Pillar (Lá):** **The Pulse.** Reducing neurological noise and cognitive lag.
     *   *Maneuvers:* **Intercepting Sweep** (Catching pulse mid-motion), **The Gallowglass** (Shaft Leverage).
     *   *Reaction Identity:* **The Intercept.** A "Stop-Hit" that strikes the *intent* of the opponent before their damage lands.
-*   **Mystic Pillar (Óðr):** **Mimir’s Resonance.** Tuning to the Hljóð (Silence). Sensing Wyrd-currents and finding the "Empty" space in reality.
-*   **Combat Role:** **The Timer.** Winning the war of timing and interrupting the opponent's flow.
+*   **Mystic Pillar (Óðr):** **Resonance** *(patron: Mimir)*. Tuning to the Hljóð (Silence). Sensing Wyrd-currents and finding the "Empty" space in reality.
+*   **Combat Role:** Winning the war of timing and interrupting the opponent's flow.
 
 ---
 
-## 6. CHA — The Attention (Presence & Gaze)
+## 6. CHA — Presence (Attention & Gaze)
 *The mode of presence and the nature of the "Gaze."*
 
 *   **Lá (Physical Form):** **The Master's Gaze.** Broad, contextual awareness that recognizes the "whole" battlefield and detects hidden intent.
@@ -105,11 +104,11 @@
 *   **Mathematical Pools:**
     *   **Moral Pressure:** The DC for enemy Route Checks.
     *   **Conduit Tier (Shaman):** The base for the Shaman methodology (Negotiating).
-*   **Physical Pillar (Lá):** **The Attention.** Broad contextual awareness vs. narrow technical focus.
+*   **Physical Pillar (Lá):** **The Gaze.** Broad contextual awareness vs. narrow technical focus.
     *   *Maneuvers:* **Terror-Gaze** (Forced Route Check), **The Heihō** (Architect of the Falsehood/Voiding hexes).
     *   *Reaction Identity:* **The Warlord/Terror.** Using "Presence" to create a flinch-response in attackers.
-*   **Mystic Pillar (Óðr):** **Hel’s Spirit-Bridge.** The Gand-reid ghost-walk. Persuading spirits and navigating the "Shadow" layer of the map.
-*   **Combat Role:** **The Master.** Controlling the "Psychology" of the hex and "Warping" the opponent's attention.
+*   **Mystic Pillar (Óðr):** **The Shadow** *(patron: Hel)*. The Gand-reid ghost-walk. Persuading spirits and navigating the "Shadow" layer of the map.
+*   **Combat Role:** Controlling the "Psychology" of the hex and "Warping" the opponent's attention.
 
 ---
 
@@ -129,21 +128,21 @@
 ### 12. Master Matrix of Pillar Mastery (Lá & Óðr)
 *The following rule-breaking mechanics are unlocked upon reaching the specified value on the attribute ladder. **Value 5 (Pillar I)** is the universal Triples Rule for every attribute (`01_INTERNAL_ARCHITECTURE_WIP.md` Axis 3) — the former value-5 rows are parked in C below. Value 13 is Chaos only.*
 
-#### A. The Physical Matrix (Lá: The Vessel)
-| Value | **STR (Axis)** | **DEX (Spring)** | **END (Bellows)** | **WIL (Iron)** | **INT (Spark)** | **CHA (Gaze)** |
+#### A. Physical Matrix (Lá)
+| Value | **STR (The Center)** | **DEX (The Web)** | **END (The Breath)** | **WIL (The Marrow)** | **INT (The Pulse)** | **CHA (The Gaze)** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **7** | **Pillar II**: Negate Unbalance. You never fall prone or lose IS on hit. | **Pillar II**: Negate Friction. You can move through enemy hexes. | **Pillar II**: Negate Bleed. You do not lose HP from DoT effects. | **Pillar II**: Negate Stagger. Your actions cannot be interrupted by damage. | **Pillar II**: Negate Guard. You bypass the first point of enemy Def. | **Pillar II**: Negate Stealth. Hidden enemies within 2 hexes are revealed. |
 | **9** | **Pillar III**: Negate Inertia. You can change direction during a Charge. | **Pillar III**: Negate Gravity. You can move vertically or leap gaps freely. | **Pillar III**: Negate Exhaustion. You do not suffer fatigue penalties at 0 SP. | **Pillar III**: Negate Doubt. Your Commands always succeed on allies. | **Pillar III**: Negate Timing. You can take your reaction *before* an action. | **Pillar III**: Negate Distance. Your gaze distance is doubled. |
 | **11** | **Pillar IV**: Negate Mass. You can wield 2H weapons in one hand. | **Pillar IV**: Negate Range. Your melee reach increases by 1 hex. | **Pillar IV**: Negate Trauma. You can ignore one lethal hit per battle. | **Pillar IV**: Negate Laws. You can use two "Voice" actions per turn. | **Pillar IV**: Negate Limits. You can hold 2 Interrupt charges. | **Pillar IV**: Negate Morale. Enemies cannot benefit from buffs within your gaze. |
-| **13** | **Pillar V**: **Axis Peak.** All hits you land count as a Charge. | **Pillar V**: **Spring Peak.** You gain an extra Move action per turn. | **Pillar V**: **Bellows Peak.** You regenerate 2 HP per round. | **Pillar V**: **Iron Peak.** Your Presence becomes a physical aura of force. | **Pillar V**: **Spark Peak.** You gain an extra Action in the first round. | **Pillar V**: **Gaze Peak.** Enemies must roll to even look at you (Presence DC). |
+| **13** | **Pillar V**: **Center Peak.** All hits you land count as a Charge. | **Pillar V**: **Web Peak.** You gain an extra Move action per turn. | **Pillar V**: **Breath Peak.** You regenerate 2 HP per round. | **Pillar V**: **Marrow Peak.** Your Presence becomes a physical aura of force. | **Pillar V**: **Pulse Peak.** You gain an extra Action in the first round. | **Pillar V**: **Gaze Peak.** Enemies must roll to even look at you (Presence DC). |
 
-#### B. The Mystic Matrix (Óðr: The Metamagic)
-| Value | **STR (The Root)** | **DEX (The Loom)** | **END (The Well)** | **WIL (The Word)** | **INT (The Stream)** | **CHA (The Shadow)** |
+#### B. Mystic Matrix (Óðr)
+| Value | **STR (The Root)** | **DEX (The Loom)** | **END (The Well)** | **WIL (The Decree)** | **INT (Resonance)** | **CHA (The Shadow)** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **7** | **Pillar II**: **Rooted Force.** Spells you cast cannot be dispelled by others. | **Pillar II**: **Warp-Knot.** You can swap the positions of two active spell hexes. | **Pillar II**: **Flowing Well.** Regenerate 1 MG (Mana) whenever you take damage. | **Pillar II**: **Iron Command.** Spells you cast cannot be interrupted. | **Pillar II**: **Harmonic Echo.** Spells repeat their effect once on the next turn. | **Pillar II**: **True Mask.** Spells can appear to originate from any hex in range. |
 | **9** | **Pillar III**: **Gravity Well.** Spells pull targets 1 hex toward the center. | **Pillar III**: **Loom-Shift.** You can redirect a missed spell to a new target. | **Pillar III**: **Vessel Bloom.** You can host two concurrent "Sustained" spells. | **Pillar III**: **The Vow.** Sacrifice HP to guarantee a spell's success. | **Pillar III**: **Frequency Shift.** Change a spell's element type upon casting. | **Pillar III**: **Shadow Walk.** Cast spells while remaining in a "Hidden" state. |
 | **11** | **Pillar IV**: **Crushing Weight.** Spells inflict "Heavy" status (Halve Speed). | **Pillar IV**: **Thread-Sever.** Use your reaction to cut an enemy's active spell. | **Pillar IV**: **Eternal Host.** Sustained spells no longer cost SP per turn. | **Pillar IV**: **The Decree.** Your Word spells affect all targets in a 3-hex cone. | **Pillar IV**: **Overload.** Spells gain +1 Range and +1 AOE size. | **Pillar IV**: **Spirit Breach.** Your spells target Mental Stability instead of Def. |
-| **13** | **Pillar V**: **Root Peak.** Spells ignore all non-magical cover and armor. | **Pillar V**: **Loom Peak.** You can "store" a spell in a hex to trigger later. | **Pillar V**: **Well Peak.** You can cast from your HP if MG is at zero. | **Pillar V**: **Word Peak.** Your Commands become reality (No roll required). | **Pillar V**: **Stream Peak.** Every spell cast generates a Resonant shockwave. | **Pillar V**: **Shadow Peak.** You become a phantom; negate all physical hits. |
+| **13** | **Pillar V**: **Root Peak.** Spells ignore all non-magical cover and armor. | **Pillar V**: **Loom Peak.** You can "store" a spell in a hex to trigger later. | **Pillar V**: **Well Peak.** You can cast from your HP if MG is at zero. | **Pillar V**: **Decree Peak.** Your Commands become reality (No roll required). | **Pillar V**: **Resonance Peak.** Every spell cast generates a Resonant shockwave. | **Pillar V**: **Shadow Peak.** You become a phantom; negate all physical hits. |
 
 #### C. Parked: Former Value-5 Rows (2026-11-15)
 *Displaced by the universal Triples Rule; awaiting re-homing (`01c_CHARACTER_BUILD_PIPELINE_WIP.md` §5).*
@@ -167,36 +166,36 @@
 ## The Physical Descriptions (The Form of Lá)
 
 ### 1. STR — The Center (**Lá**)
-*   **Essential Word:** **Axis.**
+*   **Essential Word:** **Center.**
 *   **Essential Aspect:** **Impact.**
 *   **Game Variables:** **IS, RF, BP, Carry, Weight.**
 *   **Saga Description:** "Like the iron world-pole that holds the sky apart from the earth, the spine is the shaft of the man. To have an Axis is to be the master of the middle-ground, where the weight of the mountain is caught in the hips and turned into the strength of the blow."
 
 ### 2. DEX — The Web (**Lá**)
-*   **Essential Word:** **Spring.**
+*   **Essential Word:** **Web.**
 *   **Essential Aspect:** **Accuracy.**
 *   **Game Variables:** **Def, Initiative, Capacity.**
 *   **Saga Description:** "The sinews of the great wolf were not mere rope; they were a coiled storm. To have the Spring is to be a creature of iron-threads, where the foot and the hand are tied by a single, unified tension that snaps like a released bowstring."
 
 ### 3. END — The Breath (**Lá**)
-*   **Essential Word:** **Bellows.**
+*   **Essential Word:** **Breath.**
 *   **Essential Aspect:** **Stamina.**
 *   **Game Variables:** **SP, Recovery, Conduit.**
 *   **Saga Description:** "The chest is the forge of the man, and the breath is the bellows that feeds the fire of the heart. To be the Bellows is to pressurized the blood until it screams, pushing the body past the point of exhaustion through the sheer physical force of the air inside the lungs."
 
 ### 4. WIL — The Marrow (**Lá**)
-*   **Essential Word:** **Iron.**
+*   **Essential Word:** **Marrow.**
 *   **Essential Aspect:** **Integrity.**
 *   **Game Variables:** **HP, MG, Soak.**
 *   **Saga Description:** "The bones are the stones of the body, and the blood is the river that feeds the stone. To be Iron is to have a frame that refuses to break—where the marrow is washed in the grit of survival until the flesh becomes as stubborn as the cliff-side against the sea."
 
 ### 5. INT — The Pulse (**Lá**)
-*   **Essential Word:** **Spark.**
+*   **Essential Word:** **Pulse.**
 *   **Essential Aspect:** **Timing.**
 *   **Game Variables:** **Reaction, Conduit.**
 *   **Saga Description:** "The mind is a lightning-bolt caught in a vessel of bone. To have the Spark is to live in the micro-second between the intent and the hit, where the synaptic highway is so clear that the body acts before the thought has even reached the tongue."
 
-### 6. CHA — The Attention (**Lá**)
+### 6. CHA — The Gaze (**Lá**)
 *   **Essential Word:** **Gaze.**
 *   **Essential Aspect:** **Morale.**
 *   **Game Variables:** **Pressure, Conduit.**
@@ -206,11 +205,11 @@
 
 | Attribute | Core Optimization | Essential Word | Essential Aspect |
 | :--- | :--- | :--- | :--- |
-| **STR** | Structure & Torsion | **Axis** | Impact |
-| **DEX** | Elasticity & Connectivity | **Spring** | Defense |
-| **END** | Pressure & Metabolism | **Bellows** | Stamina |
-| **WIL** | Hardening & Integrity | **Iron** | Integrity |
-| **INT** | Synaptic Speed & Precision | **Spark** | Timing |
+| **STR** | Structure & Torsion | **Center** | Impact |
+| **DEX** | Elasticity & Connectivity | **Web** | Defense |
+| **END** | Pressure & Metabolism | **Breath** | Stamina |
+| **WIL** | Hardening & Integrity | **Marrow** | Integrity |
+| **INT** | Synaptic Speed & Precision | **Pulse** | Timing |
 | **CHA** | Context & Attention | **Gaze** | Morale |
 
 ---
@@ -241,7 +240,7 @@
 *   **Game Variables:** **ÓÐ, Decree, Law.**
 *   **Saga Description:** "Odin gave the first humans breath, but he kept the Word for himself. To utter a Decree is to mandate reality. It is the authority of the 'Chanted Command' that tells the wind to die and the fire to cold—not by asking, but by reminding the world of the Laws that built it."
 
-### 5. INT — The Stream (**Óðr**)
+### 5. INT — Resonance (**Óðr**)
 *   **Essential Word:** **Resonance (Ómur).**
 *   **Essential Aspect:** **Resonance.**
 *   **Game Variables:** **Hljóð, Resonance, Insight.**
@@ -270,63 +269,63 @@
 ## The Rule of Raw Values (1:1 Attribute Identity)
 To ensure every step of progression is meaningful, the following tactical pools are tied directly to the raw attribute value. These values represent the physical "hardware" limit of the body:
 
-*   **STR (Mass)**: The raw value determines **Carry Capacity** and **Weight Tolerance**.
+*   **STR (Density)**: The raw value determines **Carry Capacity** and **Weight Tolerance**.
 *   **DEX (Precision)**: The raw value determines **Base Initiative** (before armor weight penalties).
-*   **END (Bellows)**: The raw value determines **Maximum Stamina (SP)** and **SP Recovery Rate**.
-*   **WIL (Integrity)**: The raw value determines **Base Internal Pressure** (SP Recovery efficiency and Resistance).
-*   **INT (Pulse)**: The raw value determines **Reaction Window** (The timing threshold for Stop-Hits).
-*   **CHA (Gaze)**: The raw value determines **Presence DC** (The weight of the Gaze; base Difficulty for enemy Route checks).
+*   **END (Pressure)**: The raw value determines **Maximum Stamina (SP = END × 3)** and **SP Recovery**.
+*   **WIL (Integrity)**: Soak (HP / SP / BP) follows its own odd-value step rather than the raw value — see §14.
+*   **INT (Clarity)**: The raw value determines **Reaction Window** (The timing threshold for Stop-Hits).
+*   **CHA (Presence)**: The raw value determines **Presence DC** (The weight of the Gaze; base Difficulty for enemy Route checks).
 
 ---
 
 ## 13. Attribute Ladder (Physical: STR & DEX)
-*Applies to §13–15: Bonus = `floor(V/2) − 1` (`01_system_foundations.md` Ch.2); Skill gate at V4; Pillar I (V5) is the universal Triples Rule; values above 12 are Chaos only. Every stat steps with the Bonus at even values and holds on odd values; Crit and Command run at half rate; END's Galdr starts at Pillar I.*
+*Applies to §13–15: Bonus = `floor(V/2) − 1` (`01_system_foundations.md` Ch.2); Skill gate at V4; Pillar I (V5) is the universal Triples Rule; values above 12 are Chaos only. Every stat steps with the Bonus at even values and holds on odd values; Crit and Command run at half rate; END's Galdr starts at Pillar I; WIL's Soak is the one exception — it steps at odd values from 7 (V7 +1 … V13 +4). HP comes from Body and Size only (`01_system_foundations.md` Ch.3).*
 
-| Value | Type | **STR: The Center (Axis)** | **DEX: The Web (Spring)** |
+| Value | Type | **STR: Density** | **DEX: Precision** |
 | :--- | :--- | :--- | :--- |
 | **1** | **Base** | Primary: IS Bonus / Secondary: Carry & Weight (= Value) | Primary: Def Bonus / Secondary: Initiative (= Value) |
-| **2** | **Bonus** | +0 HP / +0 IS / +0 RF / +0 Heavy | +0 Range / +0 Def / +0 Dodge Cap / +0 Light |
-| **3** | — | +0 HP / +0 IS / +0 RF / +0 Heavy | +0 Range / +0 Def / +0 Dodge Cap / +0 Light |
-| **4** | **Bonus** | **[Skill Unlock]** / +1 HP / +1 IS / +1 RF / +1 Heavy | **[Skill Unlock]** / +1 Range / +1 Def / +1 Dodge Cap / +1 Light |
-| **5** | **Pillar I** | **[Pillar I]** / +1 HP / +1 IS / +1 RF / +1 Heavy | **[Pillar I]** / +1 Range / +1 Def / +1 Dodge Cap / +1 Light |
-| **6** | **Bonus** | +2 HP / +2 IS / +2 RF / +2 Heavy | +2 Range / +2 Def / +2 Dodge Cap / +2 Light |
-| **7** | **Pillar II** | **[Pillar II]** / +2 HP / +2 IS / +2 RF / +2 Heavy | **[Pillar II]** / +2 Range / +2 Def / +2 Dodge Cap / +2 Light |
-| **8** | **Bonus** | +3 HP / +3 IS / +3 RF / +3 Heavy | +3 Range / +3 Def / +3 Dodge Cap / +3 Light |
-| **9** | **Pillar III** | **[Pillar III]** / +3 HP / +3 IS / +3 RF / +3 Heavy | **[Pillar III]** / +3 Range / +3 Def / +3 Dodge Cap / +3 Light |
-| **10** | **Bonus** | +4 HP / +4 IS / +4 RF / +4 Heavy | +4 Range / +4 Def / +4 Dodge Cap / +4 Light |
-| **11** | **Pillar IV** | **[Pillar IV]** / +4 HP / +4 IS / +4 RF / +4 Heavy | **[Pillar IV]** / +4 Range / +4 Def / +4 Dodge Cap / +4 Light |
-| **12** | **Bonus** | +5 HP / +5 IS / +5 RF / +5 Heavy | +5 Range / +5 Def / +5 Dodge Cap / +5 Light |
-| **13** | **Pillar V** | **[Pillar V]** / +5 HP / +5 IS / +5 RF / +5 Heavy | **[Pillar V]** / +5 Range / +5 Def / +5 Dodge Cap / +5 Light |
-| **14** | **Bonus** | +6 HP / +6 IS / +6 RF / +6 Heavy | +6 Range / +6 Def / +6 Dodge Cap / +6 Light |
-| **15** | **Mastery** | **[Mastery]** / +6 HP / +6 IS / +6 RF / +6 Heavy | **[Mastery]** / +6 Range / +6 Def / +6 Dodge Cap / +6 Light |
+| **2** | **Bonus** | +0 IS / +0 RF / +0 Heavy | +0 Range / +0 Def / +0 Dodge Cap / +0 Light |
+| **3** | — | +0 IS / +0 RF / +0 Heavy | +0 Range / +0 Def / +0 Dodge Cap / +0 Light |
+| **4** | **Bonus** | **[Skill Unlock]** / +1 IS / +1 RF / +1 Heavy | **[Skill Unlock]** / +1 Range / +1 Def / +1 Dodge Cap / +1 Light |
+| **5** | **Pillar I** | **[Pillar I]** / +1 IS / +1 RF / +1 Heavy | **[Pillar I]** / +1 Range / +1 Def / +1 Dodge Cap / +1 Light |
+| **6** | **Bonus** | +2 IS / +2 RF / +2 Heavy | +2 Range / +2 Def / +2 Dodge Cap / +2 Light |
+| **7** | **Pillar II** | **[Pillar II]** / +2 IS / +2 RF / +2 Heavy | **[Pillar II]** / +2 Range / +2 Def / +2 Dodge Cap / +2 Light |
+| **8** | **Bonus** | +3 IS / +3 RF / +3 Heavy | +3 Range / +3 Def / +3 Dodge Cap / +3 Light |
+| **9** | **Pillar III** | **[Pillar III]** / +3 IS / +3 RF / +3 Heavy | **[Pillar III]** / +3 Range / +3 Def / +3 Dodge Cap / +3 Light |
+| **10** | **Bonus** | +4 IS / +4 RF / +4 Heavy | +4 Range / +4 Def / +4 Dodge Cap / +4 Light |
+| **11** | **Pillar IV** | **[Pillar IV]** / +4 IS / +4 RF / +4 Heavy | **[Pillar IV]** / +4 Range / +4 Def / +4 Dodge Cap / +4 Light |
+| **12** | **Bonus** | +5 IS / +5 RF / +5 Heavy | +5 Range / +5 Def / +5 Dodge Cap / +5 Light |
+| **13** | **Pillar V** | **[Pillar V]** / +5 IS / +5 RF / +5 Heavy | **[Pillar V]** / +5 Range / +5 Def / +5 Dodge Cap / +5 Light |
+| **14** | **Bonus** | +6 IS / +6 RF / +6 Heavy | +6 Range / +6 Def / +6 Dodge Cap / +6 Light |
+| **15** | **Mastery** | **[Mastery]** / +6 IS / +6 RF / +6 Heavy | **[Mastery]** / +6 Range / +6 Def / +6 Dodge Cap / +6 Light |
 
 ---
 
 ## 14. Attribute Ladder (Systemic: END & WIL)
 
-| Value | Type | **END: The Breath (Bellows)** | **WIL: The Marrow (Iron)** |
+| Value | Type | **END: Pressure** | **WIL: Integrity** |
 | :--- | :--- | :--- | :--- |
-| **1** | **Base** | Primary: HP Bonus / Secondary: SP Max & Recovery (= Value) | Primary: Galdr Acc / Secondary: Stability & Resist (= Value) |
-| **2** | **Bonus** | +0 HP / +0 SP Gen / +0 Galdr | +0 Resist / +0 Stability / +0 Galdr |
-| **3** | — | +0 HP / +0 SP Gen / +0 Galdr | +0 Resist / +0 Stability / +0 Galdr |
-| **4** | **Bonus** | **[Skill Unlock]** / +1 HP / +1 SP Gen / +0 Galdr | **[Skill Unlock]** / +1 Resist / +1 Stability / +1 Galdr |
-| **5** | **Pillar I** | **[Pillar I]** / +1 HP / +1 SP Gen / +1 Galdr | **[Pillar I]** / +1 Resist / +1 Stability / +1 Galdr |
-| **6** | **Bonus** | +2 HP / +2 SP Gen / +2 Galdr | +2 Resist / +2 Stability / +2 Galdr |
-| **7** | **Pillar II** | **[Pillar II]** / +2 HP / +2 SP Gen / +2 Galdr | **[Pillar II]** / +2 Resist / +2 Stability / +2 Galdr |
-| **8** | **Bonus** | +3 HP / +3 SP Gen / +3 Galdr | +3 Resist / +3 Stability / +3 Galdr |
-| **9** | **Pillar III** | **[Pillar III]** / +3 HP / +3 SP Gen / +3 Galdr | **[Pillar III]** / +3 Resist / +3 Stability / +3 Galdr |
-| **10** | **Bonus** | +4 HP / +4 SP Gen / +4 Galdr | +4 Resist / +4 Stability / +4 Galdr |
-| **11** | **Pillar IV** | **[Pillar IV]** / +4 HP / +4 SP Gen / +4 Galdr | **[Pillar IV]** / +4 Resist / +4 Stability / +4 Galdr |
-| **12** | **Bonus** | +5 HP / +5 SP Gen / +5 Galdr | +5 Resist / +5 Stability / +5 Galdr |
-| **13** | **Pillar V** | **[Pillar V]** / +5 HP / +5 SP Gen / +5 Galdr | **[Pillar V]** / +5 Resist / +5 Stability / +5 Galdr |
-| **14** | **Bonus** | +6 HP / +6 SP Gen / +6 Galdr | +6 Resist / +6 Stability / +6 Galdr |
-| **15** | **Mastery** | **[Mastery]** / +6 HP / +6 SP Gen / +6 Galdr | **[Mastery]** / +6 Resist / +6 Stability / +6 Galdr |
+| **1** | **Base** | Primary: SP Max (= Value × 3) / Secondary: SP Recovery | Primary: Galdr Acc / Secondary: Soak (HP / SP / BP) |
+| **2** | **Bonus** | +0 SP Recovery / +0 Galdr | +0 Galdr / +0 Soak |
+| **3** | — | +0 SP Recovery / +0 Galdr | +0 Galdr / +0 Soak |
+| **4** | **Bonus** | **[Skill Unlock]** / +1 SP Recovery / +0 Galdr | **[Skill Unlock]** / +1 Galdr / +0 Soak |
+| **5** | **Pillar I** | **[Pillar I]** / +1 SP Recovery / +1 Galdr | **[Pillar I]** / +1 Galdr / +0 Soak |
+| **6** | **Bonus** | +2 SP Recovery / +2 Galdr | +2 Galdr / +0 Soak |
+| **7** | **Pillar II** | **[Pillar II]** / +2 SP Recovery / +2 Galdr | **[Pillar II]** / +2 Galdr / +1 Soak |
+| **8** | **Bonus** | +3 SP Recovery / +3 Galdr | +3 Galdr / +1 Soak |
+| **9** | **Pillar III** | **[Pillar III]** / +3 SP Recovery / +3 Galdr | **[Pillar III]** / +3 Galdr / +2 Soak |
+| **10** | **Bonus** | +4 SP Recovery / +4 Galdr | +4 Galdr / +2 Soak |
+| **11** | **Pillar IV** | **[Pillar IV]** / +4 SP Recovery / +4 Galdr | **[Pillar IV]** / +4 Galdr / +3 Soak |
+| **12** | **Bonus** | +5 SP Recovery / +5 Galdr | +5 Galdr / +3 Soak |
+| **13** | **Pillar V** | **[Pillar V]** / +5 SP Recovery / +5 Galdr | **[Pillar V]** / +5 Galdr / +4 Soak |
+| **14** | **Bonus** | +6 SP Recovery / +6 Galdr | +6 Galdr / +4 Soak |
+| **15** | **Mastery** | **[Mastery]** / +6 SP Recovery / +6 Galdr | **[Mastery]** / +6 Galdr / +5 Soak |
 
 ---
 
 ## 15. Attribute Ladder (Mental: INT & CHA)
 
-| Value | Type | **INT: The Pulse (Spark)** | **CHA: The Attention (Gaze)** |
+| Value | Type | **INT: Clarity** | **CHA: Presence** |
 | :--- | :--- | :--- | :--- |
 | **1** | **Base** | Primary: Interrupts / Secondary: Window (= Value) | Primary: Presence DC / Secondary: Gaze (= Value) |
 | **2** | **Bonus** | +0 Charge / +0 Crit / +0 Recov / +0 Seer | +0 Presence / +0 Sight / +0 Command / +0 Shaman |
@@ -355,4 +354,4 @@ To ensure every step of progression is meaningful, the following tactical pools 
 *   **Stamina Synergy**: Stress-test the rule where Pillar Masteries are disabled if the character is **Staggered** (Below 1/4 SP).
 
 ---
-*Last Updated: 2026-11-15*
+*Last Updated: 2026-11-16*

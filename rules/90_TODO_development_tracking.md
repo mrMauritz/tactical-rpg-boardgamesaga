@@ -8,7 +8,7 @@ This document tracks features that have been discussed or partially implemented,
 | 2026-04-18 | **Internal Architecture & Magic** | SOLIDIFIED | Fused Soul-Trio (Önd, Óð, Lá) with 6 Pillars and Historical Laws. |
 | 2026-04-18 | **Universal Alignment Physics** | SOLIDIFIED | Replaced generic class mechanics with 3 universal alignment physics (Law, Chaos, Wild). |
 | Upcoming | **The Rule of Wild (Trade-off Mutations)** | PENDING | Design physical and mystic wild mutations across the 6 attributes. |
-| Upcoming | **Resource Consumption** | STAGED | Definition of HP/SP/MG/Madness tactical expenditure. SP pool now set to derive from **Endurance** value + mods (Body/Frame removed from the formula); exact expression pending. |
+| Upcoming | **Resource Consumption** | STAGED | Definition of HP/SP/MG/Madness tactical expenditure. SP pool = `END × 3` + mods (locked 2026-11-16; Body/Frame removed from the formula). |
 
 ## 2. Advanced Tactical Content (Restricted to Classes/Monster Trees)
 - [x] **Simple Perk Design:** Document created ([02_perks_and_traits.md](file:///c:/Workspace/tactical-rpg-boardgamesaga/rules/02_perks_and_traits.md)) with Organic Growth policy and three seed perks (*Unyielding*, *Hard Head*, *Nerves of Steel*).

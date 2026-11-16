@@ -34,7 +34,7 @@ Development begins with Category B. Each sub-topic resolves into an existing or 
 | **Hearing** | New **Deafened** condition (full helm, out of shout range) removes **Anticipated Defense** eligibility against Ambush/Surprise attacks — see Chapter 7, `05_battle_core.md`. |
 | **Peripheral Awareness** | Already fully resolved by the existing **Facing** rules (Front/Flank/Rear, Chapter 7). No new mechanic — the entries below are the historical grounding for a rule that already exists. |
 | **Recognition** | **Excluded from core systemization.** Treated strictly as a narrative special-case scenario (disguises, mixed-faction chaos), not a standalone mechanic. |
-| **Attention** | Resolved as the **Engagement Cap** — see Chapter 5.1, `05_battle_core.md`, and the **Twin Ward** Perk (`02_perks_and_traits.md`, The Anchor). |
+| **Attention** | Resolved as the **Engagement Cap** — see Chapter 5.1, `05_battle_core.md`, and the **Twin Ward** Perk (`02_perks_and_traits.md`, The Wall). |
 | **Detection** | Resolved as a **symmetric opposed check** (Stealth vs. Navigation & Awareness), usable identically by players and enemies — see Chapter 12, `06_adventure_and_prep.md`, and `03_skill_system.md`. The Hunt tree is the intended mastery path. |
 
 ---

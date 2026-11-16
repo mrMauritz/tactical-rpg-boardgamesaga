@@ -72,7 +72,7 @@ Calculated once during character setup. Interactive sheets handle dynamic tracki
 
 - **HP (Hit Points / Flesh):** `(Body × 3) + Size`. 
   - *Represents deep physical injury, bleeding, and structural failure.*
-- **SP (Systemic Integrity / Shock):** Based on **Endurance** value + modifiers. *(Body and Frame no longer contribute to pool size — see Chapter 7 §3 for their new role as damage resistance. Exact formula pending, see `90_TODO_development_tracking.md`.)*
+- **SP (Systemic Integrity / Shock):** `END × 3` (+ modifiers). *(Body and Frame no longer contribute to pool size — see Chapter 7 §3 for their new role as damage resistance.)*
   - *Represents neurological stability. Uses the **Attribute Value** for granularity.*
     - **Stable (> 1/2 SP)**: No penalty.
     - **Rattled (≤ 1/2 SP)**: **Disable 6s** (The Glance Rule: 6s become 1s).
@@ -183,4 +183,5 @@ A character's physical build provides resistance to being moved or unbalanced.
 Raw physical mass and skeletal density provide a baseline resistance that stacks on top of both Natural Armor (§1) and Physical Weight/BP Soak (§2) — a dragon gets scales *and* sheer bulk as separate contributions.
 - **Body**: reduces incoming **HP**, **SP**, and **BP** damage broadly. *(Exact formula pending, see `90_TODO_development_tracking.md`.)*
 - **Frame**: narrows to a dedicated **BP** resistance channel — one of six per-flavor resistance channels (Frame→BP, Temper→SP, Fortitude→HP/Mental); see `97b_ATTRIBUTE_FLAVOR_AXES_WIP.md` for the full division. *(Exact formula pending.)*
+- **WIL Soak**: WIL adds a small secondary soak to **HP**, **SP**, and **BP** damage on odd values only, parallel with the Pillars — V5 0, V7 +1, V9 +2, V11 +3, V13 +4 (`floor((WIL−5)/2)`, 0 below 5). Stacks with every source above. See `97_ATTRIBUTE_IMPACT_WIP.md` §14.
 - **Trade-off**: A high Frame value raises the SP cost of avoidance actions and reduces avoidance capability — the resistance this section grants is bought at the cost of not being hit in the first place. *(Mechanism pending.)*

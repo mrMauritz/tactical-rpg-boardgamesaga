@@ -13,8 +13,8 @@ Before combat begins, the party enters a **Prep Phase** to establish grounded **
 ### 2. The Organic Approach (Difficulty Balancing)
 The player chooses how to handle the challenge. This choice dictates the "Difficulty" of the ensuing encounter:
 - **Direct Assault (High Risk):** Engaging the full force head-on. High rewards in **Renown**, but extreme risk of attrition.
-- **Infiltration (The Sneak):** Using **DEX (The Web)** and **INT (The Pulse)** to isolate enemies or bypass them entirely. Success avoids the "Battle Core" for specific units.
-- **Negotiation (The Word):** Using **WIL (The Word)** and **CHA (The Gaze)** to resolve the conflict through parley or divine decree. Success can lead to "Beating" the enemy without a single strike.
+- **Infiltration (The Sneak):** Using **DEX** and **INT** to isolate enemies or bypass them entirely. Success avoids the "Battle Core" for specific units.
+- **Negotiation (WIL + CHA):** Using **WIL** and **CHA** to resolve the conflict through parley or divine decree. Success can lead to "Beating" the enemy without a single strike.
 - **Avoidance (The Reality Core):** Sometimes the best strategy is to refuse the fight. Leaving a hex or retreating is always an option, though it may alter the **Faction Pulse**.
 
 ## Chapter 13 — Material-Based Interactivity & Event Hexes
