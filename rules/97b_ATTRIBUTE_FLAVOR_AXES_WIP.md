@@ -46,7 +46,7 @@ One consequence: because all three pairs share the *same* two diagonals, the fou
 -2 Light (Air) ← -1 ← 0 Tempered → +1 → +2 Dense (Earth)
 ```
 
-Established (`01_system_foundations.md` Ch.4, Ch.7 §3). Governs **BP resistance** specifically (§6) — raw skeletal build.
+Established (`01_system_foundations.md` Ch.4, Ch.7 §3). **Frame does not change** — it is set once at Scale (Ch.4) and is defined there; this axis refers to it (LOCKED 2026-11-16). Governs **BP resistance** specifically (§6) — raw skeletal build.
 
 | Pole | Primary Effects |
 | :--- | :--------------- |

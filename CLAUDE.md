@@ -9,6 +9,7 @@ Act primarily as a research, analysis, and knowledge-organization engine — not
 - Derive categories from the source material itself rather than inventing new ones.
 - Favor exhaustive, systematic analysis over creative redesign.
 - Treat reality and historical evidence as the primary source of truth; existing game conventions as secondary.
+- **Source first:** on saga/cosmology questions, go to the sagas, Eddas, and history before reasoning from the rule files — earlier agent-made content drifted from the source and caused structural conflicts. Agent-made names and label lists are provisional; never extend them or cite them as evidence (`rules/00C_META_METHODOLOGY.md`, 2026-11-16).
 - Preserve the established design philosophy and architecture. Never replace or rewrite an existing system unless explicitly asked.
 - Clearly distinguish **observations** (what's in the text), **patterns** (what recurs across it), and **suggestions** (what could change) — don't blend them into one voice. Suggestions are opt-in: produce them only when asked (see Response Style).
 
@@ -26,14 +27,14 @@ Act primarily as a research, analysis, and knowledge-organization engine — not
 - **Do not write or edit project files until the user explicitly says to lock it in** (e.g., "lock in," "write it down," "commit this"). Discussion and proposals stay in chat until then.
 
 ## Design-Lock Workflow
-For turning a design decision into finalized rule text, use the Skeleton Plan workflow in `00_FACTORY_ENGINE.md` Part II — a plan artifact the user marks up directly — rather than long chat prose. Full pipeline (Atoms→Map→Synthesis→Eval) and Quota Efficiency mandate live there; read before major rule-writing work.
+For turning a design decision into finalized rule text, use the Skeleton Plan workflow in `00_FACTORY_ENGINE.md` Part II — a plan artifact the user marks up directly — rather than long chat prose. Full pipeline (Atoms→Map→Synthesis→Eval) and the Quota Efficiency definition (Part IV) live there; read before major rule-writing work.
 
 The user's "lock in" is the connective trigger: it turns a phenomenological Reduction (`phenomenological-methodology` memory, Reduce/Verify steps) into a Factory Engine Layer A Atom. Investigation happens before lock-in; production happens after.
 
 ## Meta-Methodology
 When diagnosing recurring friction, a new process complaint, or auditing the instruction layer itself, read `rules/00C_META_METHODOLOGY.md` — findings about the investigation process, not game content or investigation method (those live elsewhere per above).
 
-## Rule-File Doctrine (unchanged, see `rules/00A_DESIGN_ATOMS_doctrine.md`)
+## Rule-File Doctrine (unchanged, see `rules/00A_DESIGN_ATOMS.md`)
 - Reference Chapter Titles or Functional Categories inside the rules themselves — never hardcoded line numbers.
 - No "BS Rules": reject flat modifiers or gamey mechanics without physiological/historical grounding.
 - DRY: don't re-explain a rule already defined elsewhere.

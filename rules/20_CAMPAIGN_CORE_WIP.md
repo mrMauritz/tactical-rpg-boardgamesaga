@@ -75,7 +75,7 @@ Atmospheric clues on record: mud, smoke, winter roads, crowded halls, damaged we
 
 ## 6. Emergent Party Configuration
 
-**ESTABLISHED:** Party configuration/experimentation should emerge from the interaction of existing systems, not require a separate artificial construction layer. Interacting materials: companion combinations, race (`21_COMPANIONS_WIP.md`), class and class history (`99_CLASS_TREES_WIP.md`), attributes/skills/abilities (`01_system_foundations.md`, `03_skill_system.md`), familiarity through use, equipment (`07_weapon_and_armor_properties.md`), Traits/Quirks (`02_perks_and_traits.md`), character and party bonds, devotion-tree allocation (`24_BONDS_AND_DEVOTION_WIP.md`), requirements/taboos (`00A_DESIGN_ATOMS_doctrine.md`), wounds/lasting consequences (`11_injury_and_scars.md`), limited time and opportunity (`26_CAMPAIGN_ECONOMY_WIP.md`).
+**ESTABLISHED:** Party configuration/experimentation should emerge from the interaction of existing systems, not require a separate artificial construction layer. Interacting materials: companion combinations, race (`21_COMPANIONS_WIP.md`), class and class history (`99_CLASS_TREES_WIP.md`), attributes/skills/abilities (`01_system_foundations.md`, `03_skill_system.md`), familiarity through use, equipment (`07_weapon_and_armor_properties.md`), Traits/Quirks (`02_perks_and_traits.md`), character and party bonds, devotion-tree allocation (`24_BONDS_AND_DEVOTION_WIP.md`), requirements/taboos (`00A_DESIGN_ATOMS.md`), wounds/lasting consequences (`11_injury_and_scars.md`), limited time and opportunity (`26_CAMPAIGN_ECONOMY_WIP.md`).
 
 ## 7. Compact System Map
 

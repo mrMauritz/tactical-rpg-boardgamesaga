@@ -1,6 +1,6 @@
 # The Saga Factory: Engine & Collaboration Protocol
 
-> **WHEN TO READ:** Read this at the **start of every session** and before generating any rulebook content. This document defines who does what, and the deterministic pipeline that governs how all content is produced.
+> **WHEN TO READ:** Before major rule-writing work (`CLAUDE.md` Design-Lock Workflow). This document defines who does what, and the deterministic pipeline that governs how all content is produced.
 
 ---
 
@@ -48,7 +48,7 @@ Before a rule is written, it must exist as a proven "Atom" of design logic set b
 
 **Contract:** The Agent cannot bend, invent, or compromise an Atom without explicit User approval. If a rule relies on a modifier or numeric system not already documented as an Atom, it fails.
 
-*Source files:* `00A_DESIGN_ATOMS_soul.md` (thematic laws) · `00A_DESIGN_ATOMS_doctrine.md` (mechanical laws)
+*Source file:* `00A_DESIGN_ATOMS.md` (Part I Core Laws · Part II Mechanical Doctrine)
 
 ---
 
@@ -65,19 +65,14 @@ This is where the Agent writes the markdown. The Agent weaves filtered Atoms int
 
 - **Input:** The Lens (Target Chapter) + Filtered Atoms + Audience Constraints.
 - **Output:** The drafted Markdown Rulebook module.
-- **Constraint:** The Agent uses the exact terminology provided in the Atoms (e.g., "Balance Points", "Severity Impact"). No substitution with generic RPG terms (e.g., "stamina", "hit points") unless defined in Layer A.
+- **Constraint:** The Agent uses the exact terminology provided in the Atoms (e.g., "Balance Points", "Impact Severity"). No substitution with generic RPG terms (e.g., "stamina", "hit points") unless defined in Layer A.
 
 *Output files:* The numbered rulebook chapters (`01_`, `02_`, `05_` etc.)
 
 ---
 
 ### Layer D — Eval Rubric (The Quality Gate)
-Before presenting any draft to the User, the Agent MUST run an internal evaluation check.
-
-- **No Placeholders:** Are there empty sections waiting for "future work"?
-- **No Pruning:** Did this draft accidentally delete historical rationale or detailed subsystem math?
-- **No Rule-Bloat:** Did the draft add mathematical steps that violate the 3-Stage Action Pipeline?
-- **Terminology Lock:** Does the draft use only approved Saga terminology from Layer A?
+Before presenting any draft to the User, the Agent MUST run the full checklist in `00D_EVAL_RUBRIC_reference.md` (placeholders, pruning, rule-bloat, terminology, source traceability, and more).
 
 *Source file:* `00D_EVAL_RUBRIC_reference.md`
 
@@ -89,6 +84,6 @@ To avoid destroying old, hard-won rulings:
 
 - **When an Atom changes:** Update only the specific chapters (Lenses) that rely on that Atom.
 - **Core-First Mandate:** No detail or specific rule shall be finalized until the system core is verified as "strong enough" by the User. Details must emerge naturally from the core, not be forced upon it.
-- **When a Chapter is rewritten:** Always reference the stored Atoms. Never "summarize" a chapter down to a bullet list if it strips out the foundational math that built it.
-- **Quota Efficiency:** see `CLAUDE.md` Output Format — same standard applies here.
-- **Unified Constitution:** The computer version (`thesaga`) and the board game (`boardgamesaga`) share the same mechanical soul. Any deviation is a bug.
+- **When a Chapter is rewritten:** Always reference the stored Atoms — no pruning (`00A` Law 10).
+- **Quota Efficiency:** tables and bullets over prose; cite file + chapter/section; never repeat a description that lives elsewhere (DRY, `00A` Part II §1); keep files lean (`00B` Quota Note). Never at the cost of Saga Voice (`00A` Law 11).
+- **One Working System:** build one working game system; board-game or computer adaptation is a later question (`00A` Law 9).

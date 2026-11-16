@@ -23,7 +23,7 @@ This file tracks findings about the *process* of investigating and building BG S
 
 ## 2026-07-27
 
-**A named correction is production-mode, not investigation-mode.** "Fix X in file Y" / "correct A and B" is a lock-in-adjacent instruction — the scope is already decided by the user. Applying investigation-grade habits (exhaustive re-verification, hunting the whole file for related inconsistencies, re-auditing tables that weren't named) to a production instruction is the same root failure as unprompted invention — doing work the user didn't ask for — just approached from the opposite direction: over-verification instead of over-creation.
+**A named correction is production-mode, not investigation-mode.** "Fix X in file Y" is lock-in-adjacent — the user has already decided the scope. Applying investigation habits to it (exhaustive re-verification, hunting the file for related issues, re-auditing unnamed tables) is the same root failure as unprompted invention — work the user didn't ask for — from the opposite direction: over-verification instead of over-creation.
 *How to apply:* on a named correction, execute the minimal diff for exactly what was named, then stop. Don't expand into a consistency sweep of the surrounding file unless the user's phrasing asks for that ("check the whole doc," "audit for consistency") or a lock-in step explicitly requires it.
 
 ---
@@ -42,6 +42,17 @@ This file tracks findings about the *process* of investigating and building BG S
 *How to apply:* before reaching for the Factory Engine or investigation-grade rigor, classify the request against this table first. Don't run a mechanical op or a named correction through the full pipeline; don't skip personal-preference formatting on a simple reply just because it isn't "producing content."
 
 **Safety and confirmation behavior is not a tier-scaled preference — it's constant.** Destructive-action checks, the git safety protocol, and confirmation before broad-blast-radius actions apply at every tier in the table above, including "mechanical op." Scaling down investigation rigor and the Factory Engine must never be read as scaling down safety behavior — they are different axes, not the same dial.
+
+---
+
+## 2026-11-16
+
+**Drift from the source compounds into structural conflict.** The character-taxonomy conflicts (36 archetypes, six saga archetypes, Lá/Óðr labeled per attribute and per tree, Frenzy as a "Lá tree") traced back to earlier stages moving away from the sources — largely agents producing content: names, categories, label lists. Each later layer built on the previous agent-made layer, not on the sagas, so the conflicts could not be resolved by reasoning inside the files. Going back to the primary sources (*Völuspá* 18, *Ynglinga saga* 6–7, *Egils saga*, *Njáls saga*, *Hrólfs saga kraka*) resolved in one round what file-internal reasoning could not.
+*How to apply:*
+- On any question touching the saga/cosmology core, answer from the primary sources first (sagas, Eddas, history, the RPGs the user names), cite chapter/stanza, then check the rule files against them — not the other way around.
+- Agent-made names and label lists are provisional: never extend them or cite them as evidence. Names come from saga description and are earned in play (`01c_CHARACTER_BUILD_PIPELINE_WIP.md` §6).
+- Keep the voices apart: mark what is source, what is file, what is agent-made.
+- The source-anchored core (locked 2026-11-16): `01_INTERNAL_ARCHITECTURE_WIP.md` "The Three Gifts", "The Three Faces of Óðr", Axis 1 whole self; `01c` §6; `99_CLASS_TREES_WIP.md` "Traditions in the Sources". Read these before touching Lá/Óðr, archetypes, or traditions.
 
 ---
 *Created: 2026-07-26*

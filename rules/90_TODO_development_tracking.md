@@ -47,7 +47,7 @@ The three cosmological layers (Önd/Life-Current, Wyrd, Oaths) have been establi
 - [ ] **Non-Human Impact Tables:** Unique tables for claws, bites, and giant blunt impacts (e.g., trolls).
 
 ## 5. Campaign Layer (New — 2026-09-14)
-Tracks concrete content and open decisions for `20_CAMPAIGN_CORE_WIP.md` through `26_CAMPAIGN_ECONOMY_WIP.md`, and their touchpoints in `96_OATHS_WIP.md` and `00A_DESIGN_ATOMS_doctrine.md` §7.
+Tracks concrete content and open decisions for `20_CAMPAIGN_CORE_WIP.md` through `26_CAMPAIGN_ECONOMY_WIP.md`, and their touchpoints in `96_OATHS_WIP.md` and `00A_DESIGN_ATOMS.md` §7.
 
 **Required concrete lists:**
 - [ ] Complete race list and which races have devotional storylines/race bonds (`24_BONDS_AND_DEVOTION_WIP.md` §2.5).
@@ -95,6 +95,10 @@ Tracks open decisions for `01c_CHARACTER_BUILD_PIPELINE_WIP.md`, consolidating t
 - [ ] Re-home parked material: Óðr Matrix (`97` §12B, for the spell system), archetype Mechanical Filters (`01_INTERNAL` Axis 2) (`01c` §5.9). Lá value-5 row re-homed as Pillar I.
 - [ ] Conduit stats (Galdr/Seer/Shaman) on every ladder vs. magic only via Óðr ignition (`01c` §5.10).
 - [ ] Óðr pair and Pillar V for Chaos (`01c` §5.11).
+- [ ] Three Faces of Óðr vs. "Óðr loses Pillars" — the rule fits travel only (`01c` §5.12).
+- [ ] Rewrite per-pair ignition mechanics to the whole-self principle (`01c` §5.13).
+- [ ] Önd's role as the third gift; "The Breath" = önd; læti/litr vs. CHA's Lá side (`01c` §5.14).
+- [x] Saga framing of identity, earned names, traditions as practice/office/state, Frame fixed — locked 2026-11-16 (`01c` §6; `99` "Traditions in the Sources"; `97b` §3.1).
 - [ ] Level trigger specifics — what generates XP, and the threshold that unlocks a Level/reflection event (`01c` §5.4).
 - [ ] Tree-depth power curve — if Class Tree cost is flat, what paces perk strength growth (`01c` §5.5).
 - [ ] Master Trainer mechanism — cost and access condition undesigned (`01c` §5.6, `26_CAMPAIGN_ECONOMY_WIP.md` Levers).

@@ -8,7 +8,7 @@ Trees are **universal**. Every being — human, troll, spirit, giant — can inv
 
 Perk access is gated by four types of restriction:
 - **[Social]** — Requires a specific cultural background, rank, or oath (e.g., only a Gothi-ordained character may take a sacrificial rite perk)
-- **[Racial]** — Requires a specific body type or nature (e.g., a troll's stone-hide regeneration is not available to a human in the Anchor tree)
+- **[Racial]** — Requires a specific body type or nature (e.g., a troll's stone-hide regeneration is not available to a human in the Wall tree)
 - **[Alignment]** — Requires ORDER, WILD, or CHAOS alignment standing
 - **[Skill]** — Requires a minimum Skill Tier (`03_skill_system.md`) as a prerequisite — the standing rule behind the one worked example already locked in (Twin Ward requires Shield Fighting 3+, §"Locked Seed Perks" below)
 
@@ -33,24 +33,51 @@ The Norse names below are the **human cultural expression** of each tree. Other 
 
 ---
 
+## Traditions in the Sources (LOCKED 2026-11-16)
+
+The traditions are **practices, offices, or states**, true to the sources. Work from this table.
+
+| Tree (human name) | What it is in the sources | Kind | How one comes to it (source) | This world / Óðr |
+|---|---|---|---|---|
+| Skjaldborg (The Wall) | Battle formation | **Practice** | Trained together | This world |
+| Víkingr (The Blade) | "Going a-viking" | **Practice** (activity) | By going | This world |
+| Berserkr (The Frenzy) | Fury from Odin (*Ynglinga saga* 6) | **State** | Comes upon you; often inherited (Kveldúlfr, *Egils saga* 1) | **Óðr — fury** |
+| Bogmaðr (The Hunt) | Skill / occupation | **Practice** | By doing | This world |
+| Skáld (The Voice) | Poetry — the mead of Óðrerir | **Practice + gift** | Óðinn's gift, grown by use | **Óðr — inspiration** |
+| Goði (The Rite) | Chieftain-priest | **Office** | Inherited, bought, shared, given (a *goðorð* is property) | This world (office) |
+| Galdrmaðr (The Chant) | Spoken charms, runes | **Practice** | Learned; Óðinn won the runes hanging (*Hávamál* 138–145) | **Óðr — inspiration** (word) ⚠️ between |
+| Seiðr (The Distaff) | Trance-travel rite | **Practice** | Learned; Óðinn from Freyja (*Ynglinga saga* 7); needs singers (*Eiríks saga rauða* 4) | **Óðr — travel** |
+
+- **Each Óðr face has its tradition:** fury → Berserkr; inspiration → Skáld (and Galdr); travel → Seiðr.
+- **The three kinds match how the sources say you come to them:** practice is learned and grows by doing; office is given by society; state comes upon you or runs in the blood.
+- **Each kind already has a home in the core rules:** practice → skills grow by use (`03`, `01c` Stage 5); office → Faction Bonds and [Social] gates (`24` §2.1); state → race/lineage, ignition, Wild mutation.
+- **The sources mark some as outlawed or shameful:** berserk fury (Grágás), seiðr as *ergi* for men — see Notes below.
+- **The current 8 trees mix all three kinds** (6 practices, 1 office, 1 state) under one "tree" structure and one point cost.
+
+---
+
 ## Cross-Investment: Where Identities Emerge
+
+> **Provisional naming (2026-11-16):** these names are agent-made attempts to let identities form from the system. Per `01c_CHARACTER_BUILD_PIPELINE_WIP.md` §6, a character is framed by saga-style description and **names earned in play** — these lists are kept as reference, not as categories a player picks.
 
 The trees themselves are neutral. The *character* emerges from where a player chooses to invest across multiple trees. Example combinations:
 
 | Investment | Emergent Identity |
 |---|---|
-| Anchor + Rite | The temple guardian — sacred oath-keeper who holds the line and channels divine will |
+| Wall + Rite | The temple guardian — sacred oath-keeper who holds the line and channels divine will |
 | Blade + Voice | The saga-worthy champion — the one poems are written about mid-battle |
-| Frenzy + Weave | The touched berserkr — one who reached into the Wyrd during rage and didn't come back clean |
-| Hunt + Word | The rune-archer — precision blessed by protective craft, Ull-touched |
-| Rite + Word | The high priest — master of both sacrifice and spoken law |
+| Frenzy + Distaff | The touched berserkr — one who reached into the Wyrd during rage and didn't come back clean |
+| Hunt + Chant | The rune-archer — precision blessed by protective craft, Ull-touched |
+| Rite + Chant | The high priest — master of both sacrifice and spoken law |
 | Blade + Frenzy | The shock weapon — pure violence, no defense, just first blood |
-| Anchor + Voice | The warlord — holds ground and bends lesser men to the formation through presence alone |
-| Hunt + Weave | The wyrd-stalker — tracks fate-threads the way a hunter tracks prey |
+| Wall + Voice | The warlord — holds ground and bends lesser men to the formation through presence alone |
+| Hunt + Distaff | The wyrd-stalker — tracks fate-threads the way a hunter tracks prey |
 
 ---
 
 ## Role Mapping: Where Everything Lands
+
+> **Provisional naming (2026-11-16):** these names are agent-made attempts to let identities form from the system. Per `01c_CHARACTER_BUILD_PIPELINE_WIP.md` §6, a character is framed by saga-style description and **names earned in play** — these lists are kept as reference, not as categories a player picks.
 
 Every traditional RPG role maps into the existing 8 trees — either as a perk branch within one tree, or as a cross-investment identity.
 
@@ -83,11 +110,13 @@ The trees are the investment structure. The three cosmological layers are the fi
 
 | Layer | Nature | How Trees Touch It |
 |---|---|---|
-| **Önd — The Life-Current** | The medium. The animating substrate under Yggdrasil shared by all living things. | Lá trees (Anchor, Blade, Frenzy, Hunt) operate primarily here — mastery of the physical medium through body, mass, and breath. |
-| **The Wyrd** | The fate-pattern pressed into the Life-Current. Responds to density of action and mythic weight. | Óðr trees (Rite, Word, Weave) reach up into this layer. Deep investment stirs it — creating Wyrd Pressure that others on the battlefield feel. |
-| **Oaths** | The only layer with direction. Will imposed on both layers simultaneously. | The Voice sits here — not by touching the Wyrd directly, but by binding the Life-Currents of others through word, song, and saga-weight. |
+| **Önd — The Life-Current** | The medium. The animating substrate under Yggdrasil shared by all living things. | This-world traditions (Wall, Blade, Hunt; Rite as an office) operate primarily here — mastery of the physical medium through body, mass, and breath. *(Revised 2026-11-16 to follow the sources — see "Traditions in the Sources".)* |
+| **The Wyrd** | The fate-pattern pressed into the Life-Current. Responds to density of action and mythic weight. | Óðr traditions reach this layer through their face — Frenzy (fury), Voice and Chant (inspiration), Distaff (travel). Deep investment stirs it — creating Wyrd Pressure that others on the battlefield feel. |
+| **Oaths** | The only layer with direction. Will imposed on both layers simultaneously. | The Voice also sits here (its root is Óðr's inspiration face, the mead of Óðrerir) — not by touching the Wyrd directly, but by binding the Life-Currents of others through word, song, and saga-weight. |
 
 ### The Frenzy Anomaly
+
+> **Revised 2026-11-16 (follows the sources):** Frenzy is Óðr's **fury** face, not a Lá tree — Óðr floods the body (`01_INTERNAL_ARCHITECTURE_WIP.md` "The Three Faces of Óðr"). The involuntary onset described below is normal for the state, not an anomaly.
 
 The Frenzy tree is the system's most interesting edge case: it is a Lá tree (body-level, Life-Current) that, at its highest tiers, punches involuntarily into the Wyrd. A berserkr does not reach for the Wyrd — the Wyrd reaches for them when their Önd burns hot enough. This is the historical basis: the berserkr-going was not a controlled state.
 
@@ -95,7 +124,7 @@ The Frenzy tree is the system's most interesting edge case: it is a Lá tree (bo
 
 Synergy is not tagged or designed. It emerges from what different characters are doing to the same layer simultaneously:
 
-- Two characters both generating heavy Wyrd Pressure (Weave + Rite) create interference in the fate-layer that neither controls — the GM reads this as the battlefield becoming fate-dense, attracting Wyrd attention that could help or harm anyone.
+- Two characters both generating heavy Wyrd Pressure (Distaff + Rite) create interference in the fate-layer that neither controls — the GM reads this as the battlefield becoming fate-dense, attracting Wyrd attention that could help or harm anyone.
 - A character with deep Oath-weight (Voice) standing beside a character whose Önd is heavily disturbed (Frenzy at extremity) creates a pull between the directional layer and the raw life-current — morally and cosmologically unstable.
 - A party running all Lá trees becomes nearly invisible to the Wyrd — low fate-signature, high physical coherence. Effective but mythically silent. They will not attract saga-attention.
 

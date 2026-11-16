@@ -15,9 +15,9 @@
 | **1. Scale** (static, set once) | Body (1–10), Size (−2/+2), Frame (−2/+2) — the "Container." | `01_system_foundations.md` Ch.4 |
 | **2. Attributes** (progressive, "the Engine") | STR/DEX/END/WIL/INT/CHA, mortal cap 12 (Chaos uncapped). Bonus = `floor(Value/2) − 1` — −1 at Value 1, rises at even values. Odd values from 5 reach Pillars. Cost N→N+1 = N (min 1). | `01_system_foundations.md` Ch.2 |
 | **3. Pillar Ignition** (per attribute pair) | A pair (Physical STR/DEX, System END/WIL, Mental INT/CHA) becomes eligible once **either** attribute reaches 5, and ignites through a saga/Bond event. Lá or Óðr is chosen **once per pair**, fixed. Pillars are neutral (`97` §12A) and open by value; igniting Óðr gives up the pair's Pillars. Any ignition grants the Triples Rule and a Bond consequence. Alignment (Order/Wild/Chaos) is a separate character-level bonus, not an ignition filter — §2. | `01_INTERNAL_ARCHITECTURE_WIP.md` "Ignition Logic" |
-| **4. Flavor Axes refine** | Frame/Load/Temper/Fortitude/Attention/Tempo settle per attribute pair. No stated interaction with Ignition — explicitly left open (§4 below). | `97b` |
+| **4. Flavor Axes refine** | Load/Temper/Fortitude/Attention/Tempo settle per attribute pair. **Frame does not change** — it is fixed at Stage 1. No stated interaction with Ignition — explicitly left open (§4 below). | `97b` |
 | **5. Skills unlock** | A Skill under a given Attribute is trainable only once that Attribute's Bonus is ≥ +1 (Value ≥ 4). A Master Trainer can bypass this gate for a fee (`26_CAMPAIGN_ECONOMY_WIP.md` Levers). Skills then grow through **use**, not through spent points — see §3 below. | `03_skill_system.md` |
-| **6. Class Trees & Perks** | 8 universal trees per attribute pair; perks gated by [Social] / [Racial] / [Alignment] / [Skill] — the [Alignment] gate consumes Stage 3's choice, the [Skill] gate consumes Stage 5's tier, and [Social] can also be satisfied by Devotion Tree standing (`24b_BOND_AND_DEVOTION_PROGRESSION_TREE_WIP.md`). | `99_CLASS_TREES_WIP.md`, `02_perks_and_traits.md` |
+| **6. Class Trees & Perks** | 8 universal traditions (`99`: practices, offices, states); perks gated by [Social] / [Racial] / [Alignment] / [Skill] — the [Alignment] gate consumes the character-level alignment (§2), the [Skill] gate consumes Stage 5's tier, and [Social] can also be satisfied by Devotion Tree standing (`24b_BOND_AND_DEVOTION_PROGRESSION_TREE_WIP.md`). | `99_CLASS_TREES_WIP.md`, `02_perks_and_traits.md` |
 | **7. Magic Casting** (drafted, not active) | `3d6 + Conduit Tier + Galdr Tier + Attribute Bonus vs Difficulty`, three tiers (Binding/Bending/Breaching). Whole system flagged "not currently part of the active rule system"; Conduit/Galdr Tier have no numeric formula anywhere. | `01_INTERNAL_ARCHITECTURE_WIP.md` |
 
 ---
@@ -25,6 +25,8 @@
 ## 2. Pillar Ignition — Unified Model
 
 **LOCKED 2026-11-15; revised 2026-11-16** (neutral Pillars, Óðr forgoes Pillars, ignition = Triples Rule + Bond). Supersedes the 2026-11-09 "Gray at even → Ignite at odd" timing rule.
+
+> **Whole self (LOCKED 2026-11-16):** Lá / Óðr is a state of the whole self, per the sources (`01_INTERNAL_ARCHITECTURE_WIP.md` Axis 1). The per-pair rows below stand until rewritten (§5.13).
 
 | Layer | Rule |
 |---|---|
@@ -84,6 +86,30 @@ Class Tree achievement-points and Bond Devotion-points are **parallel, separate 
 9. **Parked material** — the former Lá value-5 row is re-homed as Pillar I (`97` §12A). Still parked: the Óðr Matrix incl. its value-5 row (`97` §12B, awaiting the spell system) and the archetype Mechanical Filters (`01_INTERNAL` Axis 2 — candidate home: Bond-card costs/taboos, unverified).
 10. **Conduit stats on every ladder** — Galdr, Seer and Shaman grow with the Bonus for every character (`97` §14–15), though magic now opens only through Óðr ignition.
 11. **Óðr and Pillar V** — a Chaos character with an Óðr pair cannot reach that pair's Pillar V (Lá Peak).
+12. **Three Faces vs. "Óðr loses Pillars"** — the Óðr rule in §2 matches the travel face only; the fury face floods the body rather than leaving it (`01_INTERNAL_ARCHITECTURE_WIP.md` "The Three Faces of Óðr").
+13. **Whole self vs. per-pair mechanics** — eligibility, path choice, Block System and mixed paths are written per pair (§2); the locked principle is the whole self.
+14. **Önd's role** — the third gift (`01_INTERNAL` "The Three Gifts") has no mechanical role yet; END's Lá name "The Breath" is literally önd; Lóðurr's læti/litr overlap CHA's Lá side.
+
+---
+
+## 6. Character Identity — Saga Framing (LOCKED 2026-11-16)
+
+A character is framed the way the sagas frame a person: by **description**, not class. Identity is described, not chosen.
+
+| Element (*mannlýsing*) | Source example |
+|---|---|
+| **Lineage (ætt)** | Egill from Kveldúlfr, who was hamrammr — traits run in families |
+| **Body & appearance** | *mikill ok sterkr*, *vænn* / *ljótr* — Egill huge, strong, ugly |
+| **Accomplishments (íþróttir)** | Gunnar (*Njáls saga* 19): leaps his height in armour, fights with either hand, swims like a seal |
+| **Mind** | Njáll (*Njáls saga* 20): *lögmaðr*, *vitr ok forspár* |
+| **Temperament** | *skapmikill*, *ódæll*, *ójafnaðarmaðr* |
+| **Standing / office** | *goði*, *bóndi*, *skáld*, *lögsögumaðr* — a position, not a type |
+| **Earned name (viðrnefni)** | Eiríkr *rauði*, Skalla-Grímr, Önundr *tréfótr*, Hallgerðr *langbrók* — given by others, from body, deeds, or character |
+
+- **Saga words for kinds of people are descriptors or offices** (hamrammr, berserkr, fjölkunnigr, forspár, völva, goði, skáld) — never classes.
+- **Names are earned in play** — the world names the character from deeds (*viðrnefni*). Agent-made label lists (`01b`; `01_INTERNAL` Axis 2 archetypes; `99` Cross-Investment and Role Mapping) are provisional reference only; do not extend them.
+- **The great saga figures mix** — Egill (strong body + poetry, runes, níð), Njáll (this-world lawyer + foresight), Gunnar (nearly pure Lá). The mix is what makes the saga; it is to be developed and balanced.
+- **Berserkr as example (source):** fully in this world in body, the mind seized by Óðr — Óðr's fury face, a physical expression of Óðr (`01_INTERNAL` "The Three Faces of Óðr").
 
 ---
 *Status: Foundational spark — consolidates decisions made across two sessions that previously existed only in conversation. §2 and §3's framing are settled; §5's items are not. Last Updated: 2026-11-16.*

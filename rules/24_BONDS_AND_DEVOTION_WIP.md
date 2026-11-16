@@ -1,7 +1,7 @@
 # Bonds & Devotion (WIP)
 
 > [!WARNING]
-> **DEVELOPMENT STATUS: FOUNDATIONAL SPARK.** The structure below is ESTABLISHED as intent; concrete bond trees, achievements, Traits, and scaling math are OPEN. See `20_CAMPAIGN_CORE_WIP.md` and `90_TODO_development_tracking.md` §5. Requirement/Taboo resolution logic is promoted to `00A_DESIGN_ATOMS_doctrine.md` §7 as a reusable Atom — not restated here.
+> **DEVELOPMENT STATUS: FOUNDATIONAL SPARK.** The structure below is ESTABLISHED as intent; concrete bond trees, achievements, Traits, and scaling math are OPEN. See `20_CAMPAIGN_CORE_WIP.md` and `90_TODO_development_tracking.md` §5. Requirement/Taboo resolution logic is promoted to `00A_DESIGN_ATOMS.md` §7 as a reusable Atom — not restated here.
 
 **Source:** `BG Saga — Bonds, Power, Freedom, Destiny and Legacy` handoff, §IV–VIII.
 
@@ -58,7 +58,7 @@ Devotion is earned through **predefined bond achievements**. Current rule: **one
 
 ## 5. Openness, Exclusivity, Depth
 
-**ESTABLISHED:** No general numerical limit on worldly/spiritual bonds — a character or party may hold several. Limitations come from the specific bond and bearer, not universal "bond slots": most bonds are open; some restricted; some totally unique; some divinities are jealous and accept only one divine bond; some factions demand total loyalty and prohibit other faction bonds; some pairs are mutually exclusive; some class/race bonds are fixed. Eligibility and exclusion resolve via the Requirement/Taboo Atom (`00A_DESIGN_ATOMS_doctrine.md` §7).
+**ESTABLISHED:** No general numerical limit on worldly/spiritual bonds — a character or party may hold several. Limitations come from the specific bond and bearer, not universal "bond slots": most bonds are open; some restricted; some totally unique; some divinities are jealous and accept only one divine bond; some factions demand total loyalty and prohibit other faction bonds; some pairs are mutually exclusive; some class/race bonds are fixed. Eligibility and exclusion resolve via the Requirement/Taboo Atom (`00A_DESIGN_ATOMS.md` §7).
 
 Natural depth limit (not a hard cap): **you may bind yourself widely, but you cannot go deeply everywhere.** Breadth preserves flexibility; depth grants greater power but commits more time, identity, and future possibility. The specific opportunity cost of a path is defined by its bond card.
 

@@ -68,7 +68,11 @@ The internal architecture is governed by the three forces of the Saga-Mind:
 A Pillar is not a "stat" that is leveled. It is a **System Circuit** that opens with value on the neutral path; **ignition** decides whether the pair stays in the material world or leaves it. Ignition requires a deep narrational and mechanical choice, framed as a 2x3 Matrix based on two axes: 
 
 ### Axis 1: The Choice of Architecture (Lá vs. Óðr)
-**LOCKED 2026-11-15.** Ignition happens **per attribute pair** — Physical (STR/DEX), System (END/WIL), Mental (INT/CHA) (`97b_ATTRIBUTE_FLAVOR_AXES_WIP.md` §1). A pair becomes eligible once **either** of its attributes reaches value 5, and ignites through a saga event tied to the character's Bonds (`24_BONDS_AND_DEVOTION_WIP.md`). At ignition you choose, **once per pair and permanently**, whether to anchor that pair in the physical world (**Lá**) or open it to the Wyrd (**Óðr**). The path is neutral until lit — the distinction only exists at high values. **Revised 2026-11-16:**
+**LOCKED 2026-11-15.** Ignition happens **per attribute pair** — Physical (STR/DEX), System (END/WIL), Mental (INT/CHA) (`97b_ATTRIBUTE_FLAVOR_AXES_WIP.md` §1). A pair becomes eligible once **either** of its attributes reaches value 5, and ignites through a saga event tied to the character's Bonds (`24_BONDS_AND_DEVOTION_WIP.md`). At ignition you choose, **once per pair and permanently**, whether to anchor that pair in the physical world (**Lá**) or open it to the Wyrd (**Óðr**). The path is neutral until lit — the distinction only exists at high values.
+
+> **Whole self (LOCKED 2026-11-16):** following the sources, Lá / Óðr is a state of the **whole self** — in this world (Lá) or travelling (Óðr) — not a property of an attribute; it affects the attributes. The per-pair mechanics in this Axis stand until rewritten (`01c_CHARACTER_BUILD_PIPELINE_WIP.md` §5.13).
+
+**Revised 2026-11-16:**
 1.  **Lá (The Physical):** The pair keeps its neutral Pillars (e.g., *The Center*) and gains the Triples Rule and a Bond consequence.
 2.  **Óðr (The Mystic):** The pair leaves much of the material world — it **loses its Pillars** — and gains the Triples Rule and a Bond consequence: access to magic (e.g., *The Root*). Missing the Pillars is the price.
 
@@ -80,6 +84,8 @@ Their dense physical body naturally resists the magic passing through it. While 
 
 ### Axis 2: The Source of the Fire (The Six Saga Archetypes)
 Igniting a Pillar is not just a physiological event; it is a historical declaration in the Saga. You must choose *how* the pillar is ignited—by submitting to Order, harmonizing with the Wild, or embracing Chaos. This choice permanently dictates your character's narrative path and mechanical Wyrd-Filter.
+
+> **Provisional naming (2026-11-16):** these names are agent-made attempts to let identities form from the system. Per `01c_CHARACTER_BUILD_PIPELINE_WIP.md` §6, a character is framed by saga-style description and **names earned in play** — these lists are kept as reference, not as categories a player picks.
 
 > **Bond consequence (2026-11-16):** the igniting event grants or deepens a Bond card (`24_BONDS_AND_DEVOTION_WIP.md` §6). The Ignition lines below give the kind of event — Divine Debt → Divinity Bond (`24` §2.2); Symbiosis / Blood-Rite → Divinity (spirits, place) or Dedication Bond; Self-Sovereign / Theft of the Wyrd → Dedication Bond (`24` §2.3).
 
@@ -285,6 +291,26 @@ The internal architecture of *BoardGameSaga* is grounded in the gifts bestowed u
 - **Önd (Breath)**: Primal life-force and vitality.
 - **Óð (Inspiration/Spirit)**: The ecstatic current or "Wyrd-Mind."
 - **Lá (Form/Complexion)**: The physical anchor and social presence.
+
+### The Three Gifts (LOCKED 2026-11-16)
+The game has **three gifts**, following *Völuspá* st. 18: *"Önd gaf Óðinn, óð gaf Hœnir, lá gaf Lóðurr ok litu góða."*
+
+| Gift | Giver | Source meaning | Current use in the files |
+| :--- | :--- | :--- | :--- |
+| **Önd** | Óðinn | Breath, life | "The Life-Current" (`99` Cosmological Field; `96`); "Breath" above |
+| **Óðr** | Hœnir | Mind, inspiration, fury | The Óðr path |
+| **Lá** (+ **læti**, **litr**) | Lóðurr | Blood / vital warmth (disputed), with bearing/voice and good appearance | The Lá path |
+
+*Open (`01c_CHARACTER_BUILD_PIPELINE_WIP.md` §5): END's Lá name "The Breath" is literally önd; Lóðurr's læti and litr (bearing, voice, appearance) cover the ground of CHA's Lá side (The Gaze, Presence).*
+
+### The Three Faces of Óðr (LOCKED 2026-11-16)
+Óðr has exactly three faces — **inspiration, fury, travel** — and **each face treats the body differently: fury floods it, travel leaves it, and inspiration carries the word out from a body that stays put.**
+
+| Face | The body | Source anchor |
+| :--- | :--- | :--- |
+| **Fury** | Floods it — present and heightened, then spent | *Ynglinga saga* 6 (berserksgangr); *Egils saga* 27 (weaker than usual once it passed) |
+| **Travel** | Leaves it — lying inert and exposed while the self goes out | *Ynglinga saga* 7 (Óðinn's body "lay as if asleep or dead"); *Hrólfs saga kraka* (Böðvarr Bjarki's bear) |
+| **Inspiration** | Stays put — the word carries out from it | *Óðrerir*, the mead of poetry; *Egils saga* (Sonatorrek, the níð-pole) |
 
 ### Solving the Universal Friction
 Life is a state of constant friction between these gifts. One must sacrifice **Lá** (Physical Integrity) to achieve **Óð** (Mythic Inspiration). The "Brittle Body" of the magic user is the living manifestation of this conflict.

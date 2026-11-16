@@ -9,11 +9,11 @@
 | File | Layer | Purpose |
 | :--- | :---: | :--- |
 | `00_FACTORY_ENGINE.md` | 0 | **READ FIRST.** Role doctrine, collaboration workflow, and all 4 pipeline stages. |
-| `00A_DESIGN_ATOMS_soul.md` | A | Immutable thematic & philosophical laws. The "Vision Anchor." |
-| `00A_DESIGN_ATOMS_doctrine.md` | A | Immutable mechanical laws: 3d6 system, no-bloat, quota discipline. |
+| `00A_DESIGN_ATOMS.md` | A | Immutable laws — Part I Core Laws (Source First … Lore Is Rule), Part II Mechanical Doctrine (3d6, materials, Requirement/Taboo). The "Vision Anchor." |
+| `00C_META_METHODOLOGY.md` | — | Findings about the investigation process itself (agent behavior, instruction layer). |
 | `00B_RULEBOOK_MAP.md` | B | This file. Build order and chapter index. |
 | `00D_EVAL_RUBRIC_reference.md` | D | Quality gate checklist + material/sabotage reference values. |
-| `00E_CORE_VISION_AND_PILLARS_WIP.md` | A | The Four Pillars, Six Values, and the Presentation Feature — what the game fundamentally is, above any single layer. Same immutability bar as `00A_DESIGN_ATOMS_soul.md`. |
+| `00E_CORE_VISION_AND_PILLARS_WIP.md` | A | The Four Pillars, Six Values, and the Presentation Feature — what the game fundamentally is, above any single layer. Same immutability bar as `00A_DESIGN_ATOMS.md`. |
 
 ---
 
@@ -23,13 +23,15 @@
 | :--- | :--- | :--- |
 | `01_system_foundations.md` | ✅ Solid | Attributes, Vitality (HP/SP/BP), and the 3d6 Ladder. |
 | `01_INTERNAL_ARCHITECTURE_WIP.md` | 🔒 Detail Locked | The metaphysical and physical pillars of character growth. |
-| `01b_archetype_matrix.md` | ✅ Solid | The 36-archetype Wyrd alignment matrix. |
+| `01b_archetype_matrix.md` | ⚠️ Provisional naming | The 36-archetype matrix — agent-made names, reference only (`01c` §6). |
 | `01c_CHARACTER_BUILD_PIPELINE_WIP.md` | 🚧 Foundational Spark | How Attributes, Pillars, Flavor Axes, Skills, Class Trees, Devotion, and Magic compose at character creation — the three-currency progression model and the unified Pillar Ignition model. |
+| `97_ATTRIBUTE_IMPACT_WIP.md` | 🚧 WIP | Per-attribute Lá/Óðr breakdown, neutral Pillar Matrix (§12), attribute ladders (§13–15). |
 | `97b_ATTRIBUTE_FLAVOR_AXES_WIP.md` | 🚧 Scaffold | The Frame/System/Disposition flavor axis per attribute pair. |
 | `94_RULE_OF_WILD_MUTATIONS_WIP.md` | 🚧 WIP | The 12 Rule of Wild mutations. |
 | `02_perks_and_traits.md` | ✅ Solid | System-altering traits and organic perk design. |
 | `03_skill_system.md` | ✅ Solid | The 0-8 Tier system and tactical skill roster. |
-| `05_battle_core.md` | ✅ Solid | The "Super Solid" Battle System. Core combat resolution. |
+| `99_CLASS_TREES_WIP.md` | 🚧 WIP Sketch | The 8 universal traditions — practices, offices, states ("Traditions in the Sources"). |
+| `05_battle_core.md` | ✅ Solid | Core combat resolution: turn structure, the 8-stage pipeline, routing, facing, formations. |
 | `06_adventure_and_prep.md` | ✅ Solid | Interactive Maps & The Camping Tool (Prep Phase). |
 | `07_weapon_and_armor_properties.md` | ✅ Solid | Tags and properties for physical interaction. |
 | `10_reference_tables.md` | ✅ Solid | 3d6 probability tables and injury/status lookup. |
@@ -65,7 +67,7 @@
 ---
 
 > **Quota Note:**
-> 1. Keep files under 10k bytes where possible.
+> 1. Keep files under 10k bytes where possible (guideline — 12 files currently exceed it).
 > 2. Use "WHEN TO READ" headers to guide navigation.
 > 3. Avoid redundant descriptions across files.
 > 4. `98_SKETCHES_AND_IDEAS_WIP.md` is a sandbox. Nothing in it is an approved Atom until the User promotes it.

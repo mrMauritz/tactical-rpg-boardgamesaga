@@ -113,7 +113,7 @@ Certain characters (like Temple Guardians) are structurally Oath-Bound. Their ph
 
 *Source: `BG Saga — Bonds, Power, Freedom, Destiny and Legacy` handoff, §X.*
 
-**ESTABLISHED:** An oath to a faction and an oath to a divinity share the underlying structure of §1–§7 (both bind part of the future, grant power, create obligations, open some freedoms while closing others, may generate taboos/exclusive relationships per `00A_DESIGN_ATOMS_doctrine.md` §7, connect present actions to uncertain future consequences, may draw the company toward an emerging destiny) — but their **manifestation domain** differs:
+**ESTABLISHED:** An oath to a faction and an oath to a divinity share the underlying structure of §1–§7 (both bind part of the future, grant power, create obligations, open some freedoms while closing others, may generate taboos/exclusive relationships per `00A_DESIGN_ATOMS.md` §7, connect present actions to uncertain future consequences, may draw the company toward an emerging destiny) — but their **manifestation domain** differs:
 
 | Faction oath | Divine oath |
 | :--- | :--- |
@@ -126,7 +126,7 @@ Certain characters (like Temple Guardians) are structurally Oath-Bound. Their ph
 
 > **A factional oath makes the company part of history. A divine oath makes it part of meaning.**
 
-The divine response may remain uncertain — an event may or may not be connected to the oath. This preserves spiritual mystery (see The Pillar of Mystery, `00A_DESIGN_ATOMS_doctrine.md` §3).
+The divine response may remain uncertain — an event may or may not be connected to the oath. This preserves spiritual mystery (see The Pillar of Mystery, `00A_DESIGN_ATOMS.md` §3).
 
 ## 12. Open Questions (TODOs)
 1. **The Conviction-Oath Name:** What do we call the Oath sworn from pure internal clarity? (Candidates: *The Doom-Sworn, The Sight-Oath, The Self-Sworn, The Burning Vow*.)

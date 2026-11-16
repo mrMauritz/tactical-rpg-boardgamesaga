@@ -1,5 +1,8 @@
 # The Saga: Archetype Matrix
 
+> **Provisional naming (2026-11-16):** these names are agent-made attempts to let identities form from the system. Per `01c_CHARACTER_BUILD_PIPELINE_WIP.md` §6, a character is framed by saga-style description and **names earned in play** — these lists are kept as reference, not as categories a player picks.
+> The "6 Alignment-Pillar paths" below predate the current model: alignment is character-level and Lá/Óðr is a state of the whole self (`01_INTERNAL_ARCHITECTURE_WIP.md` Axis 1, Axis 3).
+
 This matrix details the **36 distinct character identities** possible in *The Saga*. A character's deepest nature is defined by three overlapping choices:
 1.  **The Attribute Domain:** Which of the 6 core stats they rely on.
 2.  **The Architecture (Lá vs. Óðr):** Do they anchor in the physical body, or open their mind to magic?
