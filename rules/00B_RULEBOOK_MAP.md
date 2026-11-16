@@ -1,6 +1,6 @@
 # Layer B — Rulebook Map (Build Order & Chapter Index)
 
-> **WHEN TO READ:** Use this as the **table of contents** for the entire rulebook. It defines the build order, the status of each chapter, and the "When to Read" tags that guide navigation. Part of the Factory Pipeline Layer B.
+> **WHEN TO READ:** The **table of contents** for the whole rulebook — which file owns which domain, each chapter's status, and its "When to Read" tag. Part of the Lens (`00_FACTORY_ENGINE.md` Layer B).
 
 ---
 
@@ -8,11 +8,11 @@
 
 | File | Layer | Purpose |
 | :--- | :---: | :--- |
-| `00_FACTORY_ENGINE.md` | 0 | **READ FIRST.** Role doctrine, collaboration workflow, and all 4 pipeline stages. |
+| `00_FACTORY_ENGINE.md` | 0 | **READ FIRST** for rule work. Roles, the two phases (investigation → "lock in" → production), workflow, the A–D pipeline, change management. |
 | `00A_DESIGN_ATOMS.md` | A | Immutable laws — Part I Core Laws (Source First … Lore Is Rule), Part II Mechanical Doctrine (3d6, materials, Requirement/Taboo). The "Vision Anchor." |
-| `00C_META_METHODOLOGY.md` | — | Findings about the investigation process itself (agent behavior, instruction layer). |
-| `00B_RULEBOOK_MAP.md` | B | This file. Build order and chapter index. |
-| `00D_EVAL_RUBRIC_reference.md` | D | Quality gate checklist + material/sabotage reference values. |
+| `00B_RULEBOOK_MAP.md` | B | This file. Chapter index and status. |
+| `00C_META_METHODOLOGY.md` | — | Findings about the process itself — agent behavior, task-tier routing, the instruction layer. |
+| `00D_EVAL_RUBRIC_reference.md` | D | Pre-output quality checklist (YES = pass). |
 | `00E_CORE_VISION_AND_PILLARS_WIP.md` | A | The Four Pillars, Six Values, and the Presentation Feature — what the game fundamentally is, above any single layer. Same immutability bar as `00A_DESIGN_ATOMS.md`. |
 
 ---
@@ -26,7 +26,7 @@
 | `01b_archetype_matrix.md` | ⚠️ Provisional naming | The 36-archetype matrix — agent-made names, reference only (`01c` §6). |
 | `01c_CHARACTER_BUILD_PIPELINE_WIP.md` | 🚧 Foundational Spark | How Attributes, Pillars, Flavor Axes, Skills, Class Trees, Devotion, and Magic compose at character creation — the three-currency progression model and the unified Pillar Ignition model. |
 | `97_ATTRIBUTE_IMPACT_WIP.md` | 🚧 WIP | Per-attribute Lá/Óðr breakdown, neutral Pillar Matrix (§12), attribute ladders (§13–15). |
-| `97b_ATTRIBUTE_FLAVOR_AXES_WIP.md` | 🚧 Scaffold | The Frame/System/Disposition flavor axis per attribute pair. |
+| `97b_ATTRIBUTE_FLAVOR_AXES_WIP.md` | 🚧 Scaffold | The six flavor axes — two per attribute pair (Frame/Load, Temper/Fortitude, Attention/Tempo); race tendencies. |
 | `94_RULE_OF_WILD_MUTATIONS_WIP.md` | 🚧 WIP | The 12 Rule of Wild mutations. |
 | `02_perks_and_traits.md` | ✅ Solid | System-altering traits and organic perk design. |
 | `03_skill_system.md` | ✅ Solid | The 0-8 Tier system and tactical skill roster. |

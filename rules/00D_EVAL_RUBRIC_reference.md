@@ -15,24 +15,24 @@ Law and § numbers refer to `00A_DESIGN_ATOMS.md` (Part I Laws, Part II §).
 ### Block 1 — Pipeline Integrity
 *Drawn from `00_FACTORY_ENGINE.md` Layer A contract.*
 
-- [ ] **Atom Traceability:** Can every mechanic in this draft be traced to an existing, User-approved Atom in `00A_DESIGN_ATOMS.md`? A modifier or numeric system not documented as an Atom → NO.
+- [ ] **Atom Traceability:** Can every mechanic in this draft be traced to an existing, User-approved Atom — a Law in `00A_DESIGN_ATOMS.md` or a "LOCKED <date>" block in the owning chapter (`00_FACTORY_ENGINE.md` Layer A)? A modifier or numeric system documented in neither → NO.
 - [ ] **No Invention:** Is the draft free of any new dice type, modifier, or resource not defined in Layer A?
 - [ ] **Terminology Lock:** Does the draft use only approved Saga terminology (e.g., "Balance Points", "Impact Severity", "Relative Force") — no generic RPG substitutes (e.g., "stamina", "hit points", "mana")?
 
 ---
 
 ### Block 2 — Structural Integrity
-*Drawn from Laws 2–4, 8.*
+*Drawn from Laws 2–4, 6.*
 
 - [ ] **NEAT & CLEAN:** Is the draft free of any new roll or new modifier?
 - [ ] **CORE-FIRST:** Is every tactical depth an extension of the 3-Stage Pipeline (`Relative Force → Success Ladder → Result Swap`) rather than a new layer on top?
 - [ ] **RESULT-SWAP Compliance:** Do high-tier successes (18+, 20+) trade IS for Special Effects only, with no additional math steps?
-- [ ] **NO PLACEHOLDERS:** Is the draft free of empty sections, "TBD", or "future work" markers?
+- [ ] **NO PLACEHOLDERS (Law 6):** Is the draft free of empty sections, "TBD", "future work" markers, and agent-made filler — with gaps recorded as open items instead?
 
 ---
 
 ### Block 3 — Content Preservation
-*Drawn from Law 10 and Part II §1.*
+*Drawn from Law 9 and Part II §1.*
 
 - [ ] **No Pruning:** Is all historical rationale, approved deep-dive, Pillar mastery equation, and Methodology detail still present?
 - [ ] **Line Count Audit:** If a document shrank during revision, was a **Detail Integrity Audit** performed and no "Flesh" lost from the "Skeleton"?
@@ -41,7 +41,7 @@ Law and § numbers refer to `00A_DESIGN_ATOMS.md` (Part I Laws, Part II §).
 ---
 
 ### Block 4 — Source & Thematic Integrity
-*Drawn from Laws 1, 11 and Part II §3.*
+*Drawn from Laws 1, 10 and Part II §3.*
 
 - [ ] **Source Traceability:** Does saga/cosmology content trace to a primary source (saga, Edda, history, or an RPG the User named) with chapter/stanza cited — and avoid extending agent-made names or label lists?
 - [ ] **Saga Voice Intact:** Is evocative naming preserved — no thematic flavor stripped to save quota?
@@ -60,7 +60,7 @@ Law and § numbers refer to `00A_DESIGN_ATOMS.md` (Part I Laws, Part II §).
 ---
 
 ### Block 6 — System Consistency
-*Drawn from Laws 6, 9.*
+*Drawn from Laws 6, 8.*
 
 - [ ] **One Working System:** Does the rule work within the one game system, without being shaped by board-game or computer adaptation (a later question — Part II §4)?
 - [ ] **Organic Growth:** Was this rule triggered by a real tactical Need from the User — not pre-designed in anticipation?

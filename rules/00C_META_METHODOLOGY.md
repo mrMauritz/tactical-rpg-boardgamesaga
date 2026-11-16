@@ -2,7 +2,7 @@
 
 > **WHEN TO READ:** When diagnosing recurring friction, a new complaint about agent behavior, or auditing the instruction layer (`CLAUDE.md` / memory / this file / `00_FACTORY_ENGINE.md`) against itself.
 
-This file tracks findings about the *process* of investigating and building BG Saga — not the game content itself (see `rules/` generally) and not how to run an investigation (see the `phenomenological-methodology` memory and `00_FACTORY_ENGINE.md`). It's what the investigation reveals about thought, abstraction, AI collaboration, and method — the third of three levels (Phenomena / Methodology / Meta-methodology).
+This file tracks findings about the *process* of investigating and building BG Saga — not the game content itself (see `rules/` generally) and not how to run an investigation (see `00_FACTORY_ENGINE.md` Part II, "The Investigation Method"). It's what the investigation reveals about thought, abstraction, AI collaboration, and method — the third of three levels (Phenomena / Methodology / Meta-methodology).
 
 ---
 
@@ -37,8 +37,10 @@ This file tracks findings about the *process* of investigating and building BG S
 | Mechanical op | Rename a file, fix a typo | Skip | Skip — just do it |
 | Named correction | "Fix X in file Y" | Skip | Keep — minimal diff, but still report back tight/cited |
 | Simple reply | Answering a question, explaining a mechanic | N/A (nothing being produced) | Keep |
+| Investigation | Survey, source research, analysis of a design question | Phase 1 only (`00_FACTORY_ENGINE.md` Part II) — no files until "lock in" | Keep |
 | Design suggestion | New rule text, a Skeleton Plan | Full pipeline (Atoms → Map → Synthesis → Eval) | Keep |
 
+*(Investigation row added 2026-11-16 when the Factory Engine gained its two-phase Part II.)*
 *How to apply:* before reaching for the Factory Engine or investigation-grade rigor, classify the request against this table first. Don't run a mechanical op or a named correction through the full pipeline; don't skip personal-preference formatting on a simple reply just because it isn't "producing content."
 
 **Safety and confirmation behavior is not a tier-scaled preference — it's constant.** Destructive-action checks, the git safety protocol, and confirmation before broad-blast-radius actions apply at every tier in the table above, including "mechanical op." Scaling down investigation rigor and the Factory Engine must never be read as scaling down safety behavior — they are different axes, not the same dial.
@@ -48,10 +50,7 @@ This file tracks findings about the *process* of investigating and building BG S
 ## 2026-11-16
 
 **Drift from the source compounds into structural conflict.** The character-taxonomy conflicts (36 archetypes, six saga archetypes, Lá/Óðr labeled per attribute and per tree, Frenzy as a "Lá tree") traced back to earlier stages moving away from the sources — largely agents producing content: names, categories, label lists. Each later layer built on the previous agent-made layer, not on the sagas, so the conflicts could not be resolved by reasoning inside the files. Going back to the primary sources (*Völuspá* 18, *Ynglinga saga* 6–7, *Egils saga*, *Njáls saga*, *Hrólfs saga kraka*) resolved in one round what file-internal reasoning could not.
-*How to apply:*
-- On any question touching the saga/cosmology core, answer from the primary sources first (sagas, Eddas, history, the RPGs the user names), cite chapter/stanza, then check the rule files against them — not the other way around.
-- Agent-made names and label lists are provisional: never extend them or cite them as evidence. Names come from saga description and are earned in play (`01c_CHARACTER_BUILD_PIPELINE_WIP.md` §6).
-- Keep the voices apart: mark what is source, what is file, what is agent-made.
+*How to apply:* codified as `00A_DESIGN_ATOMS.md` Law 1 (Source First) and checked by `00D` Block 4 (Source Traceability). In short: sources first, cited by chapter/stanza; agent-made names never extended or cited as evidence (`01c_CHARACTER_BUILD_PIPELINE_WIP.md` §6); keep source, file, and agent-made voices apart.
 - The source-anchored core (locked 2026-11-16): `01_INTERNAL_ARCHITECTURE_WIP.md` "The Three Gifts", "The Three Faces of Óðr", Axis 1 whole self; `01c` §6; `99_CLASS_TREES_WIP.md` "Traditions in the Sources". Read these before touching Lá/Óðr, archetypes, or traditions.
 
 ---

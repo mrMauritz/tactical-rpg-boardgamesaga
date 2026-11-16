@@ -43,7 +43,7 @@ The rules, numbers, and resolution are **identical** at all three levels — onl
 | 1. Twin Layers | Partial — Battle (`05`) and Campaign (`06`, `20`–`26`) both strong; shared-engine statement (`01_system_foundations.md` Ch.1; `20` §2b) and the two-map distinction (`20` §2b) added 2026-11-15. |
 | 2. Three-Layer Roles | Partial — Battle-function covered by the 8 Class Trees (`99`); Campaign-function and the explicit "three roles" statement added 2026-11-15 (`21` §0); Campaign-function tree homes still open (`99` "The Open Question"). |
 | 3. World Cosmology | Partial — Wyrd/Oath/Devotion infrastructure strong (`01_INTERNAL_ARCHITECTURE_WIP.md`, `96`, `24`); tree/branches framing (`01_INTERNAL` Axis 2) and the Belief/Direction tier added 2026-11-15. |
-| 4. Interconnected Whole | Refined this session — the Troth-Gravity rename, bidirectional legibility, and the four-stage chain (legibility → pressure → Troth-Gravity → Renown/Scar) are written into `01_INTERNAL_ARCHITECTURE_WIP.md` and `96_OATHS_WIP.md`. |
+| 4. Interconnected Whole | Refined 2026-11-15 — the Troth-Gravity rename, bidirectional legibility, and the four-stage chain (legibility → pressure → Troth-Gravity → Renown/Scar) are written into `01_INTERNAL_ARCHITECTURE_WIP.md` and `96_OATHS_WIP.md`. |
 
 ---
 *Status: Foundational, thematic — treat with the same weight as `00A_DESIGN_ATOMS.md`. Last Updated: 2026-11-16.*

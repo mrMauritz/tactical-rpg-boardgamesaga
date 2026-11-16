@@ -11,12 +11,11 @@
 3. **CORE-FIRST**: Every tactical depth must be an EXTENSION of the existing 3-Stage Pipeline (**Relative Force** → **Success Ladder** → **Result Swap**), not a new layer.
 4. **RESULT-SWAP (Pinnacle Perks)**: High-tier success (**Great 18+**, **Perfect 20+**) "Trades" raw Impact Severity (IS) for Special Effects (Broken Arm, Stunned, Bypass). No additional math allowed.
 5. **PLAYER-DRIVEN GEOMETRY**: Tactical advantage comes from Hex-Positions (Formations) and situational awareness, not stat-sheet bonuses.
-6. **ORGANIC GROWTH**: Do not pre-design. Perks, Tiers, and Abilities emerge naturally from tactical needs during development. We build the skeleton (Traditions/Paths) and grow the flesh (Tiers) as needed.
+6. **GROW FROM SOURCE AND CORE**: Do not pre-design. The skeleton (Traditions/Paths) is drawn from the sources (Law 1); the flesh (Perks, Tiers, Abilities) grows from the core (Law 3) as real tactical needs arise. Every rule written must be a working tool — never a placeholder for "future work," and never agent-made filler standing in for what the source or the core has not yet given. A gap stays visible as an open item (`01c_CHARACTER_BUILD_PIPELINE_WIP.md` §5, `90_TODO_development_tracking.md`), not filled. *(Merged 2026-11-16 from Organic Growth + No Placeholders: filler built ahead of source and core is what drifted and had to be remade — `00C_META_METHODOLOGY.md` 2026-11-16.)*
 7. **PHYSICAL REALISM**: If it doesn't make sense in a collision between two physical bodies, it doesn't belong in the core.
-8. **NO PLACEHOLDERS**: Every rule must be a working tool, not a placeholder for "future work."
-9. **ONE WORKING SYSTEM**: We are building one working game system. Board-game or computer adaptation is a later question (Part II §4) — it does not shape rules now.
-10. **DETAIL PRESERVATION (NO PRUNING)**: Consolidation is NOT summarization. Approved deep-dives (Pillar mastery, Methodologies, Equations) are **Permanent Historical Records**. Never delete or "simplify" them in the name of neatness. If a document's line count shrinks during a revision, perform an immediate **Detail Integrity Audit** to ensure no "Flesh" was lost from the "Skeleton."
-11. **LORE IS RULE (THEMATIC INTEGRATION)**: Never strip the "Saga Voice" or evocative naming (e.g., "The Sejd-Thief", "The Godless") to save Artificial Intelligence quota or to make rules "drier." The mythological worldbuilding and the tactical mechanics are inseparable — mechanics and lore are presented together.
+8. **ONE WORKING SYSTEM**: We are building one working game system. Board-game or computer adaptation is a later question (Part II §4) — it does not shape rules now.
+9. **DETAIL PRESERVATION (NO PRUNING)**: Consolidation is NOT summarization. Approved deep-dives (Pillar mastery, Methodologies, Equations) are **Permanent Historical Records**. Never delete or "simplify" them in the name of neatness. If a document's line count shrinks during a revision, perform an immediate **Detail Integrity Audit** to ensure no "Flesh" was lost from the "Skeleton."
+10. **LORE IS RULE (THEMATIC INTEGRATION)**: Never strip the "Saga Voice" or evocative naming (e.g., "The Sejd-Thief", "The Godless") to save Artificial Intelligence quota or to make rules "drier." The mythological worldbuilding and the tactical mechanics are inseparable — mechanics and lore are presented together.
 
 ---
 
@@ -38,8 +37,8 @@ The core resolution engine uses a **3d6 roll** mapped to a **1-20 ladder**. This
 - **Avoid "BS Rules":** Reject flat modifiers, generic tier-padding, or "gamey" mechanics that lack physiological or historical weight.
 - **Core Depth Over Breadth:** Spend tokens and time strengthening the "Internal Architecture" before expanding into wide content lists.
 - **The Toolbox Philosophy:** The core rules are a **toolbox** for implementing historically accurate, real physics, or saga-inspired moments. Avoid "gamey" floating modifiers; favor **Physical Pre-Conditions** and **Material Tags**.
-- **Content Generation:** Delay creation of extensive lists (weapons, monsters, spells) until the battle core is verified, BUT maintain high-quality thematic presentation for the core mechanics we do create. *⚠️ Status check: `00B` rates the battle core ✅ Solid — whether lists may now begin is the User's call.*
-- **Thematic Integration:** see Law 11.
+- **Content Generation:** Delay creation of extensive lists (weapons, monsters, spells) until the battle core is verified, BUT maintain high-quality thematic presentation for the core mechanics we do create. *Status 2026-11-16: the battle core is verified (`00B` ✅) — extensive lists may now be created, under Laws 1 and 6.*
+- **Thematic Integration:** see Law 10.
 
 #### World Laws
 - **The Pillar of Mystery:** Spirit and Fate are not player tools. Wyrd affects all beings. Vision (Wyrd layer) and Perception (Reality layer) are distinct and separate.
@@ -49,8 +48,8 @@ The core resolution engine uses a **3d6 roll** mapped to a **1-20 ladder**. This
     - **Wyrd Layer:** Mythic deeds are "seeded" and can inspire future saga characters.
 - **Faction Breathing:** Factions are living pressures. They operate on an **Active Push** (proactive gain) and **Reactive Pull** (responding to player actions).
 
-### §4. Adaptation Notes (Later Question — Law 9)
-Not a gate on current rules. Law 9 replaces the former "Unified Constitution" (the computer version `thesaga` and the board game `boardgamesaga` share the same mechanical soul; any deviation is a bug) — how it applies is decided when adaptation is taken up. Recorded for that time: the rules were drafted assuming **Interactive Character Sheets** to manage
+### §4. Adaptation Notes (Later Question — Law 8)
+Not a gate on current rules. Law 8 replaces the former "Unified Constitution" (the computer version `thesaga` and the board game `boardgamesaga` share the same mechanical soul; any deviation is a bug) — how it applies is decided when adaptation is taken up. Recorded for that time: the rules were drafted assuming **Interactive Character Sheets** to manage
 - Cumulative Bleeding (HP Drain).
 - Shock/Stamina (SP) recovery and thresholds.
 - Balance Points (BP) resets.
@@ -110,4 +109,4 @@ Any system gating an option behind eligibility (bonds, class/race access, skill 
 *Source: `BG Saga — Bonds, Power, Freedom, Destiny and Legacy` handoff, §VI.17 — promoted to doctrine 2026-09-14 per user direction, for reuse beyond Bonds (`24_BONDS_AND_DEVOTION_WIP.md` §5).*
 
 ---
-*Merged 2026-11-16 from the former `00A_DESIGN_ATOMS_soul.md` (Laws 1–10, now Laws 2–11 with Law 9 replaced) + `00A_DESIGN_ATOMS_doctrine.md` (§1–7). Part II keeps the former Doctrine § numbers.*
+*Merged 2026-11-16 from the former `00A_DESIGN_ATOMS_soul.md` (Laws 1–10 → now Laws 2–10: Organic Growth + No Placeholders merged into Law 6, Unified Constitution replaced by Law 8) + `00A_DESIGN_ATOMS_doctrine.md` (§1–7). Part II keeps the former Doctrine § numbers.*
