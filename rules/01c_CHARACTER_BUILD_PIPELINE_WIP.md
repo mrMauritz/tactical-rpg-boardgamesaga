@@ -14,7 +14,7 @@
 | **0. Race Tendencies** | Sets starting nudges on the six Flavor Axes (Frame/Load/Temper/Fortitude/Attention/Tempo). Also shapes attribute progression — general racial strength in an attribute, amplified where it aligns with flavor (mechanism open, §5). | `97b_ATTRIBUTE_FLAVOR_AXES_WIP.md` §10, `01_system_foundations.md` Ch.2 |
 | **1. Scale** (static, set once) | Body (1–10), Size (−2/+2), Frame (−2/+2) — the "Container." | `01_system_foundations.md` Ch.4 |
 | **2. Attributes** (progressive, "the Engine") | STR/DEX/END/WIL/INT/CHA, mortal cap 12 (Chaos uncapped). Bonus = `floor(Value/2) − 1` — −1 at Value 1, rises at even values. Odd values from 5 reach Pillars. Cost N→N+1 = N (min 1). | `01_system_foundations.md` Ch.2 |
-| **3. Pillar Ignition** (per attribute pair) | A pair (Physical STR/DEX, System END/WIL, Mental INT/CHA) becomes eligible once **either** attribute reaches 5, and ignites through a saga/Bond event. Lá or Óðr is chosen **once per pair**, fixed. Pillar I = universal Triples Rule; Pillars II–V per `97` §12. Alignment (Order/Wild/Chaos) is a separate character-level bonus, not an ignition filter — §2. | `01_INTERNAL_ARCHITECTURE_WIP.md` "Ignition Logic" |
+| **3. Pillar Ignition** (per attribute pair) | A pair (Physical STR/DEX, System END/WIL, Mental INT/CHA) becomes eligible once **either** attribute reaches 5, and ignites through a saga/Bond event. Lá or Óðr is chosen **once per pair**, fixed. Pillars are neutral (`97` §12A) and open by value; igniting Óðr gives up the pair's Pillars. Any ignition grants the Triples Rule and a Bond consequence. Alignment (Order/Wild/Chaos) is a separate character-level bonus, not an ignition filter — §2. | `01_INTERNAL_ARCHITECTURE_WIP.md` "Ignition Logic" |
 | **4. Flavor Axes refine** | Frame/Load/Temper/Fortitude/Attention/Tempo settle per attribute pair. No stated interaction with Ignition — explicitly left open (§4 below). | `97b` |
 | **5. Skills unlock** | A Skill under a given Attribute is trainable only once that Attribute's Bonus is ≥ +1 (Value ≥ 4). A Master Trainer can bypass this gate for a fee (`26_CAMPAIGN_ECONOMY_WIP.md` Levers). Skills then grow through **use**, not through spent points — see §3 below. | `03_skill_system.md` |
 | **6. Class Trees & Perks** | 8 universal trees per attribute pair; perks gated by [Social] / [Racial] / [Alignment] / [Skill] — the [Alignment] gate consumes Stage 3's choice, the [Skill] gate consumes Stage 5's tier, and [Social] can also be satisfied by Devotion Tree standing (`24b_BOND_AND_DEVOTION_PROGRESSION_TREE_WIP.md`). | `99_CLASS_TREES_WIP.md`, `02_perks_and_traits.md` |
@@ -24,7 +24,7 @@
 
 ## 2. Pillar Ignition — Unified Model
 
-**LOCKED 2026-11-15.** Supersedes the 2026-11-09 "Gray at even → Ignite at odd" timing rule.
+**LOCKED 2026-11-15; revised 2026-11-16** (neutral Pillars, Óðr forgoes Pillars, ignition = Triples Rule + Bond). Supersedes the 2026-11-09 "Gray at even → Ignite at odd" timing rule.
 
 | Layer | Rule |
 |---|---|
@@ -33,12 +33,15 @@
 | **Cost** | N→N+1 costs N, minimum 1 (§3) |
 | **Cap** | Mortal 12. Chaos uncapped — the rising cost is the practical limit |
 | **Alignment** (character level, separate from ignition) | **Order:** +12 attribute points, one-off at creation. **Wild:** one mutation at creation from a path-neutral pool (`94`). **Chaos:** cost −1 (min 1), uncapped |
-| **Pillars** | Identical for all alignments. Odd values 5 / 7 / 9 / 11; Pillar V (13) legendary — Chaos only in practice |
-| **Ignition** | Per pair (Physical / System / Mental). Eligible once **either** attribute reaches 5; ignited by a saga/Bond event (`24_BONDS_AND_DEVOTION_WIP.md`) |
-| **Path** | Lá or Óðr, chosen once per pair at ignition, fixed. Below Pillar values attributes serve physical and mystic use alike |
-| **Pillar I** | Universal Triples Rule, applies to all rolls once lit. On-path triples → +1d6. Off-path triples → remove one of the three dice |
-| **Mixed paths** | If lit pairs disagree, the roll counts as off-path — the cost of mixing |
-| **Pillars II–V** | `97` §12 Matrix rows 7 / 9 / 11 / 13. The former value-5 row is parked (`97` §12C) |
+| **Pillars** | The **neutral path**: the Lá Matrix (`97` §12A) at odd values 5 / 7 / 9 / 11, opened by value alone — no event needed. Identical for all alignments. Pillar V (13) legendary — Chaos only in practice |
+| **Ignition** | Per pair (Physical / System / Mental). Eligible once **either** attribute reaches 5; ignited by a saga/Bond event (`24_BONDS_AND_DEVOTION_WIP.md`). Ignition is a specialization: a small bonus in its realm (Triples Rule) plus a Bond consequence |
+| **Path** | Neutral until lit. Lá or Óðr, chosen once per pair at ignition, fixed |
+| **Lit Lá** | Keeps the pair's Pillars; gains the Triples Rule and the Bond consequence |
+| **Lit Óðr** | Leaves much of the material world: **loses the pair's Pillars** (including Pillar I already held). Gains the Triples Rule and the Bond consequence — access to magic. Magic is rare in the world, but everywhere for those who read it |
+| **Triples Rule** (granted by any ignition) | Applies to all rolls once a pair is lit. On-path triples → +1d6. Off-path triples → remove one of the three dice |
+| **Mixed paths** | If lit pairs disagree, the roll counts as off-path — the cost of mixing — plus predefined penalties (e.g., Cross-Strain, `01_INTERNAL` Axis 1) |
+| **Bond consequence** | The igniting event grants or deepens a Bond card (`24` §6): its Traits, Devotion Tree branch (`24b`), costs and taboos. The archetype Ignition lines (`01_INTERNAL` Axis 2) give the kind of event |
+| **Óðr Matrix** | `97` §12B is no longer Pillar content — parked as candidate material for the spell system |
 
 ---
 
@@ -76,9 +79,11 @@ Class Tree achievement-points and Bond Devotion-points are **parallel, separate 
 4. **Level trigger specifics** — what generates XP, and the threshold that unlocks a Level event.
 5. **Tree-depth power curve** — if Class Tree cost is flat (1 pt = 1 gain) but later perks are presumably stronger, what paces that growth if not cost? (prerequisite chains, attribute thresholds, tier-gating — unresolved.)
 6. **Master Trainer mechanism** — has a home (`26` Levers) but no designed cost or access condition yet.
-7. **Lá/Óðr cost of mixing** — how Cross-Strain (`01_INTERNAL_ARCHITECTURE_WIP.md` Axis 1) relates to the off-path Triples rule (§2).
-8. **Later Pillar triggers** — whether Pillars II–V (7/9/11/13) each need their own saga/Bond event, or open automatically once the pair is ignited.
-9. **Parked material** — the former value-5 Matrix rows (`97` §12C) and the archetype Mechanical Filters (`01_INTERNAL` Axis 2) await re-homing.
+7. ~~**Lá/Óðr cost of mixing**~~ — **resolved 2026-11-16:** the off-path rule is the trade-off; Cross-Strain and other predefined penalties stack on it (§2).
+8. ~~**Later Pillar triggers**~~ — **resolved 2026-11-16:** Pillars are neutral and open by value alone (§2).
+9. **Parked material** — the former Lá value-5 row is re-homed as Pillar I (`97` §12A). Still parked: the Óðr Matrix incl. its value-5 row (`97` §12B, awaiting the spell system) and the archetype Mechanical Filters (`01_INTERNAL` Axis 2 — candidate home: Bond-card costs/taboos, unverified).
+10. **Conduit stats on every ladder** — Galdr, Seer and Shaman grow with the Bonus for every character (`97` §14–15), though magic now opens only through Óðr ignition.
+11. **Óðr and Pillar V** — a Chaos character with an Óðr pair cannot reach that pair's Pillar V (Lá Peak).
 
 ---
-*Status: Foundational spark — consolidates decisions made across two sessions that previously existed only in conversation. §2 and §3's framing are settled; §5's items are not. Last Updated: 2026-11-15.*
+*Status: Foundational spark — consolidates decisions made across two sessions that previously existed only in conversation. §2 and §3's framing are settled; §5's items are not. Last Updated: 2026-11-16.*

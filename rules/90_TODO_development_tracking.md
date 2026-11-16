@@ -89,9 +89,12 @@ Tracks open decisions for `01c_CHARACTER_BUILD_PIPELINE_WIP.md`, consolidating t
 - [x] Exact attribute cost formula — N→N+1 costs N points, locked 2026-11-15 (`01c` §5.2).
 - [x] Unified Pillar/Ignition model — locked 2026-11-15 (`01c` §2): new Bonus formula, pair ignition via saga/Bond, Lá/Óðr per pair, Pillar I Triples Rule, character-level alignment bonuses.
 - [ ] Whether Flavor Axes interact with Pillar Ignition at all (`01c` §5.3).
-- [ ] Lá/Óðr cost of mixing — Cross-Strain vs. off-path Triples (`01c` §5.7).
-- [ ] Whether Pillars II–V each need their own saga/Bond event (`01c` §5.8).
-- [ ] Re-home parked material: former value-5 Matrix rows (`97` §12C), archetype Mechanical Filters (`01_INTERNAL` Axis 2) (`01c` §5.9).
+- [x] Neutral-path revision — locked 2026-11-16 (`01c` §2): Lá Pillars are the neutral path, Óðr ignition forgoes Pillars, any ignition = Triples Rule + Bond consequence.
+- [x] Lá/Óðr cost of mixing — resolved 2026-11-16: off-path rule + predefined penalties incl. Cross-Strain (`01c` §5.7).
+- [x] Whether Pillars II–V each need their own saga/Bond event — resolved 2026-11-16: no, neutral Pillars open by value (`01c` §5.8).
+- [ ] Re-home parked material: Óðr Matrix (`97` §12B, for the spell system), archetype Mechanical Filters (`01_INTERNAL` Axis 2) (`01c` §5.9). Lá value-5 row re-homed as Pillar I.
+- [ ] Conduit stats (Galdr/Seer/Shaman) on every ladder vs. magic only via Óðr ignition (`01c` §5.10).
+- [ ] Óðr pair and Pillar V for Chaos (`01c` §5.11).
 - [ ] Level trigger specifics — what generates XP, and the threshold that unlocks a Level/reflection event (`01c` §5.4).
 - [ ] Tree-depth power curve — if Class Tree cost is flat, what paces perk strength growth (`01c` §5.5).
 - [ ] Master Trainer mechanism — cost and access condition undesigned (`01c` §5.6, `26_CAMPAIGN_ECONOMY_WIP.md` Levers).

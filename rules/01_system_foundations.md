@@ -36,7 +36,7 @@ Characters are defined by six core attributes, usually ranging from 1 to 12. Rea
 Every point of attribute growth contributes to either the character's **Passive Bonus** (efficiency) or their **Internal Architecture** (Pillars).
 
 - **Attribute Bonus** = `floor(Value/2) − 1`. Negative at Value 1; increases at every **Even Value** (2, 4, 6...).
-- **Every Odd Value from 5 (5, 7, 9, 11, 13):** reaches a **Pillar** — rule-breaking tactical advancement. Ignition, Lá/Óðr paths, and alignment: `01_INTERNAL_ARCHITECTURE_WIP.md` "Ignition Logic".
+- **Every Odd Value from 5 (5, 7, 9, 11, 13):** reaches a **Pillar** — rule-breaking tactical advancement, open by value on the neutral path; a pair ignited Óðr gives up its Pillars. Ignition, Lá/Óðr paths, and alignment: `01_INTERNAL_ARCHITECTURE_WIP.md` "Ignition Logic".
 - **Mortal cap: 12.** Only Chaos alignment raises past it (uncapped — the rising cost is the practical limit). Pillar V (13) is therefore legendary.
 - **Cost:** raising N→N+1 costs N attribute points (minimum 1) — `01c_CHARACTER_BUILD_PIPELINE_WIP.md` §3.
 
@@ -46,7 +46,7 @@ Every point of attribute growth contributes to either the character's **Passive 
 | **2** | **0** | — | Physiological Awakening |
 | **3** | 0 | — | Systemic Refinement |
 | **4** | **+1** | — | Skill Threshold (Bonus ≥ +1) |
-| **5** | +1 | **Pillar I** | Pillar Ignition (pair) |
+| **5** | +1 | **Pillar I** | Ignition eligible (pair) |
 | **6** | **+2** | — | Structural Integration |
 | **7** | +2 | **Pillar II** | Force Unification |
 | **8** | **+3** | — | Synaptic Clarity |

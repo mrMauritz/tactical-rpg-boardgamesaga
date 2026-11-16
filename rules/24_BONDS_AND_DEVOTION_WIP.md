@@ -67,6 +67,7 @@ Natural depth limit (not a hard cap): **you may bind yourself widely, but you ca
 **ESTABLISHED:**
 - Most bond grants are **Traits**, not Quirks (`02_perks_and_traits.md`); most bond trees contain benefits that come with costs. Progression transforms the bearer instead of merely stacking positive bonuses.
 - The character/party build is mainly cumulative and irreversible: bonds are gained through picks or gameplay and paths abandoned through gameplay, not free respecification; breaking oaths can remove devotion or the whole card; changing class is very rare and prior class development cannot be undone; acquired Traits can only rarely be removed or transformed; dead/departed companions are replaced through recruitment; party bonds persist with the main character.
+- **Ignition hook (LOCKED 2026-11-16):** the saga event that ignites an attribute pair grants or deepens a Bond card — that card's grants, costs and taboos are the ignition's consequence (`01c_CHARACTER_BUILD_PIPELINE_WIP.md` §2). Óðr ignition opens magic through the specific Bond (§2.2–2.3).
 
 ## 7. Strategic Approaches Opened by Bonds
 
