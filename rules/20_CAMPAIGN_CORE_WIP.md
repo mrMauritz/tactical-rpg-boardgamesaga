@@ -41,6 +41,8 @@ Both run on the same shared engine (`01_system_foundations.md` Ch.1) — this is
 - **Objectives ≠ win-conditions:** objectives define *what* the mission requires; how the fight itself is won is covered by `20b_STRATEGY_AND_BALANCE_MAP_WIP.md` §1 and §7.10.
 - **Battle → Campaign:** what the party actually achieves is seeded back onto the campaign map (`06_adventure_and_prep.md` Ch.15, World-Seed Resolution).
 
+The event itself — how it responds to the party and how its goals form — is owned by `27_EVENTS_WIP.md`.
+
 ## 3. Freedom, Uncertainty, and Destiny
 
 **ESTABLISHED:** Destiny must gradually become visible but must never become a predictable route assembled by the player — that would replace saga with planning.

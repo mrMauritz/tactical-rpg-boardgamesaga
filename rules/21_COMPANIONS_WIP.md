@@ -30,6 +30,8 @@ A companion is not a completed build but a **vessel of potential history** — d
 - Unlock, weaken, transform, or destroy potential.
 - Trigger refusal, departure, betrayal, sacrifice, or independent action.
 
+The event as a unit — conditions, goals, recognition — is owned by `27_EVENTS_WIP.md`.
+
 ## 3. Simultaneous Function
 
 Companions simultaneously function as: parts of the company's power, sources of uncertainty, carriers of memory, participants in the company's emerging soul, and possible threads of destiny. The player constructs the company, but its human material is never completely controllable.

@@ -33,5 +33,21 @@ Five Old Norse divine-bond candidates were raised for discussion:
 
 Divinity bonds are one of the Bond families (`24_BONDS_AND_DEVOTION_WIP.md` §2.2) — magic, healing, protection, and other supernatural capabilities arise from a particular relationship, not one abstract universal pool. A divine oath's consequences (favour, prohibition, curse, sign) are distinct from a faction oath's — see `96_OATHS_WIP.md` §12 "Two Worlds of Oaths."
 
+## 4. Oppositions in the Sources (LOCKED 2026-11-18)
+
+Divinities stand in opposition to one another and to mythic enemies. Three kinds recur in the sources — **lasting enmity**, **rivalry among the gods**, and **gods taking sides over one person**. All three are available; **the event decides** which makes sense (`27_EVENTS_WIP.md` §6, [5.3]). The table is source reference, not a closed list.
+
+| Opposition | Kind | Source |
+|---|---|---|
+| Thor and the jötnar | Lasting enmity | *Þrymskviða*; *Hymiskviða*; *Gylfaginning* ch. 42–48 |
+| Thor against Starkaðr, whom Odin favours — for his jötunn descent | Gods take sides over one person | *Gautreks saga* ch. 7 |
+| Odin takes the jarls who fall, Thor the thralls | Rivalry, divided by rank | *Hárbarðsljóð* st. 24 |
+| Odin and Frigg back rival foster-sons (Geirröðr, Agnarr) | Rival patrons | *Grímnismál*, opening prose |
+| Freyr against Víga-Glúmr, Odin's man | Gods take sides over one person | *Víga-Glúms saga* ch. 9, 26 |
+| Æsir and Vanir: war, then truce and hostages | Rivalry resolved | *Völuspá* 21–24; *Ynglinga saga* ch. 4 |
+| Loki against the gods | Enmity from within | *Lokasenna*; *Gylfaginning* ch. 49 |
+| Fated pairs at Ragnarök (Odin–Fenrir, Thor–the Serpent, Freyr–Surtr, Týr–Garmr, Heimdallr–Loki) | Lasting enmity | *Völuspá* 53–56; *Gylfaginning* ch. 51 |
+| Hrafnkell turns from the gods after Freyr fails him | Away from the gods | *Hrafnkels saga* ch. 7 |
+
 ---
-*Status: Foundational spark. Candidate roster only — not locked. Last Updated: 2026-09-14.*
+*Status: Foundational spark. Candidate roster only — not locked. Last Updated: 2026-11-18.*

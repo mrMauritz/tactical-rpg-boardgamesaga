@@ -78,7 +78,7 @@ Tracks open items surfaced while implementing `00E_CORE_VISION_AND_PILLARS_WIP.m
 - [ ] Belief/Direction tier (`96_OATHS_WIP.md` §8b) — mechanism entirely undesigned: what it grants, if anything, and how/whether it's tracked.
 - [ ] **In-play time resolution** — how campaign time passes *during* a saga (real-time, per stretch of campaign time, or per party action). Distinct from between-saga persistent-world time advancement (§5, `25_LEGACY_WIP.md` §2). Must preserve the tactical significance of time: party speed decides which opportunities are within reach.
 - [ ] **Faction clock** — mechanism by which factions move on their own clock (`22_FACTIONS_WIP.md` §1); "Faction Pulse" (`06_adventure_and_prep.md` Ch.12) undefined.
-- [ ] **Mission objectives** — no objective layer exists yet for missions arising from campaign events (`20_CAMPAIGN_CORE_WIP.md` §2b).
+- [ ] **Mission objectives** — the frame is set (objectives are two-way and can change inside the event, `27_EVENTS_WIP.md` §3); no objective content or catalogue exists yet (`20_CAMPAIGN_CORE_WIP.md` §2b).
 - [ ] Campaign Map weighting — "cities, nodes, and places of interest carry particular weight beforehand" (`20_CAMPAIGN_CORE_WIP.md` §2b) has no formula or numeric representation yet.
 
 ## 6. Character Build Pipeline (New — 2026-11-09)
@@ -102,6 +102,17 @@ Tracks open decisions for `01c_CHARACTER_BUILD_PIPELINE_WIP.md`, consolidating t
 - [ ] Level trigger specifics — what generates XP, and the threshold that unlocks a Level/reflection event (`01c` §5.4).
 - [ ] Tree-depth power curve — if Class Tree cost is flat, what paces perk strength growth (`01c` §5.5).
 - [ ] Master Trainer mechanism — cost and access condition undesigned (`01c` §5.6, `26_CAMPAIGN_ECONOMY_WIP.md` Levers).
+
+## 8. Events (New — 2026-11-18)
+Tracks open items for `27_EVENTS_WIP.md`.
+
+- [x] **Divine-recognition carrier** — RESOLVED 2026-11-18: an event reward; with a bond, also a bond achievement. Favour needs no bond (`27` §6).
+- [x] **Worldly recognition terms** — RESOLVED 2026-11-18: three forms of *orðstírr* (`27` §6).
+- [ ] **Praise-verse** (*erfidrápa*) — no canon home for verse that carries fame onward (`27` §6).
+- [x] **Enmity data** — RESOLVED 2026-11-18: source table in `23_DIVINITIES_WIP.md` §4; the event decides which kind applies.
+- [ ] **[3.2] Others seek something from this party** — kept for development; implementation needs care (`27` §3).
+- [ ] **Event-card format** — how an event records its conditional aspects, goals, and outcomes using only existing condition/outcome information (`27` §1.1).
+- [ ] **Scar and injury content** — post-battle resolution frame locked (`11_injury_and_scars.md` §1); the scars themselves, and how the *meiri sár* grading enters play, are OPEN.
 
 ---
 *Created: 2026-04-10*
