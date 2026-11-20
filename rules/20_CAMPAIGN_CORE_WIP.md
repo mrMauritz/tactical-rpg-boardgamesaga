@@ -31,15 +31,15 @@ Core transformation: **Gain capabilities → expand real freedom → choose a pa
 **ESTABLISHED:** BG Saga has two hex maps, carrying weight differently:
 
 - **The Campaign Map** — weighted beforehand. Cities, nodes, and places of interest already carry particular weight in the world before the player arrives at them.
-- **The Battle Map** — the tactical importance of a position emerges from the situation and from how characters interact with the physical environment. This is where the tabletop influence matters most — a hex can matter for more than cover or height (see `05_battle_core.md`'s formation and terrain rules).
+- **The Tactical Map** — the tactical importance of a position emerges from the situation and from how characters interact with the physical environment. This is where the tabletop influence matters most — a hex can matter for more than cover or height (see `05_battle_core.md`'s formation and terrain rules).
 
 Both run on the same shared engine (`01_system_foundations.md` Ch.1) — this is the spatial expression of Pillar 1, not a second resolution system.
 
-**ESTABLISHED — The maps feed each other through Missions:** a battle can be viewed as a **mission** arising from a campaign event, carrying its own objectives.
+**ESTABLISHED — The maps feed each other through Missions:** an event can lead to a **mission** — carrying its own objectives and taking place on the tactical map. *(Revised 2026-11-20:)* winning a battle can be part of a mission, but so can sneaking past guards; a battle is one kind of mission, not the only one.
 
-- **Campaign → Battle:** the event gives the party its reason to fight and shapes what it can achieve there — campaign decisions acquire a purpose the player pursues on the battle map.
-- **Objectives ≠ win-conditions:** objectives define *what* the mission requires; how the fight itself is won is covered by `20b_STRATEGY_AND_BALANCE_MAP_WIP.md` §1 and §7.10.
-- **Battle → Campaign:** what the party actually achieves is seeded back onto the campaign map (`06_adventure_and_prep.md` Ch.15, World-Seed Resolution).
+- **Campaign → Mission:** the event gives the party its reason to act and shapes what it can achieve there — campaign decisions acquire a purpose the player pursues on the tactical map.
+- **Objectives ≠ win-conditions:** objectives define *what* the mission requires; how a fight within it is won is covered by `20b_STRATEGY_AND_BALANCE_MAP_WIP.md` §1 and §7.10.
+- **Mission → Campaign:** what the party actually achieves is seeded back onto the campaign map (`06_adventure_and_prep.md` Ch.15, World-Seed Resolution).
 
 The event itself — how it responds to the party and how its goals form — is owned by `27_EVENTS.md`.
 

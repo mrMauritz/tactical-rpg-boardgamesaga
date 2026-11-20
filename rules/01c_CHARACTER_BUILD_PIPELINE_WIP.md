@@ -13,10 +13,10 @@
 |---|---|---|
 | **0. Race Tendencies** | Sets starting nudges on the six Flavor Axes (Frame/Load/Temper/Fortitude/Attention/Tempo). Also shapes attribute progression — general racial strength in an attribute, amplified where it aligns with flavor (mechanism open, §5). | `97b_ATTRIBUTE_FLAVOR_AXES_WIP.md` §10, `01_system_foundations.md` Ch.2 |
 | **1. Scale** (static, set once) | Body (1–10), Size (−2/+2), Frame (−2/+2) — the "Container." | `01_system_foundations.md` Ch.4 |
-| **2. Attributes** (progressive, "the Engine") | STR/DEX/END/WIL/INT/CHA, mortal cap 12 (Chaos uncapped). Bonus = `floor(Value/2) − 1` — −1 at Value 1, rises at even values. Odd values from 5 reach Pillars. Cost N→N+1 = N (min 1). | `01_system_foundations.md` Ch.2 |
+| **2. Attributes** (progressive, "the Engine") | STR/DEX/END/WIL/INT/CHA, mortal cap 12 (Chaos uncapped). Bonus = `floor(Value/2) − 1` — −1 at Value 1, rises at even values. Odd values from 5 reach Pillars. Reaching value N costs N. | `01_system_foundations.md` Ch.2 |
 | **3. Pillar Ignition** (per attribute pair) | A pair (Physical STR/DEX, System END/WIL, Mental INT/CHA) becomes eligible once **either** attribute reaches 5, and ignites through a saga/Bond event. Lá or Óðr is chosen **once per pair**, fixed. Pillars are neutral (`97` §12A) and open by value; igniting Óðr gives up the pair's Pillars. Any ignition grants the Triples Rule and a Bond consequence. Alignment (Order/Wild/Chaos) is a separate character-level bonus, not an ignition filter — §2. | `01_INTERNAL_ARCHITECTURE_WIP.md` "Ignition Logic" |
 | **4. Flavor Axes refine** | Load/Temper/Fortitude/Attention/Tempo settle per attribute pair. **Frame does not change** — it is fixed at Stage 1. No stated interaction with Ignition — explicitly left open (§4 below). | `97b` |
-| **5. Skills unlock** | A Skill under a given Attribute is trainable only once that Attribute's Bonus is ≥ +1 (Value ≥ 4). A Master Trainer can bypass this gate for a fee (`26_CAMPAIGN_ECONOMY_WIP.md` Levers). Skills then grow through **use**, not through spent points — see §3 below. | `03_skill_system.md` |
+| **5. Skills unlock** | A Skill under a given Attribute is trainable only once that Attribute's Bonus is ≥ +1 (Value ≥ 4). A Master Trainer can bypass this gate for a fee (`26_CAMPAIGN_ECONOMY_WIP.md` Levers). Skills then grow through **use**, not through spent points — see §3 below and `03_skill_system.md` Ch.3. | `03_skill_system.md` |
 | **6. Class Trees & Perks** | 8 universal traditions (`99`: practices, offices, states); perks gated by [Social] / [Racial] / [Alignment] / [Skill] — the [Alignment] gate consumes the character-level alignment (§2), the [Skill] gate consumes Stage 5's tier, and [Social] can also be satisfied by Devotion Tree standing (`24b_BOND_AND_DEVOTION_PROGRESSION_TREE_WIP.md`). | `99_CLASS_TREES_WIP.md`, `02_perks_and_traits.md` |
 | **7. Magic Casting** (drafted, not active) | `3d6 + Conduit Tier + Galdr Tier + Attribute Bonus vs Difficulty`, three tiers (Binding/Bending/Breaching). Whole system flagged "not currently part of the active rule system"; Conduit/Galdr Tier have no numeric formula anywhere. | `01_INTERNAL_ARCHITECTURE_WIP.md` |
 
@@ -32,7 +32,7 @@
 |---|---|
 | **Bonus** | `floor(V/2) − 1`: −1 at V1, steps at even values (V4 +1 … V12 +5) |
 | **Skill gate** | Bonus ≥ +1 → V ≥ 4 (`03_skill_system.md`) |
-| **Cost** | N→N+1 costs N, minimum 1 (§3) |
+| **Cost** | Reaching value N costs N (§3) |
 | **Cap** | Mortal 12. Chaos uncapped — the rising cost is the practical limit |
 | **Alignment** (character level, separate from ignition) | **Order:** +12 attribute points, one-off at creation. **Wild:** one mutation at creation from a path-neutral pool (`94`). **Chaos:** cost −1 (min 1), uncapped |
 | **Pillars** | The **neutral path**: the Lá Matrix (`97` §12A) at odd values 5 / 7 / 9 / 11, opened by value alone — no event needed. Identical for all alignments. Pillar V (13) legendary — Chaos only in practice |
@@ -53,8 +53,8 @@
 
 | Currency | Represents | Earned by | Cost shape |
 |---|---|---|---|
-| **Skill** | How much you've *done* something | Usage/repetition over time — **no spendable currency at all** | N/A — a counter, not a purchase |
-| **Attribute** | Effort and aim — deliberate investment | Spent points, granted at a Level (§4 below) | Rising: N→N+1 costs N points (**LOCKED 2026-11-15**) |
+| **Skill** | How much you've *done* something | Usage/repetition over time — **no spendable currency at all**. Checks in events and missions build a skill XP pool; an insight on a strong roll turns it into a progress point (`03_skill_system.md` Ch.3, LOCKED 2026-11-20) | Rising: reaching tier N costs 5 × N progress points; tiers 6–8 only through event, master-training or bond rewards (`03` Ch.3) |
+| **Attribute** | Effort and aim — deliberate investment | Spent points, granted at a Level (§4 below) | Rising: reaching value N costs N points (**LOCKED 2026-11-15; revised 2026-11-20**) |
 | **Tree / Faction (Devotion)** | Deeds and achievements | Earned via specific accomplishments — the same mechanism `24_BONDS_AND_DEVOTION_WIP.md` §4 already uses for Bond Devotion ("one earned achievement = one point") | Flat: Class Tree perks are 1 point = 1 gain (PROVISIONAL) |
 
 Class Tree achievement-points and Bond Devotion-points are **parallel, separate economies** (confirmed `24b` §1) — not the same pool, even though they're earned the same way.
@@ -76,7 +76,7 @@ Class Tree achievement-points and Bond Devotion-points are **parallel, separate 
 ## 5. Open Questions (Do Not Treat as Decided)
 
 1. ~~Race-modifies-attribute-cost conflict~~ — **RESOLVED 2026-11-15:** Race shapes both expression and progression (`01_system_foundations.md` Ch.2 tagline updated). A race can be generally strong in an attribute *and* amplified further in its flavor direction. **Still open:** the mechanism — racial cost modifier, starting-value offset, or both — and how "amplified in flavor direction" is computed.
-2. ~~Exact attribute cost formula~~ — **LOCKED 2026-11-15:** N→N+1 costs N points (1–12 = 66 points total, back-loaded).
+2. ~~Exact attribute cost formula~~ — **LOCKED 2026-11-15; revised 2026-11-20:** reaching value N costs N points (1–12 = 77 points total, back-loaded).
 3. **Flavor Axes have no stated interaction with Ignition at all** — intentional separation or a gap, not yet decided.
 4. **Level trigger specifics** — what generates XP, and the threshold that unlocks a Level event.
 5. **Tree-depth power curve** — if Class Tree cost is flat (1 pt = 1 gain) but later perks are presumably stronger, what paces that growth if not cost? (prerequisite chains, attribute thresholds, tier-gating — unresolved.)

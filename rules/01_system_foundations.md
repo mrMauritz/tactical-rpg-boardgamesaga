@@ -38,7 +38,7 @@ Every point of attribute growth contributes to either the character's **Passive 
 - **Attribute Bonus** = `floor(Value/2) − 1`. Negative at Value 1; increases at every **Even Value** (2, 4, 6...).
 - **Every Odd Value from 5 (5, 7, 9, 11, 13):** reaches a **Pillar** — rule-breaking tactical advancement, open by value on the neutral path; a pair ignited Óðr gives up its Pillars. Ignition, Lá/Óðr paths, and alignment: `01_INTERNAL_ARCHITECTURE_WIP.md` "Ignition Logic".
 - **Mortal cap: 12.** Only Chaos alignment raises past it (uncapped — the rising cost is the practical limit). Pillar V (13) is therefore legendary.
-- **Cost:** raising N→N+1 costs N attribute points (minimum 1) — `01c_CHARACTER_BUILD_PIPELINE_WIP.md` §3.
+- **Cost:** reaching value N costs N attribute points — `01c_CHARACTER_BUILD_PIPELINE_WIP.md` §3.
 
 | Attribute Value | Attribute Bonus | Pillar | Milestone Description |
 | :--- | :--- | :--- | :--- |

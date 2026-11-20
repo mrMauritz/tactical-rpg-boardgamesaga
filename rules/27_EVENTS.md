@@ -8,6 +8,16 @@
 
 ---
 
+## 0. Terms (LOCKED 2026-11-20)
+
+| Term | Meaning |
+|---|---|
+| **Campaign map** | Where the party moves in the world; moving on it can trigger events (`20_CAMPAIGN_CORE_WIP.md` §2b) |
+| **Event** | A meeting between party and world — a dinner, arriving at a bridge, reaching a tavern |
+| **Action** | What the party does within an event — lockpick, bribe, pickpocket; offered through the paths of action (§10). Battle actions keep their prefixes (Major, Minor, Quick, Heavy — `05_battle_core.md`) and are timed in segments; an event action takes no prefix. The same act can be both: a lock picked at a dinner is an event action, a lock picked while sneaking past guards is a Heavy Action on the tactical map (`06_adventure_and_prep.md` Ch.13) |
+| **Mission** | What an event can lead to — objectives on the tactical map; winning a battle is one kind, sneaking past guards another |
+| **Tactical map** | Where missions take place (`20_CAMPAIGN_CORE_WIP.md` §2b; `00A_DESIGN_ATOMS.md` Part II §5.2) |
+
 ## 1. The Event as a Unit
 
 **LOCKED 2026-11-18:** Events are their own unit. An event is where a particular party meets the world. Its existing touchpoints, not restated here:
@@ -15,7 +25,7 @@
 | Aspect | Owner |
 |---|---|
 | Events sit on the campaign map, whose nodes are weighted beforehand | `20_CAMPAIGN_CORE_WIP.md` §2b |
-| A battle can be a **mission** arising from an event, with its own objectives | `20_CAMPAIGN_CORE_WIP.md` §2b |
+| An event can lead to a **mission** on the tactical map, with its own objectives — a battle is one kind | `20_CAMPAIGN_CORE_WIP.md` §2b |
 | Outcomes seed back onto the map (Reality and Wyrd layers) | `06_adventure_and_prep.md` Ch.15 |
 | What events may do to a companion (awaken the past, reveal hidden character, move alignment, fracture loyalty…) | `21_COMPANIONS_WIP.md` §2 |
 | A shared event pile across playthroughs; persistence decided by play mode | `20_CAMPAIGN_CORE_WIP.md` §4 |
@@ -156,7 +166,7 @@ Praise-verse that carries fame onward (*erfidrápa*; *Eiríksmál*, *Hákonarmá
 | Bond / Oath | An obligation calls the party in | `events/06_BOND_AND_OATH_TRIGGER_WIP.md` |
 | Name / Fame | Repute arrives before the party | `events/07_NAME_AND_FAME_TRIGGER_WIP.md` |
 | Wyrd | Wyrd-Pressure stirs the world | `events/08_WYRD_TRIGGER_WIP.md` |
-| Battle Map | An event hex is triggered in a fight | `events/09_BATTLE_MAP_TRIGGER_WIP.md` |
+| Tactical Map | An event hex is triggered during a mission | `events/09_TACTICAL_MAP_TRIGGER_WIP.md` |
 | Sought Out | Others come to the party for what they see in it [3.2] | `events/10_SOUGHT_OUT_TRIGGER_WIP.md` |
 
 ---
@@ -177,13 +187,13 @@ Praise-verse that carries fame onward (*erfidrápa*; *Eiríksmál*, *Hákonarmá
 | **Bonds** | Card granted, deepened, weakened, or destroyed; thresholds crossed; ignition grants or deepens a card | `24_BONDS_AND_DEVOTION_WIP.md` §4, §4.2, §6; `01c` §2 | Bond / Oath |
 | **Oaths & Wyrd-thread** | Oath sworn, kept, broken, severed; Troth-Gravity; the Traveling Rot; Wyrd-Scars (the spiritual scar) | `96_OATHS_WIP.md` §3–7 | Bond / Oath, Wyrd |
 | **Feud** | Feud opened, escalated, or settled; Blood-Tether | `20b` §7.6; `96_OATHS_WIP.md` §8 | Bond / Oath, Consequence |
-| **Scars** | Physical scars and lasting injury (the body) | `11_injury_and_scars.md` §1 | Battle Map, Consequence |
+| **Scars** | Physical scars and lasting injury (the body) | `11_injury_and_scars.md` §1 | Tactical Map, Consequence |
 | **Party resources** | Money (incl. compensation, wages, ransom), Food, Tolerance, Cohesion; the company's growing soul | `26_CAMPAIGN_ECONOMY_WIP.md` §3–4; `20_CAMPAIGN_CORE_WIP.md` §5 | — (all) |
-| **Material** | Things gained or lost: weapons, horses, ships, relics, land, refuge, captives, salvage | `20b` §7.6; `20_CAMPAIGN_CORE_WIP.md` §5 | Battle Map, Place |
-| **Map seeds** | Reality-layer hex changes and Wyrd-layer seeds | `06_adventure_and_prep.md` Ch.15 | Place, Battle Map |
+| **Material** | Things gained or lost: weapons, horses, ships, relics, land, refuge, captives, salvage | `20b` §7.6; `20_CAMPAIGN_CORE_WIP.md` §5 | Tactical Map, Place |
+| **Map seeds** | Reality-layer hex changes and Wyrd-layer seeds | `06_adventure_and_prep.md` Ch.15 | Place, Tactical Map |
 | **Knowledge & rumour** | What the party learns, or only partly grasps — something concrete to investigate. Works as conditions: what the party knows opens or shapes later events (LOCKED 2026-11-20) | This file, §2; `20_CAMPAIGN_CORE_WIP.md` §5; [1.3] | Place, Wyrd |
 | **Time spent** | The event uses up time and opportunity | `20_CAMPAIGN_CORE_WIP.md` §6; [4.3] | Time |
-| **Progression** | Contribution toward a Level — itself a reflection event; familiarity through use | `01c` §4; `20_CAMPAIGN_CORE_WIP.md` §6 | Consequence (Level event) |
+| **Progression** | Contribution toward a Level — itself a reflection event; familiarity through use: every skill check in an event or mission adds skill XP (`03_skill_system.md` Ch.3) | `01c` §4; `03_skill_system.md` Ch.3; `20_CAMPAIGN_CORE_WIP.md` §6 | Consequence (Level event) |
 | **Legacy** | What persists into later playthroughs | `25_LEGACY_WIP.md`; `20_CAMPAIGN_CORE_WIP.md` §7 | — (trans-saga) |
 
 What grants XP is OPEN (`01c` §5); in-play time is OPEN (`90_TODO_development_tracking.md` §7); Stories told has no mechanism yet (`90_TODO_development_tracking.md` §8).
@@ -211,8 +221,8 @@ What grants XP is OPEN (`01c` §5); in-play time is OPEN (`90_TODO_development_t
 | **1. Opening** | The introduction, plus the conditional information this party gets — each piece with what opened it | [1.1], [1.3], §9 |
 | **2. Paths of action** | What is visible and available to this party; restrictions close paths here | §2, §4 |
 | **3. Choices** | Each path leads in the end to its own choices; goals change as the party commits | §3 |
-| **4. Battle or peace** | A choice leads to battle (through pre-battle, `06_adventure_and_prep.md` Ch.12) or to a more peaceful outcome; a short event can reach this step at once | §9 |
-| **5. Resolution** | Rewards gained and explained, daring recognised, and a summary of the aftermath and consequences. After a battle, the post-battle resolution feeds in here (`11_injury_and_scars.md` §1) | §5, §6, §8 |
+| **4. Mission or peace** | A choice leads to a mission on the tactical map (through pre-battle, `06_adventure_and_prep.md` Ch.12) — a battle, sneaking past guards, or another objective — or to a more peaceful outcome; a short event can reach this step at once | §9; `20_CAMPAIGN_CORE_WIP.md` §2b |
+| **5. Resolution** | Rewards gained and explained, daring recognised, and a summary of the aftermath and consequences, including skill progress (`03_skill_system.md` Ch.3). After a mission with a battle, the post-battle resolution feeds in here (`11_injury_and_scars.md` §1) | §5, §6, §8 |
 
 Conditions are not a step of their own: they shape what the Opening reveals and which paths the party sees. **How much of the consequences the summary shows depends on the party** — e.g., a foresighted member (*forspár*, `01c_CHARACTER_BUILD_PIPELINE_WIP.md` §6) or Wyrd-legibility (`01_INTERNAL_ARCHITECTURE_WIP.md`).
 

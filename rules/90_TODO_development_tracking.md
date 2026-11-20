@@ -86,7 +86,8 @@ Tracks open decisions for `01c_CHARACTER_BUILD_PIPELINE_WIP.md`, consolidating t
 
 - [x] Race-modifies-attribute conflict — resolved 2026-11-15: race shapes both expression and progression; general strength + flavor-direction amplification allowed (`01c` §5.1).
 - [ ] Racial progression mechanism — cost modifier, starting-value offset, or both; how flavor-direction amplification is computed (`01c` §5.1).
-- [x] Exact attribute cost formula — N→N+1 costs N points, locked 2026-11-15 (`01c` §5.2).
+- [x] Exact attribute cost formula — locked 2026-11-15; revised 2026-11-20: reaching value N costs N points (`01c` §5.2).
+- [x] Skill progression — locked 2026-11-20: skill XP pool, insight test at 100, 5 × N progress points per tier, parallel +1 sources (`03_skill_system.md` Ch.3).
 - [x] Unified Pillar/Ignition model — locked 2026-11-15 (`01c` §2): new Bonus formula, pair ignition via saga/Bond, Lá/Óðr per pair, Pillar I Triples Rule, character-level alignment bonuses.
 - [ ] Whether Flavor Axes interact with Pillar Ignition at all (`01c` §5.3).
 - [x] Neutral-path revision — locked 2026-11-16 (`01c` §2): Lá Pillars are the neutral path, Óðr ignition forgoes Pillars, any ignition = Triples Rule + Bond consequence.

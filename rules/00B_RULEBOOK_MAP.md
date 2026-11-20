@@ -29,7 +29,7 @@
 | `97b_ATTRIBUTE_FLAVOR_AXES_WIP.md` | 🚧 Scaffold | The six flavor axes — two per attribute pair (Frame/Load, Temper/Fortitude, Attention/Tempo); race tendencies. |
 | `94_RULE_OF_WILD_MUTATIONS_WIP.md` | 🚧 WIP | The 12 Rule of Wild mutations. |
 | `02_perks_and_traits.md` | ✅ Solid | System-altering traits and organic perk design. |
-| `03_skill_system.md` | ✅ Solid | The 0-8 Tier system and tactical skill roster. |
+| `03_skill_system.md` | ✅ Solid | The 0-8 Tier system, skill progression, and tactical skill roster. |
 | `99_CLASS_TREES_WIP.md` | 🚧 WIP Sketch | The 8 universal traditions — practices, offices, states ("Traditions in the Sources"). |
 | `05_battle_core.md` | ✅ Solid | Core combat resolution: turn structure, the 8-stage pipeline, routing, facing, formations. |
 | `06_adventure_and_prep.md` | ✅ Solid | Interactive Maps & The Camping Tool (Prep Phase). |
@@ -53,7 +53,7 @@
 | `25_LEGACY_WIP.md` | 🚧 Foundational Spark | Legacy and persistent-world advancement across playthroughs. |
 | `26_CAMPAIGN_ECONOMY_WIP.md` | 🚧 Foundational Spark | Pull vs. Push motivation; the Money/Food/Tolerance/Cohesion resource kernel. |
 | `27_EVENTS.md` | ✅ Solid | The event as its own unit — party-conditional aspects, two-way goals, hard/soft restrictions, identity through play, daring and setbacks. |
-| `events/` (10 files) | 🚧 Foundational Spark | One file per event trigger — Place, Time, Powers, People, Consequence, Bond/Oath, Name/Fame, Wyrd, Battle Map, Sought Out (`27_EVENTS.md` §7). First test events in Place and Time. |
+| `events/` (10 files) | 🚧 Foundational Spark | One file per event trigger — Place, Time, Powers, People, Consequence, Bond/Oath, Name/Fame, Wyrd, Tactical Map, Sought Out (`27_EVENTS.md` §7). First test events in Place and Time. |
 | `96_OATHS_WIP.md` | 🚧 WIP | Oath cosmology (Wyrd/Önd, Order/Wild/Chaos break consequences, Oath-Web) — the binding *act* underneath a Bond's persistent relationship. |
 
 ---

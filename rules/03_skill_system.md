@@ -1,4 +1,4 @@
-> **WHEN TO READ:** Only when **calculating 3-stage rolls** or determining **defensive capacity**.
+> **WHEN TO READ:** Only when **calculating 3-stage rolls**, determining **defensive capacity**, or **raising a skill** (Ch.3).
 
 # PART II — SKILLS & PROGRESSION (BGS)
 
@@ -18,7 +18,7 @@ Skills represent practiced competency and provide the primary static modifiers f
 | **8** | **Saga-Named** | +8 | **Hard Cap.** The Wyrd has taken notice. |
 
 ### Skill Availability: The Attribute Gate
-A Skill under a given Attribute is only trainable once that Attribute's **Bonus** is +1 or higher (per `01_system_foundations.md` Ch.2, this means Attribute Value ≥ 4). Below that, the Skill is locked, regardless of desire to train it. A **Master Trainer** can bypass this gate for a cost — see `26_CAMPAIGN_ECONOMY_WIP.md` Levers. Full composition detail: `01c_CHARACTER_BUILD_PIPELINE_WIP.md`.
+A Skill under a given Attribute is only trainable once that Attribute's **Bonus** is +1 or higher (per `01_system_foundations.md` Ch.2, this means Attribute Value ≥ 4). Below that, the Skill is locked, regardless of desire to train it. A **Master Trainer** can bypass this gate for a cost — see `26_CAMPAIGN_ECONOMY_WIP.md` Levers. Full composition detail: `01c_CHARACTER_BUILD_PIPELINE_WIP.md`. A locked Skill can still be attempted at Raw (+0), but it gains no skill XP (Ch.3).
 
 ---
 
@@ -59,6 +59,57 @@ Following the organic growth policy, only skills explicitly required for the cor
 - **Intimidation**: Attacking an opponent’s **Moral BP** through presence and threat.
 - **Skaldic Art**: Recording deeds into the saga; influencing faction reputation.
 - **Bartering**: Negotiating exchange rates in the Weight-and-Barter economy.
+
+---
+
+## Chapter 3 — Skill Progression (LOCKED 2026-11-20)
+
+A skill grows through use (`01c_CHARACTER_BUILD_PIPELINE_WIP.md` §3). Practice builds up quietly; the step up comes as a sudden insight on a strong roll.
+
+### 1. What Counts
+- **The check:** 3d6 + skill tier + governing Attribute Bonus, against difficulty (`01_system_foundations.md` Ch.1).
+- **Where:** only checks made in events and missions count (`27_EVENTS.md` §0).
+- **The map decides the rule**, not the skill: a check in event mode uses §2, a check on the tactical map uses §3. A lock picked while sneaking on the tactical map follows §3; a weapon used in a quarrel that stays inside the event follows §2.
+- **Fail range:** the natural 3d6 results that still end in Fail on the ladder once skill, Attribute Bonus and difficulty are applied.
+- **Attribute gate:** a locked skill (Ch.1) gains no skill XP until its Attribute Bonus reaches +1 or a Master Trainer opens the gate.
+
+### 2. Event Mode
+- Each check adds **2 XP per result in its fail range** to the skill's pool.
+- Every choice that calls for a check adds; the same challenge twice in one event adds twice. The event's written choices limit how often a skill can be checked (`27_EVENTS.md` §10).
+
+### 3. Tactical Map
+Each attempt adds XP by the top of its fail range:
+
+| Fail range up to | 3–5 | 6–8 | 9–12 | 13–15 | 16+ |
+|---|---|---|---|---|---|
+| Success | +0 | +1 | +2 | +3 | +4 |
+| Non-success | −1 | −1 | −1 | −1 | −1 |
+
+The pool never drops below 0.
+
+### 4. Multiplier
+| Check result | Multiplier |
+|---|---|
+| Fail | ×1 |
+| Success | ×2 |
+| Natural 18 | ×3 |
+
+The multiplier applies both to the XP added and to the natural roll in the insight test (§5).
+
+### 5. The Insight Test
+On every counting check, after its XP is added to the pool:
+
+**natural roll × multiplier + pool ≥ 100** → the skill earns **1 progress point** and its pool resets to 0.
+
+The skill check is the test — no extra roll. While the pool is below 46 no roll can reach 100: practice only accumulates. From 46 a natural 18 can bring the insight, from 66 a strong success, from 97 any roll.
+
+### 6. Recap
+At the end of each event or mission, the progress made is summarised in the event's Resolution (`27_EVENTS.md` §10, step 5).
+
+### 7. Raising the Tier
+- **Cost:** reaching tier N costs **5 × N progress points** — 5 to reach tier 1, then 10, 15, 20, 25 (75 from Raw to Soft Max).
+- **Use alone reaches tier 5** (Soft Max, Ch.1).
+- **Parallel +1 sources:** an event reward (a saga reward is an event reward, `27_EVENTS.md` §5), master training (`26_CAMPAIGN_ECONOMY_WIP.md` Levers), or a bond reward (`24_BONDS_AND_DEVOTION_WIP.md`) each raise a skill by one tier. They work at any tier, and they are the only way past tier 5 to tiers 6–8.
 
 ---
 

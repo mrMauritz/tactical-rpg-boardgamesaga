@@ -41,7 +41,7 @@ Campaign Map weighting has no formula yet (`90_TODO_development_tracking.md` §7
 - *Parley* ends in: pay them · take a recruit (if a companion was once outlawed: "He knows her from the winters in the hills") · break off.
 - *Ambush / Attack* end in: how to strike.
 
-**4. Battle or peace** — Short event: Ambush and Attack go straight to pre-battle (`06_adventure_and_prep.md` Ch.12). Parley can end in peace.
+**4. Mission or peace** — Short event: Ambush and Attack go straight to pre-battle (`06_adventure_and_prep.md` Ch.12). Parley can end in peace.
 
 **5. Resolution** — Salvage and stolen goods (Material); a recruit (Recruitment). A full outlaw has no legal protection, so killing one draws no claim (*Grágás*, Vígslóði). Aftermath: post-battle scars (`11_injury_and_scars.md` §1). Consequences: Renown; the hideout cleared (Map seed).
 

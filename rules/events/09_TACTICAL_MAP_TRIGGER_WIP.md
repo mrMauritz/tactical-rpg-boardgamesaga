@@ -1,4 +1,4 @@
-# Event Trigger: Battle Map (WIP)
+# Event Trigger: Tactical Map (WIP)
 
 > [!WARNING]
 > **DEVELOPMENT STATUS: FOUNDATIONAL SPARK.** Trigger defined; no events written yet.
@@ -9,7 +9,7 @@
 
 ## 1. What Moves
 
-The fight moves: an event hex is triggered during battle.
+The mission moves: an event hex is triggered during a mission on the tactical map.
 
 ## 2. Owning System
 
@@ -17,7 +17,7 @@ Event Hexes (`06_adventure_and_prep.md` Ch.13); integrated interactivity (`00A_D
 
 ## 3. Dependencies
 
-Fires inside a fight rather than on the campaign map. `06` Ch.13 names Event Hexes but does not yet define them.
+Fires inside a mission rather than on the campaign map. `06` Ch.13 names Event Hexes but does not yet define them.
 
 ---
-*Status: Foundational spark. Last Updated: 2026-11-19.*
+*Status: Foundational spark. Last Updated: 2026-11-20.*

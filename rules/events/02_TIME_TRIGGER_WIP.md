@@ -40,7 +40,7 @@ In-play time resolution is OPEN (`90_TODO_development_tracking.md` §7).
 
 **3. Choices** — Each path ends in its own choice: accept the host's terms or not, a marriage offer, a price. If the seating insults the party: answer it (daring) · let it pass · leave.
 
-**4. Battle or peace** — Answering the insult can turn into a hall fight through pre-battle (`06_adventure_and_prep.md` Ch.12). Every other path ends in peace.
+**4. Mission or peace** — Answering the insult can turn into a hall fight through pre-battle (`06_adventure_and_prep.md` Ch.12). Every other path ends in peace.
 
 **5. Resolution** — Parting gifts (gift); favour at the sacrifice, with or without a bond (Divine). Answering a stronger man before the hall is recognised as daring. Consequences: Worldly, Divine, Faction movement, and possibly Feud opened. No later event is named — a feud event elsewhere becomes possible because "feud opened" is now true.
 
