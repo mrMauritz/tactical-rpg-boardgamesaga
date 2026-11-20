@@ -89,7 +89,7 @@
 - **[2.1] Deeds, names, achievements** — character identity develops through play. An achievement can have practical value, grant a small bonus, or give the character a name or epithet, giving the character's history weight.
 - **[2.3] Recognition through event conditions** — an earned name or achievement itself serves as an event condition: the epithet that identifies the character can trigger a response when relevant.
 
-**LOCKED 2026-11-18 — one term, per [6.1]:** an **achievement** is an earned deed recorded on the character. A **bond achievement** (`24_BONDS_AND_DEVOTION_WIP.md` §4) is the case where the deed's outcome is devotion in a particular bond — not a second kind of thing.
+**LOCKED 2026-11-18 — one term, per [6.1]:** an **achievement** is an earned deed recorded on the character. Achievements are bound to events and missions (LOCKED 2026-11-21); some Tree/Devotion unlocks come from them (`01c` §3). A **bond achievement** (`24_BONDS_AND_DEVOTION_WIP.md` §4) is the case where the deed's outcome is devotion in a particular bond — not a second kind of thing.
 
 **LOCKED 2026-11-20 — the small bonus takes a grounded form** (`00A_DESIGN_ATOMS.md` Part II §3, no floating modifiers); the event decides which:
 
@@ -193,10 +193,10 @@ Praise-verse that carries fame onward (*erfidrápa*; *Eiríksmál*, *Hákonarmá
 | **Map seeds** | Reality-layer hex changes and Wyrd-layer seeds | `06_adventure_and_prep.md` Ch.15 | Place, Tactical Map |
 | **Knowledge & rumour** | What the party learns, or only partly grasps — something concrete to investigate. Works as conditions: what the party knows opens or shapes later events (LOCKED 2026-11-20) | This file, §2; `20_CAMPAIGN_CORE_WIP.md` §5; [1.3] | Place, Wyrd |
 | **Time spent** | The event uses up time and opportunity | `20_CAMPAIGN_CORE_WIP.md` §6; [4.3] | Time |
-| **Progression** | Contribution toward a Level — itself a reflection event; familiarity through use: every skill check in an event or mission adds skill XP (`03_skill_system.md` Ch.3) | `01c` §4; `03_skill_system.md` Ch.3; `20_CAMPAIGN_CORE_WIP.md` §6 | Consequence (Level event) |
+| **Progression** | *Reynsla* (experience) toward *þroski* (level-up) — itself a reflection event; familiarity through use: every skill check in an event or mission adds skill XP (`03_skill_system.md` Ch.3) | `01c` §4; `03_skill_system.md` Ch.3; `20_CAMPAIGN_CORE_WIP.md` §6 | Consequence (Level event) |
 | **Legacy** | What persists into later playthroughs | `25_LEGACY_WIP.md`; `20_CAMPAIGN_CORE_WIP.md` §7 | — (trans-saga) |
 
-What grants XP is OPEN (`01c` §5); in-play time is OPEN (`90_TODO_development_tracking.md` §7); Stories told has no mechanism yet (`90_TODO_development_tracking.md` §8).
+The *reynsla* threshold is OPEN (`01c` §4); in-play time is OPEN (`90_TODO_development_tracking.md` §7); Stories told has no mechanism yet (`90_TODO_development_tracking.md` §8).
 
 ---
 

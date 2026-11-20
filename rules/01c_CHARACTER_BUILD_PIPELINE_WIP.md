@@ -54,8 +54,8 @@
 | Currency | Represents | Earned by | Cost shape |
 |---|---|---|---|
 | **Skill** | How much you've *done* something | Usage/repetition over time — **no spendable currency at all**. Checks in events and missions build a skill XP pool; an insight on a strong roll turns it into a progress point (`03_skill_system.md` Ch.3, LOCKED 2026-11-20) | Rising: reaching tier N costs 5 × N progress points; tiers 6–8 only through event, master-training or bond rewards (`03` Ch.3) |
-| **Attribute** | Effort and aim — deliberate investment | Spent points, granted at a Level (§4 below) | Rising: reaching value N costs N points (**LOCKED 2026-11-15; revised 2026-11-20**) |
-| **Tree / Faction (Devotion)** | Deeds and achievements | Earned via specific accomplishments — the same mechanism `24_BONDS_AND_DEVOTION_WIP.md` §4 already uses for Bond Devotion ("one earned achievement = one point") | Flat: Class Tree perks are 1 point = 1 gain (PROVISIONAL) |
+| **Attribute** | Effort and aim — deliberate investment | Spent points, granted at *þroski* (level-up, §4 below) | Rising: reaching value N costs N points (**LOCKED 2026-11-15; revised 2026-11-20**) |
+| **Tree / Faction (Devotion)** | Deeds and achievements | Points granted at *þroski* (level-up, §4); some unlocks come from achievements, which are bound to events and missions (LOCKED 2026-11-21) — the same mechanism `24_BONDS_AND_DEVOTION_WIP.md` §4 already uses for Bond Devotion ("one earned achievement = one point") | Flat: Class Tree perks are 1 point = 1 gain (PROVISIONAL) |
 
 Class Tree achievement-points and Bond Devotion-points are **parallel, separate economies** (confirmed `24b` §1) — not the same pool, even though they're earned the same way.
 
@@ -63,13 +63,17 @@ Class Tree achievement-points and Bond Devotion-points are **parallel, separate 
 
 ---
 
-## 4. Level — A Reflection Event, Not a Counter
+## 4. Þroski (Level-up) — A Reflection Event, Not a Counter
+
+**Names (LOCKED 2026-11-21):** *þroski* (level-up) — maturing, growing into full strength; *reynsla* (experience) — trial, from *reyna*, "to test" (Cleasby–Vigfússon). One is tested, and the testing ripens. Growth from deeds: *verk mér af verki verks leitaði* (Hávamál 141). *Reynsla* is separate from skill XP (`03_skill_system.md` Ch.3).
 
 **ESTABLISHED (2026-11-09):** A "Level" is not a flat XP-threshold tick. It is a narrative moment where the character stops to reflect on recent events — mechanically, this reuses the existing Camping/Prep-Phase tool (`06_adventure_and_prep.md`) rather than inventing a new trigger. A Level grants two things simultaneously:
 - An opportunity to **learn something new** → Tree points.
 - An opportunity to **reflect on how things were done** → Attribute points.
 
-**OPEN:** the exact trigger condition is left open, except that it is gated by accumulated experience points crossing some threshold — what grants XP, and the threshold value, are undecided.
+**LOCKED 2026-11-21 — what grants *reynsla* (experience):** completing missions and events, and other interactions with the saga's two realms — the material (Lá) and the mystic (Óðr), not Lá only (`01_INTERNAL_ARCHITECTURE_WIP.md` "Triples Rule"). *Þroski* (level-up) comes when accumulated *reynsla* crosses a threshold.
+
+**OPEN:** the threshold value.
 
 ---
 
@@ -78,7 +82,7 @@ Class Tree achievement-points and Bond Devotion-points are **parallel, separate 
 1. ~~Race-modifies-attribute-cost conflict~~ — **RESOLVED 2026-11-15:** Race shapes both expression and progression (`01_system_foundations.md` Ch.2 tagline updated). A race can be generally strong in an attribute *and* amplified further in its flavor direction. **Still open:** the mechanism — racial cost modifier, starting-value offset, or both — and how "amplified in flavor direction" is computed.
 2. ~~Exact attribute cost formula~~ — **LOCKED 2026-11-15; revised 2026-11-20:** reaching value N costs N points (1–12 = 77 points total, back-loaded).
 3. **Flavor Axes have no stated interaction with Ignition at all** — intentional separation or a gap, not yet decided.
-4. **Level trigger specifics** — what generates XP, and the threshold that unlocks a Level event.
+4. **Þroski (level-up) threshold** — what generates *reynsla* (experience) is resolved 2026-11-21 (§4); the threshold value is open.
 5. **Tree-depth power curve** — if Class Tree cost is flat (1 pt = 1 gain) but later perks are presumably stronger, what paces that growth if not cost? (prerequisite chains, attribute thresholds, tier-gating — unresolved.)
 6. **Master Trainer mechanism** — has a home (`26` Levers) but no designed cost or access condition yet.
 7. ~~**Lá/Óðr cost of mixing**~~ — **resolved 2026-11-16:** the off-path rule is the trade-off; Cross-Strain and other predefined penalties stack on it (§2).

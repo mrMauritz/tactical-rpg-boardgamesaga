@@ -100,7 +100,8 @@ Tracks open decisions for `01c_CHARACTER_BUILD_PIPELINE_WIP.md`, consolidating t
 - [ ] Rewrite per-pair ignition mechanics to the whole-self principle (`01c` §5.13).
 - [ ] Önd's role as the third gift; "The Breath" = önd; læti/litr vs. CHA's Lá side (`01c` §5.14).
 - [x] Saga framing of identity, earned names, traditions as practice/office/state, Frame fixed — locked 2026-11-16 (`01c` §6; `99` "Traditions in the Sources"; `97b` §3.1).
-- [ ] Level trigger specifics — what generates XP, and the threshold that unlocks a Level/reflection event (`01c` §5.4).
+- [x] What generates *reynsla* (experience) — resolved 2026-11-21: missions, events, and interactions with both realms (`01c` §4).
+- [ ] *Þroski* (level-up) threshold value (`01c` §5.4).
 - [ ] Tree-depth power curve — if Class Tree cost is flat, what paces perk strength growth (`01c` §5.5).
 - [ ] Master Trainer mechanism — cost and access condition undesigned (`01c` §5.6, `26_CAMPAIGN_ECONOMY_WIP.md` Levers).
 
