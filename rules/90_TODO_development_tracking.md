@@ -111,7 +111,10 @@ Tracks open items for `27_EVENTS_WIP.md`.
 - [ ] **Praise-verse** (*erfidrápa*) — no canon home for verse that carries fame onward (`27` §6).
 - [x] **Enmity data** — RESOLVED 2026-11-18: source table in `23_DIVINITIES_WIP.md` §4; the event decides which kind applies.
 - [ ] **[3.2] Others seek something from this party** — kept for development; implementation needs care (`27` §3).
-- [ ] **Event-card format** — how an event records its conditional aspects, goals, and outcomes using only existing condition/outcome information (`27` §1.1).
+- [x] **Event with several triggers** — RESOLVED 2026-11-20: triggers are tags; the event is written under its first tag (`27` §7).
+- [x] **Event-card format** — RESOLVED 2026-11-20: tags + Opening, Paths, Choices, Battle or peace, Resolution (`27` §10).
+- [x] **Outcome summary format** — RESOLVED 2026-11-20: part of Resolution; how much it shows depends on the party (`27` §10).
+- [ ] **Knowledge & rumour** — no mechanism for what the party learns or partly grasps (`27` §8).
 - [ ] **Scar and injury content** — post-battle resolution frame locked (`11_injury_and_scars.md` §1); the scars themselves, and how the *meiri sár* grading enters play, are OPEN.
 
 ---

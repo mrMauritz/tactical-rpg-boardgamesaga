@@ -1,7 +1,7 @@
 # Events: Where the Party Meets the World (WIP)
 
 > [!WARNING]
-> **DEVELOPMENT STATUS: FOUNDATIONAL SPARK.** This file fixes what an event *is* and how it responds to the party. No concrete event roster, event-card format, or objective catalogue exists yet — open items live in `90_TODO_development_tracking.md` §8.
+> **DEVELOPMENT STATUS: FOUNDATIONAL SPARK.** This file fixes what an event *is* and how it responds to the party. The event format is locked (§10); no concrete events or objective catalogue exist yet — open items live in `90_TODO_development_tracking.md` §8.
 
 > **WHEN TO READ:** Before writing or resolving any event, mission, or event-driven consequence. The campaign kernel is `20_CAMPAIGN_CORE_WIP.md`; this file owns the event as a unit.
 
@@ -59,7 +59,7 @@
 **LOCKED 2026-11-17:**
 
 - **[4.1] Choosing** — the campaign lets players choose events, sometimes through difficult decisions. Play style, bonds, and alignment impose **hard** and **soft** restrictions.
-- **Hard restrictions** are taboos and unmet requirements (`00A_DESIGN_ATOMS.md` Part II §7; bond exclusivities, `24_BONDS_AND_DEVOTION_WIP.md` §5). They define commitments.
+- **Hard restrictions** are taboos and unmet requirements (`00A_DESIGN_ATOMS.md` Part II §7; bond exclusivities, `24_BONDS_AND_DEVOTION_WIP.md` §5). They define commitments. **LOCKED 2026-11-20 — play style** restricts through what play has left behind, since every outcome can become a condition (§8): outlawry — none may feed, shelter, or aid the outlaw, who has no standing at the Þing (*Grágás*, Vígslóði; *Grettis saga*); a broken oath (`24_BONDS_AND_DEVOTION_WIP.md` §4.2; `96_OATHS_WIP.md` §7); alignment moved by deeds (`96_OATHS_WIP.md` §4); an earned name or repute ([2.3]). No separate play-style tracker (`20_CAMPAIGN_CORE_WIP.md` §8, Guardrail 10).
 - **[4.2] Soft restrictions** are concrete: acting against a bond may require compensation, create an obligation, weaken support, or put something valued at risk. They let commitments be tested through play.
 
 **LOCKED 2026-11-18 — the event decides:** a soft cost takes whatever form makes sense in that event. Nothing is fixed in advance. Forms already present in canon and the sources:
@@ -81,6 +81,15 @@
 - **[2.3] Recognition through event conditions** — an earned name or achievement itself serves as an event condition: the epithet that identifies the character can trigger a response when relevant.
 
 **LOCKED 2026-11-18 — one term, per [6.1]:** an **achievement** is an earned deed recorded on the character. A **bond achievement** (`24_BONDS_AND_DEVOTION_WIP.md` §4) is the case where the deed's outcome is devotion in a particular bond — not a second kind of thing.
+
+**LOCKED 2026-11-20 — the small bonus takes a grounded form** (`00A_DESIGN_ATOMS.md` Part II §3, no floating modifiers); the event decides which:
+
+| Form | Grounding |
+|---|---|
+| **Gift** — a thing (Material, §8) | Helgi named and given a sword (*Helgakviða Hjörvarðssonar*, prose and st. 6–9); Æthelstan's gold ring and two chests of silver to Egill (*Egils saga* ch. 55) |
+| **Access** — doors open | The earned name as event condition ([2.3]) |
+| **Trait** — a lasting change | Bond grants are mostly Traits (`24_BONDS_AND_DEVOTION_WIP.md` §6; `02_perks_and_traits.md`) |
+| **Effect through an existing pipeline** | As Cohesion lowers the Moral Pressure DC (`26_CAMPAIGN_ECONOMY_WIP.md` §3.2; `05_battle_core.md` Ch.8) |
 
 **In the sources:** the earned name (*viðrnefni*) is already locked as part of character identity — given by others, from body, deeds, or character (`01c_CHARACTER_BUILD_PIPELINE_WIP.md` §6). Because a wound can name a person (Önundr *tréfótr*, for the leg lost at Hafrsfjörðr, *Grettis saga* ch. 2), a setback can become identity. A name is given with a gift: the valkyrie Sváva names the silent Helgi and gives him a sword (*Helgakviða Hjörvarðssonar*, prose before st. 6 and st. 6–9). A setback can therefore become identity, and identity a condition — the same small information doing several jobs [6.1].
 
@@ -123,6 +132,88 @@ Praise-verse that carries fame onward (*erfidrápa*; *Eiríksmál*, *Hákonarmá
 - **God to god** — Víga-Glúmr offends Freyr, who turns against him (Þorkell's ox-sacrifice to Freyr, *Víga-Glúms saga* ch. 9; Glúmr's dream of the angry Freyr, ch. 26), while Glúmr's line and gifts tie him to Odin.
 - **God to mythic enemy** — the Eddas pair each god with a fated opponent (Odin–Fenrir, Thor–the Serpent, Freyr–Surtr, Týr–Garmr, Heimdallr–Loki; *Völuspá* 53–56, *Gylfaginning* ch. 51).
 - **Away from the gods** — Hrafnkell Freysgoði, his temple burned and his horse killed, judges it folly to trust in gods and rises again by his own strength (*Hrafnkels saga* ch. 7).
+
+---
+
+## 7. Triggers (LOCKED 2026-11-19)
+
+**Events are sorted by how they are triggered**, because each event can have several outcomes. Events are in general free and independent; their **triggers are not** — each trigger belongs to a system. One file per trigger, in `events/`. Inside each event, conditions shape how it plays (§2).
+
+**LOCKED 2026-11-20 — the web builds as you play:**
+- **Triggers are tags.** An event set off by several triggers carries several tags — no pointers, no copies.
+- **An event knows nothing about other events.** It reads the state of party and world through its conditions and changes that state through its outcomes (§8). An event whose conditions now hold becomes possible; no link between events is written.
+- **Files are for writing, not for play.** An event is written in the file of its first trigger tag; in play, events are found by their tags.
+
+- **Trigger vs. condition:** a trigger brings the event about; a condition shapes how it plays for this party. The same information can do both — an earned name can trigger a response [2.3] and be a condition (§5).
+- **Saga events are mainly inspiration.** A saga situation is a starting point, not a closed box; what one event leaves behind can make another possible (Consequence).
+
+| Trigger | What moves | File |
+|---|---|---|
+| Place | The party goes somewhere | `events/01_PLACE_TRIGGER_WIP.md` |
+| Time | Something alters with time | `events/02_TIME_TRIGGER_WIP.md` |
+| Powers | A faction or divinity acts on its own clock | `events/03_POWERS_TRIGGER_WIP.md` |
+| People | A companion's past wakes, or others seek the party | `events/04_PEOPLE_TRIGGER_WIP.md` |
+| Consequence | An earlier outcome comes back | `events/05_CONSEQUENCE_TRIGGER_WIP.md` |
+| Bond / Oath | An obligation calls the party in | `events/06_BOND_AND_OATH_TRIGGER_WIP.md` |
+| Name / Fame | Repute arrives before the party | `events/07_NAME_AND_FAME_TRIGGER_WIP.md` |
+| Wyrd | Wyrd-Pressure stirs the world | `events/08_WYRD_TRIGGER_WIP.md` |
+| Battle Map | An event hex is triggered in a fight | `events/09_BATTLE_MAP_TRIGGER_WIP.md` |
+
+---
+
+## 8. Outcomes (LOCKED 2026-11-20)
+
+**Events are the backbone of the campaign.** Outcomes return to the same systems triggers come from: system → trigger → event → outcome → system. Every outcome can also become a condition or trigger for later events (§1.1, [2.3], [5.3]) — a property of all outcomes, not a separate kind. One piece of information may land in several registers at once (a wound: Scars, Party Resources via compensation, Worldly via a name — `11_injury_and_scars.md` §1.2). The event decides which apply.
+
+| Register | Covers | Owner | Trigger it returns to |
+|---|---|---|---|
+| **Worldly** | *Orðstírr* — Renown, Saga-Renown, earned names (§6) | `06` Ch.12; `01_INTERNAL_ARCHITECTURE_WIP.md`; `01c` §6 | Name / Fame |
+| **Stories told** | Praise-verse that carries fame onward (*erfidrápa*) — no canon home yet | `20_CAMPAIGN_CORE_WIP.md` §5 | Name / Fame |
+| **Divine** | Favour and rewards with or without a bond (§6); divine opposition drawn by the outcome | `23_DIVINITIES_WIP.md` §4 | Powers |
+| **Divinity movement** | The divinity itself changes, or appears to — a different aspect, a misunderstanding, a changed relation | `23_DIVINITIES_WIP.md` §1 | Powers |
+| **Faction movement** | A faction's orientation, resources, relations, or position shift | `22_FACTIONS_WIP.md` §1 | Powers |
+| **Companion changes** | Past awakened, hidden character revealed, alignment moved, loyalty strengthened or fractured | `21_COMPANIONS_WIP.md` §2 | People |
+| **Recruitment & departure** | A person joins, is accepted, refuses, departs, betrays, or dies | `21_COMPANIONS_WIP.md` §2; `26_CAMPAIGN_ECONOMY_WIP.md` §3.2 (acceptance) | People |
+| **Bonds** | Card granted, deepened, weakened, or destroyed; thresholds crossed; ignition grants or deepens a card | `24_BONDS_AND_DEVOTION_WIP.md` §4, §4.2, §6; `01c` §2 | Bond / Oath |
+| **Oaths & Wyrd-thread** | Oath sworn, kept, broken, severed; Troth-Gravity; the Traveling Rot; Wyrd-Scars (the spiritual scar) | `96_OATHS_WIP.md` §3–7 | Bond / Oath, Wyrd |
+| **Feud** | Feud opened, escalated, or settled; Blood-Tether | `20b` §7.6; `96_OATHS_WIP.md` §8 | Bond / Oath, Consequence |
+| **Scars** | Physical scars and lasting injury (the body) | `11_injury_and_scars.md` §1 | Battle Map, Consequence |
+| **Party resources** | Money (incl. compensation, wages, ransom), Food, Tolerance, Cohesion; the company's growing soul | `26_CAMPAIGN_ECONOMY_WIP.md` §3–4; `20_CAMPAIGN_CORE_WIP.md` §5 | — (all) |
+| **Material** | Things gained or lost: weapons, horses, ships, relics, land, refuge, captives, salvage | `20b` §7.6; `20_CAMPAIGN_CORE_WIP.md` §5 | Battle Map, Place |
+| **Map seeds** | Reality-layer hex changes and Wyrd-layer seeds | `06_adventure_and_prep.md` Ch.15 | Place, Battle Map |
+| **Knowledge & rumour** | What the party learns, or only partly grasps — something concrete to investigate | `20_CAMPAIGN_CORE_WIP.md` §5; [1.3] | Place, Wyrd |
+| **Time spent** | The event uses up time and opportunity | `20_CAMPAIGN_CORE_WIP.md` §6; [4.3] | Time |
+| **Progression** | Contribution toward a Level — itself a reflection event; familiarity through use | `01c` §4; `20_CAMPAIGN_CORE_WIP.md` §6 | Consequence (Level event) |
+| **Legacy** | What persists into later playthroughs | `25_LEGACY_WIP.md`; `20_CAMPAIGN_CORE_WIP.md` §7 | — (trans-saga) |
+
+What grants XP is OPEN (`01c` §5); in-play time is OPEN (`90_TODO_development_tracking.md` §7); Stories told and Knowledge have no mechanism yet (`90_TODO_development_tracking.md` §8).
+
+---
+
+## 9. Event Flow (LOCKED 2026-11-20)
+
+- **Length varies.** An event can be short — "attacked by bandits" — and go straight to the pre-battle phase (`06_adventure_and_prep.md` Ch.12; `00A_DESIGN_ATOMS.md` Part II §5.3).
+- **Transparency.** Most "extra" content — what a party's qualities open in an event (§2) — also explains the trigger or condition that opened it. **LOCKED 2026-11-20:** transparency explains *what opened* the content, not *what it means* or where it leads (`20_CAMPAIGN_CORE_WIP.md` §8, Guardrail 11; `00A_DESIGN_ATOMS.md` Part II §3, Pillar of Mystery). The explanation is narrative, as the sagas give it — "because he was Freyr's friend" (*Hrafnkels saga* ch. 2) — and is separate from the numeric disclosure toggle (`00E_CORE_VISION_AND_PILLARS_WIP.md` §3).
+- **Inside the event:** rewards are explained and gained there.
+- **At the end of the event:** a summary of the outcome is created, across the registers it touched (§8) — part of Resolution (§10).
+
+---
+
+## 10. Event Format (LOCKED 2026-11-20)
+
+Every event is **self-explanatory**: everything happens and is explained inside it. Two limits: it explains *what opened* an option, not *what it means* (§9); and its effects name existing rules ("devotion with Freyr") without restating them (`00A_DESIGN_ATOMS.md` Part II §1, DRY).
+
+**Tags on top** — Trigger(s) (§7) · Length (§9) · Situation · Time window, if any ([4.3]).
+
+| Step | Holds | From |
+|---|---|---|
+| **1. Opening** | The introduction, plus the conditional information this party gets — each piece with what opened it | [1.1], [1.3], §9 |
+| **2. Paths of action** | What is visible and available to this party; restrictions close paths here | §2, §4 |
+| **3. Choices** | Each path leads in the end to its own choices; goals change as the party commits | §3 |
+| **4. Battle or peace** | A choice leads to battle (through pre-battle, `06_adventure_and_prep.md` Ch.12) or to a more peaceful outcome; a short event can reach this step at once | §9 |
+| **5. Resolution** | Rewards gained and explained, daring recognised, and a summary of the aftermath and consequences. After a battle, the post-battle resolution feeds in here (`11_injury_and_scars.md` §1) | §5, §6, §8 |
+
+Conditions are not a step of their own: they shape what the Opening reveals and which paths the party sees. **How much of the consequences the summary shows depends on the party** — e.g., a foresighted member (*forspár*, `01c_CHARACTER_BUILD_PIPELINE_WIP.md` §6) or Wyrd-legibility (`01_INTERNAL_ARCHITECTURE_WIP.md`).
 
 ---
 *Status: Foundational spark. Event structure locked; content, carriers, and roster OPEN (`90_TODO_development_tracking.md` §8). Last Updated: 2026-11-18.*
