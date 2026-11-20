@@ -30,7 +30,7 @@ A companion is not a completed build but a **vessel of potential history** — d
 - Unlock, weaken, transform, or destroy potential.
 - Trigger refusal, departure, betrayal, sacrifice, or independent action.
 
-The event as a unit — conditions, goals, recognition — is owned by `27_EVENTS_WIP.md`.
+The event as a unit — conditions, goals, recognition — is owned by `27_EVENTS.md`.
 
 ## 3. Simultaneous Function
 

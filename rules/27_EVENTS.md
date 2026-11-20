@@ -1,7 +1,6 @@
-# Events: Where the Party Meets the World (WIP)
+# Events: Where the Party Meets the World
 
-> [!WARNING]
-> **DEVELOPMENT STATUS: FOUNDATIONAL SPARK.** This file fixes what an event *is* and how it responds to the party. The event format is locked (§10); no concrete events or objective catalogue exist yet — open items live in `90_TODO_development_tracking.md` §8.
+> **STATUS: LOCKED (2026-11-20).** This file fixes what an event *is*, how it responds to the party, its triggers, outcomes, and format (§10). Concrete events live in `events/`; open items owned by other files are tracked in `90_TODO_development_tracking.md` §7–8.
 
 > **WHEN TO READ:** Before writing or resolving any event, mission, or event-driven consequence. The campaign kernel is `20_CAMPAIGN_CORE_WIP.md`; this file owns the event as a unit.
 
@@ -48,7 +47,7 @@
 - **[3.3] Goals change inside the event** — commitments and actions can introduce or change objectives as the event develops. For a mission, objectives define *what* the mission requires; how the fight is won stays with `20b_STRATEGY_AND_BALANCE_MAP_WIP.md` §1 and §7.10.
 - **[3.4] Hidden identity** — events and gameplay can reveal a character's hidden identity (`21_COMPANIONS_WIP.md` §2, "Reveal hidden character").
 
-**KEPT FOR DEVELOPMENT 2026-11-17 — [3.2] Others seek something from this party:** participants may ask for protection, offer terms, or issue a challenge because of the companions, bonds, or identity they meet. Valuable; implementation needs care (`90_TODO_development_tracking.md` §8).
+**LOCKED 2026-11-20 — [3.2] Others seek something from this party:** participants may ask for protection, offer terms, or issue a challenge because of the companions, bonds, or identity they meet. It has its own events, in their own trigger file (`events/10_SOUGHT_OUT_TRIGGER_WIP.md`).
 
 > *The party's identity shapes both what the player pursues and what others seek from the party.*
 
@@ -135,9 +134,9 @@ Praise-verse that carries fame onward (*erfidrápa*; *Eiríksmál*, *Hákonarmá
 
 ---
 
-## 7. Triggers (LOCKED 2026-11-19)
+## 7. Triggers
 
-**Events are sorted by how they are triggered**, because each event can have several outcomes. Events are in general free and independent; their **triggers are not** — each trigger belongs to a system. One file per trigger, in `events/`. Inside each event, conditions shape how it plays (§2).
+**LOCKED 2026-11-19:** **Events are sorted by how they are triggered**, because each event can have several outcomes. Events are in general free and independent; their **triggers are not** — each trigger belongs to a system. One file per trigger, in `events/`. Inside each event, conditions shape how it plays (§2).
 
 **LOCKED 2026-11-20 — the web builds as you play:**
 - **Triggers are tags.** An event set off by several triggers carries several tags — no pointers, no copies.
@@ -152,18 +151,19 @@ Praise-verse that carries fame onward (*erfidrápa*; *Eiríksmál*, *Hákonarmá
 | Place | The party goes somewhere | `events/01_PLACE_TRIGGER_WIP.md` |
 | Time | Something alters with time | `events/02_TIME_TRIGGER_WIP.md` |
 | Powers | A faction or divinity acts on its own clock | `events/03_POWERS_TRIGGER_WIP.md` |
-| People | A companion's past wakes, or others seek the party | `events/04_PEOPLE_TRIGGER_WIP.md` |
+| People | A companion's past wakes | `events/04_PEOPLE_TRIGGER_WIP.md` |
 | Consequence | An earlier outcome comes back | `events/05_CONSEQUENCE_TRIGGER_WIP.md` |
 | Bond / Oath | An obligation calls the party in | `events/06_BOND_AND_OATH_TRIGGER_WIP.md` |
 | Name / Fame | Repute arrives before the party | `events/07_NAME_AND_FAME_TRIGGER_WIP.md` |
 | Wyrd | Wyrd-Pressure stirs the world | `events/08_WYRD_TRIGGER_WIP.md` |
 | Battle Map | An event hex is triggered in a fight | `events/09_BATTLE_MAP_TRIGGER_WIP.md` |
+| Sought Out | Others come to the party for what they see in it [3.2] | `events/10_SOUGHT_OUT_TRIGGER_WIP.md` |
 
 ---
 
-## 8. Outcomes (LOCKED 2026-11-20)
+## 8. Outcomes
 
-**Events are the backbone of the campaign.** Outcomes return to the same systems triggers come from: system → trigger → event → outcome → system. Every outcome can also become a condition or trigger for later events (§1.1, [2.3], [5.3]) — a property of all outcomes, not a separate kind. One piece of information may land in several registers at once (a wound: Scars, Party Resources via compensation, Worldly via a name — `11_injury_and_scars.md` §1.2). The event decides which apply.
+**LOCKED 2026-11-20:** **Events are the backbone of the campaign.** Outcomes return to the same systems triggers come from: system → trigger → event → outcome → system. Every outcome can also become a condition or trigger for later events (§1.1, [2.3], [5.3]) — a property of all outcomes, not a separate kind. One piece of information may land in several registers at once (a wound: Scars, Party Resources via compensation, Worldly via a name — `11_injury_and_scars.md` §1.2). The event decides which apply.
 
 | Register | Covers | Owner | Trigger it returns to |
 |---|---|---|---|
@@ -181,27 +181,28 @@ Praise-verse that carries fame onward (*erfidrápa*; *Eiríksmál*, *Hákonarmá
 | **Party resources** | Money (incl. compensation, wages, ransom), Food, Tolerance, Cohesion; the company's growing soul | `26_CAMPAIGN_ECONOMY_WIP.md` §3–4; `20_CAMPAIGN_CORE_WIP.md` §5 | — (all) |
 | **Material** | Things gained or lost: weapons, horses, ships, relics, land, refuge, captives, salvage | `20b` §7.6; `20_CAMPAIGN_CORE_WIP.md` §5 | Battle Map, Place |
 | **Map seeds** | Reality-layer hex changes and Wyrd-layer seeds | `06_adventure_and_prep.md` Ch.15 | Place, Battle Map |
-| **Knowledge & rumour** | What the party learns, or only partly grasps — something concrete to investigate | `20_CAMPAIGN_CORE_WIP.md` §5; [1.3] | Place, Wyrd |
+| **Knowledge & rumour** | What the party learns, or only partly grasps — something concrete to investigate. Works as conditions: what the party knows opens or shapes later events (LOCKED 2026-11-20) | This file, §2; `20_CAMPAIGN_CORE_WIP.md` §5; [1.3] | Place, Wyrd |
 | **Time spent** | The event uses up time and opportunity | `20_CAMPAIGN_CORE_WIP.md` §6; [4.3] | Time |
 | **Progression** | Contribution toward a Level — itself a reflection event; familiarity through use | `01c` §4; `20_CAMPAIGN_CORE_WIP.md` §6 | Consequence (Level event) |
 | **Legacy** | What persists into later playthroughs | `25_LEGACY_WIP.md`; `20_CAMPAIGN_CORE_WIP.md` §7 | — (trans-saga) |
 
-What grants XP is OPEN (`01c` §5); in-play time is OPEN (`90_TODO_development_tracking.md` §7); Stories told and Knowledge have no mechanism yet (`90_TODO_development_tracking.md` §8).
+What grants XP is OPEN (`01c` §5); in-play time is OPEN (`90_TODO_development_tracking.md` §7); Stories told has no mechanism yet (`90_TODO_development_tracking.md` §8).
 
 ---
 
-## 9. Event Flow (LOCKED 2026-11-20)
+## 9. Event Flow
+
+**LOCKED 2026-11-20:**
 
 - **Length varies.** An event can be short — "attacked by bandits" — and go straight to the pre-battle phase (`06_adventure_and_prep.md` Ch.12; `00A_DESIGN_ATOMS.md` Part II §5.3).
-- **Transparency.** Most "extra" content — what a party's qualities open in an event (§2) — also explains the trigger or condition that opened it. **LOCKED 2026-11-20:** transparency explains *what opened* the content, not *what it means* or where it leads (`20_CAMPAIGN_CORE_WIP.md` §8, Guardrail 11; `00A_DESIGN_ATOMS.md` Part II §3, Pillar of Mystery). The explanation is narrative, as the sagas give it — "because he was Freyr's friend" (*Hrafnkels saga* ch. 2) — and is separate from the numeric disclosure toggle (`00E_CORE_VISION_AND_PILLARS_WIP.md` §3).
-- **Inside the event:** rewards are explained and gained there.
-- **At the end of the event:** a summary of the outcome is created, across the registers it touched (§8) — part of Resolution (§10).
+- **Transparency.** Most "extra" content — what a party's qualities open in an event (§2) — also explains the trigger or condition that opened it. Transparency explains *what opened* the content, not *what it means* or where it leads (`20_CAMPAIGN_CORE_WIP.md` §8, Guardrail 11; `00A_DESIGN_ATOMS.md` Part II §3, Pillar of Mystery). The explanation is narrative, as the sagas give it — "because he was Freyr's friend" (*Hrafnkels saga* ch. 2) — and is separate from the numeric disclosure toggle (`00E_CORE_VISION_AND_PILLARS_WIP.md` §3).
+- **Rewards and summary** are given in Resolution (§10, step 5).
 
 ---
 
-## 10. Event Format (LOCKED 2026-11-20)
+## 10. Event Format
 
-Every event is **self-explanatory**: everything happens and is explained inside it. Two limits: it explains *what opened* an option, not *what it means* (§9); and its effects name existing rules ("devotion with Freyr") without restating them (`00A_DESIGN_ATOMS.md` Part II §1, DRY).
+**LOCKED 2026-11-20:** Every event is **self-explanatory**: everything happens and is explained inside it. Two limits: it explains *what opened* an option, not *what it means* (§9); and its effects name existing rules ("devotion with Freyr") without restating them (`00A_DESIGN_ATOMS.md` Part II §1, DRY).
 
 **Tags on top** — Trigger(s) (§7) · Length (§9) · Situation · Time window, if any ([4.3]).
 
@@ -216,4 +217,4 @@ Every event is **self-explanatory**: everything happens and is explained inside 
 Conditions are not a step of their own: they shape what the Opening reveals and which paths the party sees. **How much of the consequences the summary shows depends on the party** — e.g., a foresighted member (*forspár*, `01c_CHARACTER_BUILD_PIPELINE_WIP.md` §6) or Wyrd-legibility (`01_INTERNAL_ARCHITECTURE_WIP.md`).
 
 ---
-*Status: Foundational spark. Event structure locked; content, carriers, and roster OPEN (`90_TODO_development_tracking.md` §8). Last Updated: 2026-11-18.*
+*Status: Event structure and format locked; concrete events grow in `events/`. Open items owned elsewhere are listed in `90_TODO_development_tracking.md` §7–8. Last Updated: 2026-11-20.*

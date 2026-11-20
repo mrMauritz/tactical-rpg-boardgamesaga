@@ -35,7 +35,7 @@ Divinity bonds are one of the Bond families (`24_BONDS_AND_DEVOTION_WIP.md` §2.
 
 ## 4. Oppositions in the Sources (LOCKED 2026-11-18)
 
-Divinities stand in opposition to one another and to mythic enemies. Three kinds recur in the sources — **lasting enmity**, **rivalry among the gods**, and **gods taking sides over one person**. All three are available; **the event decides** which makes sense (`27_EVENTS_WIP.md` §6, [5.3]). The table is source reference, not a closed list.
+Divinities stand in opposition to one another and to mythic enemies. Three kinds recur in the sources — **lasting enmity**, **rivalry among the gods**, and **gods taking sides over one person**. All three are available; **the event decides** which makes sense (`27_EVENTS.md` §6, [5.3]). The table is source reference, not a closed list.
 
 | Opposition | Kind | Source |
 |---|---|---|

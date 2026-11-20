@@ -3,7 +3,7 @@
 > [!WARNING]
 > **DEVELOPMENT STATUS: FOUNDATIONAL SPARK.** Trigger defined; no events written yet.
 
-> **WHEN TO READ:** Before writing an event set off by this trigger. The event as a unit, its conditions, and the trigger/condition distinction are owned by `../27_EVENTS_WIP.md` (§2, §7). Write each event in the format of `27` §10, tagged with every trigger that can set it off.
+> **WHEN TO READ:** Before writing an event set off by this trigger. The event as a unit, its conditions, and the trigger/condition distinction are owned by `../27_EVENTS.md` (§2, §7). Write each event in the format of `27` §10, tagged with every trigger that can set it off.
 
 ---
 
@@ -17,7 +17,7 @@ The chain Wyrd-legibility → Wyrd-Pressure → Troth-Gravity → Saga-Renown / 
 
 ## 3. Saga Inspiration
 
-Omens and prophecy — the seeress Þorbjörg at Herjólfsnes (*Eiríks saga rauða* ch. 4). Saga events are inspiration, not templates (`../27_EVENTS_WIP.md` §7).
+Omens and prophecy — the seeress Þorbjörg at Herjólfsnes (*Eiríks saga rauða* ch. 4). Saga events are inspiration, not templates (`../27_EVENTS.md` §7).
 
 ## 4. Dependencies
 

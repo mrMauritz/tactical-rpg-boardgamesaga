@@ -31,12 +31,12 @@ Existing pieces, not restated here:
 
 ### 1.2 One Wound, Several Things
 
-In the sources a wound is several things at once. **The event decides** which apply (`27_EVENTS_WIP.md` §1.1, integration principle):
+In the sources a wound is several things at once. **The event decides** which apply (`27_EVENTS.md` §1.1, integration principle):
 
 - **A scar** on the body — this chapter.
-- **Grounds for compensation** — wound severity sets what can be claimed (*Grágás*, Vígslóði; `27_EVENTS_WIP.md` §4; `20b_STRATEGY_AND_BALANCE_MAP_WIP.md` §7.6 Feud Resolution).
+- **Grounds for compensation** — wound severity sets what can be claimed (*Grágás*, Vígslóði; `27_EVENTS.md` §4; `20b_STRATEGY_AND_BALANCE_MAP_WIP.md` §7.6 Feud Resolution).
 - **An earned name** — Önundr *tréfótr*, for the leg lost at Hafrsfjörðr (*Grettis saga* ch. 2; `01c_CHARACTER_BUILD_PIPELINE_WIP.md` §6).
-- **Part of fame** — *orðstírr* (`27_EVENTS_WIP.md` §6).
+- **Part of fame** — *orðstírr* (`27_EVENTS.md` §6).
 
 ---
 *Status: Foundational spark. Last Updated: 2026-11-18.*
