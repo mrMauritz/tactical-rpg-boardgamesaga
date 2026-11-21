@@ -13,12 +13,10 @@
 
 | Candidate | Name basis | Kind (`99`) | Where |
 | :--- | :--- | :--- | :--- |
-| **Goði** | Source (*Hrafnkels saga*) | Office | `99` Traditions; `27_EVENTS.md` §6 (Hrafnkell Freysgoði) |
-| **Berserkr** | Source (*Ynglinga saga* 6; *Egils saga* 1) | State | `99` Traditions |
+| **Goði** | Source (*Hrafnkels saga*) | Office | `../tables/06_CLASSES_WIP.md`; `27_EVENTS.md` §6 (Hrafnkell Freysgoði) |
+| **Berserkr** | Source (*Ynglinga saga* 6; *Egils saga* 1) | State | `../tables/06_CLASSES_WIP.md` |
 | **Paladin** | Generic fantasy | — | `../tables/06_CLASSES_WIP.md`; bond: `01_BOND_CATALOGUE_WIP.md` |
-| **Cleric** | Generic fantasy | — | `../tables/06_CLASSES_WIP.md` |
-| **Battle-priest** | Generic fantasy | — | `../tables/06_CLASSES_WIP.md` |
-| **High Priest** | Generic fantasy | — | `../tables/06_CLASSES_WIP.md` |
+| **Gyðja** | Source | — | `../tables/06_CLASSES_WIP.md` |
 
 ---
 *Status: Foundational spark — candidates only. Last Updated: 2026-11-21.*
