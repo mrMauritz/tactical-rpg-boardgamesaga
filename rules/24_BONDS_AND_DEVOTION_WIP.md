@@ -27,7 +27,7 @@ A concrete relation to a particular entity, place, or force in the divine/spirit
 Function like study, science, discipline, or sustained practice rather than allegiance (Wild Magic given as an example). At least one dedication should connect to each attribute; dedications unlock in special ways; final count may exceed five (depends on the attribute list). Expands "bond" beyond relationships with conscious beings while retaining commitment, progression, cost, and path-shaping. Dedication is not necessarily worship — it may be disciplined practice.
 
 ### 2.4 Class Bonds
-Only special classes that historically require devotion receive fixed class bonds — ordinary classes do not automatically produce one. Some such classes come with a fixed, specific bond set. (The Blessed Guard, `96_OATHS_WIP.md` §10, is a working example of this family.)
+Only special classes that historically require devotion receive fixed class bonds — ordinary classes do not automatically produce one. Some such classes come with a fixed, specific bond set. (The Paladin, `96_OATHS_WIP.md` §10, is a working example of this family.)
 
 ### 2.5 Race Bonds
 Only special races with a devotional storyline receive race bonds; some races have fixed or strongly limited bond possibilities. Being treated as a worldly faction (`22_FACTIONS_WIP.md` §2) does not by itself grant a race bond.

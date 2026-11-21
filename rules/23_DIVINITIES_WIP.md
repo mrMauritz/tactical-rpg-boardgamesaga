@@ -19,13 +19,7 @@ Divine movement is less legible than factional movement: apparent change may mea
 
 ## 2. Candidate Roster (Not Locked)
 
-Five Old Norse divine-bond candidates were raised for discussion:
-
-- **Odin** — knowledge, sacrifice, runes, sorcery, hidden victory.
-- **Thor** — strength, protection, direct action, opposition to destructive powers.
-- **Freyja** — seiðr, desire, fertility, beauty, relation to the dead.
-- **Týr** — oath, law, courage, sacrifice for order.
-- **Eir** — healing and preservation.
+Five Old Norse divine-bond candidates were raised for discussion — the list lives in `tables/03_DIVINITIES_WIP.md`.
 
 **Status:** the request for five Norse gods is ESTABLISHED; the exact five and their final trees are OPEN.
 

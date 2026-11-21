@@ -41,9 +41,8 @@ The three cosmological layers (Önd/Life-Current, Wyrd, Oaths) have been establi
 - [ ] **Wyrd Layer Integration (Combat):** How "Blessed" or "Cursed" weapon states modify the weapon impact tables.
 - [ ] **Generational Gear:** Rules for how armor damage (Chapter 11) persists across saga generations if not repaired.
 
-## 4. Monster Design
+## 4b. Monster Design
 - [ ] **Rules for Massive Impact:** Handling impacts that significantly exceed the target's Body scale (Overrun/Momentum).
-- [ ] **Character Progression and Body:** System for how Body, Frame, and Size evolve with character growth and training.
 - [ ] **Non-Human Impact Tables:** Unique tables for claws, bites, and giant blunt impacts (e.g., trolls).
 
 ## 5. Campaign Layer (New — 2026-09-14)
@@ -71,16 +70,6 @@ Tracks concrete content and open decisions for `20_CAMPAIGN_CORE_WIP.md` through
 - [ ] Whether conditional supplies (fodder, medicine, repair materials, reagents, ship maintenance) become tracked resources or remain event/equipment effects (`26_CAMPAIGN_ECONOMY_WIP.md` §4).
 - [ ] How persistent-world time advancement transforms factions, places, divinities, and unresolved events (`25_LEGACY_WIP.md` §2).
 
-## 7. Core Vision Pillars (New — 2026-11-15)
-Tracks open items surfaced while implementing `00E_CORE_VISION_AND_PILLARS_WIP.md`'s four Pillars.
-
-- [ ] **Trader** has no Class Tree mapping at all (`99_CLASS_TREES_WIP.md` — Bartering exists only as a Skill, no tree behind it) — distinct from and smaller than the general 9th-Tree/Craft question.
-- [ ] Belief/Direction tier (`96_OATHS_WIP.md` §8b) — mechanism entirely undesigned: what it grants, if anything, and how/whether it's tracked.
-- [ ] **In-play time resolution** — how campaign time passes *during* a saga (real-time, per stretch of campaign time, or per party action). Distinct from between-saga persistent-world time advancement (§5, `25_LEGACY_WIP.md` §2). Must preserve the tactical significance of time: party speed decides which opportunities are within reach.
-- [ ] **Faction clock** — mechanism by which factions move on their own clock (`22_FACTIONS_WIP.md` §1); "Faction Pulse" (`06_adventure_and_prep.md` Ch.12) undefined.
-- [ ] **Mission objectives** — the frame is set (objectives are two-way and can change inside the event, `27_EVENTS.md` §3); no objective content or catalogue exists yet (`20_CAMPAIGN_CORE_WIP.md` §2b).
-- [ ] Campaign Map weighting — "cities, nodes, and places of interest carry particular weight beforehand" (`20_CAMPAIGN_CORE_WIP.md` §2b) has no formula or numeric representation yet.
-
 ## 6. Character Build Pipeline (New — 2026-11-09)
 Tracks open decisions for `01c_CHARACTER_BUILD_PIPELINE_WIP.md`, consolidating the three-currency progression model (Skill/Attribute/Tree-Faction).
 
@@ -93,7 +82,7 @@ Tracks open decisions for `01c_CHARACTER_BUILD_PIPELINE_WIP.md`, consolidating t
 - [x] Neutral-path revision — locked 2026-11-16 (`01c` §2): Lá Pillars are the neutral path, Óðr ignition forgoes Pillars, any ignition = Triples Rule + Bond consequence.
 - [x] Lá/Óðr cost of mixing — resolved 2026-11-16: off-path rule + predefined penalties incl. Cross-Strain (`01c` §5.7).
 - [x] Whether Pillars II–V each need their own saga/Bond event — resolved 2026-11-16: no, neutral Pillars open by value (`01c` §5.8).
-- [ ] Re-home parked material: Óðr Matrix (`97` §12B, for the spell system), archetype Mechanical Filters (`01_INTERNAL` Axis 2) (`01c` §5.9). Lá value-5 row re-homed as Pillar I.
+- [ ] Re-home parked material: archetype Mechanical Filters (access/friction locked 2026-11-21; Óðr Matrix removed to `98b`) (`01_INTERNAL` Axis 2) (`01c` §5.9). Lá value-5 row re-homed as Pillar I.
 - [ ] Conduit stats (Galdr/Seer/Shaman) on every ladder vs. magic only via Óðr ignition (`01c` §5.10).
 - [ ] Óðr pair and Pillar V for Chaos (`01c` §5.11).
 - [ ] Three Faces of Óðr vs. "Óðr loses Pillars" — the rule fits travel only (`01c` §5.12).
@@ -104,6 +93,16 @@ Tracks open decisions for `01c_CHARACTER_BUILD_PIPELINE_WIP.md`, consolidating t
 - [ ] *Þroski* (level-up) threshold value (`01c` §5.4).
 - [ ] Tree-depth power curve — if Class Tree cost is flat, what paces perk strength growth (`01c` §5.5).
 - [ ] Master Trainer mechanism — cost and access condition undesigned (`01c` §5.6, `26_CAMPAIGN_ECONOMY_WIP.md` Levers).
+
+## 7. Core Vision Pillars (New — 2026-11-15)
+Tracks open items surfaced while implementing `00E_CORE_VISION_AND_PILLARS_WIP.md`'s four Pillars.
+
+- [ ] **Trader** has no Class Tree mapping at all (`99_CLASS_TREES_WIP.md` — Bartering exists only as a Skill, no tree behind it) — distinct from and smaller than the general 9th-Tree/Craft question.
+- [ ] Belief/Direction tier (`96_OATHS_WIP.md` §8b) — mechanism entirely undesigned: what it grants, if anything, and how/whether it's tracked.
+- [ ] **In-play time resolution** — how campaign time passes *during* a saga (real-time, per stretch of campaign time, or per party action). Distinct from between-saga persistent-world time advancement (§5, `25_LEGACY_WIP.md` §2). Must preserve the tactical significance of time: party speed decides which opportunities are within reach.
+- [ ] **Faction clock** — mechanism by which factions move on their own clock (`22_FACTIONS_WIP.md` §1); "Faction Pulse" (`06_adventure_and_prep.md` Ch.12) undefined.
+- [ ] **Mission objectives** — the frame is set (objectives are two-way and can change inside the event, `27_EVENTS.md` §3); no objective content or catalogue exists yet (`20_CAMPAIGN_CORE_WIP.md` §2b).
+- [ ] Campaign Map weighting — "cities, nodes, and places of interest carry particular weight beforehand" (`20_CAMPAIGN_CORE_WIP.md` §2b) has no formula or numeric representation yet.
 
 ## 8. Events (New — 2026-11-18)
 Tracks open items for `27_EVENTS.md`.

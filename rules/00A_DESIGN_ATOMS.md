@@ -15,7 +15,7 @@
 7. **PHYSICAL REALISM**: If it doesn't make sense in a collision between two physical bodies, it doesn't belong in the core.
 8. **ONE WORKING SYSTEM**: We are building one working game system. Board-game or computer adaptation is a later question (Part II §4) — it does not shape rules now.
 9. **DETAIL PRESERVATION (NO PRUNING)**: Consolidation is NOT summarization. Approved deep-dives (Pillar mastery, Methodologies, Equations) are **Permanent Historical Records**. Never delete or "simplify" them in the name of neatness. If a document's line count shrinks during a revision, perform an immediate **Detail Integrity Audit** to ensure no "Flesh" was lost from the "Skeleton."
-10. **LORE IS RULE (THEMATIC INTEGRATION)**: Never strip the "Saga Voice" or evocative naming (e.g., "The Sejd-Thief", "The Godless") to save Artificial Intelligence quota or to make rules "drier." The mythological worldbuilding and the tactical mechanics are inseparable — mechanics and lore are presented together.
+10. **LORE IS RULE (THEMATIC INTEGRATION)**: Never strip the "Saga Voice" or evocative naming (e.g., "The Goðlauss") to save Artificial Intelligence quota or to make rules "drier." The mythological worldbuilding and the tactical mechanics are inseparable — mechanics and lore are presented together.
 
 ---
 

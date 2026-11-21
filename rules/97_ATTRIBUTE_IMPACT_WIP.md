@@ -137,16 +137,8 @@
 | **11** | **Pillar IV**: Negate Mass. You can wield 2H weapons in one hand. | **Pillar IV**: Negate Range. Your melee reach increases by 1 hex. | **Pillar IV**: Negate Trauma. You can ignore one lethal hit per battle. | **Pillar IV**: Negate Laws. You can use two "Voice" actions per turn. | **Pillar IV**: Negate Limits. You can hold 2 Interrupt charges. | **Pillar IV**: Negate Morale. Enemies cannot benefit from buffs within your gaze. |
 | **13** | **Pillar V**: **Center Peak.** All hits you land count as a Charge. | **Pillar V**: **Web Peak.** You gain an extra Move action per turn. | **Pillar V**: **Breath Peak.** You regenerate 2 HP per round. | **Pillar V**: **Marrow Peak.** Your Presence becomes a physical aura of force. | **Pillar V**: **Pulse Peak.** You gain an extra Action in the first round. | **Pillar V**: **Gaze Peak.** Enemies must roll to even look at you (Presence DC). |
 
-#### B. Mystic Matrix (Óðr) — Parked for the Spell System
-*Not Pillars: a pair lit Óðr forgoes Pillars (2026-11-16). Kept as candidate spell material; the former value-5 row is included.*
-| Value | **STR (The Root)** | **DEX (The Loom)** | **END (The Well)** | **WIL (The Decree)** | **INT (Resonance)** | **CHA (The Shadow)** |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **5** | **Fixed Potency.** Your spells cannot be resisted by lower STR. | **Thread Bend.** You can curve the trajectory of a projectile spell. | **Deep Reservoir.** You can host one spell effect with zero SP cost. | **Unspoken Decree.** You can cast one "Word" spell as a free action. | **Resonant Link.** You can link two spells to fire simultaneously. | **Veiled Source.** Enemies cannot identify the origin of your magic. |
-| **7** | **Rooted Force.** Spells you cast cannot be dispelled by others. | **Warp-Knot.** You can swap the positions of two active spell hexes. | **Flowing Well.** Regenerate 1 MG (Mana) whenever you take damage. | **Iron Command.** Spells you cast cannot be interrupted. | **Harmonic Echo.** Spells repeat their effect once on the next turn. | **True Mask.** Spells can appear to originate from any hex in range. |
-| **9** | **Gravity Well.** Spells pull targets 1 hex toward the center. | **Loom-Shift.** You can redirect a missed spell to a new target. | **Vessel Bloom.** You can host two concurrent "Sustained" spells. | **The Vow.** Sacrifice HP to guarantee a spell's success. | **Frequency Shift.** Change a spell's element type upon casting. | **Shadow Walk.** Cast spells while remaining in a "Hidden" state. |
-| **11** | **Crushing Weight.** Spells inflict "Heavy" status (Halve Speed). | **Thread-Sever.** Use your reaction to cut an enemy's active spell. | **Eternal Host.** Sustained spells no longer cost SP per turn. | **The Decree.** Your Word spells affect all targets in a 3-hex cone. | **Overload.** Spells gain +1 Range and +1 AOE size. | **Spirit Breach.** Your spells target Mental Stability instead of Def. |
-| **13** | **Root Peak.** Spells ignore all non-magical cover and armor. | **Loom Peak.** You can "store" a spell in a hex to trigger later. | **Well Peak.** You can cast from your HP if MG is at zero. | **Decree Peak.** Your Commands become reality (No roll required). | **Resonance Peak.** Every spell cast generates a Resonant shockwave. | **Shadow Peak.** You become a phantom; negate all physical hits. |
-
+#### B. Mystic Matrix (Óðr) — Removed 2026-11-21
+Agent-made spell material not connected to the core. A spell's shape now comes from the technique skill (`03` Ch.2 §5), the bond, alignment's access to the Wyrd, and the trees (`01_INTERNAL_ARCHITECTURE_WIP.md` Axis 2). The old table is kept as inspiration only in `98b_ARCHETYPE_MATRIX_INSPIRATION.md`.
 
 ---
 

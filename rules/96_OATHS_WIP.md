@@ -36,7 +36,7 @@ When an Oath is made, a thread is pulled taut. When an Oath is broken, that thre
 ### ORDER (The Framework of Structure)
 *Order relies on geometric flawlessness, rigid laws, and divine Oaths. They build in iron and stone.*
 *   **The Oath:** A highly structured, load-bearing pillar in their soul.
-*   **The Break (Betrayal):** **Structural Collapse**. Because their power (The Blessed Guard, The Silk-Sworn) requires perfect tension, snapping a thread causes their internal architecture to shatter. Their "Wyrd-Scar" is a loss of foundation and passive protections. The world isn't punishing them; their engine simply requires perfect geometry to run, and they just broke a gear.
+*   **The Break (Betrayal):** **Structural Collapse**. Because their power (the Paladin) requires perfect tension, snapping a thread causes their internal architecture to shatter. Their "Wyrd-Scar" is a loss of foundation and passive protections. The world isn't punishing them; their engine simply requires perfect geometry to run, and they just broke a gear.
 
 ### WILD (The Framework of Symbiosis)
 *Wild relies on adaptation, feral rhythms, and deep roots in the Life-Current. They build in flesh, blood, and earth.*
@@ -106,8 +106,8 @@ This tier requires no commitment and can be held without the bearer's knowledge 
     *   *The Morale Branch:* Battlefield inspiration.
     *   *The Law Branch:* Negotiation and oath-brokering.
 
-## 10. Oath-Bound Filters (The Blessed Guard)
-Certain characters (like Temple Guardians) are structurally Oath-Bound. Their physical frame is forged cleanly into the Wyrd, granting passive resistance against unnatural/cursed manipulations. However, acting against their Patron's nature triggers the Structural Collapse described above, severing their connection to the Wyrd entirely until atonement is made.
+## 10. Oath-Bound Filters (The Paladin)
+Certain characters (like Paladins) are structurally Oath-Bound. Their physical frame is forged cleanly into the Wyrd, granting passive resistance against unnatural/cursed manipulations. However, acting against their Patron's nature triggers the Structural Collapse described above, severing their connection to the Wyrd entirely until atonement is made.
 
 ## 11. Two Worlds of Oaths (Faction vs. Divine)
 

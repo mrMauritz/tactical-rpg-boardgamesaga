@@ -28,11 +28,7 @@
 
 ## 2. Known Factions
 
-**ESTABLISHED:** Each race is treated as a faction (see `21_COMPANIONS_WIP.md` on race as flavor-tendency, not attribute — a race-as-faction is a separate, worldly-political fact from a race's flavor identity). Within the Human Empire, three main factional powers:
-
-1. **Trade**
-2. **Nobility**
-3. **Religion** — a worldly institution, kept distinct from Divinity bonds (`23_DIVINITIES_WIP.md`).
+**ESTABLISHED:** Each race is treated as a faction (see `21_COMPANIONS_WIP.md` on race as flavor-tendency, not attribute — a race-as-faction is a separate, worldly-political fact from a race's flavor identity). Within the Human Empire, three main factional powers — the list lives in `tables/02_FACTIONS_WIP.md`.
 
 *Full faction roster beyond these three is OPEN — see `90_TODO_development_tracking.md` §5.*
 

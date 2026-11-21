@@ -1,4 +1,7 @@
-# The Saga: Archetype Matrix
+# INSPIRATION — Archetype Matrix
+
+> [!CAUTION]
+> **INSPIRATION ONLY.** Not rule, not core. Zero impact on development: do not cite it, extend it, or derive anything from it. Agent-made; kept only as loose inspiration (2026-11-21).
 
 > **Provisional naming (2026-11-16):** these names are agent-made attempts to let identities form from the system. Per `01c_CHARACTER_BUILD_PIPELINE_WIP.md` §6, a character is framed by saga-style description and **names earned in play** — these lists are kept as reference, not as categories a player picks.
 > The "6 Alignment-Pillar paths" below predate the current model: alignment is character-level and Lá/Óðr is a state of the whole self (`01_INTERNAL_ARCHITECTURE_WIP.md` Axis 1, Axis 3).
@@ -22,7 +25,7 @@ By multiplying the 6 Attributes by the 6 Alignment-Pillar paths, the world gener
 ### The Mystic Pillar: *The Root* (Mastery of Weight)
 *   **ORDER (The Pious Conduit): The Earth-Priest.** Sanctioned clerics who wield Thor’s gravity to pin enemies to the dirt.
 *   **WILD (The Animist): The Quake-Caller.** Mountain shamans who negotiate with the stone, making the earth shudder through drum and blood. 
-*   **CHAOS (The Sejd-Thief): The Gravity-Thief.** Outlaw wizards who hack the Wyrd to invert mass, hurling enemies into the air or collapsing their ribs.
+*   **CHAOS (The Warlock): The Gravity-Thief.** Outlaw wizards who hack the Wyrd to invert mass, hurling enemies into the air or collapsing their ribs.
 
 ---
 
@@ -36,7 +39,7 @@ By multiplying the 6 Attributes by the 6 Alignment-Pillar paths, the world gener
 ### The Mystic Pillar: *The Loom* (Mastery of Threads)
 *   **ORDER (The Pious Conduit): The Norn-Speaker.** Sanctioned weavers who tug on the golden threads of fate, providing tactical fortune to allies.
 *   **WILD (The Animist): The Wind-Dancer.** Nomads who bleed into the breeze, riding physical gusts to traverse impossible gaps.
-*   **CHAOS (The Sejd-Thief): The Thread-Cutter.** Witch-assassins who slice the metaphysical kinetic connections between an enemy's brain and their limbs.
+*   **CHAOS (The Warlock): The Thread-Cutter.** Witch-assassins who slice the metaphysical kinetic connections between an enemy's brain and their limbs.
 
 ---
 
@@ -50,7 +53,7 @@ By multiplying the 6 Attributes by the 6 Alignment-Pillar paths, the world gener
 ### The Mystic Pillar: *The Well* (Capacity for the Wyrd)
 *   **ORDER (The Pious Conduit): The Chalice.** Holy relics in human form. Their massive internal capacity allows them to host divine miracles without shattering.
 *   **WILD (The Animist): The Spirit-Host.** Mediums whose bodies act as a temporary meat-suit for feral spirits, changing their physical properties in combat.
-*   **CHAOS (The Sejd-Thief): The Abyssal Drinker.** Warlocks who survive extreme Wyrd-Friction by venting magical radiation into the earth beneath them, often poisoning it.
+*   **CHAOS (The Warlock): The Abyssal Drinker.** Warlocks who survive extreme Wyrd-Friction by venting magical radiation into the earth beneath them, often poisoning it.
 
 ---
 
@@ -64,7 +67,7 @@ By multiplying the 6 Attributes by the 6 Alignment-Pillar paths, the world gener
 ### The Mystic Pillar: *The Decree* (Mastery of Authority)
 *   **ORDER (The Pious Conduit): The Law-Speaker.** Paladins and High-Gothis enforcing Odin's decree. When they mandate reality, it builds static truth (buffing allies).
 *   **WILD (The Animist): The Curse-Singer.** Tribal mystics who weave hexes through raw emotion and guttural rhythm.
-*   **CHAOS (The Sejd-Thief): The Doom-Caster.** The heretics who weaponize fear, screaming forbidden syllables to cause biological panic and rout formations.
+*   **CHAOS (The Warlock): The Doom-Caster.** The heretics who weaponize fear, screaming forbidden syllables to cause biological panic and rout formations.
 
 ---
 
@@ -78,7 +81,7 @@ By multiplying the 6 Attributes by the 6 Alignment-Pillar paths, the world gener
 ### The Mystic Pillar: *Resonance* (Mastery of Analytical Magic)
 *   **ORDER (The Pious Conduit): The Truth-Seer.** Astrologers and deep-lore mages who perfectly map the divine equations of the Wyrd.
 *   **WILD (The Animist): The Dream-Walker.** Those who navigate the hidden architecture of the deep woods through hallucinogenic trance rather than scrolls. 
-*   **CHAOS (The Sejd-Thief): The Paradox.** Abyssal hackers who use logic loops to crash reality, causing spatial anomalies and localized blinding.
+*   **CHAOS (The Warlock): The Paradox.** Abyssal hackers who use logic loops to crash reality, causing spatial anomalies and localized blinding.
 
 ---
 
@@ -92,7 +95,21 @@ By multiplying the 6 Attributes by the 6 Alignment-Pillar paths, the world gener
 ### The Mystic Pillar: *The Shadow* (Mastery of the Bridge)
 *   **ORDER (The Pious Conduit): The Spirit-Warden.** Holy diplomats who negotiate clean passage for souls and establish safe wards against the undead.
 *   **WILD (The Animist): The Blood-Weaver.** Blood-magic users who project their life-force outward, sharing their HP/SP pools with allies or bonded beasts. 
-*   **CHAOS (The Sejd-Thief): The Soul-Flayer.** Necromancers and mind-invaders who force their dominating presence into the minds of enemies to puppet them.
+*   **CHAOS (The Warlock): The Soul-Flayer.** Necromancers and mind-invaders who force their dominating presence into the minds of enemies to puppet them.
+
+
+---
+
+## Inspiration: Mystic Matrix (Óðr), moved from `97` §12B (2026-11-21)
+
+*Not Pillars: a pair lit Óðr forgoes Pillars (2026-11-16). Kept as candidate spell material; the former value-5 row is included.*
+| Value | **STR (The Root)** | **DEX (The Loom)** | **END (The Well)** | **WIL (The Decree)** | **INT (Resonance)** | **CHA (The Shadow)** |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **5** | **Fixed Potency.** Your spells cannot be resisted by lower STR. | **Thread Bend.** You can curve the trajectory of a projectile spell. | **Deep Reservoir.** You can host one spell effect with zero SP cost. | **Unspoken Decree.** You can cast one "Word" spell as a free action. | **Resonant Link.** You can link two spells to fire simultaneously. | **Veiled Source.** Enemies cannot identify the origin of your magic. |
+| **7** | **Rooted Force.** Spells you cast cannot be dispelled by others. | **Warp-Knot.** You can swap the positions of two active spell hexes. | **Flowing Well.** Regenerate 1 MG (Mana) whenever you take damage. | **Iron Command.** Spells you cast cannot be interrupted. | **Harmonic Echo.** Spells repeat their effect once on the next turn. | **True Mask.** Spells can appear to originate from any hex in range. |
+| **9** | **Gravity Well.** Spells pull targets 1 hex toward the center. | **Loom-Shift.** You can redirect a missed spell to a new target. | **Vessel Bloom.** You can host two concurrent "Sustained" spells. | **The Vow.** Sacrifice HP to guarantee a spell's success. | **Frequency Shift.** Change a spell's element type upon casting. | **Shadow Walk.** Cast spells while remaining in a "Hidden" state. |
+| **11** | **Crushing Weight.** Spells inflict "Heavy" status (Halve Speed). | **Thread-Sever.** Use your reaction to cut an enemy's active spell. | **Eternal Host.** Sustained spells no longer cost SP per turn. | **The Decree.** Your Word spells affect all targets in a 3-hex cone. | **Overload.** Spells gain +1 Range and +1 AOE size. | **Spirit Breach.** Your spells target Mental Stability instead of Def. |
+| **13** | **Root Peak.** Spells ignore all non-magical cover and armor. | **Loom Peak.** You can "store" a spell in a hex to trigger later. | **Well Peak.** You can cast from your HP if MG is at zero. | **Decree Peak.** Your Commands become reality (No roll required). | **Resonance Peak.** Every spell cast generates a Resonant shockwave. | **Shadow Peak.** You become a phantom; negate all physical hits. |
 
 ---
 *Last Updated: 2026-04-29*

@@ -3,7 +3,7 @@
 > [!WARNING]
 > **DEVELOPMENT STATUS: FOUNDATIONAL SPARK.** This file maps every distinct strategy the current rules already support, across six zoom levels, from a **player-motivation** lens (when/why to choose it, when/why not to) rather than a raw mechanical-effect lens. It is a balance-audit tool, not new mechanics — no numbers here are invented. ⚠️ marks a strategy whose "why avoid" column has **no stated cost anywhere in the rules yet** — these are the concrete balance gaps, not an exhaustive design decision that the path should stay free. §7 re-indexes the same material by **category and dial** (Gear, Spatial, Alignment, etc.) rather than by zoom level — a second index over the same ground, not a replacement for §1–6.
 
-**Source:** Synthesis of `05_battle_core.md`, `06_adventure_and_prep.md`, `07_weapon_and_armor_properties.md`, `95_HISTORICAL_COMBAT_WIP.md`, `97_ATTRIBUTE_IMPACT_WIP.md`, `01_INTERNAL_ARCHITECTURE_WIP.md`, `02_perks_and_traits.md`, `03_skill_system.md`, `94_RULE_OF_WILD_MUTATIONS_WIP.md`, `97b_ATTRIBUTE_FLAVOR_AXES_WIP.md`, `10_reference_tables.md`, `20_CAMPAIGN_CORE_WIP.md` through `26_CAMPAIGN_ECONOMY_WIP.md`, `96_OATHS_WIP.md`, `99_CLASS_TREES_WIP.md`, `01b_archetype_matrix.md`. Three-agent research pass, 2026-11-08.
+**Source:** Synthesis of `05_battle_core.md`, `06_adventure_and_prep.md`, `07_weapon_and_armor_properties.md`, `95_HISTORICAL_COMBAT_WIP.md`, `97_ATTRIBUTE_IMPACT_WIP.md`, `01_INTERNAL_ARCHITECTURE_WIP.md`, `02_perks_and_traits.md`, `03_skill_system.md`, `94_RULE_OF_WILD_MUTATIONS_WIP.md`, `97b_ATTRIBUTE_FLAVOR_AXES_WIP.md`, `10_reference_tables.md`, `20_CAMPAIGN_CORE_WIP.md` through `26_CAMPAIGN_ECONOMY_WIP.md`, `96_OATHS_WIP.md`, `99_CLASS_TREES_WIP.md`, `98b_ARCHETYPE_MATRIX_INSPIRATION.md`. Three-agent research pass, 2026-11-08.
 
 **How to read Links:** cross-references by ID to strategies at *other* zoom levels that combine with or depend on this one. Illustrative, not exhaustive — add more as they're noticed.
 
@@ -53,7 +53,7 @@
 | CI4 | Party Stability | You want the real tactical payoff — high Party Cohesion lowers Moral Pressure DC, can auto-negate Route Checks. | ⚠️ No stated cost — a pure soft incentive, nothing is lost by staying put beyond foregone churn-flexibility. | BI4 |
 | CI5 | Tolerance-Spending Leadership | You want decisive, favoritism-driven choices with full visibility (no hidden roll). | Exceeding the buffer costs you one or more members outright. | — |
 | CI6 | Tolerance-Preserving Leadership | You want to avoid desertion risk entirely. | ⚠️ No stated cost for restraint itself. | — |
-| CI7 | Fixed Class/Race Bond (e.g. Blessed Guard) | You want a potent, pre-loaded devotional bond without building it yourself. | Maximally irreversible — class change is explicitly "very rare"; Order-flavored versions risk Structural Collapse on misstep. | GI1, GI7 |
+| CI7 | Fixed Class/Race Bond (e.g. Paladin) | You want a potent, pre-loaded devotional bond without building it yourself. | Maximally irreversible — class change is explicitly "very rare"; Order-flavored versions risk Structural Collapse on misstep. | GI1, GI7 |
 | CI8 | Alignment-Flavored Saga-Knot Bonding | You want a loyalty bond mechanically flavored to your alignment (shared defense / shared HP / volatile pact). | Break-cost matches your alignment's general cost (Structural Collapse / Organic Infection / Volatile Release). | GI1–GI3 |
 | CI9 | All-Lá (Physical-Only) Composition | You want to stay mythically invisible and safe. | Explicitly forgoes the Pull/Destiny/Legacy hooks that mythic visibility opens. | GI10, GO4 |
 | CI10 | Fondness Pairing | — | Named only — ⚠️ zero mechanism, benefit, or cost written yet. Not a usable strategy today, just a label. | — |
@@ -79,9 +79,9 @@
 
 | ID | Strategy | When/Why Choose It | When/Why Avoid It | Links |
 | :-- | :--- | :--- | :--- | :--- |
-| GI1 | Order Alignment | You want Divine Intervention bonus dice and structural/passive protection. | Strictly Oath-Bound; Pious Conduit fails entirely outside its god's domain; Structural Collapse on betrayal. | BI11, CI7, CI8 |
+| GI1 | Order Alignment | You want Divine Intervention bonus dice and structural/passive protection. | Strictly Oath-Bound; Theurge fails entirely outside its god's domain; Structural Collapse on betrayal. | BI11, CI7, CI8 |
 | GI2 | Wild Alignment | You want low-friction, symbiotic power that negotiates rather than submits or steals. | Power fluctuates with local hex civilization level; every mutation has a hard-coded mirrored drawback; Organic Infection on betrayal. | BI11, CI8 |
-| GI3 | Chaos Alignment | You want broken progression caps and immunity to Wyrd manipulation. | Zero divine safety net, can never wield Wyrd-magic (Godless); magnified backlash (Sejd-Thief); breaking a tether accelerates your own isolation. | BI11, CI8 |
+| GI3 | Chaos Alignment | You want broken progression caps and immunity to Wyrd manipulation. | Zero divine safety net, can never wield Wyrd-magic (Goðlauss); magnified backlash (Warlock); breaking a tether accelerates your own isolation. | BI11, CI8 |
 | GI4 | Necessity Oath | You're backed against a cliff and need the exchange *now*. | Explicitly "the most fragile" — the thread outlives the need that created it. | — |
 | GI5 | Custom Oath | You want the social/political integration of an inherited bond. | The Wyrd doesn't care that it's unfelt — it snaps for the same cost as a heartfelt vow. | CO4–CO8 |
 | GI6 | Conviction-Oath | You want an oath that needs no external validation — the only kind a Chaos character can swear without contradiction. | Named "the most dangerous kind"; name and mechanical cost both still OPEN. | GI3 |
@@ -97,7 +97,7 @@
 | :-- | :--- | :--- | :--- | :--- |
 | GO1 | Pull Economy Engagement | You want proactive, choice-driven play instead of reactive survival. | ⚠️ No stated cost — text doesn't address what happens if pull sources run dry. | CO3 |
 | GO2 | Power-Construction Experimentation | You want to theory-craft across many non-military power-forms. | Builds are "mainly cumulative and irreversible" — real opportunity cost, no free respec. | CI3 |
-| GO3 | Archetype/Identity Collection | You want a legible "complete the build" meta-goal (36 named identities). | ⚠️ No stated cost or cross-playthrough tension specific to pursuing several. | BI11, GI1–GI3 |
+| GO3 | Archetype/Identity Collection | You want a legible "complete the build" meta-goal (the classes, `tables/06_CLASSES_WIP.md`). | ⚠️ No stated cost or cross-playthrough tension specific to pursuing several. | BI11, GI1–GI3 |
 | GO4 | Replayability via Divergent Destiny | You want fresh sagas from the same rules without needing new scripted content. | By design, withholds a calculable optimization target — you can't min-max destiny on purpose. | GI10 |
 | GO5 | Legacy & Unlocks Pursuit | You want a finished saga to produce concrete future-facing content. | Flagged explicitly: no concrete unlock content or persistent-world save mechanics exist yet. | CO11, CO12 |
 | GO6 | Persistent-World Continuation | You want an accumulating, authored-by-play world instead of a reset. | Mechanism for time-advancement effects on factions/divinities/events is an acknowledged open problem. | CO12 |

@@ -42,6 +42,7 @@ Following the organic growth policy, only skills explicitly required for the cor
 
 - **Blades / Heavy / Spears**: Proficiency with specific weapon classes.
 - **Archery**: Proficiency with bows, crossbows, and slings.
+- **Mounted**: Fighting and moving from the back of a mount. Has its own tree (`99_CLASS_TREES_WIP.md`, Mounted).
 
 ### 3. Utility & Adventure
 *Governing Attributes: INT or DEX.*
@@ -51,6 +52,7 @@ Following the organic growth policy, only skills explicitly required for the cor
 - **Engineering**: Structural knowledge, siege mechanics, and [Masonry].
 - **Survival**: Foraging, hunting ([Tracking]), and field fire-starting.
 - **Herbalism**: Identification of flora and [Toxicology].
+- **Animal Handling**: Working with animals — [Falconry], [Herding].
 
 ### 4. Leadership & Legacy
 *Governing Attributes: CHA or INT.*
@@ -59,6 +61,17 @@ Following the organic growth policy, only skills explicitly required for the cor
 - **Intimidation**: Attacking an opponent’s **Moral BP** through presence and threat.
 - **Skaldic Art**: Recording deeds into the saga; influencing faction reputation.
 - **Bartering**: Negotiating exchange rates in the Weight-and-Barter economy.
+- **Lore**: General knowledge of the world, including [Law].
+- **Rite Lore**: Knowledge of rites and sacrifice.
+
+### 5. Mystic Arts
+*Governing Attributes: WIL (Galdr), INT (Rúnar), CHA (Seiðr).*
+
+Every spell includes a skill check. The skill is the technique only — power comes from Óðr ignition and a bond, and alignment decides how the caster reaches the Wyrd, not which technique (`01_INTERNAL_ARCHITECTURE_WIP.md` Axis 2, LOCKED 2026-11-21).
+
+- **Galdr**: Spoken and sung charms (*Hávamál* 146–163).
+- **Rúnar**: Carved runes (*Sigrdrífumál* 6–13; *Egils saga* 44, 72).
+- **Seiðr**: The trance-travel rite (*Ynglinga saga* 7; *Eiríks saga rauða* 4).
 
 ---
 
@@ -125,8 +138,12 @@ While a **Skill Tier** represents your level of competency, a **Skill Tag** repr
 | :--- | :--- |
 | **Athletics** | [Skiing], [Swimmer], [Climber] |
 | **Engineering**| [Masonry], [Shipwright], [Siege-Craft] |
-| **Animal Handling** | [Falconry], [Herding], [Riding] |
+| **Animal Handling** | [Falconry], [Herding] |
 | **Herbalism** | [Toxicology], [Field-Poultice] |
+| **Lore** | [Law] |
+| **Galdr** | *Ljóðatal* charms (*Hávamál* 146–163): [Healing], [Blunting], [Unbinding], [Arrow-ward], [Curse-turning], [Fire-quenching], [Peace-making], [Sea-calming], [Battle-ward]; [Útiseta] (knowledge from the dead, *Hávamál* 157) |
+| **Rúnar** | Rune kinds (*Sigrdrífumál* 6–13): [Sigrúnar] victory, [Ölrúnar] ale, [Bjargrúnar] birth, [Brimrúnar] sea, [Limrúnar] limb, [Málrúnar] speech, [Hugrúnar] mind |
+| **Seiðr** | [Spá] foresight, [Weather], [Curse], [Hamfarir] shape-faring (*Ynglinga saga* 7) |
 | **Navigation** | [Meteorology], [Sea-Farer] |
 
 ### 3. Acquisition

@@ -43,7 +43,7 @@
 | **Triples Rule** (granted by any ignition) | Applies to all rolls once a pair is lit. On-path triples → +1d6. Off-path triples → remove one of the three dice |
 | **Mixed paths** | If lit pairs disagree, the roll counts as off-path — the cost of mixing — plus predefined penalties (e.g., Cross-Strain, `01_INTERNAL` Axis 1) |
 | **Bond consequence** | The igniting event grants or deepens a Bond card (`24` §6): its Traits, Devotion Tree branch (`24b`), costs and taboos. The archetype Ignition lines (`01_INTERNAL` Axis 2) give the kind of event |
-| **Óðr Matrix** | `97` §12B is no longer Pillar content — parked as candidate material for the spell system |
+| **Óðr Matrix** | Removed 2026-11-21 — inspiration only (`98b`) |
 
 ---
 
@@ -56,6 +56,13 @@
 | **Skill** | How much you've *done* something | Usage/repetition over time — **no spendable currency at all**. Checks in events and missions build a skill XP pool; an insight on a strong roll turns it into a progress point (`03_skill_system.md` Ch.3, LOCKED 2026-11-20) | Rising: reaching tier N costs 5 × N progress points; tiers 6–8 only through event, master-training or bond rewards (`03` Ch.3) |
 | **Attribute** | Effort and aim — deliberate investment | Spent points, granted at *þroski* (level-up, §4 below) | Rising: reaching value N costs N points (**LOCKED 2026-11-15; revised 2026-11-20**) |
 | **Tree / Faction (Devotion)** | Deeds and achievements | Points granted at *þroski* (level-up, §4); some unlocks come from achievements, which are bound to events and missions (LOCKED 2026-11-21) — the same mechanism `24_BONDS_AND_DEVOTION_WIP.md` §4 already uses for Bond Devotion ("one earned achievement = one point") | Flat: Class Tree perks are 1 point = 1 gain (PROVISIONAL) |
+
+**LOCKED 2026-11-21 — what each is:**
+- **Skills** — things you use and get better at within the saga.
+- **Trees** — progress connected to the **tactical** layer. They give combat a more interesting dimension and let the player go in sharper tactical directions.
+- **Bonds** — connections to the world, through other actors in the different realms, worked on through play.
+
+All three play their part. A **class** connects to all three (`tables/06_CLASSES_WIP.md`).
 
 Class Tree achievement-points and Bond Devotion-points are **parallel, separate economies** (confirmed `24b` §1) — not the same pool, even though they're earned the same way.
 
@@ -87,7 +94,7 @@ Class Tree achievement-points and Bond Devotion-points are **parallel, separate 
 6. **Master Trainer mechanism** — has a home (`26` Levers) but no designed cost or access condition yet.
 7. ~~**Lá/Óðr cost of mixing**~~ — **resolved 2026-11-16:** the off-path rule is the trade-off; Cross-Strain and other predefined penalties stack on it (§2).
 8. ~~**Later Pillar triggers**~~ — **resolved 2026-11-16:** Pillars are neutral and open by value alone (§2).
-9. **Parked material** — the former Lá value-5 row is re-homed as Pillar I (`97` §12A). Still parked: the Óðr Matrix incl. its value-5 row (`97` §12B, awaiting the spell system) and the archetype Mechanical Filters (`01_INTERNAL` Axis 2 — candidate home: Bond-card costs/taboos, unverified).
+9. **Parked material** — the former Lá value-5 row is re-homed as Pillar I (`97` §12A). The Óðr Matrix is removed (inspiration only, `98b`). Still parked: the archetype Mechanical Filters, except access/friction (LOCKED 2026-11-21, `01_INTERNAL` Axis 2) (`01_INTERNAL` Axis 2 — candidate home: Bond-card costs/taboos, unverified).
 10. **Conduit stats on every ladder** — Galdr, Seer and Shaman grow with the Bonus for every character (`97` §14–15), though magic now opens only through Óðr ignition.
 11. **Óðr and Pillar V** — a Chaos character with an Óðr pair cannot reach that pair's Pillar V (Lá Peak).
 12. **Three Faces vs. "Óðr loses Pillars"** — the Óðr rule in §2 matches the travel face only; the fury face floods the body rather than leaving it (`01_INTERNAL_ARCHITECTURE_WIP.md` "The Three Faces of Óðr").
@@ -111,7 +118,7 @@ A character is framed the way the sagas frame a person: by **description**, not 
 | **Earned name (viðrnefni)** | Eiríkr *rauði*, Skalla-Grímr, Önundr *tréfótr*, Hallgerðr *langbrók* — given by others, from body, deeds, or character |
 
 - **Saga words for kinds of people are descriptors or offices** (hamrammr, berserkr, fjölkunnigr, forspár, völva, goði, skáld) — never classes.
-- **Names are earned in play** — the world names the character from deeds (*viðrnefni*). Agent-made label lists (`01b`; `01_INTERNAL` Axis 2 archetypes; `99` Cross-Investment and Role Mapping) are provisional reference only; do not extend them.
+- **Names are earned in play** — the world names the character from deeds (*viðrnefni*). Agent-made label lists (`98b`, inspiration only; `01_INTERNAL` Axis 2 archetypes; `tables/06_CLASSES_WIP.md`) are provisional reference only; do not extend them.
 - **The great saga figures mix** — Egill (strong body + poetry, runes, níð), Njáll (this-world lawyer + foresight), Gunnar (nearly pure Lá). The mix is what makes the saga; it is to be developed and balanced.
 - **Berserkr as example (source):** fully in this world in body, the mind seized by Óðr — Óðr's fury face, a physical expression of Óðr (`01_INTERNAL` "The Three Faces of Óðr").
 

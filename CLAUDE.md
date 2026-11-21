@@ -37,5 +37,10 @@ When diagnosing recurring friction, a new process complaint, or auditing the ins
 ## Rule-File Doctrine
 Lives in `rules/00A_DESIGN_ATOMS.md` — Part I Laws and Part II Doctrine (§1 file architecture, no line numbers, DRY; §3 no "BS rules"). Not restated here.
 
+## Detail Stores
+`rules/events/`, `rules/tables/` (visual tables, charts, rosters) and `rules/catalogues/` (non-visual mechanics tables) are detail stores. Read them only on a specific request; default work uses the rule files and formats.
+- **One home:** each entry's content lives in one file; anywhere else gives only its name and a pointer.
+- **Entry naming:** source-backed names first; generic fantasy (genre) names second, drawing on the idea behind any agent-made name.
+
 ## Context
 Established 2026-07-07 after a session where unprompted mechanic invention (e.g., proposing new conditions and perks before being asked to design them) caused repeated multi-round correction cycles — expensive in both time and tokens. This file exists to default future sessions into the cheaper mode: analyze and organize first, design only when asked.

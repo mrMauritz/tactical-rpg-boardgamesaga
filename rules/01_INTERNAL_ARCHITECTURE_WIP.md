@@ -91,40 +91,50 @@ Igniting a Pillar is not just a physiological event; it is a historical declarat
 
 > **Unified 2026-11-15:** Alignment is now chosen at **character level** and grants a universal bonus (Axis 3) — it no longer filters individual Pillars, and Pillars are identical across alignments. The six archetypes below are the alignment × pair-path combinations; their **Ignition** lines describe the kind of saga/Bond event that ignites a pair. Their **Mechanical Filter** lines are **parked** pending review (`01c_CHARACTER_BUILD_PIPELINE_WIP.md` §5).
 
+> **LOCKED 2026-11-21 — Alignment and technique:**
+> - **Alignment is not connected to technique.** Galdr, Rúnar, and Seiðr are open to every alignment.
+> - **Alignment decides how the caster reaches the Wyrd:** **Order** — through the gods; **Wild** — through the spirits; **Chaos** — directly. Friction follows: low, moderate, magnified. (This un-parks the access/friction part of the Mechanical Filters below; the rest stays parked.)
+> - **The god decides, not the alignment:** the bonded power's domain decides which techniques it opens (`24` §2.2).
+> - **END carries the cost, not the check:** how much friction a caster can bear — the Well (`97` END), hosted in MG (Megin, §5 below). The check is the technique skill (`03` Ch.2 §5).
+
 **The organizing image is the tree.** Order, Wild, and Chaos are branches of the one world-tree (Yggdrasil — Pillar 3, `00E_CORE_VISION_AND_PILLARS_WIP.md`), and the Divinities (`23_DIVINITIES_WIP.md`) sit further out along those same branches. "Guardian" of a branch is used broadly here — merely believing in or heading toward a branch's direction already serves it, no formal Oath or earned Devotion required (see the new Belief/Direction tier, `96_OATHS_WIP.md` §8b). Igniting a Pillar is a much stronger commitment than that — a full narrative declaration, not a passing direction.
 
 #### 1. The Champion (Physical Order / Devout)
 *The Einherjar-Seed. Those whose bodies are forged as weapons by divine hands.*
 *   **The Ignition (The Divine Debt):** You perform a staggering favor for a God. In return, they pay their Wyrd-Debt by hardening your mortal frame. 
 *   **The Saga Aspect:** You are a favored proxy of the Æsir. Skalds sing of your holy might. Supernatural entities recognize the divine mark upon you and may target you—or flee from you.
-*   **The Mechanical Filter (Blessed Guard):** Your physical frame is forged cleanly into the Wyrd. You gain passive resistance against unnatural/cursed manipulations. However, you are strictly **Oath-Bound**. (See `96_OATHS_WIP.md` for Oath consequences).
+*   **The Mechanical Filter (Paladin):** Your physical frame is forged cleanly into the Wyrd. You gain passive resistance against unnatural/cursed manipulations. However, you are strictly **Oath-Bound**. (See `96_OATHS_WIP.md` for Oath consequences).
 
-#### 2. The Pious Conduit (Mystic Order / Devout)
+#### 2. The Theurge (Mystic Order / Devout)
+*Renamed 2026-11-21 from the agent-made "Pious Conduit". Generic fantasy: the theurge works through the gods — Order's access to the Wyrd.*
 *The Sanctioned Channel. Those who walk the world with open minds and authority.*
 *   **The Ignition (The Divine Debt):** A God owes you a debt and opens your mind to the Wyrd, allowing you to witness the hidden architecture of reality.
 *   **The Saga Aspect:** You are an emissary. You speak with the authority of the Gods. Kings and Jarls fear you because your words carry the weight of divine law. 
 *   **The Mechanical Filter (The Sanctioned Channel):** You cast magic *legally*. Because the world recognizes your authority, your **Spiritual Friction (Wyrd-Bout)** is remarkably low. However, you are entirely restricted to your God's specific mythological domain. If you attempt to step outside of it, you fail.
 
-#### 3. The Beast-Marked (Physical Wild / Symbiotic)
+#### 3. The Barbarian (Physical Wild / Symbiotic)
+*Renamed 2026-11-21 from the agent-made "Beast-Marked". Generic fantasy: the body of the wild.*
 *Mátt ok Náttúra. Those whose bodies harmonize with the feral rhythms of the world.*
 *   **The Ignition (The Symbiosis):** You neither submit to high Gods nor walk entirely isolated. You forge the pillar by negotiating with the primal, feral spirits of the earth through blood-rites or surviving deep wilderness.
 *   **The Saga Aspect:** You are a creature of the margins. Berserkers and skin-changers. You operate on instinct and tribal kinship rather than civilization or strict Oaths.
-*   **The Mechanical Filter (The Feral Vitality):** You are not Oath-Bound to specific Gods, but you are tied to the physical environment. Your physical regeneration (HP/SP) thrives in raw conditions but stagnates in highly civilized hexes. You have moderate resistance to Wyrd manipulation but lack the total immunity of the Godless.
+*   **The Mechanical Filter (The Feral Vitality):** You are not Oath-Bound to specific Gods, but you are tied to the physical environment. Your physical regeneration (HP/SP) thrives in raw conditions but stagnates in highly civilized hexes. You have moderate resistance to Wyrd manipulation but lack the total immunity of the Goðlauss.
 
 #### 4. The Animist (Mystic Wild / Symbiotic)
 *The Harmonizer. The shamans who bleed to speak with the earth.*
 *   **The Ignition (The Blood-Rite):** You do not map the Wyrd analytically, nor do you steal from it. You carve a space within your own animistic presence to invite the Wyrd inside, often through trance, drumming, or physical sacrifice.
-*   **The Saga Aspect:** You are a bridge between the mortal and the unseen. You don't cast structured spells; you channel local spirits, weather patterns, and the raw life-force of the hex you stand in.
+*   **The Saga Aspect:** You are a bridge between the mortal and the unseen. Your power comes from local spirits, weather, and the raw life-force of the hex you stand in — not from a god's grant or from theft.
 *   **The Mechanical Filter (The Symbiotic Channel):** You cast magic *fluidly*. Your Wyrd-Bout (friction) is moderate, as you are negotiating rather than stealing. However, your power is highly localized; your Wyrd access fluctuates wildly based on the natural state of the Hex you occupy.
 
-#### 5. The Godless (Physical Chaos / Defiant)
+#### 5. The Goðlauss (Physical Chaos / Defiant)
+*Renamed 2026-11-21 to the source term: the *goðlausir* of Landnámabók, who trusted in their own might and main.*
 *Mátt ok Megin (Might and Main). The Sovereign isolated souls.*
 *   **The Ignition (Self-Sovereign):** You reject the Gods, trusting only in your own iron will. You ignite the pillar through sheer physiological mastery, brutal training, and surviving impossible odds without help.
 *   **The Saga Aspect:** The *Goðlauss*. You are viewed with superstitious dread or enormous respect by other mortals. The Gods cannot weave your fate easily, making you a "blind spot" in their prophecies.
 *   **The Mechanical Filter (The Sealed Soul):** You owe no debts. Your soul is sealed so tightly inside your skin that no magic can easily pierce it. You gain massive resistance against *all* Wyrd manipulation (you cannot be easily scried, cursed, or blessed). The cost is absolute isolation: you have zero divine safety net, and can never wield Wyrd-magic yourself.
 
-#### 6. The Sejd-Thief (Mystic Chaos / Defiant)
-*The Hollowed Hacker. The Promethean tricksters who steal the fire.*
+#### 6. The Warlock (Mystic Chaos / Defiant)
+*Renamed 2026-11-21 from the agent-made "Sejd-Thief", which tied seiðr to Chaos without source support. Warlock: Old English *wǣrloga*, "oath-breaker" — the Oath layer (`96`).*
+*The oath-breaker. Reaches the Wyrd directly — without gods or spirits.*
 *   **The Ignition (Theft of the Wyrd):** You spit in the face of the Gods. You peer into the twisting currents of the Wyrd without permission and physically tear the power out of the world.
 *   **The Saga Aspect:** You are an outlaw of reality. You walk the path of Loki and Gullveig. You hide in the margins, bending the rules of the world to your own selfish ends. The Gods actively hunt or despise you.
 *   **The Mechanical Filter (The Hollowed Trickster):** You are unbound by Oaths and can creatively mix and match magic effects freely. However, the world violently rejects your thievery. Every spell you cast generates magnified **Spiritual Friction**. You are a reality-breaking glass cannon—if you overreach and fail a Wyrd check, the reality backlash is catastrophic.
@@ -146,7 +156,7 @@ Igniting a Pillar is not just a physiological event; it is a historical declarat
 *   **Mixed paths:** if the character's lit pairs disagree on path, the roll counts as off-path — the cost of mixing.
 
 #### Pillars I–V (The Neutral Path)
-Values 5 / 7 / 9 / 11 / 13 — the Lá Matrix, `97_ATTRIBUTE_IMPACT_WIP.md` §12A. Open by value alone; no event needed. A pair lit Óðr loses them. The Óðr Matrix (§12B) is parked for the spell system.
+Values 5 / 7 / 9 / 11 / 13 — the Lá Matrix, `97_ATTRIBUTE_IMPACT_WIP.md` §12A. Open by value alone; no event needed. A pair lit Óðr loses them. The Óðr Matrix was removed (inspiration only, `98b`).
 
 ### Implementation Concept: The Block System
 On the character sheet, Pillars are represented by **Slots (Blocks)**.
