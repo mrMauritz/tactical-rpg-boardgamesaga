@@ -248,19 +248,24 @@ Magic is a tactical check against the **Architectural Density** of reality. It i
 > [!NOTE]
 > **The Gods as Historical Fact**: In *BoardGameSaga*, the Gods are not distant myths or religious metaphors; they are the **Historical Architects** who established the physics of the world. Reaching a milestone is a formal acknowledgment by the Wyrd that your internal architecture matches the density of those historical precedents (Thor’s Root, Freyja’s Loom, etc.).
 
-- **Formula**: `3d6 + Conduit Tier + Galdr Tier + Attribute Bonus vs Difficulty`.
+- **Formula**: `3d6 + technique skill tier + governing Attribute Bonus vs Difficulty` — the ordinary skill check (`03_skill_system.md` Ch.3 §1). The governing Attribute Bonus is the technique's **Conduit** (§2).
 - **Success Tiers**:
     - **Binding (Partial)**: Modifying physical matter/form (Lá).
     - **Bending (Great 18+)**: Modifying spirit/direction (Óðr).
     - **Breaching (Perfect 20+)**: Overriding reality-law (Wyrd). 
 
 ### 2. The Three Parallel Conduits (Methodologies)
-*   **THE GALDRAMAÐR (WIL - The Decree): Methodology = Ordering.**
-    - **Accessing Odin’s Decree:** Using the "Chanted Command" to mandate reality. They do not deal in mists; they deal in absolute authority—decreeing what *is* and what *cannot be* (Oaths/Constraints).
-*   **THE SEER (INT - Resonance): Methodology = Tuning.**
-    - **Accessing the Hljóð (The Silence):** Seers do not "create" magic; they find the silence between the world's notes—the hidden resonant frequency of matter. They warp the physical map by altering the *context* of a hex or the *resonance* of a blade.
-*   **THE SHAMAN (CHA - The Shadow): Methodology = Negotiating.**
-    - **Accessing the Gand-reid (The Wand-Ride):** Walking between worlds (Hamr/Skin vs. Spirit). They don't change the map; they **persuade the actors.** They host spirits in their skin or negotiate with nature-spirits to hide allies.
+All casters use the Wyrd; the three techniques (`03_skill_system.md` Ch.2 §5) differ in what they act on. Each conduit runs on its attribute's Óðr pillar (The 6 Pillars, The Dual-Nature of Attributes). Where the power comes from is separate: alignment decides how the caster reaches the Wyrd — Order through the gods, Wild through the spirits, Chaos directly — and the bonded god decides which techniques open (Axis 2, LOCKED 2026-11-21).
+
+| Conduit | Attribute (Óðr pillar) | Method | Acts on | Fit (tags, `03` Ch.5) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Galdr** | WIL — The Decree | Ordering | **Rules** — bans and limits | Most tags are bans: [Blunting], [Arrow-ward], [Fire-quenching], [Sea-calming], [Battle-ward], [Curse-turning] |
+| **Rúnar** | INT — Resonance | Tuning | **Objects and hexes** — the map | Runes are cut into things: [Sigrúnar] on the hilt, [Brimrúnar] on the ship, [Limrúnar] on the bark |
+| **Seiðr** | CHA — The Shadow | Negotiating | **Actors and spirits** | [Hamfarir] (sending out the hamr) and [Spá] (prophecy) — Hamr/Skin vs. Spirit |
+
+*   **GALDR (WIL — The Decree): Ordering.** The chanted command mandates reality — decreeing what *is* and what *cannot be* (Oaths/Constraints). Most charms are bans: blunting, arrow-ward, fire-quenching, sea-calming (*Hávamál* 146–163).
+*   **RÚNAR (INT — Resonance): Tuning.** The carver finds the hidden resonance of matter — the Hljóð — and fixes it in staves cut into a thing or a place: the hilt, the ship, the bark. Runes alter the *context* of a hex or the *resonance* of a blade. Mímir's head spoke the first true staves (*Sigrdrífumál* 14).
+*   **SEIÐR (CHA — The Shadow): Negotiating.** The Gand-reið (wand-ride): walking between worlds (Hamr/Skin vs. Spirit). It does not carve the map; it **moves the actors** — hosting spirits in the skin, sending out the hamr, persuading spirits to hide allies. Weather and curses are *sent* through the powers, not cut into the hex (Kotkell's storm, *Laxdæla saga* 35).
 
 ### 3. The Economy of Friction (ÓÐ Logic)
 A magic user must decide how much they "open the door" to the Wyrd.
@@ -276,7 +281,7 @@ A magic user must decide how much they "open the door" to the Wyrd.
 - **The High ÓÐ Window**: High Óðr is a state of "Inspired Madness"—a divine frenzy that allows a human to act as a direct circuit for historical intent. 
 - **The State of Galdr-Frenzy**:
     - **Physical Attrition**: While in the Madness, the practitioner is subject to the **Law of Sacrifice**. The soul is attempting to Escape the Skin (Lá), making the physical frame brittle and ghost-like as the "Mind" wanders into the Song.
-    - **The Unpredictability**: Boundaries between conduits soften. A Shaman in total frenzy might "Order" like a Galdramaðr; a Seer might "Negotiate" like a Shaman.
+    - **The Unpredictability**: Boundaries between conduits soften. A seiðr-worker in total frenzy might "Order" like Galdr; a rune-carver might "Negotiate" like Seiðr.
 - **The Story System (Historical Weight)**:
     - Actions taken in this state carry **Double Troth-Gravity** and provide permanent **Saga-Renown**. These are the deeds Skalds sing about, but they risk **Spiritual Burnout (The Hollowed)**.
 - **Why High ÓÐ Users are Feared**:

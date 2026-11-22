@@ -81,7 +81,7 @@
 | :-- | :--- | :--- | :--- | :--- |
 | GI1 | Order Alignment | You want Divine Intervention bonus dice and structural/passive protection. | Strictly Oath-Bound; Theurge fails entirely outside its god's domain; Structural Collapse on betrayal. | BI11, CI7, CI8 |
 | GI2 | Wild Alignment | You want low-friction, symbiotic power that negotiates rather than submits or steals. | Power fluctuates with local hex civilization level; every mutation has a hard-coded mirrored drawback; Organic Infection on betrayal. | BI11, CI8 |
-| GI3 | Chaos Alignment | You want broken progression caps and immunity to Wyrd manipulation. | Zero divine safety net, can never wield Wyrd-magic (Goðlauss); magnified backlash (Warlock); breaking a tether accelerates your own isolation. | BI11, CI8 |
+| GI3 | Chaos Alignment | You want broken progression caps and immunity to others manipulating your Wyrd. | Zero divine safety net (Goðlauss); reaches the Wyrd directly, with magnified friction and backlash (Warlock); breaking a tether accelerates your own isolation. | BI11, CI8 |
 | GI4 | Necessity Oath | You're backed against a cliff and need the exchange *now*. | Explicitly "the most fragile" — the thread outlives the need that created it. | — |
 | GI5 | Custom Oath | You want the social/political integration of an inherited bond. | The Wyrd doesn't care that it's unfelt — it snaps for the same cost as a heartfelt vow. | CO4–CO8 |
 | GI6 | Conviction-Oath | You want an oath that needs no external validation — the only kind a Chaos character can swear without contradiction. | Named "the most dangerous kind"; name and mechanical cost both still OPEN. | GI3 |
@@ -157,7 +157,7 @@ A **Dial** trades quality for quality — choosing one pole costs you the other.
 - **Tempo** — Control (+1 Readiness, −1 Initiative) ↔ Execution (+1 Initiative, −1 Readiness)
 
 ### 7.8 Alignment/Spiritual (main)
-- **Alignment** — Order (Divine Intervention bonus dice, but Oath-Bound/Structural Collapse risk) ↔ Wild (symbiotic low-friction power, but fluctuates with hex civilization + mirrored mutation drawback) ↔ Chaos (broken caps/full Wyrd immunity, but zero divine safety net + accelerating isolation)
+- **Alignment** — Order (Divine Intervention bonus dice, but Oath-Bound/Structural Collapse risk) ↔ Wild (symbiotic low-friction power, but fluctuates with hex civilization + mirrored mutation drawback) ↔ Chaos (broken caps/immunity to others manipulating their Wyrd, but zero divine safety net + accelerating isolation)
 - **Oath Origin** — Necessity (secures survival now, most fragile — outlives its own justification) ↔ Custom (social integration, costs the same whether felt or not) ↔ Conviction (needs no external validation, only Chaos-compatible oath, still unnamed/unresolved)
 - **Mythic Visibility** — Destiny-Seeking (Wyrd notices you, narrative payoff, but makes you brittle/a target) ↔ Mythically-Invisible (safe, but forgoes Pull/Destiny/Legacy hooks)
 

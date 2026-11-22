@@ -69,7 +69,7 @@
 
 *   **Mathematical Pools:**
     *   **Soak (HP / SP / BP):** A small secondary bonus on odd values only, parallel with the Pillars — V5 0, V7 +1, V9 +2, V11 +3, V13 +4. Stacks with all other soak sources (`01_system_foundations.md` Ch.7 §3).
-    *   **Conduit Tier (Galdramaðr):** The base for the Galdr methodology (Ordering).
+    *   **Conduit (Galdr):** The WIL Attribute Bonus to Galdr checks — Ordering (`01_INTERNAL` Spirit Layer §2).
 *   **Physical Pillar (Lá):** **The Marrow.** Systemic hardening and cellular rebuilding.
     *   *Maneuvers:* **Systemic Grinder** (Striking through compromised targets), **The Huskarl** (Shared defense).
     *   *Reaction Identity:* **The Relentless.** Trading HP to immediately recover SP/Composure during a blow.
@@ -86,7 +86,7 @@
 
 *   **Mathematical Pools:**
     *   **Reaction Threshold:** Used for specialized "Wait" or "Interrupt" actions.
-    *   **Conduit Tier (Seer):** The base for the Seer methodology (Tuning).
+    *   **Conduit (Rúnar):** The INT Attribute Bonus to Rúnar checks — Tuning (`01_INTERNAL` Spirit Layer §2).
 *   **Physical Pillar (Lá):** **The Pulse.** Reducing neurological noise and cognitive lag.
     *   *Maneuvers:* **Intercepting Sweep** (Catching pulse mid-motion), **The Gallowglass** (Shaft Leverage).
     *   *Reaction Identity:* **The Intercept.** A "Stop-Hit" that strikes the *intent* of the opponent before their damage lands.
@@ -103,7 +103,7 @@
 
 *   **Mathematical Pools:**
     *   **Moral Pressure:** The DC for enemy Route Checks.
-    *   **Conduit Tier (Shaman):** The base for the Shaman methodology (Negotiating).
+    *   **Conduit (Seiðr):** The CHA Attribute Bonus to Seiðr checks — Negotiating (`01_INTERNAL` Spirit Layer §2).
 *   **Physical Pillar (Lá):** **The Gaze.** Broad contextual awareness vs. narrow technical focus.
     *   *Maneuvers:* **Terror-Gaze** (Forced Route Check), **The Heihō** (Architect of the Falsehood/Voiding hexes).
     *   *Reaction Identity:* **The Warlord/Terror.** Using "Presence" to create a flinch-response in attackers.
@@ -316,20 +316,20 @@ To ensure every step of progression is meaningful, the following tactical pools 
 | Value | Type | **INT: Clarity** | **CHA: Presence** |
 | :--- | :--- | :--- | :--- |
 | **1** | **Base** | Primary: Interrupts / Secondary: Window (= Value) | Primary: Presence DC / Secondary: Gaze (= Value) |
-| **2** | **Bonus** | +0 Charge / +0 Crit / +0 Recov / +0 Seer | +0 Presence / +0 Sight / +0 Command / +0 Shaman |
-| **3** | — | +0 Charge / +0 Crit / +0 Recov / +0 Seer | +0 Presence / +0 Sight / +0 Command / +0 Shaman |
-| **4** | **Bonus** | **[Skill Unlock]** / +1 Charge / +0 Crit / +1 Recov / +1 Seer | **[Skill Unlock]** / +1 Presence / +1 Sight / +1 Command / +1 Shaman |
-| **5** | **Pillar I** | **[Pillar I]** / +1 Charge / +0 Crit / +1 Recov / +1 Seer | **[Pillar I]** / +1 Presence / +1 Sight / +1 Command / +1 Shaman |
-| **6** | **Bonus** | +2 Charge / +1 Crit / +2 Recov / +2 Seer | +2 Presence / +2 Sight / +1 Command / +2 Shaman |
-| **7** | **Pillar II** | **[Pillar II]** / +2 Charge / +1 Crit / +2 Recov / +2 Seer | **[Pillar II]** / +2 Presence / +2 Sight / +1 Command / +2 Shaman |
-| **8** | **Bonus** | +3 Charge / +1 Crit / +3 Recov / +3 Seer | +3 Presence / +3 Sight / +2 Command / +3 Shaman |
-| **9** | **Pillar III** | **[Pillar III]** / +3 Charge / +1 Crit / +3 Recov / +3 Seer | **[Pillar III]** / +3 Presence / +3 Sight / +2 Command / +3 Shaman |
-| **10** | **Bonus** | +4 Charge / +2 Crit / +4 Recov / +4 Seer | +4 Presence / +4 Sight / +2 Command / +4 Shaman |
-| **11** | **Pillar IV** | **[Pillar IV]** / +4 Charge / +2 Crit / +4 Recov / +4 Seer | **[Pillar IV]** / +4 Presence / +4 Sight / +2 Command / +4 Shaman |
-| **12** | **Bonus** | +5 Charge / +2 Crit / +5 Recov / +5 Seer | +5 Presence / +5 Sight / +3 Command / +5 Shaman |
-| **13** | **Pillar V** | **[Pillar V]** / +5 Charge / +2 Crit / +5 Recov / +5 Seer | **[Pillar V]** / +5 Presence / +5 Sight / +3 Command / +5 Shaman |
-| **14** | **Bonus** | +6 Charge / +3 Crit / +6 Recov / +6 Seer | +6 Presence / +6 Sight / +3 Command / +6 Shaman |
-| **15** | **Mastery** | **[Mastery]** / +6 Charge / +3 Crit / +6 Recov / +6 Seer | **[Mastery]** / +6 Presence / +6 Sight / +3 Command / +6 Shaman |
+| **2** | **Bonus** | +0 Charge / +0 Crit / +0 Recov / +0 Rúnar | +0 Presence / +0 Sight / +0 Command / +0 Seiðr |
+| **3** | — | +0 Charge / +0 Crit / +0 Recov / +0 Rúnar | +0 Presence / +0 Sight / +0 Command / +0 Seiðr |
+| **4** | **Bonus** | **[Skill Unlock]** / +1 Charge / +0 Crit / +1 Recov / +1 Rúnar | **[Skill Unlock]** / +1 Presence / +1 Sight / +1 Command / +1 Seiðr |
+| **5** | **Pillar I** | **[Pillar I]** / +1 Charge / +0 Crit / +1 Recov / +1 Rúnar | **[Pillar I]** / +1 Presence / +1 Sight / +1 Command / +1 Seiðr |
+| **6** | **Bonus** | +2 Charge / +1 Crit / +2 Recov / +2 Rúnar | +2 Presence / +2 Sight / +1 Command / +2 Seiðr |
+| **7** | **Pillar II** | **[Pillar II]** / +2 Charge / +1 Crit / +2 Recov / +2 Rúnar | **[Pillar II]** / +2 Presence / +2 Sight / +1 Command / +2 Seiðr |
+| **8** | **Bonus** | +3 Charge / +1 Crit / +3 Recov / +3 Rúnar | +3 Presence / +3 Sight / +2 Command / +3 Seiðr |
+| **9** | **Pillar III** | **[Pillar III]** / +3 Charge / +1 Crit / +3 Recov / +3 Rúnar | **[Pillar III]** / +3 Presence / +3 Sight / +2 Command / +3 Seiðr |
+| **10** | **Bonus** | +4 Charge / +2 Crit / +4 Recov / +4 Rúnar | +4 Presence / +4 Sight / +2 Command / +4 Seiðr |
+| **11** | **Pillar IV** | **[Pillar IV]** / +4 Charge / +2 Crit / +4 Recov / +4 Rúnar | **[Pillar IV]** / +4 Presence / +4 Sight / +2 Command / +4 Seiðr |
+| **12** | **Bonus** | +5 Charge / +2 Crit / +5 Recov / +5 Rúnar | +5 Presence / +5 Sight / +3 Command / +5 Seiðr |
+| **13** | **Pillar V** | **[Pillar V]** / +5 Charge / +2 Crit / +5 Recov / +5 Rúnar | **[Pillar V]** / +5 Presence / +5 Sight / +3 Command / +5 Seiðr |
+| **14** | **Bonus** | +6 Charge / +3 Crit / +6 Recov / +6 Rúnar | +6 Presence / +6 Sight / +3 Command / +6 Seiðr |
+| **15** | **Mastery** | **[Mastery]** / +6 Charge / +3 Crit / +6 Recov / +6 Rúnar | **[Mastery]** / +6 Presence / +6 Sight / +3 Command / +6 Seiðr |
 
 ### Alignment (Character Level) — Supersedes the Alignment Filter
 **2026-11-15:** Alignment no longer filters individual attributes or Pillars. It is a character-level universal bonus (Order +12 points at creation / Wild creation mutation / Chaos cost −1, uncapped) — see `01_INTERNAL_ARCHITECTURE_WIP.md` Axis 3.

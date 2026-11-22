@@ -18,7 +18,7 @@
 | **4. Flavor Axes refine** | Load/Temper/Fortitude/Attention/Tempo settle per attribute pair. **Frame does not change** — it is fixed at Stage 1. No stated interaction with Ignition — explicitly left open (§4 below). | `97b` |
 | **5. Skills unlock** | A Skill under a given Attribute is trainable only once that Attribute's Bonus is ≥ +1 (Value ≥ 4). A Master Trainer can bypass this gate for a fee (`26_CAMPAIGN_ECONOMY_WIP.md` Levers). Skills then grow through **use**, not through spent points — see §3 below and `03_skill_system.md` Ch.3. | `03_skill_system.md` |
 | **6. Class Trees & Perks** | 8 universal traditions (`99`: practices, offices, states); perks gated by [Social] / [Racial] / [Alignment] / [Skill] — the [Alignment] gate consumes the character-level alignment (§2), the [Skill] gate consumes Stage 5's tier, and [Social] can also be satisfied by Devotion Tree standing (`24b_BOND_AND_DEVOTION_PROGRESSION_TREE_WIP.md`). | `99_CLASS_TREES_WIP.md`, `02_perks_and_traits.md` |
-| **7. Magic Casting** (drafted, not active) | `3d6 + Conduit Tier + Galdr Tier + Attribute Bonus vs Difficulty`, three tiers (Binding/Bending/Breaching). Whole system flagged "not currently part of the active rule system"; Conduit/Galdr Tier have no numeric formula anywhere. | `01_INTERNAL_ARCHITECTURE_WIP.md` |
+| **7. Magic Casting** (drafted, not active) | `3d6 + technique skill tier + governing Attribute Bonus vs Difficulty` — the ordinary skill check with Galdr, Rúnar or Seiðr (`03` Ch.2 §5); the Attribute Bonus is the technique's Conduit. Three tiers (Binding/Bending/Breaching). Whole system flagged "not currently part of the active rule system". | `01_INTERNAL_ARCHITECTURE_WIP.md` |
 
 ---
 
@@ -95,7 +95,7 @@ Class Tree achievement-points and Bond Devotion-points are **parallel, separate 
 7. ~~**Lá/Óðr cost of mixing**~~ — **resolved 2026-11-16:** the off-path rule is the trade-off; Cross-Strain and other predefined penalties stack on it (§2).
 8. ~~**Later Pillar triggers**~~ — **resolved 2026-11-16:** Pillars are neutral and open by value alone (§2).
 9. **Parked material** — the former Lá value-5 row is re-homed as Pillar I (`97` §12A). The Óðr Matrix is removed (inspiration only, `98b`). Still parked: the archetype Mechanical Filters, except access/friction (LOCKED 2026-11-21, `01_INTERNAL` Axis 2) (`01_INTERNAL` Axis 2 — candidate home: Bond-card costs/taboos, unverified).
-10. **Conduit stats on every ladder** — Galdr, Seer and Shaman grow with the Bonus for every character (`97` §14–15), though magic now opens only through Óðr ignition.
+10. ~~**Conduit stats on every ladder**~~ — **resolved 2026-11-22:** the Conduit (Galdr, Rúnar, Seiðr in `97` §14–15) is the governing Attribute Bonus of the technique skill, like any skill's. It opens nothing by itself — power still comes from Óðr ignition and a bond (`03` Ch.2 §5).
 11. **Óðr and Pillar V** — a Chaos character with an Óðr pair cannot reach that pair's Pillar V (Lá Peak).
 12. **Three Faces vs. "Óðr loses Pillars"** — the Óðr rule in §2 matches the travel face only; the fury face floods the body rather than leaving it (`01_INTERNAL_ARCHITECTURE_WIP.md` "The Three Faces of Óðr").
 13. **Whole self vs. per-pair mechanics** — eligibility, path choice, Block System and mixed paths are written per pair (§2); the locked principle is the whole self.

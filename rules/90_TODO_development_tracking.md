@@ -6,7 +6,7 @@ This document tracks features that have been discussed or partially implemented,
 | Date | Feature | Status | Notes |
 | :--- | :--- | :--- | :--- |
 | 2026-04-18 | **Internal Architecture & Magic** | SOLIDIFIED | Fused Soul-Trio (Önd, Óð, Lá) with 6 Pillars and Historical Laws. |
-| 2026-04-18 | **Universal Alignment Physics** | SOLIDIFIED | Replaced generic class mechanics with 3 universal alignment physics (Law, Chaos, Wild). |
+| 2026-04-18 | **Universal Alignment Physics** | SOLIDIFIED | Replaced generic class mechanics with 3 universal alignment physics (Order, Wild, Chaos). |
 | Upcoming | **The Rule of Wild (Trade-off Mutations)** | PENDING | Design physical and mystic wild mutations across the 6 attributes. |
 | Upcoming | **Resource Consumption** | STAGED | Definition of HP/SP/MG/Madness tactical expenditure. SP pool = `END × 3` + mods (locked 2026-11-16; Body/Frame removed from the formula). |
 
@@ -83,7 +83,7 @@ Tracks open decisions for `01c_CHARACTER_BUILD_PIPELINE_WIP.md`, consolidating t
 - [x] Lá/Óðr cost of mixing — resolved 2026-11-16: off-path rule + predefined penalties incl. Cross-Strain (`01c` §5.7).
 - [x] Whether Pillars II–V each need their own saga/Bond event — resolved 2026-11-16: no, neutral Pillars open by value (`01c` §5.8).
 - [ ] Re-home parked material: archetype Mechanical Filters (access/friction locked 2026-11-21; Óðr Matrix removed to `98b`) (`01_INTERNAL` Axis 2) (`01c` §5.9). Lá value-5 row re-homed as Pillar I.
-- [ ] Conduit stats (Galdr/Seer/Shaman) on every ladder vs. magic only via Óðr ignition (`01c` §5.10).
+- [x] Conduit stats on every ladder vs. magic only via Óðr ignition — resolved 2026-11-22: the Conduit is the technique's Attribute Bonus (`01c` §5.10).
 - [ ] Óðr pair and Pillar V for Chaos (`01c` §5.11).
 - [ ] Three Faces of Óðr vs. "Óðr loses Pillars" — the rule fits travel only (`01c` §5.12).
 - [ ] Rewrite per-pair ignition mechanics to the whole-self principle (`01c` §5.13).
