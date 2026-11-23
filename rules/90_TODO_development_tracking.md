@@ -65,8 +65,11 @@ Tracks concrete content and open decisions for `20_CAMPAIGN_CORE_WIP.md` through
 - [ ] Exact mathematical scaling of devotion-dependent benefits (`f(TotalDevotion)`).
 - [x] Exact relationship between party bonds and the Cohesion mechanic/resource, and Cohesion's mechanical nature — RESOLVED: plain numeric value, grows from time-in-party/shared victories/Party Bond rewards; keeping a party intact (vs. churning it) independently grants Cohesion (`26_CAMPAIGN_ECONOMY_WIP.md` §3.2).
 - [ ] Exact numeric values: growth rate per source, Tolerance capacity per leader attribute/ability, tension cost per friction-causing action.
-- [ ] Acceptance trigger — what specifically promotes a new hire from unaccepted to Accepted, so their Individual Cohesion starts contributing to Party Cohesion (`26_CAMPAIGN_ECONOMY_WIP.md` §3.2).
-- [ ] Exact Cohesion → Moral Pressure DC-reduction curve and the auto-negate threshold for Rout Checks (`05_battle_core.md` Ch.8 §2).
+- [x] Acceptance trigger — superseded 2026-11-23: Cohesion is derived from party composition (`26_CAMPAIGN_ECONOMY_WIP.md` §3.2).
+- [ ] Cohesion formula — how composition (fit between members) gives the number (`26` §3.2).
+- [ ] Party morale numbers — size, how much each source raises or lowers it, how Cohesion affects it (`26` §3.3).
+- [ ] Rout Check lifeline — how *I must stay with my friends* works (`05_battle_core.md` Ch.8 §2).
+- [ ] Exact Cohesion → Moral Pressure DC-reduction curve (buffer) and the auto-negate threshold for Rout Checks (`05_battle_core.md` Ch.8 §2).
 - [ ] Whether conditional supplies (fodder, medicine, repair materials, reagents, ship maintenance) become tracked resources or remain event/equipment effects (`26_CAMPAIGN_ECONOMY_WIP.md` §4).
 - [ ] How persistent-world time advancement transforms factions, places, divinities, and unresolved events (`25_LEGACY_WIP.md` §2).
 

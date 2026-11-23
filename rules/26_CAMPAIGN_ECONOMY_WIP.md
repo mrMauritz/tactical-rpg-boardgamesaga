@@ -33,11 +33,13 @@ The deepest common form is **promised possibility**: something exists in the wor
 | Wages | Money | Sustains paid service and costly parties |
 | Hunger | Food | Sustains bodies and travel |
 | Alignment friction | Tolerance | Allows unlike members to remain together |
-| Loss of loyalty/common purpose | Cohesion | Holds the company together |
+| Loss of heart | Party morale | Sets the level each member's Warlust builds toward (§3.3) |
 
-**Distinction:** Tolerance asks *can these people remain together despite their differences?* Cohesion asks *do they still have a reason to remain together?*
+**Cohesion is not a resource but an indicator** (§3.2): it shows how well the party fits together.
 
-> **Push forces movement. Pull gives movement direction. Cohesion keeps the party together. Tolerance allows unlike members to remain within it.**
+**Distinction:** Tolerance asks *can these people remain together despite their differences?* Cohesion shows *how well they fit together.* Party morale asks *do they still have the heart to go on?*
+
+> **Push forces movement. Pull gives movement direction. Morale keeps the party going. Cohesion shows how well it fits together. Tolerance allows unlike members to remain within it.**
 
 ### 3.1 Tolerance & Fondness (Mechanism)
 
@@ -45,19 +47,23 @@ The deepest common form is **promised possibility**: something exists in the wor
 
 **Fondness** is the opposite pole and a distinct mechanic, not Tolerance's inverse: specific companion pairs can hold a non-romantic affinity for each other, independent of the leader-driven Tolerance buffer.
 
-### 3.2 Cohesion (Mechanism)
+### 3.2 Cohesion (Indicator) — LOCKED 2026-11-23
 
-**ESTABLISHED:** Cohesion is built bottom-up from the individual companion, not tracked as one abstract party number in isolation:
-
-- **Individual Cohesion** — every companion has their own Cohesion value, same transparent register as Money/Food/Tolerance (no hidden value, no chance factor). It grows from: time-in-party (their own tenure), shared victories, Party Bond rewards (`24_BONDS_AND_DEVOTION_WIP.md` §3–4), and **special events** — personal moments that earn that companion bonus Individual Cohesion beyond the passive sources.
-- **Acceptance** — a newly hired member does not count immediately. They must earn the right to be considered part of the party before their Individual Cohesion contributes to anything. *Exact acceptance trigger (time served, a specific event, an Individual Cohesion floor) is OPEN.*
-- **Party Cohesion** — the sum of Individual Cohesion across all *Accepted* members. An unaccepted new hire contributes zero to the party total, regardless of how much Individual Cohesion they may already be quietly earning.
-
-**Design principle:** the player retains full freedom to kick and exchange party members for maximum utility — this is never restricted or taboo'd. But keeping a party intact instead of churning it is independently rewarded: stability itself grants Cohesion, and a long-tenured Accepted member's Individual Cohesion outweighs what any fresh hire can offer. The incentive is a soft pull toward continuity, not a hard block on roster optimization.
+- **Derived from composition:** Cohesion is a number derived directly from the party's composition. It tells how much party tension there is from inviting members who do or do not fit together. It is visible, with no hidden value and no chance factor.
+- **Not a resource:** nothing earns or spends it. Victories and similar events affect party morale (§3.3), not Cohesion.
+- **Effects:** it affects party morale (§3.3). In the Rout Check it gives a buffer and a lifeline — the option *I must stay with my friends* (`05_battle_core.md` Ch.8 §2).
+- **Freedom of roster:** the player keeps full freedom to change members; the composition they choose sets Cohesion.
+- **Superseded (2026-11-23):** Individual Cohesion, Acceptance, and Cohesion growth from tenure, shared victories, Party Bond rewards, and special events.
 
 **ESTABLISHED relationship:** Bonds usually create drive/pull. Party bonds relate to Cohesion because they can provide a shared object of commitment; character bonds can create individual direction and friction, while party bonds can make direction common (`24_BONDS_AND_DEVOTION_WIP.md` §3).
 
-**Battle-layer hook:** High Party Cohesion lowers the effective Moral Pressure DC against a party member's Rout Check, auto-negating it entirely at a high enough threshold (`05_battle_core.md` Ch.8 §2) — the campaign layer's first direct tactical-layer effect.
+### 3.3 Party Morale — LOCKED 2026-11-23
+
+- **A party resource:** the level each member's Warlust builds toward (`01_system_foundations.md` Ch.3). Warlust above it is *megin*.
+- **Affected by Cohesion** (§3.2).
+- **Raised by** victories, finding treasure, and the like.
+- **Lowered by** a failed mission, losing a member, party-unfriendly choices in events, and the like.
+- Events change it through their outcomes (`27_EVENTS.md` §8, Party resources).
 
 ## 4. Conditional Resource Possibilities — Not Universal Meters
 
@@ -65,7 +71,7 @@ Historical reflection raised possible party-specific demands — the list lives 
 
 **Do not add these automatically** — existing systems may already cover them: fatigue/rest connects to SP recovery (`01_system_foundations.md` Ch.3); health is represented through wounds, poison, physicians, and healing (`11_injury_and_scars.md`); equipment exists as concrete objects (`07_weapon_and_armor_properties.md`); devotion is progression/power, not ordinary subsistence (`24_BONDS_AND_DEVOTION_WIP.md` §4); reputation/legitimacy primarily open or close possibilities rather than being consumed.
 
-The universal hard-resource kernel currently remains closest to **money, food, tolerance, and cohesion** — composition-specific parties may generate additional demands beyond that kernel.
+The universal hard-resource kernel currently remains closest to **money, food, tolerance, and party morale** — composition-specific parties may generate additional demands beyond that kernel.
 
 ---
-*Status: Foundational spark. Core four-resource kernel and Tolerance/Fondness/Cohesion mechanisms ESTABLISHED (§3.1–3.2); exact growth/tension numbers and conditional-resource tracking OPEN — see `90_TODO_development_tracking.md` §5. Last Updated: 2026-09-15.*
+*Status: Foundational spark. Core four-resource kernel, Tolerance/Fondness, Cohesion (indicator) and Party Morale ESTABLISHED (§3.1–3.3); exact growth/tension numbers and conditional-resource tracking OPEN — see `90_TODO_development_tracking.md` §5. Last Updated: 2026-09-15.*

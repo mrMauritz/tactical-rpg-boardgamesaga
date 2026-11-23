@@ -188,7 +188,7 @@ Praise-verse that carries fame onward (*erfidrápa*; *Eiríksmál*, *Hákonarmá
 | **Oaths & Wyrd-thread** | Oath sworn, kept, broken, severed; Troth-Gravity; the Traveling Rot; Wyrd-Scars (the spiritual scar) | `96_OATHS_WIP.md` §3–7 | Bond / Oath, Wyrd |
 | **Feud** | Feud opened, escalated, or settled; Blood-Tether | `20b` §7.6; `96_OATHS_WIP.md` §8 | Bond / Oath, Consequence |
 | **Scars** | Physical scars and lasting injury (the body) | `11_injury_and_scars.md` §1 | Tactical Map, Consequence |
-| **Party resources** | Money (incl. compensation, wages, ransom), Food, Tolerance, Cohesion; the company's growing soul | `26_CAMPAIGN_ECONOMY_WIP.md` §3–4; `20_CAMPAIGN_CORE_WIP.md` §5 | — (all) |
+| **Party resources** | Money (incl. compensation, wages, ransom), Food, Tolerance, Party morale; the company's growing soul | `26_CAMPAIGN_ECONOMY_WIP.md` §3–4; `20_CAMPAIGN_CORE_WIP.md` §5 | — (all) |
 | **Material** | Things gained or lost: weapons, horses, ships, relics, land, refuge, captives, salvage | `20b` §7.6; `20_CAMPAIGN_CORE_WIP.md` §5 | Tactical Map, Place |
 | **Map seeds** | Reality-layer hex changes and Wyrd-layer seeds | `06_adventure_and_prep.md` Ch.15 | Place, Tactical Map |
 | **Knowledge & rumour** | What the party learns, or only partly grasps — something concrete to investigate. Works as conditions: what the party knows opens or shapes later events (LOCKED 2026-11-20) | This file, §2; `20_CAMPAIGN_CORE_WIP.md` §5; [1.3] | Place, Wyrd |

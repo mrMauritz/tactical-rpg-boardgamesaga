@@ -42,7 +42,7 @@ Companions simultaneously function as: parts of the company's power, sources of 
 - Class and class history → `99_CLASS_TREES_WIP.md`.
 - Character bonds (vs. party bonds) → `24_BONDS_AND_DEVOTION_WIP.md` §3.
 - Death/departure → naturally replaced through recruitment; party bonds persist regardless since they belong to the main character (`24_BONDS_AND_DEVOTION_WIP.md` §3).
-- Individual Cohesion & Acceptance → a newly hired companion doesn't count toward Party Cohesion until Accepted; Individual Cohesion grows from tenure, shared victories, Party Bond rewards, and personal special events (`26_CAMPAIGN_ECONOMY_WIP.md` §3.2).
+- Cohesion → derived from party composition: how well the members fit together; party morale → the level Warlust builds toward (`26_CAMPAIGN_ECONOMY_WIP.md` §3.2–3.3).
 
 ---
 *Status: Foundational spark. No roster, recruitment, or event-table content yet. Last Updated: 2026-09-14.*

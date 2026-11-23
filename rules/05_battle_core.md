@@ -121,23 +121,26 @@ Facing describes what the body can physically cover. Sensory conditions describe
 ## Chapter 8 — Tactical Routing & Surrender ("Beating" the Enemy)
 In *BoardGameSaga*, an opponent can be **Beaten** long before they are dead. Whether that is victory depends on the mission (§4). This adheres to the **Reality Core**—historical battles often end in routing or surrender once the internal architecture of a formation or individual collapses.
 
-### 1. The Breaking Point (BP & SP Thresholds)
-An NPC or Enemy is eligible to be **Beaten** (Routing or Surrendering) when they meet any of the following **Reality Conditions**:
-- **Systemic Collapse (SP = 0):** The target is **Disabled** (Physiological Shutdown). They cannot act and are at the mercy of the victor.
-- **Positional Collapse (BP 0 after Stumbling):** If an enemy is **Knocked Down** after more than 2 rounds in a **Stumbling/Unstable** state, they are tactically broken.
-- **Moral Collapse (Warlust 0):** when Warlust runs out, the character stops fighting (`01_system_foundations.md` Ch.3). If the enemy leader is defeated or flees, all subordinates must make a **Rout Check**.
+### 1. The Breaking Point (Warlust)
+A combatant is **Beaten** (Routing or Surrendering) when their **Warlust** reaches 0 and they fail the Rout Check (§2). These **Reality Conditions** drain Warlust (LOCKED 2026-11-23):
+- **Systemic Collapse (SP = 0):** The target is **Disabled** (Physiological Shutdown).
+- **Positional Collapse (BP 0 after Stumbling):** The target is **Knocked Down** after more than 2 rounds in a **Stumbling/Unstable** state.
+- **Leader Lost:** The leader is defeated or flees — every subordinate's Warlust drains.
+
+Amounts are OPEN.
 
 ### 2. The Rout Check (Will vs. Pressure)
-When a breaking point is reached, the enemy must roll a **3d6 Rout Check** against a difficulty determined by the player's **Moral Pressure**.
+When Warlust reaches **0**, the character rolls a **3d6 Rout Check** against a difficulty determined by the opponent's **Moral Pressure** (`01_system_foundations.md` Ch.3).
 - **Moral Pressure:** Set by the attacker's **WIL** or **CHA**.
-- **Party Cohesion (Campaign Layer):** High Party Cohesion (`26_CAMPAIGN_ECONOMY_WIP.md` §3.2) lowers the effective Moral Pressure DC against a party member; at a high enough threshold it auto-negates the check entirely (automatic success) — the same scaling-then-threshold shape as Devotion (`24_BONDS_AND_DEVOTION_WIP.md` §4.1). Exact DC-reduction curve and auto-negate threshold are OPEN, see `90_TODO_development_tracking.md` §5.
+- **Cohesion (Campaign Layer):** Cohesion (`26_CAMPAIGN_ECONOMY_WIP.md` §3.2) gives a party member a **buffer** — it lowers the effective Moral Pressure DC, and at a high enough threshold auto-negates the check entirely (automatic success), the same scaling-then-threshold shape as Devotion (`24_BONDS_AND_DEVOTION_WIP.md` §4.1) — and a **lifeline**: the option *I must stay with my friends*. Exact curve, threshold, and lifeline mechanics are OPEN, see `90_TODO_development_tracking.md` §5.
+- **Enemy morale:** set by the enemy's leader and group, and can be modified by the mission (§4).
 - **Result:**
-    - **Success:** The enemy maintains their nerve and continues fighting.
-    - **Fail:** The enemy is **Beaten**. They attempt to flee, surrender, or drop their weapons.
+    - **Success:** The character holds their nerve and stands at 0 Warlust.
+    - **Fail:** The character is **Beaten** — they stop fighting, and flee, surrender, or drop their weapons. For a party member, what happens is determined by their disposition in the party.
 
 ### 3. "Clever Ways" to Beat Enemies
 Characters focused on non-lethal paths (WIL, CHA) use these mechanics to resolve encounters:
-- **Intimidation (The Terror-Gaze):** A character with **CHA 7+** can spend a **Major Action** to force an immediate **Rout Check** on an Unstable or Rattled enemy.
+- **Intimidation (The Terror-Gaze):** A character with **CHA 7+** can spend a **Major Action** to drain the **Warlust** of an Unstable or Rattled enemy (§1).
 - **Negotiation (WIL):** A character with **WIL 7+** can "Order" a Staggered or Stumbling enemy to surrender, bypassing the need for further HP damage.
 - **Environment Exploitation:** Collapsing a structure (Material Tag) or isolating an enemy can trigger automatic **Routing** due to tactical hopelessness.
 

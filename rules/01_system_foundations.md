@@ -84,9 +84,9 @@ Calculated once during character setup. Interactive sheets handle dynamic tracki
     - **Unstable (BP 2–3)**: -1 to all Defense rolls. BP Resistance lost.
     - **Stumbling (BP 1)**: -2 to all Defense rolls. BP Resistance lost.
     - **Knock Down (BP 0)**: Prone. Must stand up.
-- **Warlust (LOCKED 2026-11-23):** the will to fight. It builds over time, can rise above its normal value, and can be depleted.
-  - **Megin** (Warlust above normal): strength risen above normal — as Þórr grows into his *ásmegin* (*Gylfaginning*). Reached by rising Warlust, by inspiration from a great leader or character, by magic (Óðinn's men, *Ynglinga saga* 6), or by mushrooms. Not every character can handle the boost; it needs training.
-  - **Depleted (0):** moral collapse — the character stops fighting (`05_battle_core.md` Ch.8 §1). What happens is determined by the character's disposition in the party.
+- **Warlust (LOCKED 2026-11-23):** the will to fight. It builds over time toward **party morale** (`26_CAMPAIGN_ECONOMY_WIP.md` §3.3), can rise above it, and can be depleted.
+  - **Megin** (Warlust above party morale): strength risen above normal — as Þórr grows into his *ásmegin* (*Gylfaginning*). Reached by rising Warlust, by inspiration from a great leader or character, by magic (Óðinn's men, *Ynglinga saga* 6), or by mushrooms. Not every character can handle the boost; it needs training.
+  - **Depleted (0):** moral collapse — a Rout Check (`05_battle_core.md` Ch.8 §2). On a fail the character stops fighting; what happens is determined by their disposition in the party.
   - **Leaders and commanders** have a clear role through Warlust: they inspire it (Command, `03_skill_system.md` Ch.2 §4).
   - *Not mana:* the resource for manipulating the Wyrd is **Máttr** (`01_INTERNAL_ARCHITECTURE_WIP.md` §5).
 
