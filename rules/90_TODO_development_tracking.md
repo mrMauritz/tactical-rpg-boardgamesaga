@@ -8,7 +8,7 @@ This document tracks features that have been discussed or partially implemented,
 | 2026-04-18 | **Internal Architecture & Magic** | SOLIDIFIED | Fused Soul-Trio (Önd, Óð, Lá) with 6 Pillars and Historical Laws. |
 | 2026-04-18 | **Universal Alignment Physics** | SOLIDIFIED | Replaced generic class mechanics with 3 universal alignment physics (Order, Wild, Chaos). |
 | Upcoming | **The Rule of Wild (Trade-off Mutations)** | PENDING | Design physical and mystic wild mutations across the 6 attributes. |
-| Upcoming | **Resource Consumption** | STAGED | Definition of HP/SP/MG/Madness tactical expenditure. SP pool = `END × 3` + mods (locked 2026-11-16; Body/Frame removed from the formula). |
+| Upcoming | **Resource Consumption** | STAGED | Definition of HP/SP/Warlust/Máttr/Madness tactical expenditure. SP pool = `END × 3` + mods (locked 2026-11-16; Body/Frame removed from the formula). |
 
 ## 2. Advanced Tactical Content (Restricted to Classes/Monster Trees)
 - [x] **Simple Perk Design:** Document created ([02_perks_and_traits.md](file:///c:/Workspace/tactical-rpg-boardgamesaga/rules/02_perks_and_traits.md)) with Organic Growth policy and three seed perks (*Unyielding*, *Hard Head*, *Nerves of Steel*).
@@ -104,6 +104,9 @@ Tracks open items surfaced while implementing `00E_CORE_VISION_AND_PILLARS_WIP.m
 - [ ] **Defense roll and redirect** — how the defense roll is resolved, and how much BP a redirect carries through (`05_battle_core.md` Ch.5.1).
 - [ ] **Mission objectives** — also decide what ends a fight and what counts as success or failure for each side (`05_battle_core.md` Ch.8 §4); the frame is set (objectives are two-way and can change inside the event, `27_EVENTS.md` §3); no objective content or catalogue exists yet (`20_CAMPAIGN_CORE_WIP.md` §2b).
 - [ ] Campaign Map weighting — "cities, nodes, and places of interest carry particular weight beforehand" (`20_CAMPAIGN_CORE_WIP.md` §2b) has no formula or numeric representation yet.
+
+- [ ] **Warlust numbers** — pool size, how it builds and depletes, how leaders inspire it, the cost of *megin* without training, and the outcomes by disposition in the party (`01_system_foundations.md` Ch.3).
+- [ ] **Máttr formula** — "Scale" is three values (Body, Size, Frame), not one; WIL enters as a value but END as a bonus; the formula grows with attributes while the Hallowing says Máttr grows only by surviving the Hollowed; capacity vs. current pool and its generation are undefined (`01_INTERNAL_ARCHITECTURE_WIP.md` §5).
 
 ## 8. Events (New — 2026-11-18)
 Tracks open items for `27_EVENTS.md`.

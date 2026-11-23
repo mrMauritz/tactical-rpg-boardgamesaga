@@ -14,7 +14,7 @@ Tags add personality to weapons. They modify the core impact tables but never re
 - **Grapple**: A flexible or looping form (flails, whips) capable of wrapping rather than striking cleanly. **Effect**: May be used to **Pull** a target (forced repositioning) or wrap the legs to force the target directly into the **Unstable** BP state — the same leg outcome Hook achieves, by a different physical method. **Requires** a Progression Tree ability to activate. **Carried by**: Chain-family weapons (Flails, Whips). **Unarmed Substitute**: A bare hand may perform a Pull or Grapple action without this Tag, but only against an adjacent target (no Reach).
 - **Two-Handed (2H)**: Designed for deep leverage. **Effect**: Grants **+1 IS Die** to the pool. **Requirement**: Requires both hands; prevents the use of a shield or free off-hand.
 - **Versatile**: Weight-balanced for dual use. **Effect**: May be wielded 1H or 2H. If used with two hands, it gains the **Two-Handed (+1 IS Die)** bonus but loses the off-hand.
-- **Sharp**: On any die that deals HP, if that die is a 6+, add **Bleed 1**.
+- **Sharp**: On any die that deals HP, if that die is a 6, add **Bleed 1**.
 - **Armor-Piercing (AP)**: Use the AP Tag rules (4+ threshold for AP).
 - **Fast**: If any IS die shows 5+, the attacker gains **+1 Initiative** for the next segment.
 - **Reach**: Allows a weapon to target a hex up to **2 hexes away**. 
@@ -30,7 +30,7 @@ High-impact tags require physical leverage. If a character does not meet the **S
 
 | Tag | STR Req | Penalty for Failure |
 | :--- | :--- | :--- |
-| **Heavy Head** | 8 | +1 Segment of Recovery (1 SP) after attack. |
+| **Heavy** | 8 | +1 Segment of Recovery (1 SP) after attack. |
 | **Heavy AP (AP+)** | 10 | Target receives **+1 Advantage** to Stage 1 defense. |
 | **Push** | 6 | Weapon becomes **Unwieldy** (-1 Accuracy next turn). |
 | **Hook** | 6 | Weapon becomes **Unwieldy** (-1 Accuracy next turn). |

@@ -51,10 +51,23 @@ Balance Damage (BD) is calculated per die rolled in Stage 2. **Armor DOES NOT re
 
 | Weapon Type | BD / Die | Example (8 Dice IS) |
 | :--- | :--- | :--- |
-| **Swords / Spears** | 0.5 BD | 4 BD |
-| **Axes / Maces** | 1.0 BD | 8 BD |
-| **Impact Head Tag** | **+1.0 BD** | +8 BD (Additive) |
-| **Heavy Hammers** | 1.5 BD | 12 BD |
+| **Blade / Spear** | 0.5 BD | 4 BD |
+| **Axe / Blunt** (maces) | 1.0 BD | 8 BD |
+| **Heavy Hammers** (Blunt) | 1.5 BD | 12 BD |
+| **Impact Head Tag** | **+0.5 BD** (`07_weapon_and_armor_properties.md` Ch.9) | +4 BD (Additive) |
+
+*Families as in Table 6.*
+
+---
+
+## Table 5: 3d6 Probability Reference
+For players to assess risk during Stage 1.
+
+| Result | Probability | Frequency |
+| :--- | :--- | :--- |
+| **9+** | 74.07% | High |
+| **13+** | 25.93% | Moderate |
+| **18+** | 0.46% | Rare |
 
 ---
 
@@ -102,7 +115,7 @@ Shields provide physical **Ballistic Protection** (HP/SP Soak) for specific faci
 ---
 
 ## Table 8: Armor Piercing (AP) Mechanics
-For each Impact Die ($5, 6$), check for AP generation.
+For each Impact Die, check for AP generation against the weapon's threshold.
 
 | Weapon Tag | AP Threshold | Effect |
 | :--- | :--- | :--- |
@@ -110,18 +123,7 @@ For each Impact Die ($5, 6$), check for AP generation.
 | **AP Tag** | 4+ | +1 AP |
 | **Heavy AP (AP+)** | 3+ | +1 AP |
 
-*AP only reduces HP Soak. Unused AP does not carry over.*
-
----
-
-## Table 5: 3d6 Probability Reference
-For players to assess risk during Stage 1.
-
-| Result | Probability | Frequency |
-| :--- | :--- | :--- |
-| **9+** | 74.07% | High |
-| **13+** | 25.93% | Moderate |
-| **18+** | 0.46% | Rare |
+*AP only reduces HP Soak. Unused AP does not carry over. An AP printed in Table 6 (Spear, 6) is that die's AP, not an extra one.*
 
 ---
 
@@ -143,7 +145,7 @@ As a character's **BP Pool** is depleted during a round, they suffer increasing 
 
 | BP Value | State | Penalty | Resistance Status |
 | :--- | :--- | :--- | :--- |
-| **> 4** | **Stable** | None | **Resistance Active** (Steadfast/Grounded) |
+| **≥ 4** | **Stable** | None | **Resistance Active** (Steadfast/Grounded) |
 | **2–3** | **Unstable** | **-1 to Defense Rolls** | Resistance **LOST** |
 | **1** | **Stumbling** | **-2 to Defense Rolls** | Resistance **LOST** |
 | **0** | **Fallen** | **Knock Down** (Prone): +1 IS Die to incoming attacks (Advantage); Minor Action to stand | Resistance **LOST** |

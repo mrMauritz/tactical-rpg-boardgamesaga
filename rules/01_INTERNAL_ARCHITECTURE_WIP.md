@@ -95,7 +95,7 @@ Igniting a Pillar is not just a physiological event; it is a historical declarat
 > - **Alignment is not connected to technique.** Galdr, Rúnar, and Seiðr are open to every alignment.
 > - **Alignment decides how the caster reaches the Wyrd:** **Order** — through the gods; **Wild** — through the spirits; **Chaos** — directly. Friction follows: low, moderate, magnified. (This un-parks the access/friction part of the Mechanical Filters below; the rest stays parked.)
 > - **The god decides, not the alignment:** the bonded power's domain decides which techniques it opens (`24` §2.2).
-> - **END carries the cost, not the check:** how much friction a caster can bear — the Well (`97` END), hosted in MG (Megin, §5 below). The check is the technique skill (`03` Ch.2 §5).
+> - **END carries the cost, not the check:** how much friction a caster can bear — the Well (`97` END), hosted in Máttr (mana, §5 below). The check is the technique skill (`03` Ch.2 §5).
 
 **The organizing image is the tree.** Order, Wild, and Chaos are branches of the one world-tree (Yggdrasil — Pillar 3, `00E_CORE_VISION_AND_PILLARS_WIP.md`), and the Divinities (`23_DIVINITIES_WIP.md`) sit further out along those same branches. "Guardian" of a branch is used broadly here — merely believing in or heading toward a branch's direction already serves it, no formal Oath or earned Devotion required (see the new Belief/Direction tier, `96_OATHS_WIP.md` §8b). Igniting a Pillar is a much stronger commitment than that — a full narrative declaration, not a passing direction.
 
@@ -273,7 +273,7 @@ A magic user must decide how much they "open the door" to the Wyrd.
 - **The Safe Path (Low ÓÐ)**: Working *with* the world's song. Staying within established Tier competence.
 - **The Twisted Path (High ÓÐ - Over-reaching)**:
     - **Mechanism**: Gain **Advantage** or **Automatic Success Tiers** by intentionally raising ÓÐ level.
-    - **The Risk**: Every point of "Over-reach" generates exponential **Spiritual Friction**. If the check fails, the world's song attempts to correct the "Twist," resulting in a **Wyrd-Bout (Pushback)** which causes MG damage or temporary **Vision Blindness**.
+    - **The Risk**: Every point of "Over-reach" generates exponential **Spiritual Friction**. If the check fails, the world's song attempts to correct the "Twist," resulting in a **Wyrd-Bout (Pushback)** which causes Máttr damage or temporary **Vision Blindness**.
 
 ### 4. ÓÐ (Óðr) — The Profound Madness
 **Óðr** measures the "Divine Ecstasy"—the opening of the mind to the Wyrd. it is the fuel for the extraordinary and the gate to **Breaching (20+)**.
@@ -289,10 +289,11 @@ A magic user must decide how much they "open the door" to the Wyrd.
     - **Troth-Gravity Warp**: Their Will is so dense that it exerts a "warping" effect, forcing the environment to align with their mythic narrative.
     - **Inspired Unpredictability**: Their actions are "inspired" by the song, often leading to tactical outcomes that are physically impossible but narratively "Correct."
 
-### 5. MG (Megin) — The Internal Vessel
-**MG** represents your capacity to host the Madness and host the Wyrd.
-- **Formula**: `MG = (Scale × 1) + Endurance Bonus + WIL`.
-- **Status (The Hollowed)**: If MG reaches **0**, spiritual collapse occurs. 
+### 5. Máttr (Mana) — The Internal Vessel
+**Máttr** (mana) is the resource with which you manipulate the Wyrd — your capacity to host the Madness and host the Wyrd.
+- **Name (LOCKED 2026-11-23):** *máttr*, "might" — the partner of *megin* in the formula *trúa á mátt sinn ok megin*, "to trust in one's own might and main". *Megin* is the body's strength risen above normal (Warlust, `01_system_foundations.md` Ch.3); *máttr* is the power over the Wyrd. Formerly "MG (Megin)".
+- **Formula**: `Máttr = (Scale × 1) + Endurance Bonus + WIL`.
+- **Status (The Hollowed)**: If Máttr reaches **0**, spiritual collapse occurs. 
 - **The Hallowing**: You only grow by surviving the "Hollowed" state (matching Odin's sacrifice at the Well).
 
 ---

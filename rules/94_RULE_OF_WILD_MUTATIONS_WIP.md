@@ -42,11 +42,11 @@ If a Physical Wild gives a (+X) benefit to your physical attacks, it applies a (
 ### Physical Wild: *The Troll-Bark*
 *The flesh adapts and regenerates with brutal efficiency, sacrificing the body's internal vessel designed to hold magical energy.*
 *   **Evolution (Lá):** SP (Stamina) generation is +1.
-*   **Trade-off (Óðr):** MG (Megin) generation is -1.
+*   **Trade-off (Óðr):** Máttr (mana) generation is -1.
 
 ### Mystic Wild: *The Well-Drinker*
 *The soul constantly drafts deep from the Wyrd, leaving the physical body starved of normal metabolic stamina.*
-*   **Evolution (Óðr):** MG (Megin) generation is +1.
+*   **Evolution (Óðr):** Máttr (mana) generation is +1.
 *   **Trade-off (Lá):** SP (Stamina) generation is -1.
 
 ---
@@ -56,11 +56,11 @@ If a Physical Wild gives a (+X) benefit to your physical attacks, it applies a (
 ### Physical Wild: *The Bear's Roar*
 *Shouts and commands shatter the air with absolute authority, tearing the throat and ruining the delicate frequencies of incantations.*
 *   **Evolution (Lá):** When fighting, the required cost for HP, SP, or BP is -2.
-*   **Trade-off (Óðr):** When casting spells, MP 2 is treated as MP=0 (requiring 2 extra MP to cast effectively).
+*   **Trade-off (Óðr):** When casting spells, Máttr 2 is treated as Máttr 0 (requiring 2 extra Máttr to cast effectively).
 
 ### Mystic Wild: *The Riven Word*
 *The chanted word cuts smoothly through the fabric of reality with ease, causing the physical lungs to stutter and gasp when exerting force.*
-*   **Evolution (Óðr):** When casting spells, the required cost for MP (Megin) is -2.
+*   **Evolution (Óðr):** When casting spells, the required cost in Máttr (mana) is -2.
 *   **Trade-off (Lá):** When fighting, HP, SP, or BP requirements of 2 are treated as 0 (requiring 2 extra points to act effectively).
 
 ---

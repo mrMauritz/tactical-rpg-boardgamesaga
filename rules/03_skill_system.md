@@ -58,7 +58,7 @@ Following the organic growth policy, only skills explicitly required for the cor
 *Governing Attributes: CHA or INT.*
 
 - **Command**: Battlefield coordination. **Tier 3 unlocks Tactical Formations** (Shield-Wall, Wedge), allowing the player to apply group-level physical logic to the hex-map. 
-- **Intimidation**: Attacking an opponent’s **Moral BP** through presence and threat.
+- **Intimidation**: Attacking an opponent’s **Warlust** through presence and threat (`01_system_foundations.md` Ch.3).
 - **Skaldic Art**: Recording deeds into the saga; influencing faction reputation.
 - **Bartering**: Negotiating exchange rates in the Weight-and-Barter economy.
 - **Parley**: Negotiating a specific concession during an encounter — e.g. dependants allowed to leave a hall while the dispute goes on with those inside (the burning, *Njáls saga*). Tree placement OPEN (`99`).

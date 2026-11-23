@@ -77,7 +77,7 @@ Incoming force is reduced by physical barriers before hitting the armor layers.
 - **Shield Ballistic Protection (if applicable):** If the attack strikes a protected facing (Front/Flank), subtract the Shield's **Ballistic Protection** from the raw totals.
 - **Armor HP Soak:** `max(0, Armor HP Soak - Total AP)`.
 - **Net HP/SP Damage:** Subtract the effective armor soak from the remaining totals. 
-- *Armor/Shields never reduce BP or SP Soak (unless specified by Heavy AP).*
+- *Armor and shields never reduce BP damage. AP reduces HP Soak only, never SP Soak (`10_reference_tables.md` Table 8).*
 
 ### 7. Balance Damage (BP)
 `BP Damage = round(IS Pool * Weapon BP Modifier)`. 
@@ -125,7 +125,7 @@ In *BoardGameSaga*, an opponent can be **Beaten** long before they are dead. Whe
 An NPC or Enemy is eligible to be **Beaten** (Routing or Surrendering) when they meet any of the following **Reality Conditions**:
 - **Systemic Collapse (SP = 0):** The target is **Disabled** (Physiological Shutdown). They cannot act and are at the mercy of the victor.
 - **Positional Collapse (BP 0 after Stumbling):** If an enemy is **Knocked Down** after more than 2 rounds in a **Stumbling/Unstable** state, they are tactically broken.
-- **Moral Collapse (Leadership):** If the enemy leader is defeated or flees, all subordinates must make a **Rout Check**.
+- **Moral Collapse (Warlust 0):** when Warlust runs out, the character stops fighting (`01_system_foundations.md` Ch.3). If the enemy leader is defeated or flees, all subordinates must make a **Rout Check**.
 
 ### 2. The Rout Check (Will vs. Pressure)
 When a breaking point is reached, the enemy must roll a **3d6 Rout Check** against a difficulty determined by the player's **Moral Pressure**.

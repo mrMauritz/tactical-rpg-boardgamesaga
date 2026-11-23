@@ -52,7 +52,7 @@
 *   **Mathematical Pools:**
     *   **SP (Stamina) Max Capacity:** `SP = END × 3` (`01_system_foundations.md` Ch.3).
     *   **SP Recovery (Regen):** How much SP is regained through "Take a Breath" or Banking segments.
-    *   **MG (Megin Capacity):** Determines how much Wyrd-current you can host.
+    *   **Máttr (Mana Capacity):** Determines how much Wyrd-current you can host.
 *   **Physical Pillar (Lá):** **The Breath.** Internal thoracic pressure and metabolic management.
     *   *Maneuvers:* **Law-Speaker** (Forcing surrender), **Siege-Lungs** (Exhausting the enemy).
     *   *Reaction Identity:* **The Iron Shout.** Using a "Reaction Shout" to force an attacker to hesitate (re-roll). *(Renamed from "The Moral Gravity" — collided with the unrelated cosmological Troth-Gravity concept, `01_INTERNAL_ARCHITECTURE_WIP.md`.)*
@@ -174,7 +174,7 @@ Agent-made spell material not connected to the core. A spell's shape now comes f
 ### 4. WIL — The Marrow (**Lá**)
 *   **Essential Word:** **Marrow.**
 *   **Essential Aspect:** **Integrity.**
-*   **Game Variables:** **HP, MG, Soak.**
+*   **Game Variables:** **HP, Soak.**
 *   **Saga Description:** "The bones are the stones of the body, and the blood is the river that feeds the stone. To be Iron is to have a frame that refuses to break—where the marrow is washed in the grit of survival until the flesh becomes as stubborn as the cliff-side against the sea."
 
 ### 5. INT — The Pulse (**Lá**)
@@ -219,7 +219,7 @@ Agent-made spell material not connected to the core. A spell's shape now comes f
 ### 3. END — The Well (**Óðr**)
 *   **Essential Word:** **Capacity (Brünnr).**
 *   **Essential Aspect:** **Capacity.**
-*   **Game Variables:** **MG, Friction, Vessel.**
+*   **Game Variables:** **Máttr, Friction, Vessel.**
 *   **Saga Description:** "The soul is a vessel (Ker), and the Wyrd is a flood. If the vessel is shallow or cracked, the current will shatter the man. To be the Well is to have the depth to host the divine frenzy (Óðr) without the skin burning or the mind turning to ash."
 
 ### 4. WIL — The Decree (**Óðr**)
