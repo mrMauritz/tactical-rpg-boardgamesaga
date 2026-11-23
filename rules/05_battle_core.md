@@ -57,6 +57,17 @@ Compare the kinetic energy of the strike to determine which reactions are physic
 - **Great Success (18–19) / Natural 18:** **+1 IS Die** roll. If an attacker has a **Precision Perk**, they may perform a **Precision Effect Swap**, trading the extra IS Die for a specialized **Precision Effect (Table 11)**.
 - **Perfect Success (20+):** **+2 IS Dice** roll. If an attacker has a **Precision Perk**, they may perform a **Precision Effect Swap**, trading the extra IS Dice for a specialized **Precision Effect (Table 11)**.
 
+#### The Location Die (LOCKED 2026-11-23)
+One die of the Stage 1 roll is the **location die**, marked by colour. It is read twice: its value counts toward the hit total as usual, and its face gives the location. On a miss, it tells where the blow would have landed. Location is used **only for BP damage** (§7) — an abstraction.
+
+| Face | 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|
+| **Location** | Right arm | Left arm | Torso | Right leg | Left leg | Head |
+
+- **Read first:** the location is read before the Glance Rule (§8) disables any dice, and before the Triples Rule removes one (`01c_CHARACTER_BUILD_PIPELINE_WIP.md` §2).
+- **Odds:** the better the hit, the more often it lands high on the table — a natural 18 is always the head. BP is greatest at the head, then the legs.
+- **Armor by location:** location makes armor by location possible (e.g. a helmet on the head) — not used yet.
+
 ### 3. Impact Severity (IS Dice Pool)
 Calculate the number of d6 dice to be rolled.
 - `Base IS Pool = Attacker Body + STR Bonus`
@@ -80,7 +91,7 @@ Incoming force is reduced by physical barriers before hitting the armor layers.
 - *Armor and shields never reduce BP damage. AP reduces HP Soak only, never SP Soak (`10_reference_tables.md` Table 8).*
 
 ### 7. Balance Damage (BP)
-`BP Damage = round(IS Pool * Weapon BP Modifier)`. 
+`BP Damage = round(IS Pool * Weapon BP Modifier)`, adjusted by the hit's location (§2, The Location Die); how each location acts on this formula is OPEN. 
 1. **Apply Resistance**: Subtract **Steadfast (-2)** or **Grounded (-1)** from the incoming BP damage. 
 2. **The Stability Rule**: If a character's current BP < 4 (Unstable/Stumbling), they **lose all BP Resistance** for the rest of the turn.
 3. **Note**: Gear Armor Soak does not reduce BP damage. 
