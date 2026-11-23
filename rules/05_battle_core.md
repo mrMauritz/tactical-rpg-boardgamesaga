@@ -2,7 +2,8 @@
 
 # PART III — BATTLE CORE
 
-## Chapter 5 — Turn Structure & Segments (AP)
+## Chapter 5 — Turn Structure & Segments
+A turn has **6 segments**.
 - **Major Action (4 Segments):** Heavy swings, complex spells, First Aid.
 - **Minor Action (2 Segments):** Defensive footwork, feints, Take a Breath (+1 SP). (Note: *Shield-locking* is a Perk-based specialized maneuver).
 - **Quick Action (1 Segment):** Drawing a blade, shifting facing, moving 1 Hex.
@@ -12,6 +13,15 @@
 ### Chapter 5.1 — Active vs. Passive Defense
 - **Passive Defense:** Automatic physical protection derived from gear (Armor Soak, Shield Ballistic Protection). Requires no roll and does not consume reactions.
 - **Active Defense:** A reactive move (Block, Parry, Dodge) that requires a **Defense Roll (Stage 1)**. Each use consumes one charge of the character's **Starting Capacity**.
+- **Hit and defense (LOCKED 2026-11-23):** a natural 18 on 3d6 always hits. On any other roll, a successful Active Defense wins — including against a modified total of 18 or more. How the defense roll is resolved is OPEN.
+- **Impact and balance (LOCKED 2026-11-23):** what reaches the defender depends on whether there is physical contact.
+
+| Outcome | Contact | BP damage |
+|---|---|---|
+| **Direct hit** | Full | Full, under the Balance rule (Ch.6 §7) |
+| **Block** — including a shield wall (Ch.9) | Full, on the shield | Full |
+| **Redirect** — a parry usually redirects | Some: the blow is met and turned | How much carries through is OPEN |
+| **Avoid** — a successful dodge | None | None from the blow's impact |
 
 #### Starting Defensive Capacity (Per Round)
 | Skill Type | Starting Capacity | Requirement |
@@ -24,6 +34,11 @@
 **Starting Capacity** is a per-round pool, not a per-attacker pool. If two attacks land against the same character within the same segment, the defender must choose a single attack to answer with an **Active Defense** roll (spending a charge). The other attack automatically resolves against **Passive Defense** only (Armor Soak, Shield Ballistic Protection) — this is not an automatic hit, it simply forgoes the Active Defense roll and its bonus.
 - **Spare Capacity:** Overcoming this cap (answering both attacks with Active Defense) requires a dedicated Progression Perk, such as **Twin Ward** (The Wall — see `02_perks_and_traits.md`). It is not available by default.
 
+### Chapter 5.2 — Specialized Actions
+- **Take a Breath (Minor Action / 2 Segments):** A quick pause to refocus. Restore **+1 SP**.
+- **Recovery (Full Round / 6 Segments):** Automatic at 0 SP. The character spends their entire turn regaining composure. Restore SP = **Regeneration Rate × 2**.
+- **First Aid (Major Action / 4 segments):** A character can treat themselves or an adjacent ally. This removes **Bleed 1** or restores 1 lost HP from a "Partial" success wound.
+
 ## Chapter 6 — The Combat Resolution Pipeline
 To ensure physical realism, combat follows a linear 8-stage pipeline. Interactive sheets automate calculations; players resolve the dice.
 
@@ -35,7 +50,7 @@ Compare the kinetic energy of the strike to determine which reactions are physic
     2. Check **Starting Capacity** to see if the target has reactions remaining this round.
 
 ### 2. Hit Resolution (Stage 1 Roll)
-`3d6 + Skill + DEX Bonus vs Target Defense`
+`3d6 + Skill + DEX Bonus vs Target Defense` (attack vs. defense: Ch.5.1)
 - **Fail (0-8):** See *Table 3*. Catastrophic results like BP loss or becoming **Unbalanced**.
 - **Partial (9-12):** Minimal hit, no bonus IS.
 - **Success (13-17):** Clean Hit. Standard weapon damage.
@@ -89,34 +104,6 @@ As systemic Integrity (SP) is lost, the character faces a physiological "shutdow
 
 ---
 
-## Chapter 8 — Tactical Routing & Surrender ("Beating" the Enemy)
-In *BoardGameSaga*, victory is achieved when the opposition is **Beaten**, which may occur long before they are dead. This adheres to the **Reality Core**—historical battles often end in routing or surrender once the internal architecture of a formation or individual collapses.
-
-### 1. The Breaking Point (BP & SP Thresholds)
-An NPC or Enemy is eligible to be **Beaten** (Routing or Surrendering) when they meet any of the following **Reality Conditions**:
-- **Systemic Collapse (SP = 0):** The target is **Disabled** (Physiological Shutdown). They cannot act and are at the mercy of the victor.
-- **Positional Collapse (BP = 0 + Stumbling):** If an enemy is **Knocked Down** while already being in a **Stumbling/Unstable** state for more than 2 rounds, they are tactically broken.
-- **Moral Collapse (Leadership):** If the enemy leader is defeated or flees, all subordinates must make a **Route Check**.
-
-### 2. The Route Check (Will vs. Pressure)
-When a breaking point is reached, the enemy must roll a **3d6 Route Check** against a difficulty determined by the player's **Moral Pressure**.
-- **Moral Pressure:** Set by the attacker's **WIL** or **CHA**.
-- **Party Cohesion (Campaign Layer):** High Party Cohesion (`26_CAMPAIGN_ECONOMY_WIP.md` §3.2) lowers the effective Moral Pressure DC against a party member; at a high enough threshold it auto-negates the check entirely (automatic success) — the same scaling-then-threshold shape as Devotion (`24_BONDS_AND_DEVOTION_WIP.md` §4.1). Exact DC-reduction curve and auto-negate threshold are OPEN, see `90_TODO_development_tracking.md` §5.
-- **Result:**
-    - **Success:** The enemy maintains their nerve and continues fighting.
-    - **Fail:** The enemy is **Beaten**. They attempt to flee, surrender, or drop their weapons.
-
-### 3. "Clever Ways" to Beat Enemies
-Characters focused on non-lethal paths (WIL, CHA) use these mechanics to resolve encounters:
-- **Intimidation (The Terror-Gaze):** A character with **CHA 7+** can spend a **Major Action** to force an immediate **Route Check** on an Unstable or Rattled enemy.
-- **Negotiation (WIL):** A character with **WIL 7+** can "Order" a Staggered or Stumbling enemy to surrender, bypassing the need for further HP damage.
-- **Environment Exploitation:** Collapsing a structure (Material Tag) or isolating an enemy can trigger automatic **Routing** due to tactical hopelessness.
-
-### Chapter 5.1 — Specialized Actions
-- **Take a Breath (Minor Action / 2 Segments):** A quick pause to refocus. Restore **+1 SP**.
-- **Recovery (Full Round / 6 Segments):** Automatic at 0 SP. The character spends their entire turn regaining composure. Restore SP = **Regeneration Rate × 2**.
-- **First Aid (Major Action / 4 segments):** A character can treat themselves or an adjacent ally. This removes **Bleed 1** or restores 1 lost HP from a "Partial" success wound.
-
 ## Chapter 7 — Facing and Positional Exposure
 Positional exposure grants pure kinetic advantages (more dice) rather than accuracy bonuses.
 - **Front (3 Hexes):** Full defense; all reactions and shields apply. Provides **Ballistic Protection** (Soak).
@@ -128,6 +115,34 @@ Facing describes what the body can physically cover. Sensory conditions describe
 
 - **Obscured:** Applied by fog, smoke, darkness, sun-glare, or a full-face helm. A defender cannot use **Active Defense** against an attack originating from a hex they have not observed this round, regardless of Facing arc. Passive Defense still applies.
 - **Deafened:** Applied by a full-face helm or an attack originating beyond shout/command range. A Deafened character cannot declare **Anticipated Defense** against an Ambush or Surprise Round attack — there was no warning to react to.
+
+---
+
+## Chapter 8 — Tactical Routing & Surrender ("Beating" the Enemy)
+In *BoardGameSaga*, an opponent can be **Beaten** long before they are dead. Whether that is victory depends on the mission (§4). This adheres to the **Reality Core**—historical battles often end in routing or surrender once the internal architecture of a formation or individual collapses.
+
+### 1. The Breaking Point (BP & SP Thresholds)
+An NPC or Enemy is eligible to be **Beaten** (Routing or Surrendering) when they meet any of the following **Reality Conditions**:
+- **Systemic Collapse (SP = 0):** The target is **Disabled** (Physiological Shutdown). They cannot act and are at the mercy of the victor.
+- **Positional Collapse (BP 0 after Stumbling):** If an enemy is **Knocked Down** after more than 2 rounds in a **Stumbling/Unstable** state, they are tactically broken.
+- **Moral Collapse (Leadership):** If the enemy leader is defeated or flees, all subordinates must make a **Rout Check**.
+
+### 2. The Rout Check (Will vs. Pressure)
+When a breaking point is reached, the enemy must roll a **3d6 Rout Check** against a difficulty determined by the player's **Moral Pressure**.
+- **Moral Pressure:** Set by the attacker's **WIL** or **CHA**.
+- **Party Cohesion (Campaign Layer):** High Party Cohesion (`26_CAMPAIGN_ECONOMY_WIP.md` §3.2) lowers the effective Moral Pressure DC against a party member; at a high enough threshold it auto-negates the check entirely (automatic success) — the same scaling-then-threshold shape as Devotion (`24_BONDS_AND_DEVOTION_WIP.md` §4.1). Exact DC-reduction curve and auto-negate threshold are OPEN, see `90_TODO_development_tracking.md` §5.
+- **Result:**
+    - **Success:** The enemy maintains their nerve and continues fighting.
+    - **Fail:** The enemy is **Beaten**. They attempt to flee, surrender, or drop their weapons.
+
+### 3. "Clever Ways" to Beat Enemies
+Characters focused on non-lethal paths (WIL, CHA) use these mechanics to resolve encounters:
+- **Intimidation (The Terror-Gaze):** A character with **CHA 7+** can spend a **Major Action** to force an immediate **Rout Check** on an Unstable or Rattled enemy.
+- **Negotiation (WIL):** A character with **WIL 7+** can "Order" a Staggered or Stumbling enemy to surrender, bypassing the need for further HP damage.
+- **Environment Exploitation:** Collapsing a structure (Material Tag) or isolating an enemy can trigger automatic **Routing** due to tactical hopelessness.
+
+### 4. Victory and Defeat (LOCKED 2026-11-23)
+The mission defines what ends the fight and what counts as success or failure for each side (`27_EVENTS.md` §0, §10). The battle rules supply the outcomes — collapse, surrender, rout; their significance depends on the mission.
 
 ---
 

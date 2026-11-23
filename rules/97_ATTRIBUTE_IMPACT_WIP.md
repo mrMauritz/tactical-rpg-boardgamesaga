@@ -102,10 +102,10 @@
 *   **Óðr (Mystic Spirit):** **Ghost-Walking.** The Gand-reid (Wand-ride). Navigating the shadow-layer and negotiating with the actors of the spirit-world.
 
 *   **Mathematical Pools:**
-    *   **Moral Pressure:** The DC for enemy Route Checks.
+    *   **Moral Pressure:** The DC for enemy Rout Checks.
     *   **Conduit (Seiðr):** The CHA Attribute Bonus to Seiðr checks — Negotiating (`01_INTERNAL` Spirit Layer §2).
 *   **Physical Pillar (Lá):** **The Gaze.** Broad contextual awareness vs. narrow technical focus.
-    *   *Maneuvers:* **Terror-Gaze** (Forced Route Check), **The Heihō** (Architect of the Falsehood/Voiding hexes).
+    *   *Maneuvers:* **Terror-Gaze** (Forced Rout Check), **The Heihō** (Architect of the Falsehood/Voiding hexes).
     *   *Reaction Identity:* **The Warlord/Terror.** Using "Presence" to create a flinch-response in attackers.
 *   **Mystic Pillar (Óðr):** **The Shadow** *(patron: Hel)*. The Gand-reid ghost-walk. Persuading spirits and navigating the "Shadow" layer of the map.
 *   **Combat Role:** Controlling the "Psychology" of the hex and "Warping" the opponent's attention.
@@ -262,7 +262,7 @@ To ensure every step of progression is meaningful, the following tactical pools 
 *   **END (Pressure)**: The raw value determines **Maximum Stamina (SP = END × 3)** and **SP Recovery**.
 *   **WIL (Integrity)**: Soak (HP / SP / BP) follows its own odd-value step rather than the raw value — see §14.
 *   **INT (Clarity)**: The raw value determines **Reaction Window** (The timing threshold for Stop-Hits).
-*   **CHA (Presence)**: The raw value determines **Presence DC** (The weight of the Gaze; base Difficulty for enemy Route checks).
+*   **CHA (Presence)**: The raw value determines **Presence DC** (The weight of the Gaze; base Difficulty for enemy Rout checks).
 
 ---
 

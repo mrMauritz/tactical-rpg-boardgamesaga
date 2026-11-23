@@ -34,7 +34,7 @@ The following techniques were described and agreed upon as the foundation for fu
 
 6.  **Terror-Gaze (The Attention)**:
     *   **Logic**: Using the **Pillar of Attention** (CHA) to exert psychological dominance. 
-    *   **Agreement**: A perk allowing a Major Action to force a **Route Check** on unstable enemies. This uses the **Reality Core** of morale collapse rather than magic.
+    *   **Agreement**: A perk allowing a Major Action to force a **Rout Check** on unstable enemies. This uses the **Reality Core** of morale collapse rather than magic.
 
 7.  **Shadow-Step (The Web)**:
     *   **Logic**: Using the **Pillar of The Web** (DEX) to manipulate the tactical setup *before* the round begins. 

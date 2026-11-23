@@ -11,7 +11,7 @@ Determines which defensive reactions are physically possible based on the **Rela
 | **≤ -3** | Defender Dominates | Block, Parry (Easy) | 1 / 1 / 3 |
 | **-2 to +2** | Evenly Matched | Block, Parry, Dodge | 1 / 1 / 3 |
 | **+3** | Shield Advantage | Block (Shield Only), Dodge | 1 / - / 3 |
-| **+4 to +5** | Attacker Overpowers | Dodge, Redirect only | - / - / 3 |
+| **+4 to +5** | Attacker Overpowers | Dodge, Redirect only (`05_battle_core.md` Ch.5.1) | - / - / 3 |
 | **≥ +6** | Overwhelming | Dodge only (Guard Crushed) | - / - / 3 |
 
 ---
@@ -39,7 +39,7 @@ Modifiers applied to the IS Dice Pool based on the quality of the Stage 1 Skill 
 | **0–1** | **Major Fail** | Attack Ends | **-2 BP** & **Unbalanced** |
 | **2–3** | **Fail** | Attack Ends | **-2 BP** |
 | **4–8** | **Miss** | Attack Ends | — |
-| **9–12** | **Partial** | -2 Dice | — |
+| **9–12** | **Partial** | +0 Dice (no bonus IS) | — |
 | **13–17** | **Success** | +0 Dice | — |
 | **18–19** | **Great** | +1 Die | **Precision Effect Swap** (Table 11) |
 | **20+** | **Perfect** | +2 Dice (+1 AP) | **Precision Effect Swap** (Table 11) |

@@ -145,26 +145,6 @@ Initiative determines the order of action within each segment. It is a live valu
 
 ---
 
-## Chapter 6 — The Spirit Layer (Wyrd & Oaths)
-*The Saga* defines a separation between physical world-interaction and the fated current:
-
-- **Perception (Reality Layer):** Using the senses to navigate and survive. Governed by DEX/INT.
-- **Vision (Wyrd Layer):** The mystery of seeing the fated current beneath the world. Vision is not a skill; it is a state of being influenced by the **Wyrd**.
-
-### The Mystery of the Wyrd
-The Wyrd is a universal current that affects all beings. It is indifferent and unquantified (no points). Modifying it is forbidden and risky.
-
-### Oaths & The Tension of Time
-Oaths exert **Troth-Gravity**. Breaking them has real, non-physical consequences. *(This system is being expanded in `96_OATHS_WIP.md`)*
-
-### Generational Remnants
-When a character falls, their presence is "seeded" into the world as a persistent marker. *(This system is being expanded in `96_OATHS_WIP.md`)*
-
-### Faction Breathing
-Factions operate on a **Pulse** of **Active Push** (proactive gain) and **Reactive Pull** (responding to players). This creates a "breathing" campaign state.
-
----
-
 ## Chapter 7 — Natural Protection
 Characters and monsters possess inherent resilience that exists independently of gear or equipment.
 
@@ -185,3 +165,23 @@ Raw physical mass and skeletal density provide a baseline resistance that stacks
 - **Frame**: narrows to a dedicated **BP** resistance channel — one of six per-flavor resistance channels (Frame→BP, Temper→SP, Fortitude→HP/Mental); see `97b_ATTRIBUTE_FLAVOR_AXES_WIP.md` for the full division. *(Exact formula pending.)*
 - **WIL Soak**: WIL adds a small secondary soak to **HP**, **SP**, and **BP** damage on odd values only, parallel with the Pillars — V5 0, V7 +1, V9 +2, V11 +3, V13 +4 (`floor((WIL−5)/2)`, 0 below 5). Stacks with every source above. See `97_ATTRIBUTE_IMPACT_WIP.md` §14.
 - **Trade-off**: A high Frame value raises the SP cost of avoidance actions and reduces avoidance capability — the resistance this section grants is bought at the cost of not being hit in the first place. *(Mechanism pending.)*
+
+---
+
+## Chapter 8 — The Spirit Layer (Wyrd & Oaths)
+*The Saga* defines a separation between physical world-interaction and the fated current:
+
+- **Perception (Reality Layer):** Using the senses to navigate and survive. Governed by DEX/INT.
+- **Vision (Wyrd Layer):** The mystery of seeing the fated current beneath the world. Vision is not a skill; it is a state of being influenced by the **Wyrd**.
+
+### The Mystery of the Wyrd
+The Wyrd is a universal current that affects all beings. It is indifferent and unquantified (no points). Modifying it is forbidden and risky.
+
+### Oaths & The Tension of Time
+Oaths exert **Troth-Gravity**. Breaking them has real, non-physical consequences. *(This system is being expanded in `96_OATHS_WIP.md`)*
+
+### Generational Remnants
+When a character falls, their presence is "seeded" into the world as a persistent marker. *(This system is being expanded in `96_OATHS_WIP.md`)*
+
+### Faction Breathing
+Factions operate on a **Pulse** of **Active Push** (proactive gain) and **Reactive Pull** (responding to players). This creates a "breathing" campaign state.

@@ -57,7 +57,7 @@ The deepest common form is **promised possibility**: something exists in the wor
 
 **ESTABLISHED relationship:** Bonds usually create drive/pull. Party bonds relate to Cohesion because they can provide a shared object of commitment; character bonds can create individual direction and friction, while party bonds can make direction common (`24_BONDS_AND_DEVOTION_WIP.md` §3).
 
-**Battle-layer hook:** High Party Cohesion lowers the effective Moral Pressure DC against a party member's Route Check, auto-negating it entirely at a high enough threshold (`05_battle_core.md` Ch.8 §2) — the campaign layer's first direct tactical-layer effect.
+**Battle-layer hook:** High Party Cohesion lowers the effective Moral Pressure DC against a party member's Rout Check, auto-negating it entirely at a high enough threshold (`05_battle_core.md` Ch.8 §2) — the campaign layer's first direct tactical-layer effect.
 
 ## 4. Conditional Resource Possibilities — Not Universal Meters
 

@@ -50,7 +50,7 @@
 | CI1 | Large Roster (Numbers) | You want enough bodies to run Swarm/Engagement-Cap tactics in battle. | Scales your draw against the Money/Food resource kernel — more mouths to feed. | **CI1 → BO7 → CO1** |
 | CI2 | Small/Elite Roster | You want a tight, high-investment party and lower baseline upkeep. | Fewer bodies for Numbers tactics; no Engagement-Cap-stacking option. | CO3 (Elite/Costly economy pairs naturally with this) |
 | CI3 | Roster Churn | You want unrestricted freedom to swap companions for maximum utility — never taboo'd. | Forfeits the Individual Cohesion a kept veteran would've earned; new hires don't count until Accepted. | GO2 (build experimentation) |
-| CI4 | Party Stability | You want the real tactical payoff — high Party Cohesion lowers Moral Pressure DC, can auto-negate Route Checks. | ⚠️ No stated cost — a pure soft incentive, nothing is lost by staying put beyond foregone churn-flexibility. | BI4 |
+| CI4 | Party Stability | You want the real tactical payoff — high Party Cohesion lowers Moral Pressure DC, can auto-negate Rout Checks. | ⚠️ No stated cost — a pure soft incentive, nothing is lost by staying put beyond foregone churn-flexibility. | BI4 |
 | CI5 | Tolerance-Spending Leadership | You want decisive, favoritism-driven choices with full visibility (no hidden roll). | Exceeding the buffer costs you one or more members outright. | — |
 | CI6 | Tolerance-Preserving Leadership | You want to avoid desertion risk entirely. | ⚠️ No stated cost for restraint itself. | — |
 | CI7 | Fixed Class/Race Bond (e.g. Paladin) | You want a potent, pre-loaded devotional bond without building it yourself. | Maximally irreversible — class change is explicitly "very rare"; Order-flavored versions risk Structural Collapse on misstep. | GI1, GI7 |
@@ -130,7 +130,7 @@ A **Dial** trades quality for quality — choosing one pole costs you the other.
 - **Field Choice** — Terrain-Exploit (passive BP Soak from Stable Position, can reshape hexes) ↔ Open-Field (no terrain bonus, but no reshape-backfire either)
 
 ### 7.4 Psychological (sub)
-- **Morale Pressure** — Terror/Intimidate (forces a Route Check via Terror-Gaze) ↔ Stealth-Avoid (removes the need for morale pressure entirely)
+- **Morale Pressure** — Terror/Intimidate (forces a Rout Check via Terror-Gaze) ↔ Stealth-Avoid (removes the need for morale pressure entirely)
 - **Verbal Warfare** — Taunt/Provoke (baits a reckless mistake) ↔ Silent Discipline (gives away nothing, creates no opening either)
 - **Battle Opener** — Champion-Duel Opener (one duel sets the whole force's morale) ↔ Mass-Engagement Opener (no single-point morale risk, but no single-point morale win either)
 - **Command Posture** — Lead-From-Front (triggers the Battle Opener, but exposed to Leader-Targeting) ↔ Command-From-Cover (safe from Decapitation, but can't open with a champion duel)

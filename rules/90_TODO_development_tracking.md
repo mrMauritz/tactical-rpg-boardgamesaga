@@ -66,7 +66,7 @@ Tracks concrete content and open decisions for `20_CAMPAIGN_CORE_WIP.md` through
 - [x] Exact relationship between party bonds and the Cohesion mechanic/resource, and Cohesion's mechanical nature — RESOLVED: plain numeric value, grows from time-in-party/shared victories/Party Bond rewards; keeping a party intact (vs. churning it) independently grants Cohesion (`26_CAMPAIGN_ECONOMY_WIP.md` §3.2).
 - [ ] Exact numeric values: growth rate per source, Tolerance capacity per leader attribute/ability, tension cost per friction-causing action.
 - [ ] Acceptance trigger — what specifically promotes a new hire from unaccepted to Accepted, so their Individual Cohesion starts contributing to Party Cohesion (`26_CAMPAIGN_ECONOMY_WIP.md` §3.2).
-- [ ] Exact Cohesion → Moral Pressure DC-reduction curve and the auto-negate threshold for Route Checks (`05_battle_core.md` Ch.8 §2).
+- [ ] Exact Cohesion → Moral Pressure DC-reduction curve and the auto-negate threshold for Rout Checks (`05_battle_core.md` Ch.8 §2).
 - [ ] Whether conditional supplies (fodder, medicine, repair materials, reagents, ship maintenance) become tracked resources or remain event/equipment effects (`26_CAMPAIGN_ECONOMY_WIP.md` §4).
 - [ ] How persistent-world time advancement transforms factions, places, divinities, and unresolved events (`25_LEGACY_WIP.md` §2).
 
@@ -101,7 +101,8 @@ Tracks open items surfaced while implementing `00E_CORE_VISION_AND_PILLARS_WIP.m
 - [ ] Belief/Direction tier (`96_OATHS_WIP.md` §8b) — mechanism entirely undesigned: what it grants, if anything, and how/whether it's tracked.
 - [ ] **In-play time resolution** — how campaign time passes *during* a saga (real-time, per stretch of campaign time, or per party action). Distinct from between-saga persistent-world time advancement (§5, `25_LEGACY_WIP.md` §2). Must preserve the tactical significance of time: party speed decides which opportunities are within reach.
 - [ ] **Faction clock** — mechanism by which factions move on their own clock (`22_FACTIONS_WIP.md` §1); "Faction Pulse" (`06_adventure_and_prep.md` Ch.12) undefined.
-- [ ] **Mission objectives** — the frame is set (objectives are two-way and can change inside the event, `27_EVENTS.md` §3); no objective content or catalogue exists yet (`20_CAMPAIGN_CORE_WIP.md` §2b).
+- [ ] **Defense roll and redirect** — how the defense roll is resolved, and how much BP a redirect carries through (`05_battle_core.md` Ch.5.1).
+- [ ] **Mission objectives** — also decide what ends a fight and what counts as success or failure for each side (`05_battle_core.md` Ch.8 §4); the frame is set (objectives are two-way and can change inside the event, `27_EVENTS.md` §3); no objective content or catalogue exists yet (`20_CAMPAIGN_CORE_WIP.md` §2b).
 - [ ] Campaign Map weighting — "cities, nodes, and places of interest carry particular weight beforehand" (`20_CAMPAIGN_CORE_WIP.md` §2b) has no formula or numeric representation yet.
 
 ## 8. Events (New — 2026-11-18)
