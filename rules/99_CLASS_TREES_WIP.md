@@ -44,14 +44,20 @@ The Norse names below are the **human cultural expression** of each tree. Other 
 | **Supportive aspect or style-tree** | Changes **how a companion performs their main role**. A supportive tree can be aggressive: Fury and Ambush are both examples. |
 | **Utility tree** | Holds smaller, complementary jobs performed on the mission map. The player may bring a fighter partly because they can also treat a casualty, operate a machine, or gain entry to a guarded place. |
 | **Casting tree** | Each distinct way of using wyrd has its own tree, with active and passive abilities. A caster can develop a conduit as their primary investment, or a fighting style can be complemented by casting. |
-| **Four corners** | Corners do some of the work subclasses do in other RPGs. **The player must be able to look in a direction and imagine who the companion could become.** The archetype should suggest how that person plays and why they might be remembered in the saga. |
+| **Corners** | **Main trees: three corners each — 18 main archetypes** (LOCKED 2026-11-23, `tables/06_TREES_WIP.md` §1). Corners do some of the work subclasses do in other RPGs. **The player must be able to look in a direction and imagine who the companion could become.** The archetype should suggest how that person plays and why they might be remembered in the saga. |
 
-- **The four-corner format is an agreed experiment.** First establish which trees deserve to exist, then design their corners.
+- **The corner format is an agreed experiment** (begun as four corners). First establish which trees deserve to exist, then design their corners. Supportive and utility trees: three corners each, LOCKED 2026-11-23 (`tables/06_TREES_WIP.md` §2–3). Corner count for casting trees is OPEN.
+
+**Character identity (LOCKED 2026-11-23):**
+- **Ancestry** shapes physical and temperamental tendencies (`01c` §5.1).
+- **Culture** shapes learned fighting traditions (cultures: `tables/04_RACES_WIP.md` §2).
+- **Corners** should evoke recognizable archetypes.
+- **Cultural training appears in the supportive trees**, through distinctive nodes and named archetypes — so elites with the same role fight differently. Culture usually **replaces an existing supportive corner** through its cultural name and training nodes; in rare cases a tradition has **its own supportive tree**. The six main trees and their corners are **shared across cultures**. An Elf and a Dwarf can both develop as Counterfighters under the same Defender tree; their supportive training gives them different techniques and culturally recognizable class identities.
 - **LOCKED 2026-11-23 — no limit on trees held; tree points are limited.** A character may hold any number of trees; the limited tree points (`01c` §3) force the choice — spread them and become a jack of all trades, or concentrate for depth. Whether breadth is a real trade-off depends on the tree-depth power curve (`01c` §5.5).
 - **OPEN:** spending allowances, and any restrictions between primary, secondary, utility, and casting investments.
 - **Design method:** start from an actual fantasy RPG archetype (e.g. a Monk), ask what the player expects to do as that character, then see which Saga tree supports it. Saga-specific names carry the familiar fantasy equivalent in parentheses.
 
-**The roster** — 6 main role-trees, 8 supportive, 3 utility (working), 3 casting — and its corners live in `tables/06_TREES_WIP.md`.
+**The roster** — 6 main role-trees, 8 supportive, 2 utility (working), 3 casting — and its corners live in `tables/06_TREES_WIP.md`.
 
 ---
 
@@ -64,7 +70,7 @@ The eight universal trees are replaced by the roster above. Where each went:
 | The Wall | Skjaldborg | Defender (main); Formation Fighting (supportive) |
 | The Blade | Víkingr | Assault (main) |
 | The Frenzy | Berserkr | Fury (supportive) |
-| The Hunt | Bogmaðr | Archer, Skirmisher (main); Fieldcraft (utility) |
+| The Hunt | Bogmaðr | Archer, Skirmisher (main) |
 | The Voice | Skald | Commander (main) |
 | The Rite | Gothi | No tactical tree — an office (Faction bonds, [Social] gates, `24` §2.1); magical healing goes to casting |
 | The Chant | Galdrmaðr | Galdr, Rúnar (casting) |
@@ -141,7 +147,7 @@ Synergy is not tagged or designed. It emerges from what different characters are
 
 ## Locked Seed Perks (Cross-Reference)
 - **Old The Wall** (new home OPEN: Defender or Formation Fighting) — **Twin Ward** (`02_perks_and_traits.md`): grants a second simultaneous Active Defense charge, resolving the Engagement Cap (Attention, `95_HISTORICAL_COMBAT_WIP.md`).
-- **Old The Hunt** (new home OPEN: Fieldcraft — Scout, or Skirmisher) — Intended mastery path for **Detection** (Stealth vs. Navigation & Awareness opposed check, `03_skill_system.md` / `06_adventure_and_prep.md`). Signature perks not yet seeded.
+- **Old The Hunt** (new home OPEN) — Intended mastery path for **Detection** (Stealth vs. Navigation & Awareness opposed check, `03_skill_system.md` / `06_adventure_and_prep.md`). Signature perks not yet seeded.
 
 ## Notes / Open Questions
 

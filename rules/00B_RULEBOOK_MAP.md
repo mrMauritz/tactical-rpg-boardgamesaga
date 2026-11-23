@@ -29,7 +29,7 @@
 | `94_RULE_OF_WILD_MUTATIONS_WIP.md` | 🚧 WIP | The 12 Rule of Wild mutations. |
 | `02_perks_and_traits.md` | ✅ Solid | System-altering traits and organic perk design. |
 | `03_skill_system.md` | ✅ Solid | The 0-8 Tier system, skill progression, and tactical skill roster. |
-| `99_CLASS_TREES_WIP.md` | 🚧 WIP Sketch | Design aim and tree structure — main role-, supportive, utility and casting trees, four corners (2026-11-23); roster in `tables/06`. The superseded 8 trees and the traditions as source evidence. |
+| `99_CLASS_TREES_WIP.md` | 🚧 WIP Sketch | Design aim and tree structure — main role-, supportive, utility and casting trees, corners — three per main tree (2026-11-23); roster in `tables/06`. The superseded 8 trees and the traditions as source evidence. |
 | `05_battle_core.md` | ✅ Solid | Core combat resolution: turn structure, the 8-stage pipeline, routing, facing, formations. |
 | `06_adventure_and_prep.md` | ✅ Solid | Interactive Maps & The Camping Tool (Prep Phase). |
 | `07_weapon_and_armor_properties.md` | ✅ Solid | Tags and properties for physical interaction. |
