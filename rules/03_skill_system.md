@@ -42,7 +42,7 @@ Following the organic growth policy, only skills explicitly required for the cor
 
 - **Blades / Heavy / Spears**: Proficiency with specific weapon classes.
 - **Archery**: Proficiency with bows, crossbows, and slings.
-- **Mounted**: Fighting and moving from the back of a mount. Has its own tree (`99_CLASS_TREES_WIP.md`, Mounted).
+- **Mounted**: Fighting and moving from the back of a mount. Mounted Combat is a corner of the Momentum tree (`99_CLASS_TREES_WIP.md`, "Craft, Trade and Mounted").
 
 ### 3. Utility & Adventure
 *Governing Attributes: INT or DEX.*
@@ -61,6 +61,7 @@ Following the organic growth policy, only skills explicitly required for the cor
 - **Intimidation**: Attacking an opponent’s **Moral BP** through presence and threat.
 - **Skaldic Art**: Recording deeds into the saga; influencing faction reputation.
 - **Bartering**: Negotiating exchange rates in the Weight-and-Barter economy.
+- **Parley**: Negotiating a specific concession during an encounter — e.g. dependants allowed to leave a hall while the dispute goes on with those inside (the burning, *Njáls saga*). Tree placement OPEN (`99`).
 - **Lore**: General knowledge of the world, including [Law].
 - **Rite Lore**: Knowledge of rites and sacrifice.
 

@@ -3,7 +3,7 @@
 > [!WARNING]
 > **DEVELOPMENT STATUS: FOUNDATIONAL SPARK.** "Classes" is the working name. Names follow the naming rule: source-backed first, generic fantasy second, keeping the idea behind the earlier agent-made name.
 
-> **WHEN TO READ:** Only on a specific request for class entries. The trees, perk restrictions, traditions, Craft and Mounted trees are owned by `../99_CLASS_TREES_WIP.md`; skills by `../03_skill_system.md`; bonds by `../24_BONDS_AND_DEVOTION_WIP.md`; devotion-requiring classes by `../catalogues/03_HISTORICAL_CLASSES_WIP.md`. This file is the home of the class list.
+> **WHEN TO READ:** Only on a specific request for class entries. Tree structure, perk restrictions and traditions are owned by `../99_CLASS_TREES_WIP.md`; the tree roster is in `06_TREES_WIP.md`; skills by `../03_skill_system.md`; bonds by `../24_BONDS_AND_DEVOTION_WIP.md`; devotion-requiring classes by `../catalogues/03_HISTORICAL_CLASSES_WIP.md`. This file is the home of the class list.
 
 ---
 
@@ -48,13 +48,15 @@
 | **Beastmaster** | Beast-bonded | Generic ⚠️ no source term found | — | — | Hunt | Staff | Animal Handling, Survival | Beast bond | Beast bond (`../catalogues/01_BOND_CATALOGUE_WIP.md`); Bǫðvarr bjarki's bear (*Hrólfs saga kraka*) |
 | **Smiðr** | Smith | Source (Völundr) | — | Smith (Völund tradition) | Craft | — | Maintenance & Appraisal, Rúnar | Dedication | [Social] master-craft lineage; enchanted forging at high tiers |
 | **Skipasmiðr** | Shipwright | Source ⚠️ compound | — | — | Craft | — | Engineering [Shipwright] | — | Ships — Ormr inn langi (*Óláfs saga Tryggvasonar* 88) |
-| **Vefkona** | War-weaver | Source ⚠️ compound | — | — | Craft | Staff | — (no weaving skill) | Divinity or Dedication | The valkyries weave the battle (*Darraðarljóð*, *Njáls saga* 157); the raven banner woven by Sigurðr's mother (*Orkneyinga saga*) — maker of the Merki (`07_WEAPONS_WIP.md` §2) |
+| **Vefkona** | War-weaver | Source ⚠️ compound | — | — | Craft | Staff | — (no weaving skill) | Divinity or Dedication | The valkyries weave the battle (*Darraðarljóð*, *Njáls saga* 157); the raven banner woven by Sigurðr's mother (*Orkneyinga saga*) — maker of the Merki (`08_WEAPONS_WIP.md` §2) |
 | **Engineer** | Siege-builder | Generic | Foreign — Austrríki | Mēchanikos | Craft | — | Engineering | Faction (guild) | Siege and structural work |
 | **Alchemist** | Poison-maker | Generic | Foreign — Austrríki | Alchemist / Poisoner | Craft | Hunt | Herbalism [Toxicology] | Dedication | [Alignment] CHAOS perks unlock eitr-craft |
 
 **Merged (2026-11-21):** Warlord → Hersir. Temple guardian and Paladin-type → Paladin. Battle-priest and High priest → Goði. Cleric → Gyðja. Brawler → Glímumaðr. Arcane Archer → Bogmaðr. Ranger → Veiðimaðr. Wyrd-touched berserkr → Berserkr.
 
-**Craft and Mounted:** both are planned trees (`99`, "The Open Question: A 9th Tree?"). Which Craft tree each Craft class takes is OPEN.
+**Tree columns use the superseded 8 trees** (mapping: `../99_CLASS_TREES_WIP.md`, "Superseded: The 8 Trees"). Remapping each class to the new roster (`06_TREES_WIP.md`) is OPEN.
+
+**Craft and Mounted (revised 2026-11-23):** Craft classes are campaign professions, not tactical trees; their mission-map side goes to the Machine and Physic & Poison utility trees. Mounted Combat is a corner of Momentum (`99`, "Craft, Trade and Mounted").
 
 ---
 *Status: Foundational spark. Last Updated: 2026-11-21.*

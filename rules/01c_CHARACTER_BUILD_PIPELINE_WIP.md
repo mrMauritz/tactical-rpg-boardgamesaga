@@ -17,7 +17,7 @@
 | **3. Pillar Ignition** (per attribute pair) | A pair (Physical STR/DEX, System END/WIL, Mental INT/CHA) becomes eligible once **either** attribute reaches 5, and ignites through a saga/Bond event. Lá or Óðr is chosen **once per pair**, fixed. Pillars are neutral (`97` §12A) and open by value; igniting Óðr gives up the pair's Pillars. Any ignition grants the Triples Rule and a Bond consequence. Alignment (Order/Wild/Chaos) is a separate character-level bonus, not an ignition filter — §2. | `01_INTERNAL_ARCHITECTURE_WIP.md` "Ignition Logic" |
 | **4. Flavor Axes refine** | Load/Temper/Fortitude/Attention/Tempo settle per attribute pair. **Frame does not change** — it is fixed at Stage 1. No stated interaction with Ignition — explicitly left open (§4 below). | `97b` |
 | **5. Skills unlock** | A Skill under a given Attribute is trainable only once that Attribute's Bonus is ≥ +1 (Value ≥ 4). A Master Trainer can bypass this gate for a fee (`26_CAMPAIGN_ECONOMY_WIP.md` Levers). Skills then grow through **use**, not through spent points — see §3 below and `03_skill_system.md` Ch.3. | `03_skill_system.md` |
-| **6. Class Trees & Perks** | 8 universal traditions (`99`: practices, offices, states); perks gated by [Social] / [Racial] / [Alignment] / [Skill] — the [Alignment] gate consumes the character-level alignment (§2), the [Skill] gate consumes Stage 5's tier, and [Social] can also be satisfied by Devotion Tree standing (`24b_BOND_AND_DEVOTION_PROGRESSION_TREE_WIP.md`). | `99_CLASS_TREES_WIP.md`, `02_perks_and_traits.md` |
+| **6. Class Trees & Perks** | Multi-tree, no fixed classes: main role-, supportive, utility and casting trees, with four corners each (`99` How Progression Works; roster `tables/06_TREES_WIP.md`, 2026-11-23); perks gated by [Social] / [Racial] / [Alignment] / [Skill] — the [Alignment] gate consumes the character-level alignment (§2), the [Skill] gate consumes Stage 5's tier, and [Social] can also be satisfied by Devotion Tree standing (`24b_BOND_AND_DEVOTION_PROGRESSION_TREE_WIP.md`). | `99_CLASS_TREES_WIP.md`, `02_perks_and_traits.md` |
 | **7. Magic Casting** (drafted, not active) | `3d6 + technique skill tier + governing Attribute Bonus vs Difficulty` — the ordinary skill check with Galdr, Rúnar or Seiðr (`03` Ch.2 §5); the Attribute Bonus is the technique's Conduit. Three tiers (Binding/Bending/Breaching). Whole system flagged "not currently part of the active rule system". | `01_INTERNAL_ARCHITECTURE_WIP.md` |
 
 ---
@@ -62,7 +62,7 @@
 - **Trees** — progress connected to the **tactical** layer. They give combat a more interesting dimension and let the player go in sharper tactical directions.
 - **Bonds** — connections to the world, through other actors in the different realms, worked on through play.
 
-All three play their part. A **class** connects to all three (`tables/06_CLASSES_WIP.md`).
+All three play their part. A **class** connects to all three (`tables/07_CLASSES_WIP.md`).
 
 Class Tree achievement-points and Bond Devotion-points are **parallel, separate economies** (confirmed `24b` §1) — not the same pool, even though they're earned the same way.
 
@@ -118,7 +118,7 @@ A character is framed the way the sagas frame a person: by **description**, not 
 | **Earned name (viðrnefni)** | Eiríkr *rauði*, Skalla-Grímr, Önundr *tréfótr*, Hallgerðr *langbrók* — given by others, from body, deeds, or character |
 
 - **Saga words for kinds of people are descriptors or offices** (hamrammr, berserkr, fjölkunnigr, forspár, völva, goði, skáld) — never classes.
-- **Names are earned in play** — the world names the character from deeds (*viðrnefni*). Agent-made label lists (`98b`, inspiration only; `01_INTERNAL` Axis 2 archetypes; `tables/06_CLASSES_WIP.md`) are provisional reference only; do not extend them.
+- **Names are earned in play** — the world names the character from deeds (*viðrnefni*). Agent-made label lists (`98b`, inspiration only; `01_INTERNAL` Axis 2 archetypes; `tables/07_CLASSES_WIP.md`) are provisional reference only; do not extend them.
 - **The great saga figures mix** — Egill (strong body + poetry, runes, níð), Njáll (this-world lawyer + foresight), Gunnar (nearly pure Lá). The mix is what makes the saga; it is to be developed and balanced.
 - **Berserkr as example (source):** fully in this world in body, the mind seized by Óðr — Óðr's fury face, a physical expression of Óðr (`01_INTERNAL` "The Three Faces of Óðr").
 

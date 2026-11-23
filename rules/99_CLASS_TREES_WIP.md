@@ -18,20 +18,57 @@ The Norse names below are the **human cultural expression** of each tree. Other 
 
 ---
 
-## The 8 Trees
+## Design Aim (Agreed 2026-11-23)
 
-*Trees carry no attribute pair (removed 2026-11-21 — no rule used it). Attributes reach a tree through its skills: skills have governing attributes (`03` Ch.2), and perks gate on skill tier ([Skill]).*
+**A tactical RPG with more viable ways to play than *Classified: France ’44*, while keeping the choices as easy to read.** What Saga takes from *CF44*: legible roles, different soldiers excelling on different missions, a visible build direction, and a small set of rules (suppression, holding overwatch fire, a Leader giving someone else an opportunity to act) that produces teamwork. The concern: **you would probably play it much the same way on a second or third run.**
 
-| # | Tree | Human Name | Tactical Role |
-|---|---|---|---|
-| 1 | **The Wall** | Skjaldborg | Frontline mass, formation holding |
-| 2 | **The Blade** | Víkingr | Aggressive offense, weapon arts |
-| 3 | **The Frenzy** | Berserkr | Disruptor, pain immunity, unstoppable |
-| 4 | **The Hunt** | Bogmaðr | Ranged precision, skirmisher |
-| 5 | **The Voice** | Skald | Support, morale, battlefield legacy |
-| 6 | **The Rite** | Gothi | Sacred favor, recovery, divine law |
-| 7 | **The Chant** | Galdrmaðr | Spoken charms — healing, warding, binding, command |
-| 8 | **The Staff** | Seiðr | Foresight, travel, reaching into others |
+| Design element | What Saga should do |
+|---|---|
+| **Companions** | Offer a larger choice of playable companions, with greater differences between them. Each should have **several distinctive skills, traits, or features**. Two companions can pursue the same tree and still give the player different reasons to bring them. |
+| **Builds** | Let the best use of a tree depend on **equipment, available resources, other party members, and circumstances outside the player’s control**, as well as the strategy the player chose. Two companies pursuing the same strategy can reasonably develop the same companion differently. |
+| **Mission solutions** | Keep the pleasure of recognizing that a particular companion excels in an encounter. Give a company that brought someone else another credible way through it. |
+| **Mission goals and rewards** | Give missions several goals that can be **mutually exclusive**. A player can execute a plan well and deliberately sacrifice one outcome to secure another. This goes beyond a ladder of failure, success, and greater success with more of the same reward. |
+| **Campaign choices** | Let conflicts between opportunities arise from **time, distance, and position**. Two events can both happen. The company’s whereabouts determine which it can influence. Even the choice of shelter tonight can change what is reachable tomorrow. |
+
+**Constraint: a coherent tactical core.** Tactical trees govern **combat and the mission map**. Campaign professions and saga relationships have their own place; they can influence who is available, what is at stake, and what follows from the mission.
+
+---
+
+## How Progression Works (Agreed 2026-11-23)
+
+| Element | Agreed meaning |
+|---|---|
+| **Attribute pillars** | Pillars give **attribute development a direction** (`97`). Comparison with *Jagged Alliance 3*: that function is distinct from the active abilities and passive perks housed in the trees. |
+| **Multi-tree development** | Saga has no fixed classes. A character usually has **one primary tree, commonly a fighting style, and a secondary tree**. Their combination gives the character a tactical identity. Several individual features distinguish the companion further. |
+| **Main role-tree** | Expresses a **strategy for winning a battle**. Its identity comes from what the fighter acts on: HP, SP, BP, movement, position, or morale. |
+| **Supportive aspect or style-tree** | Changes **how a companion performs their main role**. A supportive tree can be aggressive: Fury and Ambush are both examples. |
+| **Utility tree** | Holds smaller, complementary jobs performed on the mission map. The player may bring a fighter partly because they can also treat a casualty, operate a machine, or gain entry to a guarded place. |
+| **Casting tree** | Each distinct way of using wyrd has its own tree, with active and passive abilities. A caster can develop a conduit as their primary investment, or a fighting style can be complemented by casting. |
+| **Four corners** | Corners do some of the work subclasses do in other RPGs. **The player must be able to look in a direction and imagine who the companion could become.** The archetype should suggest how that person plays and why they might be remembered in the saga. |
+
+- **The four-corner format is an agreed experiment.** First establish which trees deserve to exist, then design their corners.
+- **LOCKED 2026-11-23 — no limit on trees held; tree points are limited.** A character may hold any number of trees; the limited tree points (`01c` §3) force the choice — spread them and become a jack of all trades, or concentrate for depth. Whether breadth is a real trade-off depends on the tree-depth power curve (`01c` §5.5).
+- **OPEN:** spending allowances, and any restrictions between primary, secondary, utility, and casting investments.
+- **Design method:** start from an actual fantasy RPG archetype (e.g. a Monk), ask what the player expects to do as that character, then see which Saga tree supports it. Saga-specific names carry the familiar fantasy equivalent in parentheses.
+
+**The roster** — 6 main role-trees, 8 supportive, 3 utility (working), 3 casting — and its corners live in `tables/06_TREES_WIP.md`.
+
+---
+
+## Superseded: The 8 Trees (2026-11-23)
+
+The eight universal trees are replaced by the roster above. Where each went:
+
+| Old tree | Human name | New home |
+|---|---|---|
+| The Wall | Skjaldborg | Defender (main); Formation Fighting (supportive) |
+| The Blade | Víkingr | Assault (main) |
+| The Frenzy | Berserkr | Fury (supportive) |
+| The Hunt | Bogmaðr | Archer, Skirmisher (main); Fieldcraft (utility) |
+| The Voice | Skald | Commander (main) |
+| The Rite | Gothi | No tactical tree — an office (Faction bonds, [Social] gates, `24` §2.1); magical healing goes to casting |
+| The Chant | Galdrmaðr | Galdr, Rúnar (casting) |
+| The Staff | Seiðr | Seiðr (casting) |
 
 *The Staff (renamed 2026-11-21 from the agent-made "Distaff"): the völva is the staff-bearer (*völr*, staff); Þorbjörg carries her staff to the rite (*Eiríks saga rauða* 4). Its role follows Odin's seiðr — knowing fate, travelling out, taking wit or strength (*Ynglinga saga* 7).*
 
@@ -39,7 +76,7 @@ The Norse names below are the **human cultural expression** of each tree. Other 
 
 ## Traditions in the Sources (LOCKED 2026-11-16)
 
-The traditions are **practices, offices, or states**, true to the sources. Work from this table.
+The traditions are **practices, offices, or states**, true to the sources. Work from this table. *The tree column uses the superseded 8 (mapping above); the table stands as source evidence.*
 
 | Tree (human name) | What it is in the sources | Kind | How one comes to it (source) | This world / Óðr |
 |---|---|---|---|---|
@@ -62,11 +99,13 @@ The traditions are **practices, offices, or states**, true to the sources. Work 
 
 ## Classes: Where Identities Emerge
 
-The class list — cross-investment identities and role mapping, with primary/secondary tree and restrictions — lives in `tables/06_CLASSES_WIP.md`.
+The class list — cross-investment identities and role mapping, with primary/secondary tree and restrictions — lives in `tables/07_CLASSES_WIP.md`. Saga has no fixed classes (How Progression Works); the list is reference for how investment reads.
 
 ---
 
 ## The Cosmological Field: Where Synergy Lives
+
+*Uses the superseded tree names (mapping above).*
 
 The trees are the investment structure. The three cosmological layers are the field those investments operate within. Synergy is not designed between trees — it emerges from how different tree investments disturb or resonate within the same layer.
 
@@ -92,30 +131,22 @@ Synergy is not tagged or designed. It emerges from what different characters are
 
 ---
 
-## The Open Question: A 9th Tree?
+## Craft, Trade and Mounted (Revised 2026-11-23)
 
-**The Craft** — smiths, engineers, alchemists, poisoners — currently all map into **The Chant**. This works if The Chant is understood broadly as *the tree of knowledge and ordered making*, not only as magic. Runic craft and siege engineering share the same root: imposing human order on raw material.
-
-The argument **for** a separate Craft tree: if crafting has meaningful combat and campaign-level mechanical weight (siege engines, poisoned weapons, enchanted armor), it may be too large to share a tree with ordered magic.
-
-The argument **against**: in a low-fantasy world, the smith and the rune-worker are not separate traditions — Völund was both. Splitting them creates an artificial divide the sagas don't support.
-
-**DECIDED 2026-11-21:** there will be **Craft trees** (plural) — The Chant does not absorb craft. **Trade belongs to the Craft trees** — it is not a class of its own. How many, and their structure, are OPEN. Craft classes: `tables/06_CLASSES_WIP.md`.
-
-**DECIDED 2026-11-21 — Mounted:** mounted combat is important. It is a **skill** and will have **its own tree**. Structure OPEN; the skill: Mounted (`03_skill_system.md` Ch.2 §2).
-
-This question is also the live edge of Pillar 2 (`00E_CORE_VISION_AND_PILLARS_WIP.md`) — every character's Campaign-function role (healer, scout, trader, armorer, smith, scholar) needs a tree home the same way Battle-function roles already have one. Smith/armorer/engineer/alchemist/scholar all land somewhere above (mostly The Chant). **Trader does not currently map to any tree at all** — Bartering exists only as a Skill (`03_skill_system.md`, Leadership & Legacy), with no Class Tree behind it. Flagged, not resolved.
+- **Craft and Trade are campaign professions, not tactical trees.** This supersedes "Craft trees, with Trade in them" (DECIDED 2026-11-21). Their home is OPEN. The mission-map parts go to the utility trees **Machine** (Artillerist, Trapper, Wright) and **Physic & Poison** (Herbalist, Alchemist, Poisoner) (`tables/06_TREES_WIP.md` §3).
+- **Mounted** is a **skill** (`03_skill_system.md` Ch.2 §2). **Mounted Combat is a corner of Momentum**, not its own tree. This supersedes "Mounted will have its own tree" (DECIDED 2026-11-21).
+- **Pillar 2** (`00E_CORE_VISION_AND_PILLARS_WIP.md`): every Campaign-function role (healer, scout, trader, armorer, smith, scholar) needs a home. Healer and scout now have utility trees; trader, armorer, smith and scholar wait on the campaign-profession home. Bartering exists only as a Skill (`03`, Leadership & Legacy).
 
 ---
 
 ## Locked Seed Perks (Cross-Reference)
-- **The Wall** — **Twin Ward** (`02_perks_and_traits.md`): grants a second simultaneous Active Defense charge, resolving the Engagement Cap (Attention, `95_HISTORICAL_COMBAT_WIP.md`).
-- **The Hunt** — Intended mastery path for **Detection** (Stealth vs. Navigation & Awareness opposed check, `03_skill_system.md` / `06_adventure_and_prep.md`). Signature perks not yet seeded.
+- **Old The Wall** (new home OPEN: Defender or Formation Fighting) — **Twin Ward** (`02_perks_and_traits.md`): grants a second simultaneous Active Defense charge, resolving the Engagement Cap (Attention, `95_HISTORICAL_COMBAT_WIP.md`).
+- **Old The Hunt** (new home OPEN: Fieldcraft — Scout, or Skirmisher) — Intended mastery path for **Detection** (Stealth vs. Navigation & Awareness opposed check, `03_skill_system.md` / `06_adventure_and_prep.md`). Signature perks not yet seeded.
 
 ## Notes / Open Questions
 
-- The Staff should carry a built-in world-restriction, not just a perk lock. Historically seiðr was socially condemned (argr). Does that manifest as a faction standing cost? An oath requirement? A permanent social marker?
-- The Frenzy tree was outlawed in Iceland (Grágás). Does the human perk pool reflect that — i.e., ORDER-aligned humans cannot access certain frenzy perks without breaking standing?
+- *(Old tree names; see the mapping.)* The Staff (now the Seiðr casting tree) should carry a built-in world-restriction, not just a perk lock. Historically seiðr was socially condemned (argr). Does that manifest as a faction standing cost? An oath requirement? A permanent social marker?
+- The Frenzy (now Fury) was outlawed in Iceland (Grágás). Does the human perk pool reflect that — i.e., ORDER-aligned humans cannot access certain frenzy perks without breaking standing?
 - Where does **Úlfhéðinn** (wolf-warrior) sit? High-tier branch inside The Frenzy, or its own tree? Different enough tactically (pack movement, DEX component) to split?
 - **The Voice** may need two named internal branches: *the morale branch* (battlefield inspiration) and *the law branch* (negotiation, oath-brokering). Same tree, different perk pools.
 

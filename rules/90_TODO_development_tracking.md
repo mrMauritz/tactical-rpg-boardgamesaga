@@ -118,5 +118,20 @@ Tracks open items for `27_EVENTS.md`.
 - [x] **Knowledge & rumour** — RESOLVED 2026-11-20: works as conditions (`27` §8).
 - [ ] **Scar and injury content** — post-battle resolution frame locked (`11_injury_and_scars.md` §1); the scars themselves, and how the *meiri sár* grading enters play, are OPEN.
 
+## 9. Trees and Progression (New — 2026-11-23)
+Tracks open items for `99_CLASS_TREES_WIP.md` and `tables/06_TREES_WIP.md`.
+
+- [ ] Corners for every tree — confirmed so far: Mounted Combat (Momentum), Artillerist (Machine), Scout and Thief (Fieldcraft).
+- [x] Number of trees a character may access — locked 2026-11-23: no limit; tree points are limited (jack of all trades vs. depth) (`99` How Progression Works).
+- [ ] Spending allowances; restrictions between primary, secondary, utility and casting investments.
+- [ ] Whether receiving a charge deserves its own Momentum corner; a progression rule for flight.
+- [ ] Physic & Poison fourth corner; the scope of Alchemy.
+- [ ] Parley's tree placement (skill in `03` Ch.2 §4).
+- [ ] Home for campaign professions (Craft, Trade) — outside the tactical trees (`99`).
+- [ ] Remap `tables/07_CLASSES_WIP.md` tree columns to the new roster.
+- [ ] New homes for the seed perks — Twin Ward (Defender or Formation Fighting), Detection (Fieldcraft or Skirmisher) (`99` Locked Seed Perks).
+- [ ] **Morale as a resource** beside HP/SP/BP. Tactical identity set through Commander, Fury and Intimidation. Working proposal: individual morale influenced by perceptible events, incl. what happens to nearby companions; at depletion a fighter may yield or try to withdraw. Open: spendable or not, what ordinary hits do to it, how yielding, withdrawal and recovery work. Three different losses: a companion can lose the ability to act, the company the field, the party what it came for.
+- [ ] **Company, shelter and progression between missions.** Chosen: a company with hosts and allies; shelter for the night is a campaign-level tactical choice (who can receive it, what it reaches, where it can be tomorrow, what passes while it stays). A longer stay gives time for training and reflection — experience gained during events, integrated afterward. Open: the place and timing of level-up (`01c` §4).
+
 ---
 *Created: 2026-04-10*

@@ -21,7 +21,7 @@
 | — **Muspell's sons** | Fire-giants | Fire giants | OPEN | *Gylfaginning*; led by Surtr |
 | **Draugr** / **haugbúi** | Mound-dead | Undead | Severed Önd, retained Lá (`90` §3) | *Grettis saga* (Glámr); *Eyrbyggja saga*; `90` §3 |
 | — **Afturganga** | Walking dead | Revenant | As Draugr | Þórólfr bægifótr (*Eyrbyggja saga* 33–34) |
-| **Vargúlfr** | Wolf-shaped man | Werewolf | OPEN | Sigmundr and Sinfjötli in wolf-skins (*Völsunga saga* 8) — overlap: the Hamrammr class (`06_CLASSES_WIP.md`); whether a shape-changed person is a monster or a class is OPEN |
+| **Vargúlfr** | Wolf-shaped man | Werewolf | OPEN | Sigmundr and Sinfjötli in wolf-skins (*Völsunga saga* 8) — overlap: the Hamrammr class (`07_CLASSES_WIP.md`); whether a shape-changed person is a monster or a class is OPEN |
 | **Dreki** / **ormr** | Hoard-serpent | Dragon | OPEN | Fáfnir (*Fáfnismál*; *Völsunga saga*); `01_system_foundations.md` Ch.7 §3 |
 | **Mara** | Night-rider | Nightmare | OPEN | *Ynglinga saga* (Vanlandi) |
 | **Hafgufa** | Sea-mist beast | Sea monster | OPEN | *Örvar-Odds saga*; *Konungs skuggsjá* |

@@ -97,7 +97,7 @@
 | :-- | :--- | :--- | :--- | :--- |
 | GO1 | Pull Economy Engagement | You want proactive, choice-driven play instead of reactive survival. | ⚠️ No stated cost — text doesn't address what happens if pull sources run dry. | CO3 |
 | GO2 | Power-Construction Experimentation | You want to theory-craft across many non-military power-forms. | Builds are "mainly cumulative and irreversible" — real opportunity cost, no free respec. | CI3 |
-| GO3 | Archetype/Identity Collection | You want a legible "complete the build" meta-goal (the classes, `tables/06_CLASSES_WIP.md`). | ⚠️ No stated cost or cross-playthrough tension specific to pursuing several. | BI11, GI1–GI3 |
+| GO3 | Archetype/Identity Collection | You want a legible "complete the build" meta-goal (the classes, `tables/07_CLASSES_WIP.md`). | ⚠️ No stated cost or cross-playthrough tension specific to pursuing several. | BI11, GI1–GI3 |
 | GO4 | Replayability via Divergent Destiny | You want fresh sagas from the same rules without needing new scripted content. | By design, withholds a calculable optimization target — you can't min-max destiny on purpose. | GI10 |
 | GO5 | Legacy & Unlocks Pursuit | You want a finished saga to produce concrete future-facing content. | Flagged explicitly: no concrete unlock content or persistent-world save mechanics exist yet. | CO11, CO12 |
 | GO6 | Persistent-World Continuation | You want an accumulating, authored-by-play world instead of a reset. | Mechanism for time-advancement effects on factions/divinities/events is an acknowledged open problem. | CO12 |

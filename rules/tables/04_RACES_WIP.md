@@ -33,7 +33,7 @@ Cultures of the game world — inspired by the saga world's directions, not by h
 | **Suðrmenn** | Southerners | Southern kingdoms; knights, plate, oath-warriors | The saga word for southerners |
 | **Austrríki** ⚠️ coined | The Eastern Realm | A great eastern empire; engineers, alchemists, guards | The saga's Great City of the east (*Laxdæla saga* 73) |
 
-Trolls and giants (jötnar) are monsters (`05_MONSTERS_WIP.md`); spirits are divinities (`03_DIVINITIES_WIP.md` §3); Hamrammr is a class (`06_CLASSES_WIP.md`).
+Trolls and giants (jötnar) are monsters (`05_MONSTERS_WIP.md`); spirits are divinities (`03_DIVINITIES_WIP.md` §3); Hamrammr is a class (`07_CLASSES_WIP.md`).
 
 ---
 *Status: Foundational spark. Last Updated: 2026-11-21.*
